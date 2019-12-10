@@ -1,22 +1,18 @@
-# Jesus Alberto Correa Morales.
-# 17/09/2019 - ??/??/????
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+	Jesus Alberto Correa Morales.
+ 	17/09/2019 - ??/??/????
+"""
 
-# En el siguiente archivo .py es un Script con el cual se buscan motivos
-# conservados en la sucesion de proteinas de los hongos.
-# Para la busqueda de motivos conservados se implementara la metaheuristica 
-# de algoritmo genetico.
-
-# <------------- Librerias ------------- >
-# Generar numeros o selecciones de manera random.
-import random as rm
-# Permite la lectura y escritura de archivos.
-import os
+"""
+	En el siguiente archivo .py es un Script con el cual se buscan motivos
+	conservados en la sucesion de proteinas de los hongos.
+	Para la busqueda de motivos conservados se implementara la metaheuristica 
+	de algoritmo genetico.
+"""
 
 # <------------- Variables ------------- >
-# poblacion -> Vector donde se almacenara la poblacion de individuos que utilizara el algoritmo 
-poblacion = []
-# individuo -> Vector donde se almacenara una solucion potencial.
-individuo = [] 
 # Numero de generaciones (nG) -> Numero de generaciones que tendra nuestro algoritmo.
 nG = 100
 # Tamaño de poblacion (tP) -> Indica cuantos individuos conformaran la generacion.
@@ -26,23 +22,28 @@ pM = 0.01
 # Cantidad de mutacion (cM) -> Cantidad de genes que muta el individuo. 
 cM = 2
 
+motif = ['','','','','','','','','','','','','','','','','','','','']
 
-hongos = []
-hongo = []
-bases = ['A','T','C','G','A','T','C','G',' ']
+from Genetico import Genetico
+from Hongos import Hongos
+from Motifs import Motifs
 
-# # Codigo para generar una poblacion de hongos de manera aleatoria.
-# for x in range(50):
-# 	for y in range(30):
-# 		hongo.append(rm.choice(bases))
-# 	hongos.append(hongo)
-# 	hongo = []
-# file = open("./hongos.txt", "w")
-# for h in hongos:
-# 	file.write(str(h) + os.linesep)
-# 	pass
-# file.close()
+AGS = Genetico()
+# print (AGS.poblacion)
 
-file = open("./hongos.txt", "r")
+Hns = Hongos()
+# print(Hns.hongos)
+# print(len(Hns.hongo))
 
-print(file.read())
+Mtfs = Motifs()
+# Mtfs.imprimeMatrix(Mtfs.CCIM)
+print (len(Mtfs.CCIM[0]))
+print (len(AGS.poblacion[0]))
+print ((Hns.hongos[0]))
+
+# print(len(motif))
+
+
+amo={ 2:'B',1:'A'}
+
+print(amo[2])
