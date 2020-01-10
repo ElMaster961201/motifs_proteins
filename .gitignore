@@ -80,5 +80,5 @@ fabric.properties
 ### Intellij+all Patch ###
 # Ignores the whole .idea folder and al
 
-
+__pycache__/
 __pycache__/*

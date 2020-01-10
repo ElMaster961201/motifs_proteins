@@ -34,10 +34,10 @@ class Genetico(object):
 			self.ind = []
 
 
-	def fits(self, matrix, hongo, motif):
-		aminoacido [{'A':1}]
-		con = 0.0
-		for x in range (len(motif)):
-			con = con + matrix[individuo][x]
+	# def fits(self, matrix, hongo, motif):
+	# 	aminoacido [{'A':1}]
+	# 	con = 0.0
+	# 	for x in range (len(motif)):
+	# 		con = con + matrix[individuo][x]
 
-			pass
+	# 		pass

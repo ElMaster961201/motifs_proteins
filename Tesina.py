@@ -12,6 +12,10 @@
 	de algoritmo genetico.
 """
 
+from Genetico import Genetico
+from Hongos import Hongos
+from Motifs import Motifs
+
 # <------------- Variables ------------- >
 # Numero de generaciones (nG) -> Numero de generaciones que tendra nuestro algoritmo.
 nG = 100
@@ -24,9 +28,6 @@ cM = 2
 
 motif = ['','','','','','','','','','','','','','','','','','','','']
 
-from Genetico import Genetico
-from Hongos import Hongos
-from Motifs import Motifs
 
 AGS = Genetico()
 # print (AGS.poblacion)
