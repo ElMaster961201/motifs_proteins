@@ -1,7 +1,7 @@
 # <------------- Librerias ------------- >
 # Generar numeros o selecciones de manera random.
 import random
-
+from Motifs import Motifs as MTFS
 
 class Genetico(object):
 
@@ -14,13 +14,22 @@ class Genetico(object):
 		* Tamaño del motivo consercado
 	"""
 	
+
+	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
+	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19 }
+	
+	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
+		
 	"""Funcion que inicializa la poblacion"""
 	def __init__(self, tamPoblacion = 100, tamProteina = 2654,
-		tamMotivo = 20,numHongos = 1245):
+		tamMotivo = 20,numHongos = 1245,proMutacion = 0.01,
+		canMutacion = 2):
 		self.tamPoblacion = tamPoblacion
 		self.tamProteina = tamProteina
 		self.tamMotivo = tamMotivo
 		self.numHongos = numHongos
+		self.proMutacion = proMutacion
+		self.canMutacion = canMutacion
 		self.ind = []
 		self.poblacion = []
 

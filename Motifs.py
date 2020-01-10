@@ -118,3 +118,25 @@ class Motifs(object):
 			self.CCIM.append(aux2)
 			self.HCIM.append(aux3)
 			pass
+	
+	def SCICCIHCI(self):
+
+		self.HCIM = []
+		self.CCIM = []
+		self.SCIM = []
+
+		for x in range(0,20):
+			aux1 = []
+			aux2 = []
+			aux3 = []
+			for y in range(0,20):
+				aux1.append(self.generaSCI(x,y))
+				aux2.append(self.generaCCI(x,y))
+				aux3.append(self.generaHCI(x,y))
+				pass
+			self.SCIM.append(aux1)
+			self.CCIM.append(aux2)
+			self.HCIM.append(aux3)
+			pass
+		return self.SCIM,self.CCIM,self.HCIM
+

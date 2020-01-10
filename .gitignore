@@ -80,5 +80,7 @@ fabric.properties
 ### Intellij+all Patch ###
 # Ignores the whole .idea folder and al
 
-__pycache__/
-__pycache__/*
+__pycache__/Genetico.cpython-36.pyc
+__pycache__/Hongos.cpython-36.pyc
+__pycache__/Motifs.cpython-36.pyc
+__pycache__*
