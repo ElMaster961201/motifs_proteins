@@ -40,3 +40,19 @@ class Hongos(object):
 			pass
 		self.hongo = ""
 		
+	def matrizHongos(self,archivo = "./Mul.fasta"):
+
+		self.hongos = []
+		self.hongo = ""
+		self.file = open(archivo, "r").readlines()
+		self.file = self.file[1:]
+
+		for l in self.file:
+			if l[0] == '>':
+				self.hongos.append(self.hongo)
+				self.hongo = ""
+				continue
+			self.hongo = self.hongo + l[:len(l)-1]
+			pass
+		self.hongo = ""
+		return self.hongos

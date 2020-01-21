@@ -40,7 +40,7 @@ mA = ['A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M
 # Instancia de algoritmo Genetico AGS.
 AGS = Genetico()
 # Instancia de la clase Hongos Hns.
-Hns = Hongos()
+# Hns = Hongos()
 # Instancia de la clase Motifs Mtfs.
 # Mtfs = Motifs()
 
@@ -66,12 +66,19 @@ Hns = Hongos()
 # print ((Hns.hongos[0]))
 
 # print(len(motif))
-print()
-print (AGS.SCIM)
-print ()
-print (AGS.CCIM)
-print ()
-print (AGS.SCIM)
+# print()
+# print (AGS.SCIM)
+# print ()
+# print (AGS.CCIM)
+# print ()
+# print (AGS.SCIM)
+# print ()
+# print (AGS.Hongos)
+# print ()
+# print (AGS.poblacion)
+AGS.fits(mA)
+# print(AGS.fit)
+AGS.ruleta()
 
 # <------------- Pruebas   --- Fin    ------------- >
 
