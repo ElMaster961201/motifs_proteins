@@ -20,6 +20,7 @@ class Genetico(object):
 		* canMutacion = 2
 		* numElitismo = 10
 		* tamTorneo = 4
+		* umbral = 50
 		
 	"""
 
@@ -32,7 +33,8 @@ class Genetico(object):
 	"""Funcion que inicializa la poblacion"""
 	def __init__(self, tamPoblacion = 100, tamProteina = 2654,
 		tamMotivo = 20,numHongos = 1245,proMutacion = 0.01,
-		canMutacion = 2,numElitismo = 10,tamTorneo = 4):
+		canMutacion = 2,numElitismo = 10,tamTorneo = 4, 
+		umbral = 50):
 		self.tamPoblacion = tamPoblacion
 		self.tamProteina = tamProteina
 		self.tamMotivo = tamMotivo
@@ -41,6 +43,7 @@ class Genetico(object):
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
 		self.tamTorneo = tamTorneo
+		self.umbral = umbral
 		self.ind = []
 		self.poblacion = []
 		self.nuevapoblacion = []
@@ -90,6 +93,7 @@ class Genetico(object):
 
 	#### Ruleta simple
 	def ruletaSimple(self,indMatriz):
+		
 		total = self.calculoTotal()	
 
 		# Toma la seleccion por ruleta con base a la matriz de indMatriz
@@ -105,43 +109,19 @@ class Genetico(object):
 	#### Ruleta.
 	def ruleta(self):
 
-		total = self.calculoTotal()
-
 		# Toma la seleccion por ruleta con base a la matriz de SCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			top = random.random()
-			i = 0
-			contador = 0.0
-			while contador < top and i < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[i][0])/float(total[0])
-				i = i +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[i])
+			self.nuevapoblacion.append(self.ruletaSimple(0))
 			pass
 		
 		# Toma la seleccion por ruleta con base a la matriz de CCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			top = random.random()
-			i = 0
-			contador = 0.0
-			while contador < top and i < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[i][1])/float(total[1])
-				i = i +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[i])
+			self.nuevapoblacion.append(self.ruletaSimple(1))
 			pass
 
 		# Toma la seleccion por ruleta con base a la matriz de HCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			top = random.random()
-			i = 0
-			contador = 0.0
-			while contador < top and i < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[i][2])/float(total[2])
-				i = i +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[i])
-			pass
+			self.nuevapoblacion.append(self.ruletaSimple(2))
 		pass
 
 	def estocasticoUniversalSimple(self,indMatriz,k=4):
@@ -164,97 +144,56 @@ class Genetico(object):
 
 	### Muestreo Estocastico Universal.
 	def estocasticoUniversal(self, k=4):
-		
-		total = self.calculoTotal()
 
 		# Toma la seleccion Estocastico Universal con base a la matriz de SCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			top = random.random()	
-			for i in range(k):
-				a = (top + i) / k
-				ii = 0
-				contador = 0.0
-				while contador < a and ii < self.tamPoblacion-1:
-					contador = contador + abs(self.fit[ii][0])/float(total[0])
-					ii = ii +1
-					pass
-				self.nuevapoblacion.append(self.poblacion[ii])
+		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
+			ind = self.estocasticoUniversalSimple(0,k)
+			for i in ind:
+				self.nuevapoblacion.append(i)
 				pass
 			pass
 
 		# Toma la seleccion Estocastico Universal con base a la matriz de SCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))%k):
-			top = random.random()
-			a = (top + x) / k
-			ii = 0
-			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[ii][0])/float(total[0])
-				ii = ii +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[ii])
+		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
+		ind = self.estocasticoUniversalSimple(0,resK)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
 
 		# Toma la seleccion Estocastico Universal con base a la matriz de CCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			top = random.random()
-			for i in range(k):
-				a = (top + i) / k
-				ii = 0
-				contador = 0.0
-				while contador < a and ii < self.tamPoblacion-1:
-					contador = contador + abs(self.fit[ii][1])/float(total[1])
-					ii = ii +1
-					pass
-				self.nuevapoblacion.append(self.poblacion[ii])
+		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
+			ind = self.estocasticoUniversalSimple(1,k)
+			for i in ind:
+				self.nuevapoblacion.append(i)
 				pass
 			pass
 
 		# Toma la seleccion Estocastico Universal con base a la matriz de CCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))%k):
-			top = random.random()
-			a = (top + x) / k
-			ii = 0
-			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[ii][1])/float(total[1])
-				ii = ii +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[ii])
+		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
+		ind = self.estocasticoUniversalSimple(1,resK)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
 
 		# Toma la seleccion Estocastico Universal con base a la matriz de HCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			top = random.random()
-			for i in range(k):
-				a = (top + i) / k
-				ii = 0
-				contador = 0.0
-				while contador < a and ii < self.tamPoblacion-1:
-					contador = contador + abs(self.fit[ii][2])/float(total[2])
-					ii = ii +1
-					pass
-				self.nuevapoblacion.append(self.poblacion[ii])
+		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
+			ind = self.estocasticoUniversalSimple(2,k)
+			for i in ind:
+				self.nuevapoblacion.append(i)
 				pass
 			pass
 		
 		# Toma la seleccion Estocastico Universal con base a la matriz de HCIM
-		for x in range(((self.tamPoblacion//3)-(self.numElitismo//3))%k):
-			top = random.random()
-			a = (top + i) / k
-			ii = 0
-			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[ii][2])/float(total[2])
-				ii = ii +1
-				pass
-			self.nuevapoblacion.append(self.poblacion[ii])
+		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
+		ind = self.estocasticoUniversalSimple(2,resK)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
-
 		pass
 
 	### Torneo Simple
 	def torneoSimple(self,indMatriz, tamTorneo=4):
+		
 		num = []
 
 		# Toma la seleccion por toneo con base a la matriz con indice indMatriz
@@ -276,71 +215,26 @@ class Genetico(object):
 
 	### Torneo.
 	def torneo(self):
-		num = []
 
 		# Toma la seleccion por toneo con base a la matriz de SCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			while len(num) < self.tamTorneo:
-				tem = random.randrange(self.tamPoblacion)
-				if not (tem in num):
-					num.append(tem)
-					pass
-				pass
-			tor = self.fit[num[0]][0]
-			ind = num[0]
-			for i in num:
-				if tor < self.fit[i][0]:
-					tor = self.fit[i][0]
-					ind = i
-					pass
-				pass
-			self.nuevapoblacion.append(self.poblacion[ind])
-			num = []
+			self.nuevapoblacion.append(self.torneoSimple(0,self.tamTorneo))
 			pass
 
 		# Toma la seleccion por torneo con base a la matriz de CCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			while len(num) < self.tamTorneo:
-				tem = random.randrange(self.tamPoblacion)
-				if not (tem in num):
-					num.append(tem)
-					pass
-				pass
-			tor = self.fit[num[0]][1]
-			ind = num[0]
-			for i in num:
-				if tor < self.fit[i][1]:
-					tor = self.fit[i][1]
-					ind = i
-					pass
-				pass
-			self.nuevapoblacion.append(self.poblacion[ind])
-			num = []
+			self.nuevapoblacion.append(self.torneoSimple(1,self.tamTorneo))
 			pass
 
 		# Toma la seleccion por torneo con base a la matriz de HCIM
 		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			while len(num) < self.tamTorneo:
-				tem = random.randrange(self.tamPoblacion)
-				if not (tem in num):
-					num.append(tem)
-					pass
-				pass
-			tor = self.fit[num[0]][2]
-			ind = num[0]
-			for i in num:
-				if tor < self.fit[i][2]:
-					tor = self.fit[i][2]
-					ind = i
-					pass
-				pass
-			self.nuevapoblacion.append(self.poblacion[ind])
-			num = []
+			self.nuevapoblacion.append(self.torneoSimple(2,self.tamTorneo))
 			pass
+
 		pass
 
 	### Muestreo por Restos Simple.
-	def restosSimple(self,indMatriz, umbral = 50):
+	def restosSimple(self,indMatriz, numRestos = 1, umbral = 50):
 
 		total = self.calculoTotal()
 
@@ -356,114 +250,43 @@ class Genetico(object):
 		
 		ind = self.elitismo(indMatriz,contador)
 
-		if contador >= 1:
-			return ind[0]
-		else:
+		if contador <= numRestos:
+
 			fun = [
 					lambda x: self.estocasticoUniversalSimple(x,1),
 					lambda x: self.ruletaSimple(x),
 					lambda x: self.torneoSimple(x,self.tamTorneo)
 					]
-			tem = random.randrange(3)
-			return fun[tem](indMatriz)
+
+			for _ in range(contador,numRestos):
+				tem = random.randrange(3)
+				ind.append(fun[tem](indMatriz))
+				pass
+			pass
+		
+		return ind[:numRestos]
 
 	### Muestreo por Restos. 
 	def restos(self, umbral = 50):
 
-		total = self.calculoTotal()
-
-		media = [total[i]/self.tamPoblacion for i in range(3)]
-
 		# Toma la seleccion por restos con base a la matriz de SCIM
-		contador = 0
-		for i in range(self.tamPoblacion):
-			if abs(self.fit[i][0]) > (media[0]+(media[0]*umbral/100)):
-				contador = contador + 1
-				pass
-			pass
-		
-		ind = self.elitismo(0,contador)
-
-		if contador >= ((self.tamPoblacion//3)-(self.numElitismo//3)):
-			for i in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-				self.nuevapoblacion.append(ind[i])
-				pass
-			pass
-		else:
-			for x in ind:
-				self.nuevapoblacion.append(x)
-				pass
-			fun = [
-					lambda x: self.estocasticoUniversalSimple(x,1),
-					lambda x: self.ruletaSimple(x),
-					lambda x: self.torneoSimple(x,self.tamTorneo)
-					]
-			for x in range(contador,((self.tamPoblacion//3)-(self.numElitismo//3))):
-				tem = random.randrange(3)
-				self.nuevapoblacion.append(fun[tem](0))
-				pass
+		ind = self.restosSimple(0,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
 
 		# Toma la seleccion por Restos con base a la matriz de CCIM
-		contador = 0
-		for i in range(self.tamPoblacion):
-			if abs(self.fit[i][1]) > (media[1]+(media[1]*umbral/100)):
-				contador = contador + 1
-				pass
-			pass
-		
-		ind = self.elitismo(1,contador)
-
-		if contador >= ((self.tamPoblacion//3)-(self.numElitismo//3)):
-			for i in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-				self.nuevapoblacion.append(ind[i])
-				pass
-			pass
-		else:
-			for x in ind:
-				self.nuevapoblacion.append(x)
-				pass
-			fun = [
-					lambda x: self.estocasticoUniversalSimple(x,1),
-					lambda x: self.ruletaSimple(x),
-					lambda x: self.torneoSimple(x,self.tamTorneo)
-					]
-			for x in range(contador,((self.tamPoblacion//3)-(self.numElitismo//3))):
-				tem = random.randrange(3)
-				self.nuevapoblacion.append(fun[tem](1))
-				pass
+		ind = self.restosSimple(1,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
 
 		# Toma la seleccion por Restos con base a la matriz de HCIM
-		contador = 0
-		for i in range(self.tamPoblacion):
-			if abs(self.fit[i][2]) > (media[2]+(media[2]*umbral/100)):
-				contador = contador + 1
-				pass
+		ind = self.restosSimple(2,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
+		for i in ind:
+			self.nuevapoblacion.append(i)
 			pass
-		
-		ind = self.elitismo(2,contador)
 
-		if contador >= ((self.tamPoblacion//3)-(self.numElitismo//3)):
-			for i in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-				self.nuevapoblacion.append(ind[i])
-				pass
-			pass
-		else:
-			for x in ind:
-				self.nuevapoblacion.append(x)
-				pass
-			fun = [
-					lambda x: self.estocasticoUniversalSimple(x,1),
-					lambda x: self.ruletaSimple(x),
-					lambda x: self.torneoSimple(x,self.tamTorneo)
-					]
-			for x in range(contador,((self.tamPoblacion//3)-(self.numElitismo//3))):
-				tem = random.randrange(3)
-				self.nuevapoblacion.append(fun[tem](2))
-				pass
-			pass
-		pass
 
 	def elitismo(self,indMatriz,numElitismo=10):
 		mayorMenor = self.poblacion[:]
