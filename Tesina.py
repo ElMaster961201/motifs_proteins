@@ -78,7 +78,24 @@ AGS = Genetico()
 # print (AGS.poblacion)
 AGS.fits(mA)
 # print(AGS.fit)
-AGS.ruleta()
+# AGS.ruleta()
+# print (AGS.calculoTotal())
+# print (len(AGS.ruletaSimple(0)))
+# AGS.torneo()
+# print (AGS.torneoSimple(0))
+# m,n = AGS.burbujaSimple(0,10)
+# AGS.estocasticoUniversal()
+# print(len(AGS.estocasticoUniversalSimple(0)))
+# print(len(AGS.nuevapoblacion))
+# print(len(AGS.estocasticoUniversalSimple(0)))
+AGS.restos()
+# print (len(AGS.restosSimple(1)))
+# for s in AGS.restosSimple(1):
+# 	print()
+# 	print(s)
+	
+# 	pass
+# print (len(AGS.restosSimple(1)))
 
 # <------------- Pruebas   --- Fin    ------------- >
 

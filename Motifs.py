@@ -1,4 +1,7 @@
-
+"""
+	Añadir las referencias donde se obtuvo la informacion.
+	Añadir nombres de referencia 
+"""
 
 class Motifs(object):
 
@@ -75,7 +78,6 @@ class Motifs(object):
 	def generaHCI(self,A,B):
 		hci = 20 - abs((self.HM[A]-self.HM[B])*(19/10.6))
 		return hci
-		pass
 
 	# Funcion con la que se general la matriz de CCI
 	def generaCCI(self,A,B):
@@ -103,11 +105,11 @@ class Motifs(object):
 		self.CCIM = []
 		self.SCIM = []
 
-		for x in range(0,20):
+		for x in range(20):
 			aux1 = []
 			aux2 = []
 			aux3 = []
-			for y in range(0,20):
+			for y in range(20):
 				aux1.append(self.generaSCI(x,y))
 				aux2.append(self.generaCCI(x,y))
 				aux3.append(self.generaHCI(x,y))
@@ -116,6 +118,7 @@ class Motifs(object):
 			self.CCIM.append(aux2)
 			self.HCIM.append(aux3)
 			pass
+
 	# Funcion que devuelve las matrices guia. 
 	def SCICCIHCI(self):
 
@@ -123,11 +126,11 @@ class Motifs(object):
 		self.CCIM = []
 		self.SCIM = []
 
-		for x in range(0,20):
+		for x in range(20):
 			aux1 = []
 			aux2 = []
 			aux3 = []
-			for y in range(0,20):
+			for y in range(20):
 				aux1.append(self.generaSCI(x,y))
 				aux2.append(self.generaCCI(x,y))
 				aux3.append(self.generaHCI(x,y))
