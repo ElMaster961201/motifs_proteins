@@ -89,7 +89,7 @@ class Genetico(object):
 			pass
 		return total
 
-	###### Algoritmos de seleccion. ######
+	###### Metodos de seleccion. ######
 
 	#### Ruleta simple
 	def ruletaSimple(self,indMatriz):
@@ -301,3 +301,9 @@ class Genetico(object):
 				pass
 			pass
 		return mayorMenor[:numElitismo]
+
+	###### Metodos de seleccion. Fin ######
+
+	###### Metodos de reproduccion. ######
+	
+	###### Metodos de reproduccion. Fin ######
