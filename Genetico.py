@@ -306,4 +306,6 @@ class Genetico(object):
 
 	###### Metodos de reproduccion. ######
 	
+
+	
 	###### Metodos de reproduccion. Fin ######
