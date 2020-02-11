@@ -66,13 +66,27 @@ AGS = Genetico()
 # print ((Hns.hongos[0]))
 
 # print(len(motif))
-# print()
+# print("SCIM")
 # print (AGS.SCIM)
-# print ()
+# print ("CCIM")
 # print (AGS.CCIM)
+# print ("HCIM")
+# print (AGS.HCIM)
 # print ()
-# print (AGS.SCIM)
-# print ()
+
+
+# print()
+# print (max(AGS.CCIM))
+# print()
+# print(min(AGS.CCIM))
+
+
+# print()
+# print (max(AGS.HCIM))
+# print()
+# print(min(AGS.HCIM))
+
+
 # print (AGS.Hongos)
 # print ()
 # print (AGS.poblacion)
@@ -99,6 +113,7 @@ AGS = Genetico()
 # print()
 # print(len(AGS.nuevapoblacion))
 
+# AGS.puntoFijo()
 
 # <------------- Pruebas   --- Fin    ------------- >
 

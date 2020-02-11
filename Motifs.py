@@ -52,41 +52,42 @@ class Motifs(object):
 	]
 
 	MW = [
-		089.09, #Ala -> A
-		121.16, #Cys -> C 
-		133.10, #Asp -> D
-		147.13, #Glu -> E
-		165.19, #Phe -> F 
-		075.07, #Gly -> G
-		155.15, #His -> H
-		131.17, #Ile -> I
-		146.19, #Lys -> K
-		131.17, #Leu -> L
-		149.21, #Met -> M
-		132.12, #Asn -> N 
-		115.13, #Pro -> P
-		146.14, #Gln -> Q 
-		0174.20, #Arg -> R
-		105.09, #Ser -> S
-		119.12, #Thr -> T
-		119.15, #Val -> V
-		204.23, #Trp -> W
-		181.19 #Tyr -> Y
+		071.0779, # 089.09, #Ala -> A
+		103.1429, # 121.16, #Cys -> C 
+		115.0874, # 133.10, #Asp -> D
+		129.1140, # 147.13, #Glu -> E
+		147.1739, # 165.19, #Phe -> F 
+		057.0513, # 075.07, #Gly -> G
+		137.1393, # 155.15, #His -> H
+		113.1576, # 131.17, #Ile -> I
+		128.1723, # 146.19, #Lys -> K
+		113.1576, # 131.17, #Leu -> L
+		131.1961, # 149.21, #Met -> M
+		114.1026, # 132.12, #Asn -> N 
+		097.1152, # 115.13, #Pro -> P
+		128.1292, # 146.14, #Gln -> Q 
+		156.1857, # 0174.20, #Arg -> R
+		087.0773, # 105.09, #Ser -> S
+		101.1039, # 119.12, #Thr -> T
+		099.1311,# 119.15, #Val -> V
+		186.2099,# 204.23, #Trp -> W
+		163.1733# 181.19 #Tyr -> Y
+		# Referencia http://www.matrixscience.com/help/aa_help.html.
 	]	
 
 	# Funcion con la que se general la matriz de HCI
 	def generaHCI(self,A,B):
-		hci = 20 - abs((self.HM[A]-self.HM[B])*(19/10.6))
+		hci = 20 - abs(((self.HM[A]-self.HM[B])*19)/10.6)
 		return hci
 
 	# Funcion con la que se general la matriz de CCI
 	def generaCCI(self,A,B):
-		cci = 11 - ((self.pl[A]-7)*(self.pl[B]-7)*(19/33.8))
+		cci = 11 - (((self.pl[A]-7)*(self.pl[B]-7)*19)/33.8)
 		return cci
 
 	# Funcion con la que se general la matriz de SCI
 	def generaSCI(self,A,B):
-		sci = 20 - abs((self.MW[A]+self.MW[B]-123)*(19/135))
+		sci = 20 - abs((((self.MW[A]+self.MW[B])-118.4825)*19)/253.9373)# 253.9373 -> RW )
 		return sci 
 
 	def imprimeMatrix(self,Matrix):

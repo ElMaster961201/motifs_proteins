@@ -21,6 +21,7 @@ class Genetico(object):
 		* numElitismo = 10
 		* tamTorneo = 4
 		* umbral = 50
+		* proCruce = 60
 		
 	"""
 
@@ -34,7 +35,7 @@ class Genetico(object):
 	def __init__(self, tamPoblacion = 100, tamProteina = 2654,
 		tamMotivo = 20,numHongos = 1245,proMutacion = 0.01,
 		canMutacion = 2,numElitismo = 10,tamTorneo = 4, 
-		umbral = 50):
+		umbral = 50, proCruce = 60):
 		self.tamPoblacion = tamPoblacion
 		self.tamProteina = tamProteina
 		self.tamMotivo = tamMotivo
@@ -44,6 +45,7 @@ class Genetico(object):
 		self.numElitismo = numElitismo
 		self.tamTorneo = tamTorneo
 		self.umbral = umbral
+		self.proCruce = proCruce
 		self.ind = []
 		self.poblacion = []
 		self.nuevapoblacion = []
@@ -124,6 +126,7 @@ class Genetico(object):
 			self.nuevapoblacion.append(self.ruletaSimple(2))
 		pass
 
+	### Muestreo Estocastico Universal Simple.
 	def estocasticoUniversalSimple(self,indMatriz,k=4):
 		total = self.calculoTotal()	
 		ind = []
@@ -248,7 +251,7 @@ class Genetico(object):
 				pass
 			pass
 		
-		ind = self.elitismo(indMatriz,contador)
+		ind = self.elitismoSimple(indMatriz,contador)
 
 		if contador <= numRestos:
 
@@ -287,8 +290,8 @@ class Genetico(object):
 			self.nuevapoblacion.append(i)
 			pass
 
-
-	def elitismo(self,indMatriz,numElitismo=10):
+	### Elitismo Simple.
+	def elitismoSimple(self,indMatriz,numElitismo=10):
 		mayorMenor = self.poblacion[:]
 		mayorMenorFits = self.fit[:]
 
@@ -302,10 +305,50 @@ class Genetico(object):
 			pass
 		return mayorMenor[:numElitismo]
 
+	def elitismo(self):
+		el = self.elitismoSimple(self.numElitismo)
+		for x in el:
+			self.nuevapoblacion.append(x)
+		pass
 	###### Metodos de seleccion. Fin ######
 
 	###### Metodos de reproduccion. ######
-	
 
+	# Por Punto fijo.
+	def puntoFijo(self):
+		for i in range(0,len(self.nuevapoblacion),2):#self.tamPoblacion,2):
+			if self.proCruce > random.randrange(100):
+				punto = random.randrange(self.numHongos)
+				self.nuevapoblacion[i][:punto], self.nuevapoblacion[i+1][:punto] = self.nuevapoblacion[i+1][:punto], self.nuevapoblacion[i][:punto]
+				pass
+			pass
+		pass
+
+	# Por multi-Punto.
+	def multiPunto(self):
+		for i in range(0,len(self.nuevapoblacion),2):#self.tamPoblacion,2):
+			if self.proCruce > random.randrange(100):
+				punto = []
+				punto.append(random.randrange(50))
+				punto.append(random.randrange(50,self.numHongos))
+				self.nuevapoblacion[i][:punto[0]], self.nuevapoblacion[i+1][:punto[0]] = self.nuevapoblacion[i+1][:punto[0]], self.nuevapoblacion[i][:punto[0]]
+				self.nuevapoblacion[i][punto[1]:], self.nuevapoblacion[i+1][punto[1]:] = self.nuevapoblacion[i+1][punto[1]:], self.nuevapoblacion[i][punto[1]:]
+				pass
+			pass
+		pass
 	
 	###### Metodos de reproduccion. Fin ######
+
+	###### Mutación ######
+	def mutacion(self):
+		for i in range(self.tamPoblacion):
+			for _ in range(self.canMutacion):
+				if self.proMutacion > random.random():
+					punto = random.randrange(self.tamProteina)
+					self.nuevapoblacion[i][punto] = random.randrange( 1 + self.tamProteina - self.tamMotivo)
+					pass
+				pass
+			pass
+		pass
+	
+	###### Mutación Fin ######
