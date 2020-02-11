@@ -22,7 +22,7 @@ class Genetico(object):
 		* tamTorneo = 4
 		* umbral = 50
 		* proCruce = 60
-		
+		* w = [1/3, 1/3, 1/3]
 	"""
 
 	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
@@ -35,7 +35,7 @@ class Genetico(object):
 	def __init__(self, tamPoblacion = 100, tamProteina = 2654,
 		tamMotivo = 20,numHongos = 1245,proMutacion = 0.01,
 		canMutacion = 2,numElitismo = 10,tamTorneo = 4, 
-		umbral = 50, proCruce = 60):
+		umbral = 50, proCruce = 60, w = [1/3, 1/3, 1/3]):
 		self.tamPoblacion = tamPoblacion
 		self.tamProteina = tamProteina
 		self.tamMotivo = tamMotivo
@@ -46,6 +46,7 @@ class Genetico(object):
 		self.tamTorneo = tamTorneo
 		self.umbral = umbral
 		self.proCruce = proCruce
+		self.w = w
 		self.ind = []
 		self.poblacion = []
 		self.nuevapoblacion = []
@@ -65,15 +66,13 @@ class Genetico(object):
 	def fits(self, motif):
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
-			con = [0.0, 0.0, 0.0]
+			con = 0.0
 			for j in self.poblacion[i]:
 				for k in range(self.tamMotivo):
 					if self.Hongos[i][j+k] == '-':
 						continue
 					else:
-						con[0] = self.SCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]] + con[0] 
-						con[1] = self.CCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]] + con[1] 
-						con[2] = self.HCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]] + con[2] 
+						con = self.w[0]*(self.SCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]]) + self.w[1]*(self.CCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]]) + self.w[2]*(self.HCIM[self.index[self.Hongos[i][j+k]]][self.index[motif[k]]]) + con 
 						pass
 					pass
 				pass
@@ -83,27 +82,25 @@ class Genetico(object):
 
 	#### Funciones Auxiliares
 	def calculoTotal(self):
-		total = [0.0, 0.0, 0.0]		
+		total = 0.0		
 		for fi in self.fit:
-			total[0] = abs(fi[0]) + total[0] 	
-			total[1] = abs(fi[1]) + total[1] 
-			total[2] = abs(fi[2]) + total[2] 
+			total = fi + total
 			pass
 		return total
 
 	###### Metodos de seleccion. ######
 
 	#### Ruleta simple
-	def ruletaSimple(self,indMatriz):
+	def ruletaSimple(self):
 		
 		total = self.calculoTotal()	
 
-		# Toma la seleccion por ruleta con base a la matriz de indMatriz
+		# Toma la seleccion por ruleta.
 		top = random.random()
 		i = 0
 		contador = 0.0
 		while contador < top and i < self.tamPoblacion-1:
-			contador = contador + abs(self.fit[i][indMatriz])/float(total[indMatriz])
+			contador = contador + self.fit[i]/float(total)
 			i = i +1
 			pass
 		return self.poblacion[i]
@@ -111,23 +108,13 @@ class Genetico(object):
 	#### Ruleta.
 	def ruleta(self):
 
-		# Toma la seleccion por ruleta con base a la matriz de SCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.ruletaSimple(0))
+		# Toma la seleccion por ruleta.
+		for _ in range((self.tamPoblacion)-(self.numElitismo)):
+			self.nuevapoblacion.append(self.ruletaSimple())
 			pass
-		
-		# Toma la seleccion por ruleta con base a la matriz de CCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.ruletaSimple(1))
-			pass
-
-		# Toma la seleccion por ruleta con base a la matriz de HCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.ruletaSimple(2))
-		pass
 
 	### Muestreo Estocastico Universal Simple.
-	def estocasticoUniversalSimple(self,indMatriz,k=4):
+	def estocasticoUniversalSimple(self,k=4):
 		total = self.calculoTotal()	
 		ind = []
 
@@ -138,7 +125,7 @@ class Genetico(object):
 			ii = 0
 			contador = 0.0
 			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[ii][indMatriz])/float(total[indMatriz])
+				contador = contador + abs(self.fit[ii])/float(total)
 				ii = ii +1
 				pass
 			ind.append(self.poblacion[ii])
@@ -148,54 +135,23 @@ class Genetico(object):
 	### Muestreo Estocastico Universal.
 	def estocasticoUniversal(self, k=4):
 
-		# Toma la seleccion Estocastico Universal con base a la matriz de SCIM
-		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			ind = self.estocasticoUniversalSimple(0,k)
+		# Toma la seleccion Estocastico Universal
+		for _ in range(((self.tamPoblacion)-(self.numElitismo))//k):
+			ind = self.estocasticoUniversalSimple(k)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 				pass
 			pass
 
-		# Toma la seleccion Estocastico Universal con base a la matriz de SCIM
-		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
-		ind = self.estocasticoUniversalSimple(0,resK)
+		# Toma la seleccion Estocastico Universal
+		resK = (((self.tamPoblacion)-(self.numElitismo))%k)
+		ind = self.estocasticoUniversalSimple(resK)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
-
-		# Toma la seleccion Estocastico Universal con base a la matriz de CCIM
-		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			ind = self.estocasticoUniversalSimple(1,k)
-			for i in ind:
-				self.nuevapoblacion.append(i)
-				pass
-			pass
-
-		# Toma la seleccion Estocastico Universal con base a la matriz de CCIM
-		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
-		ind = self.estocasticoUniversalSimple(1,resK)
-		for i in ind:
-			self.nuevapoblacion.append(i)
-			pass
-
-		# Toma la seleccion Estocastico Universal con base a la matriz de HCIM
-		for _ in range(((self.tamPoblacion//3)-(self.numElitismo//3))//k):
-			ind = self.estocasticoUniversalSimple(2,k)
-			for i in ind:
-				self.nuevapoblacion.append(i)
-				pass
-			pass
-		
-		# Toma la seleccion Estocastico Universal con base a la matriz de HCIM
-		resK = (((self.tamPoblacion//3)-(self.numElitismo//3))%k)
-		ind = self.estocasticoUniversalSimple(2,resK)
-		for i in ind:
-			self.nuevapoblacion.append(i)
-			pass
-		pass
 
 	### Torneo Simple
-	def torneoSimple(self,indMatriz, tamTorneo=4):
+	def torneoSimple(self, tamTorneo=4):
 		
 		num = []
 
@@ -206,11 +162,11 @@ class Genetico(object):
 				num.append(tem)
 				pass
 			pass
-		tor = self.fit[num[0]][indMatriz]
+		tor = self.fit[num[0]]
 		ind = num[0]
 		for i in num:
-			if tor < self.fit[i][indMatriz]:
-				tor = self.fit[i][indMatriz]
+			if tor < self.fit[i]:
+				tor = self.fit[i]
 				ind = i
 				pass
 			pass
@@ -220,50 +176,40 @@ class Genetico(object):
 	def torneo(self):
 
 		# Toma la seleccion por toneo con base a la matriz de SCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.torneoSimple(0,self.tamTorneo))
-			pass
-
-		# Toma la seleccion por torneo con base a la matriz de CCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.torneoSimple(1,self.tamTorneo))
-			pass
-
-		# Toma la seleccion por torneo con base a la matriz de HCIM
-		for _ in range((self.tamPoblacion//3)-(self.numElitismo//3)):
-			self.nuevapoblacion.append(self.torneoSimple(2,self.tamTorneo))
+		for _ in range((self.tamPoblacion)-(self.numElitismo)):
+			self.nuevapoblacion.append(self.torneoSimple(self.tamTorneo))
 			pass
 
 		pass
 
 	### Muestreo por Restos Simple.
-	def restosSimple(self,indMatriz, numRestos = 1, umbral = 50):
+	def restosSimple(self, numRestos = 1, umbral = 50):
 
 		total = self.calculoTotal()
 
-		media = total[indMatriz] / self.tamPoblacion
+		media = total / float(self.tamPoblacion)
 
-		# Toma la seleccion por restos con base a la matriz con indice indMatriz
+		# Toma la seleccion por restos
 		contador = 0
 		for i in range(self.tamPoblacion):
-			if abs(self.fit[i][0]) > (media+(media*umbral/100)):
+			if self.fit[i] > (media+(media*umbral/100)):
 				contador = contador + 1
 				pass
 			pass
 		
-		ind = self.elitismoSimple(indMatriz,contador)
+		ind = self.elitismoSimple(contador)
 
 		if contador <= numRestos:
 
 			fun = [
-					lambda x: self.estocasticoUniversalSimple(x,1),
-					lambda x: self.ruletaSimple(x),
-					lambda x: self.torneoSimple(x,self.tamTorneo)
+					lambda x: self.estocasticoUniversalSimple(1),
+					lambda x: self.ruletaSimple(),
+					lambda x: self.torneoSimple(self.tamTorneo)
 					]
 
 			for _ in range(contador,numRestos):
 				tem = random.randrange(3)
-				ind.append(fun[tem](indMatriz))
+				ind.append(fun[tem])
 				pass
 			pass
 		
@@ -273,33 +219,22 @@ class Genetico(object):
 	def restos(self, umbral = 50):
 
 		# Toma la seleccion por restos con base a la matriz de SCIM
-		ind = self.restosSimple(0,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
+		ind = self.restosSimple((self.tamPoblacion)-(self.numElitismo),self.umbral)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
-
-		# Toma la seleccion por Restos con base a la matriz de CCIM
-		ind = self.restosSimple(1,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
-		for i in ind:
-			self.nuevapoblacion.append(i)
-			pass
-
-		# Toma la seleccion por Restos con base a la matriz de HCIM
-		ind = self.restosSimple(2,(self.tamPoblacion//3)-(self.numElitismo//3),self.umbral)
-		for i in ind:
-			self.nuevapoblacion.append(i)
-			pass
+		pass
 
 	### Elitismo Simple.
-	def elitismoSimple(self,indMatriz,numElitismo=10):
+	def elitismoSimple(self,numElitismo=10):
 		mayorMenor = self.poblacion[:]
 		mayorMenorFits = self.fit[:]
 
 		for i in range(1,self.tamPoblacion):
 			for j in range(0,self.tamPoblacion - i):
-				if(abs(mayorMenorFits[j+1][indMatriz]) > abs(mayorMenorFits[j][indMatriz])):
+				if(mayorMenorFits[j+1] > mayorMenorFits[j]):
 					mayorMenor[j], mayorMenor[j+1] = mayorMenor[j+1], mayorMenor[j]
-					mayorMenorFits[j][indMatriz], mayorMenorFits[j+1][indMatriz] = mayorMenorFits[j+1][indMatriz], mayorMenorFits[j][indMatriz] 
+					mayorMenorFits[j], mayorMenorFits[j+1] = mayorMenorFits[j+1], mayorMenorFits[j] 
 					pass
 				pass
 			pass
