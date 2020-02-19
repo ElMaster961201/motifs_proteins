@@ -1,4 +1,5 @@
 from Bio import AlignIO
+import os 
 import numpy
 import math
 #help(AlignIO)
@@ -70,9 +71,12 @@ for loop in range(0, alignment.get_alignment_length()):         #Recorrer las co
 
 # print(len(countresults))
 #
-for result in countresults:                                 #Imprime la lista de listas resultante.
-    print(result)
 
+file = open("Matriz.txt","w")
+for result in countresults:
+    file.write(str(result) + os.linesep )                              
+    print(result)                             #Imprime la lista de listas resultante.
+file.close()
 
 
 probabilities = countresults
@@ -154,7 +158,6 @@ for result in shannonentropies:
     k = 1
 
 print("-------------- ENTROPÍAS TOTALES ------------------")
-import os 
 file = open("Entropia.txt","w")
 for result in totalentropies:  #Imprime la lista de listas resultante.
     print (result)

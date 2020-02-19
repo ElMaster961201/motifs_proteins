@@ -146,20 +146,59 @@ class Motifs(object):
 if __name__ == "__main__":
 	import os 
 	motifs = Motifs()
-	file = open("SCIM.txt","w")
+
+	file = open("SCIM-Ordenada.txt","w")
+	file2 = open("SCIM.txt","w")
+	val = False
 	for x in motifs.SCIM:
-		file.write(str(x) + os.linesep)
+		file.write("[ ")
+		for y in x:
+			if val:
+				file.write(", ")
+			file.write(str("{:07.4f}".format(y)))
+			val = True
+			pass
+		file.write("]" + os.linesep)
+		val = False
+		file2.write(str(x) + os.linesep)
+
 	file.close()
+	file2.close()
 	
-	file = open("CCIM.txt","w")
+	file = open("CCIM-Ordenada.txt","w")
+	file2 = open("CCIM.txt","w")
+	val = False
 	for x in motifs.CCIM:
-		file.write(str(x) + os.linesep)
+		file.write("[ ")
+		for y in x:
+			if val:
+				file.write(", ")
+			file.write(str("{:07.4f}".format(y)))
+			val = True
+			pass
+		file.write("]" + os.linesep)
+		val = False
+		file2.write(str(x) + os.linesep)
+
 	file.close()
+	file2.close()
 	
-	file = open("HCIM.txt","w")
+	file = open("HCIM-Ordenada.txt","w")
+	file2 = open("HCIM.txt","w")
+	val = False
 	for x in motifs.HCIM:
-		file.write(str(x) + os.linesep)
+		file.write("[ ")
+		for y in x:
+			if val:
+				file.write(", ")
+			file.write(str("{:07.4f}".format(y)))
+			val = True
+			pass
+		file.write("]" + os.linesep)
+		val = False
+		file2.write(str(x) + os.linesep)
+
 	file.close()
+	file2.close()
 
 	pass
-
