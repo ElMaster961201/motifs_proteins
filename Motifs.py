@@ -142,3 +142,24 @@ class Motifs(object):
 			pass
 		return self.SCIM,self.CCIM,self.HCIM
 
+# Cuando el programa es el principal.
+if __name__ == "__main__":
+	import os 
+	motifs = Motifs()
+	file = open("SCIM.txt","w")
+	for x in motifs.SCIM:
+		file.write(str(x) + os.linesep)
+	file.close()
+	
+	file = open("CCIM.txt","w")
+	for x in motifs.CCIM:
+		file.write(str(x) + os.linesep)
+	file.close()
+	
+	file = open("HCIM.txt","w")
+	for x in motifs.HCIM:
+		file.write(str(x) + os.linesep)
+	file.close()
+
+	pass
+
