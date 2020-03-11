@@ -287,3 +287,18 @@ class Genetico(object):
 		pass
 	
 	###### Mutación Fin ######
+
+	###### Metodos de Remplazo ######
+
+
+    # Remplazo aleatorio
+	def remplazoPadres(self):
+		self.poblacion[:] = self.nuevapoblacion[:]
+		self.nuevapoblacion = []
+		pass
+
+    # Remplazo de individuos peor adaptados.
+
+    # Remplazo de individuos de adaptación similar
+
+	###### Metodos de Remplazo Fin ######

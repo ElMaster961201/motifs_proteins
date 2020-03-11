@@ -56,3 +56,21 @@ class Hongos(object):
 			pass
 		self.hongo = ""
 		return self.hongos
+
+if __name__ == "__main__":
+	archivo = "./Mul.fasta"
+	hongos = []
+	hongo = ""
+	file = open(archivo, "r").readlines()
+	file = file[1:]
+	for l in file:
+		if l[0] == '>':
+			hongos.append(hongo)
+			hongo = ""
+			continue
+		hongo = hongo + l[:len(l)-1]
+		pass
+	hongo = ""
+	for i in range(len(hongos)):
+		print (hongos[i][1212:1219])
+pass

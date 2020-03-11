@@ -13,7 +13,8 @@
 """
 
 # <------------- Importaciones Inicio ------------- > 
-from Genetico import Genetico
+from Genetico_Pos import Genetico_P
+from Genetico_Motifs import Genetico_M
 from Hongos import Hongos
 from Motifs import Motifs
 # <------------- Importaciones Fin    ------------- > 
@@ -91,7 +92,7 @@ AGS = Genetico()
 # print ()
 # print (AGS.poblacion)
 
-# AGS.fits(mA)
+AGS.fits(mA)
 # print(AGS.fit)
 # AGS.ruleta()
 # print((AGS.nuevapoblacion))

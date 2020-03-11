@@ -75,7 +75,7 @@ for loop in range(0, alignment.get_alignment_length()):         #Recorrer las co
 file = open("Matriz.txt","w")
 for result in countresults:
     file.write(str(result) + os.linesep )                              
-    print(result)                             #Imprime la lista de listas resultante.
+    # print(result)                             #Imprime la lista de listas resultante.
 file.close()
 
 
@@ -160,6 +160,6 @@ for result in shannonentropies:
 print("-------------- ENTROPÍAS TOTALES ------------------")
 file = open("Entropia.txt","w")
 for result in totalentropies:  #Imprime la lista de listas resultante.
-    print (result)
+    # print (result)
     file.write(str(result) + os.linesep)
 file.close()
