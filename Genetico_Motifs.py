@@ -58,6 +58,16 @@ class Genetico(object):
 			pass
 		pass
 
+	# Funcion de control.
+	def control(self):
+		num = []
+		for i in range(self.tamPoblacion):
+			num.append(self.nuevapoblacion.index(self.nuevapoblacion[i]))
+			pass
+		aux = list(set(num))
+		aux.sort()
+		return aux
+	
 	# Funcion para evaluacion de la poblacion.
 	def fits(self, motif):
 		self.secuencia = motif[:]
@@ -83,20 +93,12 @@ class Genetico(object):
 			pass
 		pass
 
-	#### Funciones Auxiliares
-	def calculoTotal(self):
-		total = 0.0		
-		for fi in self.fit:
-			total = fi + total
-			pass
-		return total
-
 	###### Metodos de seleccion. ######
 
-	#### Ruleta simple
+	#### Ruleta Simple
 	def ruletaSimple(self):
 		
-		total = self.calculoTotal()	
+		total = sum(self.fit)
 
 		# Toma la seleccion por ruleta.
 		top = random.random()
@@ -112,13 +114,13 @@ class Genetico(object):
 	def ruleta(self):
 
 		# Toma la seleccion por ruleta.
-		for _ in range((self.tamPoblacion)-(self.numElitismo)):
+		for _ in range(self.tamPoblacion):
 			self.nuevapoblacion.append(self.ruletaSimple())
 			pass
 
 	### Muestreo Estocastico Universal Simple.
 	def estocasticoUniversalSimple(self,k=4):
-		total = self.calculoTotal()	
+		total = sum(self.fit)
 		ind = []
 
 		# Toma la seleccion Estocastico Universal con base a la matriz con indice indMatriz
@@ -139,7 +141,7 @@ class Genetico(object):
 	def estocasticoUniversal(self, k=4):
 
 		# Toma la seleccion Estocastico Universal
-		for _ in range(((self.tamPoblacion)-(self.numElitismo))//k):
+		for _ in range(self.tamPoblacion // k):
 			ind = self.estocasticoUniversalSimple(k)
 			for i in ind:
 				self.nuevapoblacion.append(i)
@@ -147,7 +149,7 @@ class Genetico(object):
 			pass
 
 		# Toma la seleccion Estocastico Universal
-		resK = (((self.tamPoblacion)-(self.numElitismo))%k)
+		resK = (self.tamPoblacion % k)
 		ind = self.estocasticoUniversalSimple(resK)
 		for i in ind:
 			self.nuevapoblacion.append(i)
@@ -179,16 +181,15 @@ class Genetico(object):
 	def torneo(self):
 
 		# Toma la seleccion por toneo con base a la matriz de SCIM
-		for _ in range((self.tamPoblacion)-(self.numElitismo)):
+		for _ in range(self.tamPoblacion):
 			self.nuevapoblacion.append(self.torneoSimple(self.tamTorneo))
 			pass
-
 		pass
 
 	### Muestreo por Restos Simple.
 	def restosSimple(self, numRestos = 1, umbral = 50):
 
-		total = self.calculoTotal()
+		total = sum(self.fit)
 		media = total / float(self.tamPoblacion)
 		# Toma la seleccion por restos
 		contador = 0
@@ -221,7 +222,7 @@ class Genetico(object):
 	def restos(self, umbral = 50):
 
 		# Toma la seleccion por restos con base a la matriz de SCIM
-		ind = self.restosSimple((self.tamPoblacion)-(self.numElitismo),self.umbral)
+		ind = self.restosSimple(self.tamPoblacion,self.umbral)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
@@ -242,7 +243,7 @@ class Genetico(object):
 			pass
 		return mayorMenor[:numElitismo],mayorMenorFits[:numElitismo]
 
-	# Elitismo simple de la nueva poblacion.
+	# Elitismo Simple de la nueva poblacion.
 	def elitismoSimpleNuevaPoblacion(self,numElitismo):
 		mayorMenor = self.nuevapoblacion[:]
 		mayorMenorFits = self.fitnuevapoblacion[:]
@@ -260,7 +261,11 @@ class Genetico(object):
 	def elitismo(self):
 		el = self.elitismoSimple(self.numElitismo)
 		for x in el[0]:
-			self.nuevapoblacion.append(x)
+			self.fitsNuevaPoblacion()
+			aux = min(self.fitnuevapoblacion)
+			i = self.fitnuevapoblacion.index(aux)
+			self.nuevapoblacion[i][:] = x 
+			# self.nuevapoblacion.append(x)
 		pass
 	###### Metodos de seleccion. Fin ######
 
@@ -270,8 +275,19 @@ class Genetico(object):
 	def puntoFijo(self):
 		for i in range(0,len(self.nuevapoblacion),2):
 			if self.proCruce > random.random():
-				punto = random.randrange(1,self.k-1)
-				self.nuevapoblacion[i][punto:], self.nuevapoblacion[i+1][punto:] = self.nuevapoblacion[i+1][punto:], self.nuevapoblacion[i][punto:]
+				punto = random.randrange(3,self.k-3)
+				# Los hijos  estan conformados de la siguiente manera.
+				# hijo1 es padre + madre 
+				# hijo2 es madre + padre
+				# Donde: 
+				# padre es: self.nuevapoblacion[i]
+				# madre es: self.nuevapoblacion[i + 1]
+				hijo1 = self.nuevapoblacion[i][:punto] + self.nuevapoblacion[i + 1][punto:]
+				hijo2 = self.nuevapoblacion[i + 1][:punto] + self.nuevapoblacion[i][punto:]
+				self.nuevapoblacion[i][:] = hijo1
+				self.nuevapoblacion[i + 1] = hijo2
+
+				# self.nuevapoblacion[i][punto:], self.nuevapoblacion[i+1][punto:] = self.nuevapoblacion[i+1][punto:], self.nuevapoblacion[i][punto:]
 				pass
 			pass
 		pass
@@ -292,12 +308,26 @@ class Genetico(object):
 	###### Metodos de reproduccion. Fin ######
 
 	###### Mutación ######
-	def mutacion(self):
+
+	# Mutacion Uniforme.
+	"""
+	Agregar el codigo que se tiene en el repositorio de git 
+	"https://github.com/IsaacRocos/AlgortimoGenetico/blob/9d390c9608ac3d0f2f17271ac3139b8ff42bae77/src/AlgGenetico.py"	
+	"""
+
+	# Mutacion Estandar 
+	def mutacionEstandar(self):
 		for i in range(self.tamPoblacion):
 			if self.proMutacion > random.random():
-				for _ in range(self.canMutacion):
+				mut = []
+				while len(mut) < self.canMutacion:
 					punto = random.randrange(self.k)
-					self.nuevapoblacion[i][punto] = random.choice(self.amoniacido)
+					if not (punto in mut):
+						mut.append(punto)
+						pass
+					pass
+				for x in mut:
+					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
 					pass
 				pass
 			pass
@@ -328,7 +358,7 @@ class Genetico(object):
 		peor,peorfit = self.elitismoSimple(self.tamPoblacion)
 		self.fitsNuevaPoblacion()
 		nueva,nuevafits = self.elitismoSimpleNuevaPoblacion(self.tamPoblacion)
-		suma = self.calculoTotal()/float(len(peor))
+		suma = sum(self.fit)/float(len(peor))
 		print (suma)
 		print(suma-(suma*0.02))
 		j = 0
