@@ -6,10 +6,8 @@ from Motifs import Motifs as MTFS
 class Genetico(object):
 
 	"""
-		Inicializamos la clase
-		Los parametros que se pueden manupular 
-		desde la creacion de la clase son los sigueintes, 
-		donde se les asigno un valor por default:
+		Inicializamos la clase los parametros que se pueden manupular desde la creacion de la 
+		clase son los sigueintes, donde se les asigno un valor por default:
 		
 		* tamPoblacion = 100
 		* k = 27
@@ -21,6 +19,41 @@ class Genetico(object):
 		* proCruce = 0.6
 		* w = [1/3, 1/3, 1/3]
 		* secuencia = []
+
+		Metodos Que pueden ser utilizados por nuestra clase:
+
+
+		__init__
+		control
+		fits
+		fitsNuevaPoblacion
+
+		##### Metodos de Seleccion. ##############################
+		ruletaSimple
+		ruleta
+		estocasticoUniversalSimple
+		estocasticoUniversal
+		torneoSimple
+		torneo
+		restosSimple
+		restos
+		elitismoSimple
+		elitismoSimpleNuevaPoblacion
+		elitismo
+
+		##### Metodos de Cruzamiento (Reproduccion). ##############################
+		puntoFijo
+		multiPunto
+
+		##### Metodos de Mutacion. ##############################
+		mutacionUniforme
+		mutacionEstandar
+
+		##### Metodos de Paso de Generacion. ##############################
+		remplazoPadres
+		remplazoAleatorio
+		remplazoPeorAdaptados
+		remplazoAdaptacionSimilar
 	"""
 
 	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
@@ -310,10 +343,17 @@ class Genetico(object):
 	###### Mutación ######
 
 	# Mutacion Uniforme.
-	"""
-	Agregar el codigo que se tiene en el repositorio de git 
-	"https://github.com/IsaacRocos/AlgortimoGenetico/blob/9d390c9608ac3d0f2f17271ac3139b8ff42bae77/src/AlgGenetico.py"	
-	"""
+	def mutacionUniforme(self):
+		pm = 1.0/self.k
+		for i in range(self.tamPoblacion):
+			for x in range(self.k):
+				r = random.random()
+				if r < pm:
+					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
+					pass
+				pass
+			pass
+		pass
 
 	# Mutacion Estandar 
 	def mutacionEstandar(self):

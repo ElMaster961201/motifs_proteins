@@ -1,0 +1,229 @@
+Diseño de experimento v0.1.3
+Con los siguientes parametros:
+
+Tamano de la poblacion: 100
+Tamano de la secuencia: 27
+Probabilidad de Mutacion: 0.1
+Cantidad de Aminiacidos a mutar: 2
+Numero de individuos seleccionado por Elitismo: 1
+Tamano de torneo: 4
+Umbral: 50
+Probabilidad de Cruce: 0.6
+Pesos de las Matrices: [0.3333333333333333, 0.3333333333333333, 0.3333333333333333]
+
+Secuencia base: ['F', 'W', 'L', 'V', 'N', 'L', 'S', 'A', 'H', 'M', 'K', 'L', 'F', 'S', 'C', 'Q', 'P', 'E', 'E', 'G', 'I', 'A', 'Y', 'L', 'F', 'M', 'Q']
+
+El Experimento se realizo 30 veces.
+Con los metodos de Ruleta, cruzamiento por punto fijo
+Mutacion Estandar, Elitismo del mejor individuo y Remplazo de padres.
+Los resultados obtenidos en el experimento N° 0
+
+Individuo [['V', 'G', 'Y', 'N', 'S', 'A', 'I', 'P', 'M', 'I', 'D', 'K', 'V', 'H', 'G', 'A', 'G', 'Q', 'H', 'A', 'N', 'G', 'C', 'W', 'N', 'S', 'P']]
+Fits[370.47877063830725]
+fits promedio del experimento 351.401290085761
+
+
+Los resultados obtenidos en el experimento N° 1
+
+Individuo [['S', 'R', 'Q', 'G', 'G', 'G', 'S', 'E', 'S', 'S', 'Q', 'E', 'P', 'N', 'Q', 'C', 'S', 'L', 'G', 'H', 'S', 'T', 'P', 'V', 'L', 'T', 'K']]
+Fits[362.3697818410713]
+fits promedio del experimento 343.2955268220027
+
+
+Los resultados obtenidos en el experimento N° 2
+
+Individuo [['H', 'I', 'E', 'Q', 'N', 'S', 'C', 'M', 'S', 'N', 'E', 'P', 'Y', 'Q', 'S', 'S', 'P', 'K', 'G', 'A', 'M', 'N', 'S', 'L', 'C', 'H', 'D']]
+Fits[361.630980369593]
+fits promedio del experimento 347.2638433911198
+
+
+Los resultados obtenidos en el experimento N° 3
+
+Individuo [['T', 'V', 'F', 'L', 'S', 'A', 'D', 'S', 'Q', 'A', 'D', 'M', 'C', 'S', 'K', 'G', 'M', 'G', 'K', 'P', 'D', 'I', 'D', 'M', 'Q', 'D', 'C']]
+Fits[365.63910431990126]
+fits promedio del experimento 351.4562288461093
+
+
+Los resultados obtenidos en el experimento N° 4
+
+Individuo [['I', 'P', 'C', 'A', 'H', 'W', 'D', 'G', 'V', 'N', 'D', 'V', 'C', 'Y', 'A', 'K', 'I', 'H', 'L', 'H', 'D', 'W', 'G', 'G', 'G', 'P', 'Q']]
+Fits[367.486347546657]
+fits promedio del experimento 352.16695812243137
+
+
+Los resultados obtenidos en el experimento N° 5
+
+Individuo [['L', 'A', 'G', 'A', 'P', 'W', 'G', 'Y', 'T', 'N', 'S', 'V', 'V', 'A', 'P', 'S', 'E', 'N', 'K', 'L', 'V', 'I', 'L', 'K', 'R', 'R', 'T']]
+Fits[361.3720653514725]
+fits promedio del experimento 347.01109841532445
+
+
+Los resultados obtenidos en el experimento N° 6
+
+Individuo [['V', 'Q', 'H', 'Y', 'Y', 'A', 'Y', 'V', 'G', 'G', 'S', 'S', 'I', 'A', 'W', 'V', 'I', 'Y', 'Q', 'M', 'V', 'T', 'C', 'I', 'I', 'S', 'Q']]
+Fits[363.1905295681597]
+fits promedio del experimento 351.660956375217
+
+
+Los resultados obtenidos en el experimento N° 7
+
+Individuo [['T', 'V', 'L', 'A', 'A', 'P', 'S', 'V', 'R', 'W', 'Q', 'I', 'A', 'T', 'C', 'D', 'K', 'H', 'Q', 'V', 'M', 'H', 'P', 'A', 'C', 'P', 'S']]
+Fits[366.00266575310474]
+fits promedio del experimento 346.9708675211844
+
+
+Los resultados obtenidos en el experimento N° 8
+
+Individuo [['N', 'A', 'V', 'M', 'M', 'L', 'S', 'P', 'M', 'N', 'M', 'G', 'V', 'G', 'G', 'S', 'K', 'R', 'K', 'G', 'L', 'D', 'C', 'E', 'C', 'V', 'D']]
+Fits[366.29125431745706]
+fits promedio del experimento 354.6165184608948
+
+
+Los resultados obtenidos en el experimento N° 9
+
+Individuo [['I', 'G', 'M', 'M', 'G', 'F', 'P', 'K', 'H', 'Y', 'D', 'W', 'L', 'P', 'G', 'D', 'G', 'Y', 'I', 'H', 'H', 'G', 'W', 'S', 'H', 'N', 'M']]
+Fits[354.883054667636]
+fits promedio del experimento 341.70648482041196
+
+
+Los resultados obtenidos en el experimento N° 10
+
+Individuo [['G', 'M', 'N', 'F', 'Q', 'I', 'P', 'G', 'E', 'V', 'E', 'Y', 'N', 'G', 'V', 'Q', 'P', 'M', 'F', 'M', 'P', 'E', 'P', 'A', 'H', 'T', 'Q']]
+Fits[359.0743768342567]
+fits promedio del experimento 346.48765446035105
+
+
+Los resultados obtenidos en el experimento N° 11
+
+Individuo [['K', 'V', 'A', 'M', 'C', 'I', 'P', 'L', 'Q', 'A', 'E', 'S', 'I', 'F', 'K', 'P', 'L', 'C', 'H', 'K', 'G', 'P', 'D', 'W', 'L', 'A', 'Q']]
+Fits[362.54383009266536]
+fits promedio del experimento 349.2479325478947
+
+
+Los resultados obtenidos en el experimento N° 12
+
+Individuo [['L', 'L', 'F', 'W', 'E', 'Y', 'A', 'A', 'A', 'L', 'P', 'L', 'S', 'H', 'C', 'R', 'G', 'T', 'R', 'P', 'S', 'N', 'P', 'T', 'T', 'T', 'Q']]
+Fits[362.81073389653875]
+fits promedio del experimento 348.4181650105456
+
+
+Los resultados obtenidos en el experimento N° 13
+
+Individuo [['M', 'G', 'F', 'G', 'R', 'G', 'N', 'Y', 'I', 'L', 'N', 'S', 'W', 'C', 'W', 'K', 'W', 'G', 'Q', 'Q', 'S', 'G', 'T', 'T', 'N', 'D', 'N']]
+Fits[358.2111390761192]
+fits promedio del experimento 345.9878434266773
+
+
+Los resultados obtenidos en el experimento N° 14
+
+Individuo [['K', 'M', 'G', 'S', 'Q', 'Q', 'T', 'Y', 'P', 'F', 'Y', 'V', 'Y', 'G', 'G', 'T', 'W', 'K', 'Y', 'A', 'P', 'G', 'E', 'G', 'C', 'Q', 'D']]
+Fits[361.5887749672662]
+fits promedio del experimento 352.20226362382675
+
+
+Los resultados obtenidos en el experimento N° 15
+
+Individuo [['H', 'G', 'D', 'N', 'W', 'A', 'Y', 'G', 'C', 'A', 'K', 'H', 'V', 'E', 'S', 'M', 'A', 'H', 'K', 'A', 'H', 'G', 'T', 'V', 'A', 'P', 'R']]
+Fits[359.0587940657025]
+fits promedio del experimento 342.0122682687886
+
+
+Los resultados obtenidos en el experimento N° 16
+
+Individuo [['L', 'W', 'P', 'L', 'K', 'T', 'A', 'G', 'F', 'A', 'D', 'H', 'S', 'G', 'W', 'G', 'P', 'Y', 'L', 'C', 'C', 'A', 'H', 'P', 'S', 'N', 'S']]
+Fits[368.6677107660961]
+fits promedio del experimento 351.9848129757094
+
+
+Los resultados obtenidos en el experimento N° 17
+
+Individuo [['V', 'A', 'S', 'H', 'D', 'V', 'Y', 'A', 'I', 'C', 'R', 'C', 'C', 'H', 'A', 'N', 'R', 'D', 'H', 'M', 'F', 'L', 'W', 'P', 'L', 'M', 'T']]
+Fits[358.7268647156412]
+fits promedio del experimento 346.5445784677195
+
+
+Los resultados obtenidos en el experimento N° 18
+
+Individuo [['K', 'G', 'L', 'K', 'D', 'G', 'G', 'M', 'A', 'T', 'D', 'A', 'D', 'S', 'P', 'G', 'T', 'R', 'K', 'W', 'P', 'A', 'C', 'M', 'P', 'C', 'A']]
+Fits[366.95931252154384]
+fits promedio del experimento 354.3244454890249
+
+
+Los resultados obtenidos en el experimento N° 19
+
+Individuo [['P', 'G', 'V', 'K', 'R', 'F', 'L', 'F', 'H', 'W', 'H', 'V', 'V', 'K', 'G', 'G', 'P', 'K', 'S', 'Y', 'Q', 'T', 'D', 'V', 'E', 'V', 'W']]
+Fits[360.77586286631]
+fits promedio del experimento 346.8195065946729
+
+
+Los resultados obtenidos en el experimento N° 20
+
+Individuo [['V', 'F', 'L', 'P', 'M', 'A', 'Q', 'P', 'C', 'G', 'D', 'M', 'M', 'N', 'C', 'A', 'P', 'G', 'E', 'I', 'L', 'S', 'T', 'W', 'I', 'W', 'W']]
+Fits[370.5649194883667]
+fits promedio del experimento 354.13724814427485
+
+
+Los resultados obtenidos en el experimento N° 21
+
+Individuo [['G', 'V', 'E', 'M', 'N', 'Y', 'A', 'T', 'A', 'Q', 'A', 'S', 'H', 'K', 'P', 'D', 'W', 'F', 'S', 'A', 'Y', 'C', 'P', 'P', 'V', 'C', 'C']]
+Fits[363.02813047580287]
+fits promedio del experimento 347.3501541653394
+
+
+Los resultados obtenidos en el experimento N° 22
+
+Individuo [['I', 'T', 'G', 'M', 'S', 'G', 'P', 'D', 'I', 'A', 'Q', 'H', 'C', 'R', 'G', 'N', 'P', 'P', 'A', 'N', 'S', 'G', 'M', 'A', 'K', 'A', 'V']]
+Fits[361.83073065964487]
+fits promedio del experimento 346.0282596974459
+
+
+Los resultados obtenidos en el experimento N° 23
+
+Individuo [['V', 'M', 'E', 'H', 'K', 'A', 'G', 'G', 'P', 'A', 'N', 'S', 'M', 'H', 'P', 'K', 'L', 'S', 'H', 'R', 'P', 'V', 'M', 'Y', 'K', 'T', 'E']]
+Fits[359.3111968968956]
+fits promedio del experimento 351.2873602238201
+
+
+Los resultados obtenidos en el experimento N° 24
+
+Individuo [['I', 'G', 'I', 'P', 'S', 'L', 'P', 'T', 'D', 'W', 'A', 'Q', 'M', 'T', 'S', 'I', 'P', 'I', 'L', 'R', 'G', 'D', 'C', 'P', 'I', 'C', 'D']]
+Fits[362.5209521675388]
+fits promedio del experimento 350.1188230667072
+
+
+Los resultados obtenidos en el experimento N° 25
+
+Individuo [['P', 'V', 'E', 'L', 'L', 'L', 'E', 'W', 'E', 'S', 'H', 'T', 'I', 'K', 'S', 'Q', 'P', 'K', 'G', 'T', 'P', 'T', 'P', 'R', 'C', 'V', 'T']]
+Fits[356.65399495828416]
+fits promedio del experimento 346.9403659135654
+
+
+Los resultados obtenidos en el experimento N° 26
+
+Individuo [['P', 'L', 'G', 'S', 'E', 'G', 'G', 'L', 'D', 'W', 'T', 'P', 'G', 'F', 'K', 'L', 'Q', 'K', 'N', 'G', 'N', 'L', 'V', 'T', 'C', 'T', 'Y']]
+Fits[363.0178685006721]
+fits promedio del experimento 351.6086538784501
+
+
+Los resultados obtenidos en el experimento N° 27
+
+Individuo [['H', 'M', 'N', 'A', 'D', 'A', 'H', 'G', 'A', 'A', 'D', 'H', 'P', 'C', 'P', 'E', 'G', 'K', 'K', 'D', 'I', 'M', 'P', 'C', 'A', 'N', 'W']]
+Fits[365.1179642145983]
+fits promedio del experimento 346.67608193953055
+
+
+Los resultados obtenidos en el experimento N° 28
+
+Individuo [['M', 'G', 'M', 'P', 'W', 'M', 'E', 'I', 'A', 'Q', 'H', 'F', 'A', 'Q', 'P', 'D', 'K', 'D', 'H', 'H', 'F', 'I', 'K', 'C', 'A', 'A', 'H']]
+Fits[362.2275079182473]
+fits promedio del experimento 348.74013480292155
+
+
+Los resultados obtenidos en el experimento N° 29
+
+Individuo [['W', 'K', 'A', 'V', 'K', 'T', 'Y', 'C', 'S', 'L', 'I', 'D', 'G', 'I', 'S', 'C', 'S', 'A', 'P', 'P', 'L', 'G', 'W', 'M', 'G', 'V', 'K']]
+Fits[359.8289628266998]
+fits promedio del experimento 350.40999943464004
+
+
+El Fit promedio del experimento es: 362.728806076075
