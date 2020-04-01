@@ -1,0 +1,473 @@
+Diseño de experimento v0.1.16
+Con los siguientes parametros:
+
+Tamano de la poblacion: 500
+Tamano de la secuencia: 27
+Probabilidad de Mutacion: 0.1
+Cantidad de Aminiacidos a mutar: 2
+Numero de individuos seleccionado por Elitismo: 1
+Tamano de torneo: 4
+Umbral: 50
+Probabilidad de Cruce: 0.6
+Pesos de las Matrices: [0.3333333333333333, 0.3333333333333333, 0.3333333333333333]
+
+Secuencia base: ['F', 'W', 'L', 'V', 'N', 'L', 'S', 'A', 'H', 'M', 'K', 'L', 'F', 'S', 'C', 'Q', 'P', 'E', 'E', 'G', 'I', 'A', 'Y', 'L', 'F', 'M', 'Q']
+
+El Experimento se realizo 50 veces.
+Con 100 Generaciones
+Con los metodos de torneo, cruzamiento por punto fijo
+Mutacion Estandar, Elitismo del mejor individuo y Remplazo de padres.
+
+Los resultados obtenidos en el experimento N° 1
+
+Individuo [['V', 'V', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'A', 'G', 'S', 'G', 'Q', 'G', 'K', 'K', 'G', 'G', 'G', 'A', 'A', 'G', 'A', 'N']]
+Fits[392.1847857687327]
+fits promedio del experimento 390.98244957271567
+
+
+El experimento N° 1 hizo un tiempo de 12.8042683601 Segundos
+
+Los resultados obtenidos en el experimento N° 2
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'G', 'G', 'S', 'G', 'D', 'G', 'A', 'S', 'G', 'N', 'P', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'G', 'A', 'K']]
+Fits[392.5391805075739]
+fits promedio del experimento 391.03633778562244
+
+
+El experimento N° 2 hizo un tiempo de 12.5128483772 Segundos
+
+Los resultados obtenidos en el experimento N° 3
+
+Individuo [['V', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'V', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'V', 'G', 'G', 'G', 'V', 'G', 'N']]
+Fits[393.245419577865]
+fits promedio del experimento 392.08203917903256
+
+
+El experimento N° 3 hizo un tiempo de 12.9528021812 Segundos
+
+Los resultados obtenidos en el experimento N° 4
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'A', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[393.3570212565556]
+fits promedio del experimento 392.0689810050314
+
+
+El experimento N° 4 hizo un tiempo de 12.5020294189 Segundos
+
+Los resultados obtenidos en el experimento N° 5
+
+Individuo [['G', 'G', 'G', 'V', 'N', 'G', 'S', 'G', 'S', 'A', 'D', 'G', 'A', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'A', 'A', 'G', 'G', 'G', 'N']]
+Fits[392.9358978636285]
+fits promedio del experimento 391.3129216778575
+
+
+El experimento N° 5 hizo un tiempo de 12.9238400459 Segundos
+
+Los resultados obtenidos en el experimento N° 6
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'A', 'V', 'S', 'G', 'N', 'G', 'K', 'K', 'A', 'V', 'G', 'A', 'V', 'G', 'G', 'N']]
+Fits[392.4469441412058]
+fits promedio del experimento 390.68035929056776
+
+
+El experimento N° 6 hizo un tiempo de 12.3557913303 Segundos
+
+Los resultados obtenidos en el experimento N° 7
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'A', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'A', 'G', 'G', 'N']]
+Fits[393.34399096885653]
+fits promedio del experimento 392.36688285550525
+
+
+El experimento N° 7 hizo un tiempo de 11.9651880264 Segundos
+
+Los resultados obtenidos en el experimento N° 8
+
+Individuo [['G', 'G', 'G', 'V', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'K', 'G', 'K', 'K', 'A', 'I', 'G', 'G', 'G', 'G', 'G', 'N']]
+Fits[393.1215942427458]
+fits promedio del experimento 391.81865970295314
+
+
+El experimento N° 8 hizo un tiempo de 12.5022764206 Segundos
+
+Los resultados obtenidos en el experimento N° 9
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'G', 'A', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[392.99970316063684]
+fits promedio del experimento 390.15357108636545
+
+
+El experimento N° 9 hizo un tiempo de 13.0640382767 Segundos
+
+Los resultados obtenidos en el experimento N° 10
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'A', 'S', 'G', 'D', 'V', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'M', 'G', 'G', 'A', 'V', 'G', 'C']]
+Fits[392.867734187647]
+fits promedio del experimento 391.81446866748644
+
+
+El experimento N° 10 hizo un tiempo de 12.2804710865 Segundos
+
+Los resultados obtenidos en el experimento N° 11
+
+Individuo [['A', 'G', 'G', 'V', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'A', 'V', 'G', 'Q']]
+Fits[392.98534454825875]
+fits promedio del experimento 392.2841623273526
+
+
+El experimento N° 11 hizo un tiempo de 12.4837510586 Segundos
+
+Los resultados obtenidos en el experimento N° 12
+
+Individuo [['G', 'G', 'G', 'V', 'N', 'G', 'G', 'G', 'G', 'A', 'D', 'G', 'G', 'S', 'G', 'N', 'A', 'K', 'K', 'G', 'A', 'G', 'G', 'G', 'G', 'G', 'N']]
+Fits[392.0671383162352]
+fits promedio del experimento 390.80347057349815
+
+
+El experimento N° 12 hizo un tiempo de 12.9904949665 Segundos
+
+Los resultados obtenidos en el experimento N° 13
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'P', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'Q']]
+Fits[393.24285266306936]
+fits promedio del experimento 391.9974431367356
+
+
+El experimento N° 13 hizo un tiempo de 12.2196185589 Segundos
+
+Los resultados obtenidos en el experimento N° 14
+
+Individuo [['G', 'G', 'A', 'A', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'H', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[392.10306195135445]
+fits promedio del experimento 391.35872051376697
+
+
+El experimento N° 14 hizo un tiempo de 12.2388460636 Segundos
+
+Los resultados obtenidos en el experimento N° 15
+
+Individuo [['G', 'G', 'G', 'G', 'K', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'A', 'V', 'K', 'G', 'A', 'G', 'G', 'G', 'N', 'G', 'N']]
+Fits[392.7169171556937]
+fits promedio del experimento 391.80606782079155
+
+
+El experimento N° 15 hizo un tiempo de 12.8696048260 Segundos
+
+Los resultados obtenidos en el experimento N° 16
+
+Individuo [['G', 'G', 'G', 'V', 'N', 'G', 'S', 'A', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'G', 'A', 'A', 'G', 'G', 'A', 'N']]
+Fits[393.0409741470888]
+fits promedio del experimento 391.4264663222537
+
+
+El experimento N° 16 hizo un tiempo de 12.5046415329 Segundos
+
+Los resultados obtenidos en el experimento N° 17
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'A', 'S', 'G', 'S', 'A', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.13176301251684]
+fits promedio del experimento 392.09234025691404
+
+
+El experimento N° 17 hizo un tiempo de 12.6126723289 Segundos
+
+Los resultados obtenidos en el experimento N° 18
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'A', 'I', 'A', 'G', 'G', 'V', 'A', 'K']]
+Fits[392.88859380131345]
+fits promedio del experimento 391.37724657284855
+
+
+El experimento N° 18 hizo un tiempo de 12.9520261288 Segundos
+
+Los resultados obtenidos en el experimento N° 19
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'G', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'A', 'A', 'N']]
+Fits[392.9414498154592]
+fits promedio del experimento 392.0261789306754
+
+
+El experimento N° 19 hizo un tiempo de 12.9780008793 Segundos
+
+Los resultados obtenidos en el experimento N° 20
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'A', 'S', 'G', 'S', 'A', 'D', 'A', 'V', 'S', 'G', 'N', 'G', 'K', 'K', 'A', 'I', 'G', 'G', 'A', 'V', 'G', 'N']]
+Fits[392.5180915561925]
+fits promedio del experimento 391.8048391896563
+
+
+El experimento N° 20 hizo un tiempo de 12.5160911083 Segundos
+
+Los resultados obtenidos en el experimento N° 21
+
+Individuo [['V', 'G', 'G', 'G', 'N', 'G', 'G', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[393.1706277716845]
+fits promedio del experimento 392.2775647886741
+
+
+El experimento N° 21 hizo un tiempo de 12.5452311039 Segundos
+
+Los resultados obtenidos en el experimento N° 22
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'E', 'G', 'G', 'S', 'A', 'N', 'P', 'K', 'H', 'G', 'G', 'K', 'G', 'G', 'G', 'G', 'N']]
+Fits[392.4515654009984]
+fits promedio del experimento 391.048514480679
+
+
+El experimento N° 22 hizo un tiempo de 12.4223375320 Segundos
+
+Los resultados obtenidos en el experimento N° 23
+
+Individuo [['A', 'G', 'G', 'G', 'N', 'G', 'G', 'G', 'S', 'G', 'D', 'A', 'P', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'A', 'N']]
+Fits[392.99409463190455]
+fits promedio del experimento 392.1177112135916
+
+
+El experimento N° 23 hizo un tiempo de 12.9164135456 Segundos
+
+Los resultados obtenidos en el experimento N° 24
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'N']]
+Fits[393.6736948978707]
+fits promedio del experimento 392.4958649994372
+
+
+El experimento N° 24 hizo un tiempo de 12.5929217339 Segundos
+
+Los resultados obtenidos en el experimento N° 25
+
+Individuo [['V', 'G', 'G', 'V', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'V', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'V', 'V', 'G', 'N']]
+Fits[392.91182099892086]
+fits promedio del experimento 391.6758993132289
+
+
+El experimento N° 25 hizo un tiempo de 12.8629498482 Segundos
+
+Los resultados obtenidos en el experimento N° 26
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'G', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.1935184044746]
+fits promedio del experimento 391.82944775812246
+
+
+El experimento N° 26 hizo un tiempo de 12.5867383480 Segundos
+
+Los resultados obtenidos en el experimento N° 27
+
+Individuo [['V', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'A', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.097039768964]
+fits promedio del experimento 391.93367696968403
+
+
+El experimento N° 27 hizo un tiempo de 12.3547692299 Segundos
+
+Los resultados obtenidos en el experimento N° 28
+
+Individuo [['G', 'G', 'G', 'V', 'N', 'G', 'S', 'A', 'S', 'A', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[393.21908125136576]
+fits promedio del experimento 391.55351680330375
+
+
+El experimento N° 28 hizo un tiempo de 12.4558930397 Segundos
+
+Los resultados obtenidos en el experimento N° 29
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'G', 'S', 'A', 'D', 'G', 'G', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'A', 'G', 'N']]
+Fits[392.9876547744303]
+fits promedio del experimento 391.84421874068823
+
+
+El experimento N° 29 hizo un tiempo de 12.3900113106 Segundos
+
+Los resultados obtenidos en el experimento N° 30
+
+Individuo [['V', 'G', 'G', 'V', 'N', 'V', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'P', 'K', 'K', 'G', 'I', 'G', 'A', 'V', 'V', 'G', 'N']]
+Fits[392.0756526099083]
+fits promedio del experimento 391.1885113402567
+
+
+El experimento N° 30 hizo un tiempo de 12.2748754025 Segundos
+
+Los resultados obtenidos en el experimento N° 31
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'G', 'S', 'A', 'D', 'G', 'V', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'A', 'G', 'G', 'N']]
+Fits[393.09715219499947]
+fits promedio del experimento 391.838760311629
+
+
+El experimento N° 31 hizo un tiempo de 12.9117751122 Segundos
+
+Los resultados obtenidos en el experimento N° 32
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'A', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.314548052557]
+fits promedio del experimento 392.13153329183496
+
+
+El experimento N° 32 hizo un tiempo de 12.2345430851 Segundos
+
+Los resultados obtenidos en el experimento N° 33
+
+Individuo [['G', 'G', 'G', 'G', 'K', 'G', 'S', 'G', 'S', 'A', 'D', 'G', 'G', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'V', 'G', 'G', 'K']]
+Fits[392.79552901697303]
+fits promedio del experimento 391.0412371418872
+
+
+El experimento N° 33 hizo un tiempo de 11.9168617725 Segundos
+
+Los resultados obtenidos en el experimento N° 34
+
+Individuo [['G', 'A', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'V', 'G', 'G', 'G', 'G', 'G', 'Q']]
+Fits[393.3397247897043]
+fits promedio del experimento 392.1890731839671
+
+
+El experimento N° 34 hizo un tiempo de 12.8973965645 Segundos
+
+Los resultados obtenidos en el experimento N° 35
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'A', 'D', 'G', 'V', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'V', 'G', 'N']]
+Fits[393.1218156336066]
+fits promedio del experimento 391.92040130454694
+
+
+El experimento N° 35 hizo un tiempo de 12.6867315769 Segundos
+
+Los resultados obtenidos en el experimento N° 36
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'G', 'G', 'S', 'A', 'D', 'G', 'V', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'N']]
+Fits[393.0625803869364]
+fits promedio del experimento 392.10682563892027
+
+
+El experimento N° 36 hizo un tiempo de 12.4958651066 Segundos
+
+Los resultados obtenidos en el experimento N° 37
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'A', 'S', 'G', 'D', 'A', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'V', 'V', 'A', 'N']]
+Fits[393.08400948126496]
+fits promedio del experimento 392.0815718504879
+
+
+El experimento N° 37 hizo un tiempo de 11.9999132156 Segundos
+
+Los resultados obtenidos en el experimento N° 38
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'A', 'S', 'G', 'D', 'V', 'G', 'G', 'G', 'Q', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'A', 'G', 'G', 'N']]
+Fits[392.5395970964001]
+fits promedio del experimento 391.72482977625293
+
+
+El experimento N° 38 hizo un tiempo de 12.3431687355 Segundos
+
+Los resultados obtenidos en el experimento N° 39
+
+Individuo [['G', 'G', 'G', 'F', 'N', 'G', 'I', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'A', 'G', 'N']]
+Fits[393.6736948978707]
+fits promedio del experimento 392.5743851035732
+
+
+El experimento N° 39 hizo un tiempo de 12.5805125237 Segundos
+
+Los resultados obtenidos en el experimento N° 40
+
+Individuo [['G', 'G', 'G', 'V', 'K', 'G', 'S', 'G', 'G', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'G', 'K']]
+Fits[392.871645717518]
+fits promedio del experimento 391.80896999275376
+
+
+El experimento N° 40 hizo un tiempo de 12.5996255875 Segundos
+
+Los resultados obtenidos en el experimento N° 41
+
+Individuo [['V', 'A', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'A', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.08462782446026]
+fits promedio del experimento 391.92603232114504
+
+
+El experimento N° 41 hizo un tiempo de 12.3127174377 Segundos
+
+Los resultados obtenidos en el experimento N° 42
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'G', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'A', 'A', 'G', 'N']]
+Fits[393.0919223798411]
+fits promedio del experimento 392.2614394094826
+
+
+El experimento N° 42 hizo un tiempo de 12.1699433327 Segundos
+
+Los resultados obtenidos en el experimento N° 43
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'R', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'V', 'G', 'G', 'A', 'V', 'V', 'N']]
+Fits[393.27330003230816]
+fits promedio del experimento 392.37582428651257
+
+
+El experimento N° 43 hizo un tiempo de 12.2582690716 Segundos
+
+Los resultados obtenidos en el experimento N° 44
+
+Individuo [['G', 'G', 'A', 'G', 'N', 'G', 'S', 'G', 'G', 'G', 'D', 'G', 'V', 'S', 'G', 'K', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'Q']]
+Fits[392.80084953294846]
+fits promedio del experimento 391.58684973693994
+
+
+El experimento N° 44 hizo un tiempo de 12.7094695568 Segundos
+
+Los resultados obtenidos en el experimento N° 45
+
+Individuo [['V', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'A', 'V', 'G', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'S']]
+Fits[392.7512146086649]
+fits promedio del experimento 391.82216541841694
+
+
+El experimento N° 45 hizo un tiempo de 12.3316349983 Segundos
+
+Los resultados obtenidos en el experimento N° 46
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'G', 'A', 'T', 'G', 'D', 'G', 'G', 'G', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'N']]
+Fits[392.54733813169366]
+fits promedio del experimento 391.52029020883117
+
+
+El experimento N° 46 hizo un tiempo de 12.3761255741 Segundos
+
+Los resultados obtenidos en el experimento N° 47
+
+Individuo [['V', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'P', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'V', 'G', 'N']]
+Fits[393.1225154874598]
+fits promedio del experimento 392.16608198779727
+
+
+El experimento N° 47 hizo un tiempo de 12.2388114929 Segundos
+
+Los resultados obtenidos en el experimento N° 48
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'G', 'S', 'G', 'S', 'G', 'D', 'G', 'G', 'S', 'G', 'N', 'G', 'K', 'K', 'G', 'I', 'G', 'G', 'G', 'G', 'A', 'N']]
+Fits[393.5101920457897]
+fits promedio del experimento 392.3744761361332
+
+
+El experimento N° 48 hizo un tiempo de 12.3830211163 Segundos
+
+Los resultados obtenidos en el experimento N° 49
+
+Individuo [['V', 'G', 'A', 'G', 'N', 'A', 'S', 'G', 'G', 'A', 'D', 'G', 'V', 'S', 'G', 'Q', 'G', 'K', 'K', 'G', 'G', 'A', 'G', 'V', 'G', 'G', 'N']]
+Fits[392.2506777216942]
+fits promedio del experimento 390.76460865995307
+
+
+El experimento N° 49 hizo un tiempo de 12.6453931332 Segundos
+
+Los resultados obtenidos en el experimento N° 50
+
+Individuo [['G', 'G', 'G', 'G', 'N', 'A', 'S', 'G', 'S', 'A', 'D', 'V', 'G', 'S', 'G', 'Q', 'G', 'K', 'K', 'G', 'G', 'G', 'G', 'G', 'A', 'A', 'N']]
+Fits[392.9759735991574]
+fits promedio del experimento 391.0888298309891
+
+
+El experimento N° 50 hizo un tiempo de 13.5620501041 Segundos
+El Fit promedio del experimento es: 392.9352423557001
+
+
+El Experimiento hizo un tiempo total de 627.2868092060 Segundos

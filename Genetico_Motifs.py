@@ -344,7 +344,7 @@ class Genetico(object):
 
 	# Mutacion Uniforme.
 	def mutacionUniforme(self):
-		pm = 1.0/self.k
+		pm = (self.proMutacion * 10)/float(self.k)
 		for i in range(self.tamPoblacion):
 			for x in range(self.k):
 				r = random.random()
