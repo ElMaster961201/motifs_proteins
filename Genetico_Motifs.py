@@ -316,7 +316,7 @@ class Genetico(object):
 		# Obtiene e mayor a menor los indices de los individuos. 
 		index = self.elitismoSimple(self.numElitismo)
 		self.fitsNuevaPoblacion()
-		aux = self.fitnuevapoblacion
+		aux = self.fitnuevapoblacion[:]
 		# Validamos que el mejor permanesca siempre.
 		if(self.mejor[1] > self.fit[index[0]]):
 			auxMin = min(aux)
