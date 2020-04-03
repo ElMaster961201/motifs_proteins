@@ -74,12 +74,13 @@ class Genetico(object):
 		self.umbral = umbral
 		self.proCruce = proCruce
 		self.w = w
+		self.secuencia = secuencia
 		self.ind = []
 		self.poblacion = []
 		self.nuevapoblacion = []
-		self.secuencia = []
-		self.fit = [0.0 for i in range(tamPoblacion)]
-		self.fitnuevapoblacion = [0.0 for i in range(tamPoblacion)]
+		self.mejor = [[],0.0,0]
+		self.fit = []
+		self.fitnuevapoblacion = []
 
 		for _ in range(self.tamPoblacion):
 			self.ind = []
@@ -110,7 +111,7 @@ class Genetico(object):
 			for k in range(self.k):
 				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + con
 				pass
-			self.fit[i] = con
+			self.fit.append(con)
 			pass
 		pass
 
@@ -119,10 +120,11 @@ class Genetico(object):
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
+
 			for k in range(self.k):
 				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
 				pass
-			self.fitnuevapoblacion[i] = con
+			self.fitnuevapoblacion.append(con)
 			pass
 		pass
 
@@ -232,8 +234,12 @@ class Genetico(object):
 				pass
 			pass
 		
-		ind = self.elitismoSimple(contador)
-		ind = ind[0][:] 
+		index = self.elitismoSimple(contador)
+
+		ind = []
+		for i in index:
+			ind.append(self.poblacion[i])
+			pass
 
 		if contador <= numRestos:
 
@@ -263,43 +269,69 @@ class Genetico(object):
 
 	### Elitismo Simple.
 	def elitismoSimple(self,numElitismo=10):
-		mayorMenor = self.poblacion[:]
+		
 		mayorMenorFits = self.fit[:]
+		mayorMenorIndex = []
 
-		for i in range(1,self.tamPoblacion):
-			for j in range(0,self.tamPoblacion - i):
-				if(mayorMenorFits[j+1] > mayorMenorFits[j]):
-					mayorMenor[j], mayorMenor[j+1] = mayorMenor[j+1], mayorMenor[j]
-					mayorMenorFits[j], mayorMenorFits[j+1] = mayorMenorFits[j+1], mayorMenorFits[j] 
-					pass
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
+			pass
+
+		if (self.mejor[1] >= self.fit[mayorMenorIndex[0]]):
+			self.mejor[2] = self.mejor[2] + 1
+
+		else:
+			if(self.mejor[1] < self.fit[mayorMenorIndex[0]]):
+				self.mejor[0] = self.poblacion[mayorMenorIndex[0]][:]
+				self.mejor[1] = self.fit[mayorMenorIndex[0]]
+				self.mejor[2] = 0
 				pass
 			pass
-		return mayorMenor[:numElitismo],mayorMenorFits[:numElitismo]
+
+		return mayorMenorIndex[:numElitismo]
 
 	# Elitismo Simple de la nueva poblacion.
 	def elitismoSimpleNuevaPoblacion(self,numElitismo):
-		mayorMenor = self.nuevapoblacion[:]
+		
 		mayorMenorFits = self.fitnuevapoblacion[:]
+		mayorMenorIndex = []
 
-		for i in range(1,self.tamPoblacion):
-			for j in range(0,self.tamPoblacion - i):
-				if(mayorMenorFits[j+1] > mayorMenorFits[j]):
-					mayorMenor[j], mayorMenor[j+1] = mayorMenor[j+1], mayorMenor[j]
-					mayorMenorFits[j], mayorMenorFits[j+1] = mayorMenorFits[j+1], mayorMenorFits[j] 
-					pass
-				pass
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
 			pass
-		return mayorMenor[:numElitismo],mayorMenorFits[:numElitismo]
+
+		return mayorMenorIndex[:numElitismo]
 
 	def elitismo(self):
-		el = self.elitismoSimple(self.numElitismo)
-		for x in el[0]:
-			self.fitsNuevaPoblacion()
-			aux = min(self.fitnuevapoblacion)
-			i = self.fitnuevapoblacion.index(aux)
-			self.nuevapoblacion[i][:] = x 
-			# self.nuevapoblacion.append(x)
+		# Obtiene e mayor a menor los indices de los individuos. 
+		index = self.elitismoSimple(self.numElitismo)
+		self.fitsNuevaPoblacion()
+		aux = self.fitnuevapoblacion
+		# Validamos que el mejor permanesca siempre.
+		if(self.mejor[1] > self.fit[index[0]]):
+			auxMin = min(aux)
+			i = self.fitnuevapoblacion.index(auxMin)
+			aux.remove(auxMin)
+			self.nuevapoblacion[i][:] = self.mejor[0][:] 
+			pass
+
+		for x in range(len(index)-1):
+			auxMin = min(aux)
+			i = self.fitnuevapoblacion.index(auxMin)
+			aux.remove(auxMin)
+			self.nuevapoblacion[i][:] = self.poblacion[index[x]][:] 
 		pass
+
 	###### Metodos de seleccion. Fin ######
 
 	###### Metodos de reproduccion. ######
@@ -381,6 +413,8 @@ class Genetico(object):
 	def remplazoPadres(self):
 		self.poblacion[:] = self.nuevapoblacion[:]
 		self.nuevapoblacion = []
+		self.fit = []
+		self.fitnuevapoblacion = []
 		pass
 
     # Remplazo aleatorio
@@ -393,9 +427,13 @@ class Genetico(object):
 		self.nuevapoblacion = []
 		pass
 
+
+	# funcion incompleta, modificar 
     # Remplazo de individuos peor adaptados.
 	def remplazoPeorAdaptados(self):
-		peor,peorfit = self.elitismoSimple(self.tamPoblacion)
+		# peor,peorfit = self.elitismoSimple(self.tamPoblacion)
+		# index = self.elitismoSimple(self.tamPoblacion)
+		"""
 		self.fitsNuevaPoblacion()
 		nueva,nuevafits = self.elitismoSimpleNuevaPoblacion(self.tamPoblacion)
 		suma = sum(self.fit)/float(len(peor))
@@ -432,6 +470,7 @@ class Genetico(object):
 			print (x)	
 		pass
 
+	"""
     # Remplazo de individuos de adaptación similar
 	def remplazoAdaptacionSimilar(self):
 		pass
