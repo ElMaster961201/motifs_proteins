@@ -6,19 +6,19 @@ from Genetico_Motifs import Genetico
 
 # Se genera una instancia del algoritmo genetico con los siguientes parametros
 p = [
-    500, # tamPoblacion -> 0
+    100, # tamPoblacion -> 0
     27, # k -> 1
-    0.1, # proMutacion -> 2 
-    2, # canMutacion -> 3
-    1, # numElitismo -> 4
-    3, # tamTorneo -> 5
+    0.5, # proMutacion -> 2 
+    8, # canMutacion -> 3
+    10, # numElitismo -> 4
+    15, # tamTorneo -> 5
 	50, # umbral -> 6 
-    0.6, # proCruce -> 7
-    [1/3, 1/3, 1/3], # w -> 8
+    1.0, # proCruce -> 7
+    [0,0,1],#1/3, 1/3, 1/3], # w -> 8
     ['F', 'W', 'L', 'V', 'N', 'L','S','A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M','Q'] # secuencia  -> 9
 ]
 
-nExperimientos = 50 
+nExperimientos = 10 
 nGeneraciones = 500
 
 cont = 0
@@ -74,15 +74,16 @@ while cont < 22:
                     # AGS.remplazoAleatorio()
                     pass
                 file.write(os.linesep)
-                mejor = AGS.elitismoSimple(1)
+                mejor = AGS.mejor
                 file.write("Individuo " + str(mejor[0]) + os.linesep)
-                file.write("Fits" + str(mejor[1]) + os.linesep)
+                file.write("Fits " + str(mejor[1]) + os.linesep)
                 file.write("fits promedio del experimento " + str(float(sum(AGS.fit))/AGS.tamPoblacion) + os.linesep)
                 file.write(os.linesep)
                 file.write(os.linesep)
+                file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
                 finishTimeexperimento = time() - startTimeExperimento
                 file.write("El experimento N° " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
-                totalfits = mejor[1].pop() + totalfits
+                totalfits = mejor[1] + totalfits
                 pass
             file.write("El Fit promedio del experimento es: " + str(float(totalfits)/nExperimientos) + os.linesep)
             finishTimeTotal = time() - startTimeTotal

@@ -79,7 +79,7 @@ class Genetico(object):
 		self.poblacion = []
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
-		self.fit = []
+		self.fit = [0.0 for i in range(tamPoblacion)]
 		self.fitnuevapoblacion = []
 
 		for _ in range(self.tamPoblacion):
@@ -94,17 +94,24 @@ class Genetico(object):
 
 	# Funcion de control.
 	def control(self):
-		num = []
-		for i in range(self.tamPoblacion):
-			num.append(self.nuevapoblacion.index(self.nuevapoblacion[i]))
-			pass
-		aux = list(set(num))
+		aux = list(set(self.fit))
 		aux.sort()
 		return aux
 	
+	# Funcion de conservacion del mejor.
+	def conservacionMejor(self):
+		self.fitsNuevaPoblacion()
+		aux = self.fitnuevapoblacion[:]
+		auxMin = min(aux)
+		i = self.fitnuevapoblacion.index(auxMin)
+		self.nuevapoblacion[i][:] = self.mejor[0][:] 
+		pass 
+
+
 	# Funcion para evaluacion de la poblacion.
 	def fits(self, motif):
 		self.secuencia = motif[:]
+		self.fit = []
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
@@ -113,10 +120,30 @@ class Genetico(object):
 				pass
 			self.fit.append(con)
 			pass
+
+		mejorFits = self.fit[:]
+
+		# Se evita valores repetidos.
+		mejorFits = list(set(mejorFits))
+		
+		# Se obtiene el indice del mejor individuo.
+		mejorIndex = self.fit.index(max(mejorFits))
+
+		if (self.mejor[1] >= self.fit[mejorIndex]):
+			self.mejor[2] = self.mejor[2] + 1
+		else:
+			if(self.mejor[1] < self.fit[mejorIndex]):
+				self.mejor[0] = self.poblacion[mejorIndex][:]
+				self.mejor[1] = self.fit[mejorIndex]
+				self.mejor[2] = 0
+				pass
+			pass
 		pass
 
 	# Funcion para evaluacion de la nueva poblacion.
 	def fitsNuevaPoblacion(self):
+
+		self.fitnuevapoblacion = []
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
@@ -258,7 +285,7 @@ class Genetico(object):
 		return ind[:numRestos]
 
 	### Muestreo por Restos. 
-	def restos(self, umbral = 50):
+	def restos(self):
 
 		# Toma la seleccion por restos con base a la matriz de SCIM
 		ind = self.restosSimple(self.tamPoblacion,self.umbral)
@@ -282,17 +309,6 @@ class Genetico(object):
 			mayorMenorFits.remove(max(mayorMenorFits))
 			pass
 
-		if (self.mejor[1] >= self.fit[mayorMenorIndex[0]]):
-			self.mejor[2] = self.mejor[2] + 1
-
-		else:
-			if(self.mejor[1] < self.fit[mayorMenorIndex[0]]):
-				self.mejor[0] = self.poblacion[mayorMenorIndex[0]][:]
-				self.mejor[1] = self.fit[mayorMenorIndex[0]]
-				self.mejor[2] = 0
-				pass
-			pass
-
 		return mayorMenorIndex[:numElitismo]
 
 	# Elitismo Simple de la nueva poblacion.
@@ -313,19 +329,13 @@ class Genetico(object):
 		return mayorMenorIndex[:numElitismo]
 
 	def elitismo(self):
-		# Obtiene e mayor a menor los indices de los individuos. 
+		# Obtiene de mayor a menor los indices de los individuos. 
 		index = self.elitismoSimple(self.numElitismo)
 		self.fitsNuevaPoblacion()
-		aux = self.fitnuevapoblacion[:]
-		# Validamos que el mejor permanesca siempre.
-		if(self.mejor[1] > self.fit[index[0]]):
-			auxMin = min(aux)
-			i = self.fitnuevapoblacion.index(auxMin)
-			aux.remove(auxMin)
-			self.nuevapoblacion[i][:] = self.mejor[0][:] 
-			pass
 
-		for x in range(len(index)-1):
+		aux = self.fitnuevapoblacion[:]
+
+		for x in range(len(index)):
 			auxMin = min(aux)
 			i = self.fitnuevapoblacion.index(auxMin)
 			aux.remove(auxMin)
@@ -341,31 +351,41 @@ class Genetico(object):
 		for i in range(0,len(self.nuevapoblacion),2):
 			if self.proCruce > random.random():
 				punto = random.randrange(3,self.k-3)
-				# Los hijos  estan conformados de la siguiente manera.
-				# hijo1 es padre + madre 
-				# hijo2 es madre + padre
-				# Donde: 
-				# padre es: self.nuevapoblacion[i]
-				# madre es: self.nuevapoblacion[i + 1]
+				"""
+				Los hijos  estan conformados de la siguiente manera.
+				hijo1 es padre + madre 
+				hijo2 es madre + padre
+				Donde: 
+				padre es: self.nuevapoblacion[i]
+				madre es: self.nuevapoblacion[i + 1]
+				"""
 				hijo1 = self.nuevapoblacion[i][:punto] + self.nuevapoblacion[i + 1][punto:]
 				hijo2 = self.nuevapoblacion[i + 1][:punto] + self.nuevapoblacion[i][punto:]
 				self.nuevapoblacion[i][:] = hijo1
-				self.nuevapoblacion[i + 1] = hijo2
-
-				# self.nuevapoblacion[i][punto:], self.nuevapoblacion[i+1][punto:] = self.nuevapoblacion[i+1][punto:], self.nuevapoblacion[i][punto:]
+				self.nuevapoblacion[i + 1][:] = hijo2
 				pass
 			pass
 		pass
 
 	# Por multi-Punto.
 	def multiPunto(self):
-		for i in range(0,len(self.nuevapoblacion),2):#self.tamPoblacion,2):
+		for i in range(1,len(self.nuevapoblacion),2):
 			if self.proCruce > random.randrange(100):
 				punto = []
-				punto.append(random.randrange(3))
-				punto.append(random.randrange(3,self.k))
-				self.nuevapoblacion[i][:punto[0]], self.nuevapoblacion[i+1][:punto[0]] = self.nuevapoblacion[i+1][:punto[0]], self.nuevapoblacion[i][:punto[0]]
-				self.nuevapoblacion[i][punto[1]:], self.nuevapoblacion[i+1][punto[1]:] = self.nuevapoblacion[i+1][punto[1]:], self.nuevapoblacion[i][punto[1]:]
+				punto.append(random.randrange(int(self.k/2)))
+				punto.append(random.randrange(int(self.k/2),self.k))
+				"""
+				Los hijos  estan conformados de la siguiente manera.
+				hijo1 es padre + madre + padre
+				hijo2 es madre + padre + madre
+				Donde: 
+				padre es: self.nuevapoblacion[i]
+				madre es: self.nuevapoblacion[i + 1]
+				"""
+				hijo1 = self.nuevapoblacion[i][:punto[0]] + self.nuevapoblacion[i + 1][punto[0]:punto[1]] + self.nuevapoblacion[i][punto[1]:]
+				hijo2 = self.nuevapoblacion[i + 1][:punto[0]] + self.nuevapoblacion[i][punto[0]:punto[1]] + self.nuevapoblacion[i + 1][punto[1]:]
+				self.nuevapoblacion[i][:] = hijo1
+				self.nuevapoblacion[i + 1][:] = hijo2
 				pass
 			pass
 		pass
@@ -411,9 +431,9 @@ class Genetico(object):
 
 	# Remplazo de los padres.
 	def remplazoPadres(self):
+		self.conservacionMejor()
 		self.poblacion[:] = self.nuevapoblacion[:]
 		self.nuevapoblacion = []
-		self.fit = []
 		self.fitnuevapoblacion = []
 		pass
 
@@ -421,9 +441,10 @@ class Genetico(object):
 	def remplazoAleatorio(self):
 		for i in range(self.tamPoblacion):
 			if random.choice([True,False]):
-				self.poblacion[i] = self.nuevapoblacion[i]
+				self.poblacion[i][:] = self.nuevapoblacion[i][:]
 				pass
 			pass
+		self.poblacion[random.randrange(self.tamPoblacion)][:] = self.mejor[0][:]
 		self.nuevapoblacion = []
 		pass
 
