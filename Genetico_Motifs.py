@@ -339,7 +339,7 @@ class Genetico(object):
 			auxMin = min(aux)
 			i = self.fitnuevapoblacion.index(auxMin)
 			aux.remove(auxMin)
-			self.nuevapoblacion[i][:] = self.poblacion[index[x]][:] 
+			self.nuevapoblacion[i] = self.poblacion[index[x]]
 		pass
 
 	###### Metodos de seleccion. Fin ######
@@ -361,8 +361,8 @@ class Genetico(object):
 				"""
 				hijo1 = self.nuevapoblacion[i][:punto] + self.nuevapoblacion[i + 1][punto:]
 				hijo2 = self.nuevapoblacion[i + 1][:punto] + self.nuevapoblacion[i][punto:]
-				self.nuevapoblacion[i][:] = hijo1
-				self.nuevapoblacion[i + 1][:] = hijo2
+				self.nuevapoblacion[i] = hijo1
+				self.nuevapoblacion[i + 1] = hijo2
 				pass
 			pass
 		pass
@@ -384,8 +384,8 @@ class Genetico(object):
 				"""
 				hijo1 = self.nuevapoblacion[i][:punto[0]] + self.nuevapoblacion[i + 1][punto[0]:punto[1]] + self.nuevapoblacion[i][punto[1]:]
 				hijo2 = self.nuevapoblacion[i + 1][:punto[0]] + self.nuevapoblacion[i][punto[0]:punto[1]] + self.nuevapoblacion[i + 1][punto[1]:]
-				self.nuevapoblacion[i][:] = hijo1
-				self.nuevapoblacion[i + 1][:] = hijo2
+				self.nuevapoblacion[i] = hijo1
+				self.nuevapoblacion[i + 1] = hijo2
 				pass
 			pass
 		pass
@@ -490,7 +490,6 @@ class Genetico(object):
 		for x in peor:
 			print (x)	
 		pass
-
 	"""
     # Remplazo de individuos de adaptación similar
 	def remplazoAdaptacionSimilar(self):
