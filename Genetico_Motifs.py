@@ -15,7 +15,7 @@ class Genetico(object):
 		* canMutacion = 2
 		* numElitismo = 1
 		* tamTorneo = 4
-		* umbral = 50
+		* umbral = 10
 		* proCruce = 0.6
 		* w = [1/3, 1/3, 1/3]
 		* secuencia = []
@@ -64,7 +64,7 @@ class Genetico(object):
 	"""Funcion que inicializa la poblacion"""
 	def __init__(self, tamPoblacion = 100, k = 27,
         proMutacion = 0.1, canMutacion = 2,numElitismo = 1,tamTorneo = 4, 
-		umbral = 50, proCruce = 0.6, w = [1/3, 1/3, 1/3],secuencia = []):
+		umbral = 10, proCruce = 0.6, w = [1/3, 1/3, 1/3],secuencia = []):
 		self.tamPoblacion = tamPoblacion
 		self.k = k
 		self.proMutacion = proMutacion
@@ -147,7 +147,6 @@ class Genetico(object):
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
-
 			for k in range(self.k):
 				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
 				pass
@@ -192,7 +191,7 @@ class Genetico(object):
 			ii = 0
 			contador = 0.0
 			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + abs(self.fit[ii])/float(total)
+				contador = contador + self.fit[ii]/float(total)
 				ii = ii +1
 				pass
 			ind.append(self.poblacion[ii])
@@ -251,8 +250,7 @@ class Genetico(object):
 	### Muestreo por Restos Simple.
 	def restosSimple(self, numRestos = 1, umbral = 50):
 
-		total = sum(self.fit)
-		media = total / float(self.tamPoblacion)
+		media = sum(self.fit) / float(self.tamPoblacion)
 		# Toma la seleccion por restos
 		contador = 0
 		for i in range(self.tamPoblacion):
@@ -287,7 +285,7 @@ class Genetico(object):
 	### Muestreo por Restos. 
 	def restos(self):
 
-		# Toma la seleccion por restos con base a la matriz de SCIM
+		# Toma la seleccion por restos
 		ind = self.restosSimple(self.tamPoblacion,self.umbral)
 		for i in ind:
 			self.nuevapoblacion.append(i)
@@ -432,7 +430,7 @@ class Genetico(object):
 	# Remplazo de los padres.
 	def remplazoPadres(self):
 		self.conservacionMejor()
-		self.poblacion[:] = self.nuevapoblacion[:]
+		self.poblacion = self.nuevapoblacion
 		self.nuevapoblacion = []
 		self.fitnuevapoblacion = []
 		pass
@@ -441,10 +439,10 @@ class Genetico(object):
 	def remplazoAleatorio(self):
 		for i in range(self.tamPoblacion):
 			if random.choice([True,False]):
-				self.poblacion[i][:] = self.nuevapoblacion[i][:]
+				self.poblacion[i] = self.nuevapoblacion[i]
 				pass
 			pass
-		self.poblacion[random.randrange(self.tamPoblacion)][:] = self.mejor[0][:]
+		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
 		pass
 
@@ -452,45 +450,26 @@ class Genetico(object):
 	# funcion incompleta, modificar 
     # Remplazo de individuos peor adaptados.
 	def remplazoPeorAdaptados(self):
-		# peor,peorfit = self.elitismoSimple(self.tamPoblacion)
-		# index = self.elitismoSimple(self.tamPoblacion)
-		"""
+		
+		media = sum(self.fit) / float(self.tamPoblacion)
 		self.fitsNuevaPoblacion()
-		nueva,nuevafits = self.elitismoSimpleNuevaPoblacion(self.tamPoblacion)
-		suma = sum(self.fit)/float(len(peor))
-		print (suma)
-		print(suma-(suma*0.02))
-		j = 0
-		count = 0
-		for i in range(len(peor)):
-			print(peorfit[i])
-			if peorfit[i] <= suma - (suma*.02):
-				count = count +1 
-				print ("Entro a la condicional")
-				print(j)
-				print(nuevafits[j])
-				print(nueva[j] in peor)
-				print(peor.count(nueva[j]))
-				if nuevafits[j] >= suma - (suma*.02) and peor.count(nueva[j]) == 0:
-					print ("peor: ",peor[i]," fit: ",peorfit[i])
-					print ("peor: ",nueva[j]," fit: ",nuevafits[j])
-					peor[i] = nueva[j]
-					j = j +1
-				else:
-					while peor.count(nueva[j]) !=0 and j < self.tamPoblacion-1:
-						j = j+1
-						pass
-					print ("peor2: ",peor[i]," fit: ",peorfit[i])
-					print ("peor2: ",nueva[j]," fit: ",nuevafits[j])
-					peor[i] = nueva[j]
-					j = j+1
-					pass
+		mejorFits = self.fitnuevapoblacion[:]
+		# Se evita valores repetidos.
+		mejorFits = list(set(mejorFits))		
+
+		for i in range(self.tamPoblacion):
+			if self.fit[i] < (media - (media*self.umbral/100.0)):
+				# Se obtiene el indice del mejor individuo.
+				mejorIndex = self.fitnuevapoblacion.index(max(mejorFits))
+				mejorFits.remove(max(mejorFits))
+				self.poblacion[i] = self.nuevapoblacion[mejorIndex]
+				if len(mejorFits) == 0:
+					mejorFits = self.fitnuevapoblacion[:]
+					# Se evita valores repetidos.
+					mejorFits = list(set(mejorFits))
 				pass
 			pass
-		for x in peor:
-			print (x)	
-		pass
-	"""
+
     # Remplazo de individuos de adaptación similar
 	def remplazoAdaptacionSimilar(self):
 		pass
