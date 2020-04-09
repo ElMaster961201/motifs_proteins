@@ -442,6 +442,7 @@ class Genetico(object):
 			pass
 		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
+		self.fitnuevapoblacion = []
 		pass
 
     # Remplazo de individuos peor adaptados.
@@ -466,9 +467,41 @@ class Genetico(object):
 					mejorFits = list(set(mejorFits))
 				pass
 			pass
+		self.nuevapoblacion = []
+		self.fitnuevapoblacion = []
+		pass
 
     # Remplazo de individuos de adaptación similar
 	def remplazoAdaptacionSimilar(self):
+		# Se ordena la poblacion y la nueva generacion 
+
+		poblacionFits = self.fit[:]
+		poblacionIndex = []
+
+		self.fitsNuevaPoblacion()
+		nuevaPoblacionFits = self.fitnuevapoblacion[:]
+		nuevaPoblacionIndex = []
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(poblacionFits)):
+			# Se ordena la poblacion.
+			poblacionIndex.append(self.fit.index(max(poblacionFits)))
+			poblacionFits.remove(max(poblacionFits))
+
+			# Se ordena la nueva poblacion.
+			nuevaPoblacionIndex.append(self.fitnuevapoblacion.index(max(nuevaPoblacionFits)))
+			nuevaPoblacionFits.remove(max(nuevaPoblacionFits))
+
+			pass
+
+		vecindad = random.randrange(3,6)
+		ei = [i for i in range(vecindad)]
+		for i in range(0,self.tamPoblacion - vecindad,vecindad):
+			self.poblacion[poblacionIndex[i + random.choice(ei)]] = self.nuevapoblacion[nuevaPoblacionIndex[i]]
+			pass
+
+		self.nuevapoblacion = []
+		self.fitnuevapoblacion = []
 		pass
 
 	###### Metodos de Remplazo Fin ######
