@@ -20,26 +20,29 @@ class Genetico(object):
 		* w = [1/3, 1/3, 1/3]
 		* secuencia = []
 
-		Metodos Que pueden ser utilizados por nuestra clase:
+		Metodos que contiene la clase:
 
 
 		__init__
-		control
+
+		##### Metodos de Evaluacion de la poblacion. ##############################
 		fits
 		fitsNuevaPoblacion
 
-		##### Metodos de Seleccion. ##############################
+		##### Funciones Auxiliares. ##############################
+		control
 		ruletaSimple
-		ruleta
 		estocasticoUniversalSimple
-		estocasticoUniversal
 		torneoSimple
-		torneo
 		restosSimple
-		restos
 		elitismoSimple
 		elitismoSimpleNuevaPoblacion
-		elitismo
+
+		##### Metodos de Seleccion. ##############################
+		ruleta
+		estocasticoUniversal
+		torneo
+		restos
 
 		##### Metodos de Cruzamiento (Reproduccion). ##############################
 		puntoFijo
@@ -48,6 +51,9 @@ class Genetico(object):
 		##### Metodos de Mutacion. ##############################
 		mutacionUniforme
 		mutacionEstandar
+
+		##### Metodo de Conservacion. ##############################
+		elitismo
 
 		##### Metodos de Paso de Generacion. ##############################
 		remplazoPadres
@@ -94,7 +100,7 @@ class Genetico(object):
 
 	###### Funciones Auxiliares. ###### 
 
-	# Funcion de control.
+	### Funcion de control.
 	def control(self):
 		aux = list(set(self.fit))
 		aux.sort()
@@ -154,7 +160,7 @@ class Genetico(object):
 	 
 	###### Metodos de seleccion. ######
 
-	#### Ruleta Simple
+	#### Ruleta Simple.
 	def ruletaSimple(self):
 		
 		total = sum(self.fit)
@@ -169,7 +175,7 @@ class Genetico(object):
 			pass
 		return self.poblacion[i]
 
-	#### Ruleta.
+	# Ruleta.
 	def ruleta(self):
 
 		# Toma la seleccion por ruleta.
@@ -196,7 +202,7 @@ class Genetico(object):
 			pass
 		return ind
 
-	### Muestreo Estocastico Universal.
+	# Muestreo Estocastico Universal.
 	def estocasticoUniversal(self, k=4):
 
 		# Toma la seleccion Estocastico Universal
@@ -236,7 +242,7 @@ class Genetico(object):
 			pass
 		return self.poblacion[ind]
 
-	### Torneo.
+	# Torneo.
 	def torneo(self):
 
 		# Toma la seleccion por toneo con base a la matriz de SCIM
@@ -278,7 +284,7 @@ class Genetico(object):
 			pass
 		return ind[:numRestos]
 
-	### Muestreo por Restos. 
+	# Muestreo por Restos. 
 	def restos(self):
 
 		# Toma la seleccion por restos
@@ -286,54 +292,6 @@ class Genetico(object):
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
-		pass
-
-	### Elitismo Simple.
-	def elitismoSimple(self,numElitismo=10):
-		
-		mayorMenorFits = self.fit[:]
-		mayorMenorIndex = []
-
-		# Se evita valores repetidos.
-		mayorMenorFits = list(set(mayorMenorFits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayorMenorFits)):
-			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
-			mayorMenorFits.remove(max(mayorMenorFits))
-			pass
-
-		return mayorMenorIndex[:numElitismo]
-
-	# Elitismo Simple de la nueva poblacion.
-	def elitismoSimpleNuevaPoblacion(self,numElitismo):
-		
-		mayorMenorFits = self.fitnuevapoblacion[:]
-		mayorMenorIndex = []
-
-		# Se evita valores repetidos.
-		mayorMenorFits = list(set(mayorMenorFits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayorMenorFits)):
-			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
-			mayorMenorFits.remove(max(mayorMenorFits))
-			pass
-
-		return mayorMenorIndex[:numElitismo]
-
-	def elitismo(self):
-		# Obtiene de mayor a menor los indices de los individuos. 
-		index = self.elitismoSimple(self.numElitismo)
-		self.fitsNuevaPoblacion()
-
-		aux = self.fitnuevapoblacion[:]
-
-		for x in range(len(index)):
-			auxMin = min(aux)
-			i = self.fitnuevapoblacion.index(auxMin)
-			aux.remove(auxMin)
-			self.nuevapoblacion[i] = self.poblacion[index[x]]
 		pass
 
 	###### Metodos de seleccion. Fin ######
@@ -401,7 +359,7 @@ class Genetico(object):
 			pass
 		pass
 
-	# Mutacion Estandar 
+	# Mutacion Estandar.
 	def mutacionEstandar(self):
 		for i in range(self.tamPoblacion):
 			if self.proMutacion > random.random():
@@ -421,7 +379,60 @@ class Genetico(object):
 	
 	###### Mutación Fin ######
 
-	###### Metodos de Remplazo ######
+	###### Metodo de Conservacion. ######
+	
+	### Elitismo Simple.
+	def elitismoSimple(self,numElitismo=10):
+		
+		mayorMenorFits = self.fit[:]
+		mayorMenorIndex = []
+
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
+			pass
+
+		return mayorMenorIndex[:numElitismo]
+
+	### Elitismo Simple de la nueva poblacion.
+	def elitismoSimpleNuevaPoblacion(self,numElitismo):
+		
+		mayorMenorFits = self.fitnuevapoblacion[:]
+		mayorMenorIndex = []
+
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
+			pass
+
+		return mayorMenorIndex[:numElitismo]
+
+	# Elitismo.
+	def elitismo(self):
+		# Obtiene de mayor a menor los indices de los individuos. 
+		index = self.elitismoSimple(self.numElitismo)
+		self.fitsNuevaPoblacion()
+
+		aux = self.fitnuevapoblacion[:]
+
+		for x in range(len(index)):
+			auxMin = min(aux)
+			i = self.fitnuevapoblacion.index(auxMin)
+			aux.remove(auxMin)
+			self.nuevapoblacion[i] = self.poblacion[index[x]]
+		pass
+
+	##### Metodo de Conservacion. Fin ######
+
+	###### Metodos de Remplazo. ######
 
 	# Remplazo de los padres.
 	def remplazoPadres(self):
@@ -433,7 +444,7 @@ class Genetico(object):
 		self.fitnuevapoblacion = []
 		pass
 
-    # Remplazo aleatorio
+    # Remplazo aleatorio.
 	def remplazoAleatorio(self):
 		for i in range(self.tamPoblacion):
 			if random.choice([True,False]):
@@ -471,7 +482,7 @@ class Genetico(object):
 		self.fitnuevapoblacion = []
 		pass
 
-    # Remplazo de individuos de adaptación similar
+    # Remplazo de individuos de adaptación similar.
 	def remplazoAdaptacionSimilar(self):
 		# Se ordena la poblacion y la nueva generacion 
 
@@ -504,4 +515,4 @@ class Genetico(object):
 		self.fitnuevapoblacion = []
 		pass
 
-	###### Metodos de Remplazo Fin ######
+	###### Metodos de Remplazo. Fin ######
