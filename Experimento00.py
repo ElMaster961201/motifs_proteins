@@ -73,8 +73,8 @@ while t:
             file.write(os.linesep)
             file.write("Los resultados obtenidos en el experimento N° N." + str(_ + 1 ) + os.linesep)
             AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8])
+            AGS.fits(p[9])
             for i in range(nGeneraciones):
-                # AGS.fits(p[9])
 
                 ##### Metodos de Seleccion. ######
                 # AGS.ruleta()
@@ -98,7 +98,8 @@ while t:
                 # AGS.remplazoAleatorio()
                 # AGS.remplazoPeorAdaptados()
                 # AGS.remplazoAdaptacionSimilar()
-
+                
+                # AGS.fits(p[9])
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 
