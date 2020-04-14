@@ -478,6 +478,7 @@ class Genetico(object):
 					mejorFits = list(set(mejorFits))
 				pass
 			pass
+		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
 		self.fitnuevapoblacion = []
 		pass
@@ -511,6 +512,7 @@ class Genetico(object):
 			self.poblacion[poblacionIndex[i + random.choice(ei)]] = self.nuevapoblacion[nuevaPoblacionIndex[i]]
 			pass
 
+		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
 		self.fitnuevapoblacion = []
 		pass
