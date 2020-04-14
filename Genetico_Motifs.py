@@ -69,8 +69,8 @@ class Genetico(object):
 		
 	"""Funcion que inicializa la poblacion"""
 	def __init__(self, tamPoblacion = 100, k = 27,
-        proMutacion = 0.1, canMutacion = 2,numElitismo = 1,tamTorneo = 4, 
-		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3],secuencia = []):
+        proMutacion = 0.1, canMutacion = 2, numElitismo = 1, tamTorneo = 4, 
+		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuencia = []):
 		self.tamPoblacion = tamPoblacion
 		self.k = k
 		self.proMutacion = proMutacion
@@ -81,21 +81,13 @@ class Genetico(object):
 		self.proCruce = proCruce
 		self.w = w
 		self.secuencia = secuencia
-		self.ind = []
-		self.poblacion = []
+		# Inicializacion de la poblacion.
+		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.k) ] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
-		self.fit = [0.0 for i in range(tamPoblacion)]
+		self.fit = []
 		self.fitnuevapoblacion = []
 
-		for _ in range(self.tamPoblacion):
-			self.ind = []
-			for _ in range(self.k):
-				self.ind.append(random.choice(self.amoniacido))
-				pass
-			self.poblacion.append(self.ind)
-			self.ind = []
-			pass
 		pass
 
 	###### Funciones Auxiliares. ###### 
