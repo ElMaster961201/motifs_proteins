@@ -3,6 +3,7 @@
 import random
 from Motifs import Motifs as MTFS
 
+###### Genetico. ######
 class Genetico(object):
 
 	"""
@@ -14,6 +15,7 @@ class Genetico(object):
 		* proMutacion = 0.1
 		* canMutacion = 2
 		* numElitismo = 1
+		* knumeros = 4
 		* tamTorneo = 4
 		* numRestos = 500
 		* proCruce = 0.6
@@ -26,11 +28,10 @@ class Genetico(object):
 		__init__
 
 		##### Metodos de Evaluacion de la poblacion. ##############################
-		fits
-		fitsNuevaPoblacion
+		evaluacionPoblacion
+		evaluacionNuevaPoblacion
 
 		##### Funciones Auxiliares. ##############################
-		control
 		ruletaSimple
 		estocasticoUniversalSimple
 		torneoSimple
@@ -67,15 +68,16 @@ class Genetico(object):
 	amoniacido = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
 	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
 		
-	"""Funcion que inicializa la poblacion"""
+	###### Funcion que inicializa la poblacion ######
 	def __init__(self, tamPoblacion = 100, k = 27,
-        proMutacion = 0.1, canMutacion = 2, numElitismo = 1, tamTorneo = 4, 
+        proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
 		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuencia = []):
 		self.tamPoblacion = tamPoblacion
 		self.k = k
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
+		self.knumeros = knumeros
 		self.tamTorneo = tamTorneo
 		self.numRestos = numRestos
 		self.proCruce = proCruce
@@ -85,87 +87,188 @@ class Genetico(object):
 		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.k) ] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
-		self.fit = []
-		self.fitnuevapoblacion = []
+		self.adaptacion = []
+		self.adaptacionnuevapoblacion = []
 
 		pass
+
+	###### Funcion que inicializa la poblacion ######
 
 	###### Funciones Auxiliares. ###### 
-
-	### Funcion de control.
-	def control(self):
-		aux = list(set(self.fit))
-		aux.sort()
-		return aux
-	
-	###### Funciones Auxiliares. ######
-
-	###### Metodo de evaluacion de la poblacion. ######
-
-	# Funcion para evaluacion de la poblacion.
-	def fits(self, motif):
-		self.secuencia = motif[:]
-		self.fit = []
-		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
-			con = 0.0
-			for k in range(self.k):
-				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + con
-				pass
-			self.fit.append(con)
-			pass
-
-		mejorFits = self.fit[:]
-
-		# Se evita valores repetidos.
-		mejorFits = list(set(mejorFits))
-		
-		# Se obtiene el indice del mejor individuo.
-		mejorIndex = self.fit.index(max(mejorFits))
-
-		if (self.mejor[1] >= self.fit[mejorIndex]):
-			self.mejor[2] = self.mejor[2] + 1
-		else:
-			if(self.mejor[1] < self.fit[mejorIndex]):
-				self.mejor[0] = self.poblacion[mejorIndex][:]
-				self.mejor[1] = self.fit[mejorIndex]
-				self.mejor[2] = 0
-				pass
-			pass
-		pass
-
-	# Funcion para evaluacion de la nueva poblacion.
-	def fitsNuevaPoblacion(self):
-
-		self.fitnuevapoblacion = []
-		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
-			con = 0.0
-			for k in range(self.k):
-				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
-				pass
-			self.fitnuevapoblacion.append(con)
-			pass
-		pass
-
-	###### Metodo de evaluacion de la poblacion. Fin ######
-	 
-	###### Metodos de seleccion. ######
 
 	#### Ruleta Simple.
 	def ruletaSimple(self):
 		
-		total = sum(self.fit)
+		total = sum(self.adaptacion)
 
 		# Toma la seleccion por ruleta.
 		top = random.random()
 		i = 0
 		contador = 0.0
 		while contador < top and i < self.tamPoblacion-1:
-			contador = contador + self.fit[i]/float(total)
+			contador = contador + self.adaptacion[i]/float(total)
 			i = i +1
 			pass
 		return self.poblacion[i]
+
+	### Muestreo Estocastico Universal Simple.
+	def estocasticoUniversalSimple(self,knumeros=4):
+		total = sum(self.adaptacion)
+		ind = []
+
+		# Toma la seleccion estocastico universal con base a la matriz con indice indMatriz
+		top = random.random()
+		for i in range(knumeros):
+			a = (top + i) / knumeros
+			ii = 0
+			contador = 0.0
+			while contador < a and ii < self.tamPoblacion-1:
+				contador = contador + self.adaptacion[ii]/float(total)
+				ii = ii +1
+				pass
+			ind.append(self.poblacion[ii])
+			pass
+		return ind
+
+	### Torneo Simple
+	def torneoSimple(self, tamTorneo=4):
+		
+		num = []
+
+		while len(num) < tamTorneo:
+			tem = random.randrange(self.tamPoblacion)
+			if not (tem in num):
+				num.append(tem)
+				pass
+			pass
+		tor = self.adaptacion[num[0]]
+		ind = num[0]
+		for i in num:
+			if tor < self.adaptacion[i]:
+				tor = self.adaptacion[i]
+				ind = i
+				pass
+			pass
+		return self.poblacion[ind]
+
+	### Muestreo por Restos Simple.
+	def restosSimple(self, numRestos = 500):
+
+		# Toma la seleccion por restos
+		ind = []
+		for i in range(self.tamPoblacion):
+			pi = int((self.adaptacion[i]/sum(self.adaptacion)*numRestos))
+			for _ in range(pi):
+				ind.append(self.poblacion[i])
+				pass
+			pass
+
+		if len(ind) < self.tamPoblacion:
+
+			fun = [
+					lambda _: self.estocasticoUniversalSimple(1),
+					lambda _: self.ruletaSimple(),
+					lambda _: self.torneoSimple(self.tamTorneo)
+					]
+
+			for _ in range(len(ind),self.tamPoblacion):
+				tem = random.randrange(3)
+				if tem == 0:
+					ind.append(fun[tem](0)[0]) 
+				else:
+					ind.append(fun[tem](0))
+					pass
+				pass
+			pass
+		return ind[:self.tamPoblacion]
+
+	### Elitismo Simple.
+	def elitismoSimple(self,numElitismo=10):
+		
+		mayorMenorFits = self.adaptacion[:]
+		mayorMenorIndex = []
+
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.adaptacion.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
+			pass
+
+		return mayorMenorIndex[:numElitismo]
+
+	### Elitismo Simple de la nueva poblacion.
+	def elitismoSimpleNuevaPoblacion(self,numElitismo):
+		
+		mayorMenorFits = self.adaptacionnuevapoblacion[:]
+		mayorMenorIndex = []
+
+		# Se evita valores repetidos.
+		mayorMenorFits = list(set(mayorMenorFits))
+		
+		# Se ordena los valores de mayor a menor.
+		for _ in range(len(mayorMenorFits)):
+			mayorMenorIndex.append(self.adaptacionnuevapoblacion.index(max(mayorMenorFits)))
+			mayorMenorFits.remove(max(mayorMenorFits))
+			pass
+
+		return mayorMenorIndex[:numElitismo]
+
+	###### Funciones Auxiliares. ######
+
+	###### Metodo de evaluacion de la poblacion. ######
+
+	# Funcion para evaluacion de la poblacion.
+	def evaluacionPoblacion(self, motif):
+		self.secuencia = motif[:]
+		self.adaptacion = []
+		# Comenzamos un ciclo para cada individuo.
+		for i in range(self.tamPoblacion):
+			con = 0.0
+			for k in range(self.k):
+				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + con
+				pass
+			self.adaptacion.append(con)
+			pass
+
+		mejorAdaptacion = self.adaptacion[:]
+
+		# Se evita valores repetidos.
+		mejorAdaptacion = list(set(mejorAdaptacion))
+		
+		# Se obtiene el indice del mejor individuo.
+		mejorIndex = self.adaptacion.index(max(mejorAdaptacion))
+
+		if (self.mejor[1] >= self.adaptacion[mejorIndex]):
+			self.mejor[2] = self.mejor[2] + 1
+		else:
+			if(self.mejor[1] < self.adaptacion[mejorIndex]):
+				self.mejor[0] = self.poblacion[mejorIndex][:]
+				self.mejor[1] = self.adaptacion[mejorIndex]
+				self.mejor[2] = 0
+				pass
+			pass
+		pass
+
+	# Funcion para evaluacion de la nueva poblacion.
+	def evaluacionNuevaPoblacion(self):
+
+		self.adaptacionnuevapoblacion = []
+		# Comenzamos un ciclo para cada individuo.
+		for i in range(self.tamPoblacion):
+			con = 0.0
+			for k in range(self.k):
+				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				pass
+			self.adaptacionnuevapoblacion.append(con)
+			pass
+		pass
+
+	###### Metodo de evaluacion de la poblacion. Fin ######
+	 
+	###### Metodos de seleccion. ######
 
 	# Ruleta.
 	def ruleta(self):
@@ -175,64 +278,23 @@ class Genetico(object):
 			self.nuevapoblacion.append(self.ruletaSimple())
 			pass
 
-	### Muestreo Estocastico Universal Simple.
-	def estocasticoUniversalSimple(self,k=4):
-		total = sum(self.fit)
-		ind = []
-
-		# Toma la seleccion Estocastico Universal con base a la matriz con indice indMatriz
-		top = random.random()
-		for i in range(k):
-			a = (top + i) / k
-			ii = 0
-			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
-				contador = contador + self.fit[ii]/float(total)
-				ii = ii +1
-				pass
-			ind.append(self.poblacion[ii])
-			pass
-		return ind
-
 	# Muestreo Estocastico Universal.
-	def estocasticoUniversal(self, k=4):
+	def estocasticoUniversal(self):
 
 		# Toma la seleccion Estocastico Universal
-		for _ in range(self.tamPoblacion // k):
-			ind = self.estocasticoUniversalSimple(k)
+		for _ in range(self.tamPoblacion // self.knumeros):
+			ind = self.estocasticoUniversalSimple(self.knumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 				pass
 			pass
 
 		# Toma la seleccion Estocastico Universal
-		resK = (self.tamPoblacion % k)
+		resK = (self.tamPoblacion % self.knumeros)
 		ind = self.estocasticoUniversalSimple(resK)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
-
-	### Torneo Simple
-	def torneoSimple(self, tamTorneo=4):
-		
-		num = []
-
-		# Toma la seleccion por toneo con base a la matriz con indice indMatriz
-		while len(num) < tamTorneo:
-			tem = random.randrange(self.tamPoblacion)
-			if not (tem in num):
-				num.append(tem)
-				pass
-			pass
-		tor = self.fit[num[0]]
-		ind = num[0]
-		for i in num:
-			if tor < self.fit[i]:
-				tor = self.fit[i]
-				ind = i
-				pass
-			pass
-		return self.poblacion[ind]
 
 	# Torneo.
 	def torneo(self):
@@ -242,39 +304,6 @@ class Genetico(object):
 			self.nuevapoblacion.append(self.torneoSimple(self.tamTorneo))
 			pass
 		pass
-
-	### Muestreo por Restos Simple.
-	def restosSimple(self, numRestos = 500):
-
-		# Toma la seleccion por restos
-		ind = []
-		for i in range(self.tamPoblacion):
-
-			pi = int((self.fit[i]/sum(self.fit)*numRestos))
-			for _ in range(pi):
-				ind.append(self.poblacion[i])
-				pass
-			pass
-
-		if len(ind) <= numRestos:
-
-			fun = [
-					lambda _: self.estocasticoUniversalSimple(1),
-					lambda _: self.ruletaSimple(),
-					lambda _: self.torneoSimple(self.tamTorneo)
-					]
-
-			for _ in range(len(ind),numRestos):
-				tem = random.randrange(3)
-
-				if tem == 0:
-					ind.append(fun[tem](0)[0]) 
-				else:
-					ind.append(fun[tem](0))
-					pass
-				pass
-			pass
-		return ind[:numRestos]
 
 	# Muestreo por Restos. 
 	def restos(self):
@@ -373,67 +402,33 @@ class Genetico(object):
 
 	###### Metodo de Conservacion. ######
 	
-	### Elitismo Simple.
-	def elitismoSimple(self,numElitismo=10):
-		
-		mayorMenorFits = self.fit[:]
-		mayorMenorIndex = []
-
-		# Se evita valores repetidos.
-		mayorMenorFits = list(set(mayorMenorFits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayorMenorFits)):
-			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
-			mayorMenorFits.remove(max(mayorMenorFits))
-			pass
-
-		return mayorMenorIndex[:numElitismo]
-
-	### Elitismo Simple de la nueva poblacion.
-	def elitismoSimpleNuevaPoblacion(self,numElitismo):
-		
-		mayorMenorFits = self.fitnuevapoblacion[:]
-		mayorMenorIndex = []
-
-		# Se evita valores repetidos.
-		mayorMenorFits = list(set(mayorMenorFits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayorMenorFits)):
-			mayorMenorIndex.append(self.fit.index(max(mayorMenorFits)))
-			mayorMenorFits.remove(max(mayorMenorFits))
-			pass
-
-		return mayorMenorIndex[:numElitismo]
-
 	# Elitismo.
 	def elitismo(self):
 		# Obtiene de mayor a menor los indices de los individuos. 
 		index = self.elitismoSimple(self.numElitismo)
-		self.fitsNuevaPoblacion()
+		self.evaluacionNuevaPoblacion()
 
-		aux = self.fitnuevapoblacion[:]
+		aux = self.adaptacionnuevapoblacion[:]
 
 		for x in range(len(index)):
 			auxMin = min(aux)
-			i = self.fitnuevapoblacion.index(auxMin)
+			i = self.adaptacionnuevapoblacion.index(auxMin)
 			aux.remove(auxMin)
 			self.nuevapoblacion[i] = self.poblacion[index[x]]
 		pass
 
 	##### Metodo de Conservacion. Fin ######
 
-	###### Metodos de Remplazo. ######
+	###### Metodos de Paso de generacion. ######
 
 	# Remplazo de los padres.
 	def remplazoPadres(self):
-		self.fitsNuevaPoblacion()
-		i = self.fitnuevapoblacion.index(min(self.fitnuevapoblacion[:]))
+		self.evaluacionNuevaPoblacion()
+		i = self.adaptacionnuevapoblacion.index(min(self.adaptacionnuevapoblacion[:]))
 		self.nuevapoblacion[i] = self.mejor[0]
 		self.poblacion = self.nuevapoblacion
 		self.nuevapoblacion = []
-		self.fitnuevapoblacion = []
+		self.adaptacionnuevapoblacion = []
 		pass
 
     # Remplazo aleatorio.
@@ -445,55 +440,55 @@ class Genetico(object):
 			pass
 		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
-		self.fitnuevapoblacion = []
+		self.adaptacionnuevapoblacion = []
 		pass
 
     # Remplazo de individuos peor adaptados.
 	def remplazoPeorAdaptados(self):
 		
-		media = sum(self.fit) / float(self.tamPoblacion)
+		media = sum(self.adaptacion) / float(self.tamPoblacion)
 		
-		self.fitsNuevaPoblacion()
-		mejorFits = self.fitnuevapoblacion[:]
+		self.evaluacionNuevaPoblacion()
+		mejorFits = self.adaptacionnuevapoblacion[:]
 		# Se evita valores repetidos.
 		mejorFits = list(set(mejorFits))		
 
 		for i in range(self.tamPoblacion):
-			if self.fit[i] < (media - (media*0.1)):
+			if self.adaptacion[i] < (media - (media*0.1)):
 				# Se obtiene el indice del mejor individuo.
-				mejorIndex = self.fitnuevapoblacion.index(max(mejorFits))
+				mejorIndex = self.adaptacionnuevapoblacion.index(max(mejorFits))
 				mejorFits.remove(max(mejorFits))
 				self.poblacion[i] = self.nuevapoblacion[mejorIndex]
 				if len(mejorFits) == 0:
-					mejorFits = self.fitnuevapoblacion[:]
+					mejorFits = self.adaptacionnuevapoblacion[:]
 					# Se evita valores repetidos.
 					mejorFits = list(set(mejorFits))
 				pass
 			pass
 		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
-		self.fitnuevapoblacion = []
+		self.adaptacionnuevapoblacion = []
 		pass
 
     # Remplazo de individuos de adaptación similar.
 	def remplazoAdaptacionSimilar(self):
 		# Se ordena la poblacion y la nueva generacion 
 
-		poblacionFits = self.fit[:]
+		poblacionFits = self.adaptacion[:]
 		poblacionIndex = []
 
-		self.fitsNuevaPoblacion()
-		nuevaPoblacionFits = self.fitnuevapoblacion[:]
+		self.evaluacionNuevaPoblacion()
+		nuevaPoblacionFits = self.adaptacionnuevapoblacion[:]
 		nuevaPoblacionIndex = []
 		
 		# Se ordena los valores de mayor a menor.
 		for _ in range(len(poblacionFits)):
 			# Se ordena la poblacion.
-			poblacionIndex.append(self.fit.index(max(poblacionFits)))
+			poblacionIndex.append(self.adaptacion.index(max(poblacionFits)))
 			poblacionFits.remove(max(poblacionFits))
 
 			# Se ordena la nueva poblacion.
-			nuevaPoblacionIndex.append(self.fitnuevapoblacion.index(max(nuevaPoblacionFits)))
+			nuevaPoblacionIndex.append(self.adaptacionnuevapoblacion.index(max(nuevaPoblacionFits)))
 			nuevaPoblacionFits.remove(max(nuevaPoblacionFits))
 
 			pass
@@ -506,7 +501,9 @@ class Genetico(object):
 
 		self.poblacion[random.randrange(self.tamPoblacion)] = self.mejor[0]
 		self.nuevapoblacion = []
-		self.fitnuevapoblacion = []
+		self.adaptacionnuevapoblacion = []
 		pass
 
-	###### Metodos de Remplazo. Fin ######
+	###### Metodos de Paso de generacion. Fin ######
+
+###### Genetico. Fin ######

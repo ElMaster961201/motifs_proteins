@@ -1,12 +1,10 @@
 """
     Modificar las lineas listadas a continuacion:
-        30
-        74
-        105
-        112
-        123
+        22
+        27
+        28
+        124
     sustituir la N por el numero correspondiente al archivo de Experimento.
-
 """
 import os 
 from time import time
@@ -21,12 +19,12 @@ p,nGeneraciones,nRepeticiones = Parametros().parametros()
 cont = 1
 t = True
 while t:
-    if (os.path.exists("Experimento" + str(cont) + ".txt")):
+    if (os.path.exists("ExperimentoNN-" + str(cont) + ".txt")):
         cont = cont + 1 
     else:
         startTimeTotal = time ()
 
-        file = open("Experimento" + str(cont) + ".txt","w")
+        file = open("ExperimentoNN-" + str(cont) + ".txt","w")
         file.write("Experimento v0.N."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
@@ -35,11 +33,12 @@ while t:
         file.write("Probabilidad de Mutacion: " + str(p[2]) + os.linesep)
         file.write("Cantidad de Aminiacidos a mutar: " + str(p[3]) + os.linesep)
         file.write("Numero de individuos seleccionado por Elitismo: " + str(p[4]) + os.linesep)
-        file.write("Tamano de torneo: " + str(p[5]) + os.linesep)
-        file.write("Numero de restos: " + str(p[6]) + os.linesep)
-        file.write("Probabilidad de Cruce: " + str(p[7]) + os.linesep)
-        file.write("Pesos de las Matrices: " + str(p[8]) + os.linesep)
-        file.write("Secuencia base: " + str(p[9]) + os.linesep)
+        file.write("Tamano de k en estocastico universal: " + str(p[5]) + os.linesep)
+        file.write("Tamano de torneo: " + str(p[6]) + os.linesep)
+        file.write("Numero de restos: " + str(p[7]) + os.linesep)
+        file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
+        file.write("Pesos de las Matrices: " + str(p[9]) + os.linesep)
+        file.write("Secuencia base: " + str(p[10]) + os.linesep)
         file.write("El Experimento se realizo " + str(nRepeticiones) + " veces." + os.linesep)
         file.write("Con " +str(nGeneraciones)+" Generaciones" + os.linesep)
 
@@ -67,13 +66,14 @@ while t:
         # file.write("Remplazo de Adaptacion Similar" + os.linesep)
 
         totalfits = 0.0
+        totalGen = 0
         for _ in range(nRepeticiones):
             print ("Repeticion ",_ + 1)
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8])
-            AGS.fits(p[9])
+            AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
+            AGS.evaluacionPoblacion(p[10])
             for i in range(nGeneraciones):
 
                 ##### Metodos de Seleccion. ######
@@ -99,26 +99,27 @@ while t:
                 # AGS.remplazoPeorAdaptados()
                 # AGS.remplazoAdaptacionSimilar()
                 
-                # AGS.fits(p[9])
+                # AGS.evaluacionPoblacion(p[10])
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 
-            file.write("Fits promedio de la ultima generacion es: " + str(cont) + "." + str(_ + 1) + " es: " + str(float(sum(AGS.fit))/AGS.tamPoblacion) + os.linesep)
+            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tamPoblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)
             mejor = AGS.mejor
             file.write("Individuo " + str(mejor[0]) + os.linesep)
             file.write("Fits " + str(mejor[1]) + os.linesep)
             file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
-            
-            file.write("El la repeticion " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
+            totalGen = totalGen + mejor[2]
+            file.write("La repeticion " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
             totalfits = mejor[1] + totalfits
             pass
+        file.write(os.linesep)
+        file.write(os.linesep)
         file.write("El Fit promedio del mejor individuo obtenido es: " + str(float(totalfits)/nRepeticiones) + os.linesep)
+        file.write("El promedio de generaciones que se mantiene el mejor individuo es: " + str(float(totalGen)/nRepeticiones) + os.linesep)
         finishTimeTotal = time() - startTimeTotal
         t = False
         pass
     pass
-file.write(os.linesep)
-file.write(os.linesep)
-file.write("El experimento N° N hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
+file.write("El experimento N° N-" + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
 file.close()
