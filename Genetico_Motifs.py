@@ -277,24 +277,26 @@ class Genetico(object):
 		for _ in range(self.tamPoblacion):
 			self.nuevapoblacion.append(self.ruletaSimple())
 			pass
+		pass
 
 	# Muestreo Estocastico Universal.
 	def estocasticoUniversal(self):
 
-		# Toma la seleccion Estocastico Universal
+		# Ciclo para valores enteros del tamPoblacion/knumeros
 		for _ in range(self.tamPoblacion // self.knumeros):
 			ind = self.estocasticoUniversalSimple(self.knumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 				pass
 			pass
-
-		# Toma la seleccion Estocastico Universal
+	
+		# Ciclo para el residuo obtenido de tamPoblacion/knumeros
 		resK = (self.tamPoblacion % self.knumeros)
 		ind = self.estocasticoUniversalSimple(resK)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 			pass
+		pass
 
 	# Torneo.
 	def torneo(self):
