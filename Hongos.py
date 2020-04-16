@@ -58,7 +58,7 @@ class Hongos(object):
 		return self.hongos
 
 if __name__ == "__main__":
-	archivo = "./Mul.fasta"
+	archivo = "Mul.fasta"
 	hongos = []
 	hongo = ""
 	file = open(archivo, "r").readlines()

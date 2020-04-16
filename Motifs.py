@@ -147,8 +147,12 @@ if __name__ == "__main__":
 	import os 
 	motifs = Motifs()
 
-	file = open("SCIM-Ordenada.txt","w")
-	file2 = open("SCIM.txt","w")
+	if not os.path.exists("Matriz"):
+		os.makedirs("Matriz")
+		pass	
+
+	file = open("Matriz/SCIM-Ordenada.txt","w")
+	file2 = open("Matriz/SCIM.txt","w")
 	val = False
 	for x in motifs.SCIM:
 		file.write("[ ")
@@ -165,8 +169,8 @@ if __name__ == "__main__":
 	file.close()
 	file2.close()
 	
-	file = open("CCIM-Ordenada.txt","w")
-	file2 = open("CCIM.txt","w")
+	file = open("Matriz/CCIM-Ordenada.txt","w")
+	file2 = open("Matriz/CCIM.txt","w")
 	val = False
 	for x in motifs.CCIM:
 		file.write("[ ")
@@ -183,8 +187,8 @@ if __name__ == "__main__":
 	file.close()
 	file2.close()
 	
-	file = open("HCIM-Ordenada.txt","w")
-	file2 = open("HCIM.txt","w")
+	file = open("Matriz/HCIM-Ordenada.txt","w")
+	file2 = open("Matriz/HCIM.txt","w")
 	val = False
 	for x in motifs.HCIM:
 		file.write("[ ")

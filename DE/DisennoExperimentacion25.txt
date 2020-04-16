@@ -1,0 +1,123 @@
+Diseño de experimento v0.1.25
+Con los siguientes parametros:
+
+Tamano de la poblacion: 100
+Tamano de la secuencia: 27
+Probabilidad de Mutacion: 0.5
+Cantidad de Aminiacidos a mutar: 8
+Numero de individuos seleccionado por Elitismo: 10
+Tamano de torneo: 15
+Umbral: 50
+Probabilidad de Cruce: 1.0
+Pesos de las Matrices: [0.3333333333333333, 0.3333333333333333, 0.3333333333333333]
+
+Secuencia base: ['F', 'W', 'L', 'V', 'N', 'L', 'S', 'A', 'H', 'M', 'K', 'L', 'F', 'S', 'C', 'Q', 'P', 'E', 'E', 'G', 'I', 'A', 'Y', 'L', 'F', 'M', 'Q']
+
+El Experimento se realizo 10 veces.
+Con 500 Generaciones
+Con los metodos de torneo, cruzamiento por punto fijo
+Mutacion Estandar, Elitismo del mejor individuo y Remplazo de padres.
+
+Los resultados obtenidos en el experimento N° 1
+
+Individuo ['I', 'V', 'G', 'G', 'S', 'L', 'G', 'G', 'A', 'G', 'D', 'G', 'V', 'S', 'G', 'A', 'A', 'K', 'K', 'G', 'P', 'V', 'G', 'G', 'V', 'G', 'S']
+Fits384.95670451334473
+fits promedio del experimento 375.48108311858596
+
+
+El mejor individuo se mantuvo 119 Generaciones
+El experimento N° 1 hizo un tiempo de 15.4467022419 Segundos
+
+Los resultados obtenidos en el experimento N° 2
+
+Individuo ['A', 'A', 'V', 'G', 'G', 'A', 'A', 'V', 'G', 'A', 'D', 'A', 'G', 'G', 'G', 'Q', 'C', 'K', 'H', 'G', 'A', 'P', 'P', 'V', 'G', 'G', 'S']
+Fits383.9616258116989
+fits promedio del experimento 374.66470020743736
+
+
+El mejor individuo se mantuvo 421 Generaciones
+El experimento N° 2 hizo un tiempo de 14.5297458172 Segundos
+
+Los resultados obtenidos en el experimento N° 3
+
+Individuo ['A', 'G', 'G', 'V', 'K', 'V', 'G', 'A', 'T', 'A', 'A', 'G', 'A', 'G', 'P', 'A', 'C', 'K', 'N', 'G', 'A', 'A', 'S', 'V', 'G', 'G', 'D']
+Fits381.71458645240807
+fits promedio del experimento 375.41937347279423
+
+
+El mejor individuo se mantuvo 71 Generaciones
+El experimento N° 3 hizo un tiempo de 13.9914128780 Segundos
+
+Los resultados obtenidos en el experimento N° 4
+
+Individuo ['F', 'G', 'G', 'G', 'N', 'G', 'T', 'G', 'H', 'G', 'D', 'V', 'V', 'S', 'A', 'A', 'G', 'K', 'K', 'G', 'A', 'A', 'S', 'G', 'A', 'S', 'S']
+Fits385.0713658498384
+fits promedio del experimento 375.04820818115326
+
+
+El mejor individuo se mantuvo 148 Generaciones
+El experimento N° 4 hizo un tiempo de 14.1746470928 Segundos
+
+Los resultados obtenidos en el experimento N° 5
+
+Individuo ['L', 'P', 'V', 'G', 'K', 'C', 'S', 'V', 'S', 'G', 'E', 'G', 'G', 'Q', 'A', 'K', 'G', 'K', 'H', 'P', 'I', 'A', 'P', 'G', 'V', 'G', 'Q']
+Fits380.7369822282589
+fits promedio del experimento 371.2935012437506
+
+
+El mejor individuo se mantuvo 92 Generaciones
+El experimento N° 5 hizo un tiempo de 13.8597364426 Segundos
+
+Los resultados obtenidos en el experimento N° 6
+
+Individuo ['P', 'C', 'G', 'A', 'N', 'G', 'S', 'G', 'T', 'A', 'E', 'V', 'V', 'T', 'P', 'N', 'S', 'H', 'K', 'G', 'A', 'P', 'P', 'M', 'A', 'G', 'S']
+Fits380.8000194430226
+fits promedio del experimento 372.90389359825133
+
+
+El mejor individuo se mantuvo 293 Generaciones
+El experimento N° 6 hizo un tiempo de 13.9612059593 Segundos
+
+Los resultados obtenidos en el experimento N° 7
+
+Individuo ['V', 'A', 'A', 'M', 'Q', 'A', 'P', 'G', 'G', 'G', 'D', 'L', 'G', 'S', 'P', 'K', 'C', 'K', 'K', 'A', 'V', 'G', 'Q', 'G', 'A', 'A', 'S']
+Fits383.32481039031615
+fits promedio del experimento 372.16615832362777
+
+
+El mejor individuo se mantuvo 72 Generaciones
+El experimento N° 7 hizo un tiempo de 14.2175042629 Segundos
+
+Los resultados obtenidos en el experimento N° 8
+
+Individuo ['A', 'A', 'G', 'L', 'K', 'V', 'S', 'A', 'H', 'G', 'D', 'G', 'L', 'S', 'A', 'G', 'A', 'K', 'S', 'A', 'I', 'G', 'G', 'V', 'G', 'V', 'Q']
+Fits385.3872615215863
+fits promedio del experimento 376.45841834582535
+
+
+El mejor individuo se mantuvo 135 Generaciones
+El experimento N° 8 hizo un tiempo de 14.0270674229 Segundos
+
+Los resultados obtenidos en el experimento N° 9
+
+Individuo ['M', 'G', 'G', 'V', 'N', 'V', 'S', 'G', 'T', 'P', 'E', 'A', 'G', 'S', 'G', 'A', 'P', 'C', 'K', 'A', 'G', 'G', 'G', 'I', 'V', 'G', 'S']
+Fits382.46565796800974
+fits promedio del experimento 370.2134670279647
+
+
+El mejor individuo se mantuvo 205 Generaciones
+El experimento N° 9 hizo un tiempo de 14.4425146580 Segundos
+
+Los resultados obtenidos en el experimento N° 10
+
+Individuo ['L', 'L', 'A', 'G', 'K', 'V', 'H', 'G', 'S', 'S', 'D', 'A', 'G', 'T', 'G', 'E', 'A', 'K', 'K', 'A', 'I', 'A', 'G', 'I', 'V', 'A', 'Q']
+Fits384.07510881837845
+fits promedio del experimento 373.96858872646436
+
+
+El mejor individuo se mantuvo 374 Generaciones
+El experimento N° 10 hizo un tiempo de 14.3105263710 Segundos
+El Fit promedio del experimento es: 383.24941229968624
+
+
+El Experimiento hizo un tiempo total de 142.9618284702 Segundos

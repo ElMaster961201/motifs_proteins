@@ -11,7 +11,7 @@ class Parametros(object):
     500, # numRestos -> 7
     .6, # proCruce -> 8
     [1/3, 1/3, 1/3], # w -> 9
-    ['F', 'W', 'L', 'V', 'N', 'L','S','A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M','Q'] # secuencia  -> 10
+    ['F','W','L','V','N','L','S','A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M','Q'] # secuencia  -> 10
     ]
 
     nGeneraciones = 1000
@@ -20,6 +20,7 @@ class Parametros(object):
 
     def parametros(self):
         return self.p,self.nGeneraciones,self.nRepeticiones
+        
     pass
 
 """

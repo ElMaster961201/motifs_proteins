@@ -10,13 +10,19 @@ p,nGeneraciones,nRepeticiones = Parametros().parametros()
 print ("Experimento 01")
 cont = 1
 t = True
+ruta = "Experimento"
+
+if not os.path.exists(ruta):
+    os.makedirs(ruta)
+    pass
+
 while t:
-    if (os.path.exists("Experimento01-" + str(cont) + ".txt")):
+    if (os.path.exists(ruta + "/Experimento01-" + str(cont) + ".txt")):
         cont = cont + 1 
     else:
         startTimeTotal = time ()
 
-        file = open("Experimento01-" + str(cont) + ".txt","w")
+        file = open(ruta + "/Experimento01-" + str(cont) + ".txt","w")
         file.write("Experimento v0.1."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
@@ -52,10 +58,10 @@ while t:
         ###### Metodo de conservacion. ######
         file.write("Elitismo" + os.linesep)
         ###### Metodo de Paso de Generacion. ######
-        file.write("Remplazo de Padres" + os.linesep)
-        # file.write("Remplazo Aleatorio" + os.linesep)
-        # file.write("Remplazo de los Peor Adaptados" + os.linesep)
-        # file.write("Remplazo de Adaptacion Similar" + os.linesep)
+        file.write("Reemplazo de Padres" + os.linesep)
+        # file.write("Reemplazo Aleatorio" + os.linesep)
+        # file.write("Reemplazo de los Peor Adaptados" + os.linesep)
+        # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
 
         totalfits = 0.0
         totalGen = 0
@@ -86,10 +92,10 @@ while t:
                 AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                AGS.remplazoPadres()
-                # AGS.remplazoAleatorio()
-                # AGS.remplazoPeorAdaptados()
-                # AGS.remplazoAdaptacionSimilar()
+                AGS.reemplazoPadres()
+                # AGS.reemplazoAleatorio()
+                # AGS.reemplazoPeorAdaptados()
+                # AGS.reemplazoAdaptacionSimilar()
                 
                 AGS.evaluacionPoblacion(p[10])
                 pass

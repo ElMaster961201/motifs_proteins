@@ -1,9 +1,10 @@
 """
+ingresar valor a la variable ruta.
     Modificar las lineas listadas a continuacion:
-        22
-        27
-        28
-        124
+        29
+        34
+        35
+        131
     sustituir la N por el numero correspondiente al archivo de Experimento.
 """
 import os 
@@ -18,13 +19,19 @@ p,nGeneraciones,nRepeticiones = Parametros().parametros()
 
 cont = 1
 t = True
+ruta = "nombreCarpeta" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+
+if not os.path.exists(ruta):
+    os.makedirs(ruta)
+    pass
+
 while t:
-    if (os.path.exists("ExperimentoNN-" + str(cont) + ".txt")):
+    if (os.path.exists(ruta + "/ExperimentoNN-" + str(cont) + ".txt")):
         cont = cont + 1 
     else:
         startTimeTotal = time ()
 
-        file = open("ExperimentoNN-" + str(cont) + ".txt","w")
+        file = open(ruta + "/ExperimentoNN-" + str(cont) + ".txt","w")
         file.write("Experimento v0.N."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
@@ -60,10 +67,10 @@ while t:
         ###### Metodo de conservacion. ######
         # file.write("Elitismo" + os.linesep)
         ###### Metodo de Paso de Generacion. ######
-        # file.write("Remplazo de Padres" + os.linesep)
-        # file.write("Remplazo Aleatorio" + os.linesep)
-        # file.write("Remplazo de los Peor Adaptados" + os.linesep)
-        # file.write("Remplazo de Adaptacion Similar" + os.linesep)
+        # file.write("Reemplazo de Padres" + os.linesep)
+        # file.write("Reemplazo Aleatorio" + os.linesep)
+        # file.write("Reemplazo de los Peor Adaptados" + os.linesep)
+        # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
 
         totalfits = 0.0
         totalGen = 0
@@ -94,10 +101,10 @@ while t:
                 # AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                # AGS.remplazoPadres()
-                # AGS.remplazoAleatorio()
-                # AGS.remplazoPeorAdaptados()
-                # AGS.remplazoAdaptacionSimilar()
+                # AGS.reemplazoPadres()
+                # AGS.reemplazoAleatorio()
+                # AGS.reemplazoPeorAdaptados()
+                # AGS.reemplazoAdaptacionSimilar()
                 
                 # AGS.evaluacionPoblacion(p[10])
                 pass
