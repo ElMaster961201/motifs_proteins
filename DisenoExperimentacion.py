@@ -11,11 +11,12 @@ p = [
     0.5, # proMutacion -> 2 
     8, # canMutacion -> 3
     10, # numElitismo -> 4
-    15, # tamTorneo -> 5
-    500, # numRestos -> 6
-    1.0, # proCruce -> 7
-    [0,0,1],#1/3, 1/3, 1/3], # w -> 8
-    ['F', 'W', 'L', 'V', 'N', 'L','S','A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M','Q'] # secuencia  -> 9
+    4, # knumeros -> 5
+    3, # tamTorneo -> 6
+    500, # numRestos -> 7
+    .6, # proCruce -> 8
+    [1/3, 1/3, 1/3], # w -> 9
+    ['F','W','L','V','N','L','S','A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M','Q'] # secuencia  -> 10
 ]
 
 nExperimientos = 10 
@@ -41,12 +42,13 @@ while cont < 22:
             file.write("Probabilidad de Mutacion: " + str(p[2]) + os.linesep)
             file.write("Cantidad de Aminiacidos a mutar: " + str(p[3]) + os.linesep)
             file.write("Numero de individuos seleccionado por Elitismo: " + str(p[4]) + os.linesep)
-            file.write("Tamano de torneo: " + str(p[5]) + os.linesep)
-            file.write("Numero de restos: " + str(p[6]) + os.linesep)
-            file.write("Probabilidad de Cruce: " + str(p[7]) + os.linesep)
-            file.write("Pesos de las Matrices: " + str(p[8]) + os.linesep)
+            file.write("Tamano de k en estocastico universal: " + str(p[5]) + os.linesep)
+            file.write("Tamano de torneo: " + str(p[6]) + os.linesep)
+            file.write("Numero de restos: " + str(p[7]) + os.linesep)
+            file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
+            file.write("Pesos de las Matrices: " + str(p[9]) + os.linesep)
             file.write(os.linesep)
-            file.write("Secuencia base: " + str(p[9]) + os.linesep)
+            file.write("Secuencia base: " + str(p[10]) + os.linesep)
             file.write(os.linesep)
             file.write("El Experimento se realizo " + str(nExperimientos) + " veces." + os.linesep)
             file.write("Con " +str(nGeneraciones)+" Generaciones" + os.linesep)
@@ -59,9 +61,9 @@ while cont < 22:
                 startTimeExperimento = time ()
                 file.write(os.linesep)
                 file.write("Los resultados obtenidos en el experimento N° " + str(_ + 1 ) + os.linesep)
-                AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8])
+                AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
+                AGS.evaluacionPoblacion(p[10])
                 for i in range(nGeneraciones):
-                    AGS.fits(p[9])
                     # AGS.ruleta()
                     # AGS.estocasticoUniversal()
                     AGS.torneo()
@@ -70,14 +72,15 @@ while cont < 22:
                     # AGS.multiPunto()
                     AGS.mutacionEstandar()
                     AGS.elitismo()
-                    AGS.remplazoPadres()
-                    # AGS.remplazoAleatorio()
+                    AGS.reemplazoPadres()
+                    # AGS.reemplazoAleatorio()
+                    AGS.evaluacionPoblacion(p[10])
                     pass
                 file.write(os.linesep)
                 mejor = AGS.mejor
                 file.write("Individuo " + str(mejor[0]) + os.linesep)
                 file.write("Fits " + str(mejor[1]) + os.linesep)
-                file.write("fits promedio del experimento " + str(float(sum(AGS.fit))/AGS.tamPoblacion) + os.linesep)
+                file.write("fits promedio del experimento " + str(float(sum(AGS.adaptacion()))/AGS.tamPoblacion) + os.linesep)
                 file.write(os.linesep)
                 file.write(os.linesep)
                 file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)

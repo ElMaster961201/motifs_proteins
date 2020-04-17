@@ -1,7 +1,7 @@
 class Parametros(object):
 
     p = [
-    500, # tamPoblacion -> 0
+    300, # tamPoblacion -> 0
     27, # k -> 1
     0.1, # proMutacion -> 2 
     2, # canMutacion -> 3
@@ -25,20 +25,7 @@ class Parametros(object):
 
 """
 ###### Experimento 01 ######
-Torneo 
-    Con poblacion 500
-        
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-
-    
+Torneo     
     Con poblacion 300
         
         Elitismo 1
@@ -53,17 +40,6 @@ Torneo
             
 ###### Experimento 02 ######
 Ruleta 
-    Con poblacion 500
-
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
     
     Con poblacion 300
         
@@ -79,17 +55,6 @@ Ruleta
 
 ###### Experimento 03 ######
 estocastico universal.
-    Con poblacion 500
-
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
     
     Con poblacion 300
         
@@ -105,17 +70,6 @@ estocastico universal.
 
 ###### Experimento 04 ######
 restos 
-    Con poblacion 500
-
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
     
     Con poblacion 300
         
