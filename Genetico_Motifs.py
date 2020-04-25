@@ -48,6 +48,7 @@ class Genetico(object):
 		##### Metodos de Cruzamiento (Reproduccion). ##############################
 		puntoFijo
 		multiPunto
+		cruzamientoUniforme
 
 		##### Metodos de Mutacion. ##############################
 		mutacionUniforme
@@ -363,6 +364,27 @@ class Genetico(object):
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 				pass
+			pass
+		pass
+
+	# Por Cruzamiento uniforme
+	def cruzamientoUniforme(self):
+		for i in range(0,len(self.nuevapoblacion),2):
+			hijo1 =[]
+			hijo2 = []
+			for x in range(self.k):
+				r = random.random()
+				if self.proCruce > r:
+					hijo1.append(self.nuevapoblacion[i + 1][x])
+					hijo2.append(self.nuevapoblacion[i][x])
+					pass
+				else:
+					hijo1.append(self.nuevapoblacion[i][x])
+					hijo2.append(self.nuevapoblacion[i + 1][x])
+					pass
+				pass
+			self.nuevapoblacion[i] = hijo1
+			self.nuevapoblacion[i + 1] = hijo2
 			pass
 		pass
 	
