@@ -5,7 +5,7 @@ class Parametros(object):
     27, # k -> 1
     0.1, # proMutacion -> 2 
     2, # canMutacion -> 3
-    1, # numElitismo -> 4
+    50, # numElitismo -> 4
     4, # knumeros -> 5
     3, # tamTorneo -> 6
     500, # numRestos -> 7
@@ -22,66 +22,3 @@ class Parametros(object):
         return self.p,self.nGeneraciones,self.nRepeticiones
         
     pass
-
-"""
-###### Experimento 01 ######
-Torneo     
-    Con poblacion 300
-        
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-            
-###### Experimento 02 ######
-Ruleta 
-    
-    Con poblacion 300
-        
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-
-###### Experimento 03 ######
-estocastico universal.
-    
-    Con poblacion 300
-        
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-
-###### Experimento 04 ######
-restos 
-    
-    Con poblacion 300
-        
-        Elitismo 1
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-        
-        Elitismo 50
-            puntofijo.
-            mutacion estandar.
-            Remplazo de padres.
-
-
-"""

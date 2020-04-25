@@ -52,6 +52,7 @@ while t:
         ###### Metodos de Cruzamiento. ######
         file.write("Punto Fijo" + os.linesep)
         # file.write("Multi-Punto" + os.linesep)
+        # file.write("Cruzamiento Uniforme" + os.linesep)
         ###### Metodos de Mutacion. ######
         # file.write("Mutacion Uniforme" + os.linesep)
         file.write("Mutacion Estandar" + os.linesep)
@@ -81,8 +82,9 @@ while t:
                 # AGS.restos()
 
                 ###### Metodos de Cruzamiento. ######
-                AGS.puntoFijo()
-                # AGS.multiPunto()
+                AGS.cruzamientoPuntoFijo()
+                # AGS.cruzamientoMultiPunto()
+                # AGS.cruzamientoUniforme()
 
                 ###### Metodos de Mutacion. ######
                 AGS.mutacionEstandar()
