@@ -46,8 +46,8 @@ class Genetico(object):
 		restos
 
 		##### Metodos de Cruzamiento (Reproduccion). ##############################
-		puntoFijo
-		multiPunto
+		cruzamientoPuntoFijo
+		cruzamientoMultiPunto
 		cruzamientoUniforme
 
 		##### Metodos de Mutacion. ##############################
@@ -324,7 +324,7 @@ class Genetico(object):
 	###### Metodos de reproduccion. ######
 
 	# Por Punto fijo.
-	def puntoFijo(self):
+	def cruzamientoPuntoFijo(self):
 		for i in range(0,len(self.nuevapoblacion),2):
 			if self.proCruce > random.random():
 				punto = random.randrange(3,self.k-3)
@@ -345,7 +345,7 @@ class Genetico(object):
 		pass
 
 	# Por Multipunto.
-	def multiPunto(self):
+	def cruzamientoMultiPunto(self):
 		for i in range(0,len(self.nuevapoblacion),2):
 			if self.proCruce > random.random():
 				punto = []
