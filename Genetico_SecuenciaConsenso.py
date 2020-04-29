@@ -34,6 +34,7 @@ class GeneticoSecuenciaConsenso(object):
 		restosSimple
 		elitismoSimple
 		elitismoSimpleNuevaPoblacion
+		validaPoblacion
 
 		##### Metodos de Seleccion. ##############################
 		ruleta
@@ -89,7 +90,8 @@ class GeneticoSecuenciaConsenso(object):
 				pass
 			pass
         # Inicializacion de la poblacion.
-		self.poblacion = [[random.randrange(len(self.hongos[0]) - self.numGenomas) for _ in range(self.numSecuenciasConsenso)] for _ in range(self.tamPoblacion)]
+		self.poblacion = []
+		self.poblacion = [[self.validaPoblacion(self.poblacion,random.randrange(len(self.hongos[0]) - self.numGenomas)) for _ in range(self.numSecuenciasConsenso)] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
@@ -220,6 +222,24 @@ class GeneticoSecuenciaConsenso(object):
 
 		return mayorMenorIndex[:numElitismo]
 
+	### Validacion de la poblacion para evitar genomas repetidos.
+	def validaPoblacion(self, individuo, genoma):
+		t = True
+		ind = 0
+		while t:
+			for i in individuo:
+				ind = ind + 1
+				if (genoma > i - self.numGenomas and genoma < i + self.numGenomas):
+					genoma = random.randrange(len(self.hongos[0])-self.numGenomas)
+					ind = 0
+					break
+				pass
+			if (ind == len(individuo)):
+				t = False
+				pass
+			pass
+		return genoma 
+
 	###### Funciones Auxiliares. ######
 
 	###### Metodo de evaluacion de la poblacion. ######
@@ -340,9 +360,11 @@ class GeneticoSecuenciaConsenso(object):
 
 	# Por Punto fijo.
 	def cruzamientoPuntoFijo(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = random.randrange(3,self.numSecuenciasConsenso-3)
+				hijo1 = []
+				hijo2 = []
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre 
@@ -351,8 +373,16 @@ class GeneticoSecuenciaConsenso(object):
 				padre es: self.nuevapoblacion[i]
 				madre es: self.nuevapoblacion[i + 1]
 				"""
-				hijo1 = self.nuevapoblacion[i][:punto] + self.nuevapoblacion[i + 1][punto:]
-				hijo2 = self.nuevapoblacion[i + 1][:punto] + self.nuevapoblacion[i][punto:]
+				for j in range(0, punto):
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					pass
+
+				for j in range(punto, self.numSecuenciasConsenso):
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i][j]))
+					pass 
+
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 				pass
@@ -361,9 +391,11 @@ class GeneticoSecuenciaConsenso(object):
 
 	# Por Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = []
+				hijo1 = []
+				hijo2 = []
 				punto.append(random.randrange(3, int(self.numSecuenciasConsenso/2) - 1))
 				punto.append(random.randrange(int(self.numSecuenciasConsenso/2) + 1, self.numSecuenciasConsenso - 3))
 				"""
@@ -374,8 +406,21 @@ class GeneticoSecuenciaConsenso(object):
 				padre es: self.nuevapoblacion[i]
 				madre es: self.nuevapoblacion[i + 1]
 				"""
-				hijo1 = self.nuevapoblacion[i][:punto[0]] + self.nuevapoblacion[i + 1][punto[0]:punto[1]] + self.nuevapoblacion[i][punto[1]:]
-				hijo2 = self.nuevapoblacion[i + 1][:punto[0]] + self.nuevapoblacion[i][punto[0]:punto[1]] + self.nuevapoblacion[i + 1][punto[1]:]
+				for j in range(0, punto[0]):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					pass
+
+				for j in range(punto[0],punto[1]):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i][j]))
+					pass
+
+				for j in range(punto[1],self.numSecuenciasConsenso):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i + 1][j]))
+					pass
+
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 				pass
@@ -384,18 +429,18 @@ class GeneticoSecuenciaConsenso(object):
 
 	# Por Cruzamiento uniforme.
 	def cruzamientoUniforme(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
 			hijo2 = []
 			for x in range(self.numSecuenciasConsenso):
 				r = random.random()
 				if self.proCruce > r:
-					hijo1.append(self.nuevapoblacion[i + 1][x])
-					hijo2.append(self.nuevapoblacion[i][x])
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][x]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i][x]))
 					pass
 				else:
-					hijo1.append(self.nuevapoblacion[i][x])
-					hijo2.append(self.nuevapoblacion[i + 1][x])
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i][x]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][x]))
 					pass
 				pass
 			self.nuevapoblacion[i] = hijo1
@@ -405,14 +450,14 @@ class GeneticoSecuenciaConsenso(object):
 	
 	# Por Cruzamiento Aritmetico.
 	def cruzamientoAritmetico(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				hijo1 =[]
 				hijo2 = []
 				alpha = random.random()
 				for x in range(self.numSecuenciasConsenso):
-					hijo1.append(int ((alpha * self.nuevapoblacion[i][x]) +((1 - alpha) * self.nuevapoblacion[i + 1][x])))
-					hijo2.append(int ((alpha * self.nuevapoblacion[i + 1][x]) +((1 - alpha) * self.nuevapoblacion[i][x])))
+					hijo1.append(self.validaPoblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) +((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
+					hijo2.append(self.validaPoblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) +((1 - alpha) * self.nuevapoblacion[i][x]))))
 					pass
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
@@ -430,7 +475,7 @@ class GeneticoSecuenciaConsenso(object):
 			for x in range(self.numSecuenciasConsenso):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.numGenomas)
+					self.nuevapoblacion[i][x] = self.validaPoblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.numGenomas))
 					pass
 				pass
 			pass
@@ -448,7 +493,7 @@ class GeneticoSecuenciaConsenso(object):
 						pass
 					pass
 				for x in mut:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.numGenomas)
+					self.nuevapoblacion[i][x] = self.validaPoblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.numGenomas))
 					pass
 				pass
 			pass

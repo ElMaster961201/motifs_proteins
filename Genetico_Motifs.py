@@ -325,7 +325,7 @@ class GeneticoMotifs(object):
 
 	# Por Punto fijo.
 	def cruzamientoPuntoFijo(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = random.randrange(3,self.k-3)
 				"""
@@ -346,7 +346,7 @@ class GeneticoMotifs(object):
 
 	# Por Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = []
 				punto.append(random.randrange(3, int(self.k/2) - 1))
@@ -369,7 +369,7 @@ class GeneticoMotifs(object):
 
 	# Por Cruzamiento uniforme.
 	def cruzamientoUniforme(self):
-		for i in range(0,len(self.nuevapoblacion),2):
+		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
 			hijo2 = []
 			for x in range(self.k):
