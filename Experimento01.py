@@ -2,7 +2,7 @@ import os
 from time import time
 
 # Se importa nuestra clase
-from Genetico_Motifs import Genetico
+from Genetico_Motifs import GeneticoMotifs
 from Parametros import Parametros 
 
 # Se obtrienen los parametros a utilizar de una clase. 
@@ -10,7 +10,7 @@ p,nGeneraciones,nRepeticiones = Parametros().parametros()
 print ("Experimento 01")
 cont = 1
 t = True
-ruta = "Experimento"
+ruta = "Experimento/HpAzul"
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -71,7 +71,7 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
+            AGS = GeneticoMotifs(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             AGS.evaluacionPoblacion(p[10])
             for i in range(nGeneraciones):
 

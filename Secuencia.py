@@ -131,5 +131,3 @@ if __name__ == "__main__":
         if numArchivos <= 0:
             t = False
             pass
-    
-
