@@ -38,7 +38,7 @@ class Secuencia(object):
         pass
     
 
-    def ConjuntoSecuenciaConsenso(self,numSecuenciasConsenso = 50, tamSec = 3):
+    def ConjuntoSecuenciaConsenso(self,numSecuenciasConsenso = 50, tamSec = 30):
         self.numSecuenciasConsenso = numSecuenciasConsenso 
         self.tamSec = 30
         self.ConSecCon = []

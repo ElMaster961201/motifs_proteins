@@ -11,7 +11,7 @@ class GeneticoMotifs(object):
 		clase son los sigueintes, donde se les asigno un valor por default:
 		
 		* tamPoblacion = 100
-		* k = 27
+		* numGenomas = 27
 		* proMutacion = 0.1
 		* canMutacion = 2
 		* numElitismo = 1
@@ -71,11 +71,11 @@ class GeneticoMotifs(object):
 	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
 		
 	###### Funcion que inicializa la poblacion ######
-	def __init__(self, tamPoblacion = 100, k = 27,
+	def __init__(self, tamPoblacion = 100, numGenomas = 30,
         proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
 		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuencia = []):
 		self.tamPoblacion = tamPoblacion
-		self.k = k
+		self.numGenomas = numGenomas
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
@@ -86,7 +86,7 @@ class GeneticoMotifs(object):
 		self.w = w
 		self.secuencia = secuencia
 		# Inicializacion de la poblacion.
-		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.k) ] for _ in range(self.tamPoblacion)]
+		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.numGenomas) ] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
@@ -229,8 +229,10 @@ class GeneticoMotifs(object):
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
-			for k in range(self.k):
-				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[motif[k]]]) + con
+			for k in range(self.numGenomas):
+				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				con = self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con 
+				con = self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con
 				pass
 			self.adaptacion.append(con)
 			pass
@@ -261,8 +263,10 @@ class GeneticoMotifs(object):
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
-			for k in range(self.k):
-				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+			for k in range(self.numGenomas):
+				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				con = self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				con = self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
 				pass
 			self.adaptacionnuevapoblacion.append(con)
 			pass
@@ -327,7 +331,7 @@ class GeneticoMotifs(object):
 	def cruzamientoPuntoFijo(self):
 		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3,self.k-3)
+				punto = random.randrange(3, self.numGenomas-3)
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre 
@@ -346,11 +350,11 @@ class GeneticoMotifs(object):
 
 	# Por Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0,self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = []
-				punto.append(random.randrange(3, int(self.k/2) - 1))
-				punto.append(random.randrange(int(self.k/2) + 1, self.k - 3))
+				punto.append(random.randrange(3, int(self.numGenomas/2) - 1))
+				punto.append(random.randrange(int(self.numGenomas/2) + 1, self.numGenomas - 3))
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre + padre
@@ -372,7 +376,7 @@ class GeneticoMotifs(object):
 		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
 			hijo2 = []
-			for x in range(self.k):
+			for x in range(self.numGenomas):
 				r = random.random()
 				if self.proCruce > r:
 					hijo1.append(self.nuevapoblacion[i + 1][x])
@@ -394,9 +398,9 @@ class GeneticoMotifs(object):
 
 	# Mutacion uniforme.
 	def mutacionUniforme(self):
-		pm = (self.proMutacion * 10)/float(self.k)
+		pm = (self.proMutacion * 10)/float(self.numGenomas)
 		for i in range(self.tamPoblacion):
-			for x in range(self.k):
+			for x in range(self.numGenomas):
 				r = random.random()
 				if r < pm:
 					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
@@ -411,7 +415,7 @@ class GeneticoMotifs(object):
 			if self.proMutacion > random.random():
 				mut = []
 				while len(mut) < self.canMutacion:
-					punto = random.randrange(self.k)
+					punto = random.randrange(self.numGenomas)
 					if not (punto in mut):
 						mut.append(punto)
 						pass
