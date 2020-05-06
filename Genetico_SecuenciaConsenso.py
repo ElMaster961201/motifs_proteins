@@ -86,7 +86,6 @@ class GeneticoSecuenciaConsenso(object):
 		self.contador = [[0 for _ in range(len(self.index))] for _ in range(len(self.hongos[0]))]
 		for i in range(len(self.hongos[0])):
 			for j in range(len(self.hongos)):
-				# print ("i ",i, "j ",j)
 				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] +1
 				pass
 			pass
@@ -240,6 +239,25 @@ class GeneticoSecuenciaConsenso(object):
 				pass
 			pass
 		return genoma 
+
+	def secuenciaAdaptacion(self,individuo):
+		result = []
+		for ind in individuo:
+			secuencia = []
+			total = 0.0
+			for i in range(self.numGenomas):
+				index = self.contador[i +  ind].index(max(self.contador[i +  ind]))
+				if index == 20:
+					self.contador[i +  ind].pop(index)
+					index = self.contador[i +  ind].index(max(self.contador[i +  ind]))
+					pass
+				total = total + max(self.contador[i +  ind])
+				secuencia.append(list(self.index.keys())[index])
+				pass
+			total = 100 * float(total)/(self.numGenomas  * len(self.hongos))
+			result.append([secuencia,total])
+			pass
+		return result
 
 	###### Funciones Auxiliares. ######
 
