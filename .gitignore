@@ -89,4 +89,6 @@ __pycache__/*
 pruebas.py
 # DisennoExperimentacion**.txt
 # Experimento*.txt
-Parametros.py
+*/Parametros*.py
+*/DisenoExperimentoGM*.py
+*/DisenoExperimentoGS.py
