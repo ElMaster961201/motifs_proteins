@@ -11,7 +11,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 
 cont = 1
 t = True
-ruta = "Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGS/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -113,7 +113,7 @@ while t:
             file.write("Individuo " + str(mejor[0]) + os.linesep)
             file.write("Fits " + str(mejor[1]) + os.linesep)
             file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
-            file.write("Las secuencias consenso son: ")
+            file.write("Las secuencias consenso son: " + os.linesep)
             k = AGS.secuenciaAdaptacion(AGS.mejor[0])
             for j in range(AGS.numSecuenciasConsenso):
                 file.write(str(k[j][0]) + " " + str(k[j][1]) + " " + str(AGS.mejor[0][j]) + os.linesep)
