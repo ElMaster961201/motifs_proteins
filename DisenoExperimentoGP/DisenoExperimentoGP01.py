@@ -24,7 +24,7 @@ while t:
         startTimeTotal = time ()
 
         file = open(ruta + "/Experimento" + str(cont) + ".txt","w")
-        file.write("Experimento v0.0."+ str(cont) + os.linesep)
+        file.write("Experimento v0.1."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:" + os.linesep)
         file.write(os.linesep)
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
@@ -46,26 +46,26 @@ while t:
         
         # Cambiar segun la prueba
         ##### Metodos de Seleccion. ######
-        # file.write("Ruleta" + os.linesep)
+        file.write("Ruleta" + os.linesep)
         # file.write("Estocastico Universal" + os.linesep)
         # file.write("Torneo" + os.linesep)
         # file.write("Restos" + os.linesep)
 
         ###### Metodos de Cruzamiento. ######
-        # file.write("Punto Fijo" + os.linesep)
+        file.write("Punto Fijo" + os.linesep)
         # file.write("Multi-Punto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
         # file.write("Cruzamiento Aritmetico" + os.linesep)
 
         ###### Metodos de Mutacion. ######
-        # file.write("Mutacion Uniforme" + os.linesep)
+        file.write("Mutacion Uniforme" + os.linesep)
         # file.write("Mutacion Estandar" + os.linesep)
 
         ###### Metodo de conservacion. ######
-        # file.write("Elitismo" + os.linesep)
+        file.write("Elitismo" + os.linesep)
         
         ###### Metodo de Paso de Generacion. ######
-        # file.write("Reemplazo de Padres" + os.linesep)
+        file.write("Reemplazo de Padres" + os.linesep)
         # file.write("Reemplazo Aleatorio" + os.linesep)
         # file.write("Reemplazo de los Peor Adaptados" + os.linesep)
         # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
@@ -76,35 +76,35 @@ while t:
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
             AGS = GeneticoPosiciones(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            # AGS.evaluacionPoblacion(p[10])
+            AGS.evaluacionPoblacion(p[10])
             for i in range(nGeneraciones):
 
                 ##### Metodos de Seleccion. ######
-                # AGS.ruleta()
+                AGS.ruleta()
                 # AGS.estocasticoUniversal()
                 # AGS.torneo()
                 # AGS.restos()
 
                 ###### Metodos de Cruzamiento. ######
-                # AGS.cruzamientoPuntoFijo()
+                AGS.cruzamientoPuntoFijo()
                 # AGS.cruzamientoMultiPunto()
                 # AGS.cruzamientoUniforme()
                 # AGS.cruzamientoAritmetico()
 
                 ###### Metodos de Mutacion. ######
-                # AGS.mutacionUniforme()
+                AGS.mutacionUniforme()
                 # AGS.mutacionEstandar()
 
                 ###### Metodo de conservacion. ######
-                # AGS.elitismo()
+                AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                # AGS.reemplazoPadres()
+                AGS.reemplazoPadres()
                 # AGS.reemplazoAleatorio()
                 # AGS.reemplazoPeorAdaptados()
                 # AGS.reemplazoAdaptacionSimilar()
                 
-                # AGS.evaluacionPoblacion(p[10])
+                AGS.evaluacionPoblacion(p[10])
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 

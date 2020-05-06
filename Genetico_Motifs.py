@@ -20,7 +20,7 @@ class GeneticoMotifs(object):
 		* numRestos = 500
 		* proCruce = 0.6
 		* w = [1/3, 1/3, 1/3]
-		* secuencia = []
+		* secuenciaConsenso = []
 
 		Metodos que contiene la clase:
 
@@ -73,7 +73,7 @@ class GeneticoMotifs(object):
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, tamPoblacion = 100, numGenomas = 30,
         proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
-		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuencia = []):
+		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaConsenso = []):
 		self.tamPoblacion = tamPoblacion
 		self.numGenomas = numGenomas
 		self.proMutacion = proMutacion
@@ -84,7 +84,7 @@ class GeneticoMotifs(object):
 		self.numRestos = numRestos
 		self.proCruce = proCruce
 		self.w = w
-		self.secuencia = secuencia
+		self.secuenciaConsenso = secuenciaConsenso
 		# Inicializacion de la poblacion.
 		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.numGenomas) ] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
@@ -224,15 +224,15 @@ class GeneticoMotifs(object):
 
 	# Funcion para evaluacion de la poblacion.
 	def evaluacionPoblacion(self, motif):
-		self.secuencia = motif[:]
+		self.secuenciaConsenso = motif[:]
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			con = 0.0
 			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con 
-				con = self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
+				con = self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con 
+				con = self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
 				pass
 			self.adaptacion.append(con)
 			pass
@@ -264,9 +264,9 @@ class GeneticoMotifs(object):
 		for i in range(self.tamPoblacion):
 			con = 0.0
 			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
-				con = self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia[k]]]) + con
+				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
+				con = self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
+				con = self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
 				pass
 			self.adaptacionnuevapoblacion.append(con)
 			pass

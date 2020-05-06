@@ -19,7 +19,7 @@ class GeneticoPosiciones(object):
 		* tamTorneo = 4
 		* numRestos = 500
 		* proCruce = 0.6
-		* secuenciaBase = []
+		* secuenciaSintetica = []
 
 		Metodos que contiene la clase:
 
@@ -72,11 +72,11 @@ class GeneticoPosiciones(object):
 	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
 		
 	###### Funcion que inicializa la poblacion ######
-	def __init__(self, tamPoblacion = 100, tamSecuenciaBase = 30, proMutacion = 0.1, canMutacion = 2, 
+	def __init__(self, tamPoblacion = 100, numGenomas = 30, proMutacion = 0.1, canMutacion = 2, 
 				numElitismo = 1, knumeros = 4, tamTorneo = 4, 
-				numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaBase = []):
+				numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaSintetica = []):
 		self.tamPoblacion = tamPoblacion
-		self.tamSecuenciaBase = tamSecuenciaBase
+		self.numGenomas = numGenomas
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
@@ -85,11 +85,11 @@ class GeneticoPosiciones(object):
 		self.numRestos = numRestos
 		self.proCruce = proCruce
 		self.w = w
-		self.secuenciaBase = secuenciaBase
+		self.secuenciaSintetica = secuenciaSintetica
 		self.numHongos = len(self.hongos)
         # Inicializacion de la poblacion.
 		self.poblacion = []
-		self.poblacion = [[random.randrange(self.numHongos - self.tamSecuenciaBase) for _ in range(self.numHongos)] for _ in range(self.tamPoblacion)]
+		self.poblacion = [[random.randrange(self.numHongos - self.numGenomas) for _ in range(self.numHongos)] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
@@ -220,16 +220,24 @@ class GeneticoPosiciones(object):
 
 		return mayorMenorIndex[:numElitismo]
 
-	def evaluacionGenoma(self,hongo, individuo):
-		total = 0.0
-		for i in individuo:
+	def secuenciaAdaptacion(self,individuo):
+		result = []
+		for h in range(self.numHongos):
+			secuencia = []
+			total = 0.0
 			suma = 0.0
-			for j in range (self.tamSecuenciaBase):
-				suma = suma + self.w[0] * (self.SCIM[self.index[self.poblacion[hongo][j + i]]][self.index[self.secuenciaBase[j]]]) + self.w[1] * (self.CCIM[self.index[self.poblacion[hongo][j + i]]][self.index[self.secuenciaBase[j]]]) + self.w[2] * (self.HCIM[self.index[self.poblacion[hongo][j + i]]][self.index[self.secuenciaBase[j]]])
+			for i in range(self.numGenomas):
+				if self.hongos[h][i + individuo[h]] != '-':
+					suma = suma + self.w[0] * (self.SCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
+					suma = suma + self.w[1] * (self.CCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
+					suma = suma + self.w[2] * (self.HCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
+					pass
 				pass
-			total = total + float(suma/self.tamSecuenciaBase)
+			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.numGenomas]
+			total = float(suma/self.numGenomas)
+			result.append([secuencia,total])
 			pass
-		return total
+		return result
 
 	###### Funciones Auxiliares. ######
 
@@ -237,7 +245,7 @@ class GeneticoPosiciones(object):
 
 	# Funcion para evaluacion de la poblacion.
 	def evaluacionPoblacion(self, motif):
-		self.secuenciaBase = motif[:]
+		self.secuenciaSintetica = motif[:]
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
@@ -245,9 +253,9 @@ class GeneticoPosiciones(object):
 			for j in range(self.numHongos):
 				for k in range(30):
 					if (self.hongos[j][self.poblacion[i][j]+k] != '-'):
-						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
-						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
-						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
+						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
+						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
+						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
 						pass
 					pass
 				pass
@@ -284,9 +292,9 @@ class GeneticoPosiciones(object):
 			for j in range(self.numHongos):
 				for k in range(30):
 					if (self.hongos[j][self.nuevapoblacion[i][j] + k] != '-'):
-						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
-						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
-						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaBase[k]]]) + total
+						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
+						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
+						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
 						pass
 					pass
 				pass
@@ -461,12 +469,12 @@ class GeneticoPosiciones(object):
 
 	# Mutacion uniforme.
 	def mutacionUniforme(self):
-		pm = (self.proMutacion * 10)/float(self.tamSecuenciaBase)
+		pm = (self.proMutacion * 10)/float(self.numGenomas)
 		for i in range(self.tamPoblacion):
 			for x in range(self.numHongos):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.tamSecuenciaBase)
+					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.numGenomas)
 					pass
 				pass
 			pass
@@ -484,7 +492,7 @@ class GeneticoPosiciones(object):
 						pass
 					pass
 				for x in mut:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.tamSecuenciaBase)
+					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.numGenomas)
 					pass
 				pass
 			pass
