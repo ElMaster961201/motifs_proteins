@@ -5,7 +5,7 @@ sys.path.append(".")
 
 # Se importa nuestra clase
 from Genetico_Motifs import GeneticoMotifs
-from Parametros_GM import ParametrosGM 
+from DisenoExperimentoGM.Parametros_GM import ParametrosGM 
 
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGM().parametros()

@@ -5,7 +5,7 @@ sys.path.append(".")
 
 # Se importa nuestra clase
 from Genetico_SecuenciaConsenso import GeneticoSecuenciaConsenso
-from Parametros_GS import ParametrosGS
+from DisenoExperimentoGS.Parametros_GS import ParametrosGS
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 

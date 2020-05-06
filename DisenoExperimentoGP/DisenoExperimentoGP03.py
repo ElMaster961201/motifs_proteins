@@ -4,7 +4,7 @@ import sys
 sys.path.append(".")
 
 # Se importa nuestra clase
-from Parametros_GP import ParametrosGP
+from DisenoExperimentoGP.Parametros_GP import ParametrosGP
 from Genetico_Posiciones import GeneticoPosiciones
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGP().parametros()
