@@ -91,7 +91,7 @@ pruebas.py
 # Experimento*.txt
 */Parametros_GM.py
 */Parametros_GS.py
-# */Parametros_GP.py
+*/Parametros_GP.py
 */DisenoExperimentoGM*.py
 */DisenoExperimentoGS*.py
-# */DisenoExperimentoGP*.py
+*/DisenoExperimentoGP*.py
