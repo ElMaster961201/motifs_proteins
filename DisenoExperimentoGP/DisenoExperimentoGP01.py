@@ -117,7 +117,7 @@ while t:
             file.write("Las secuencias encontradas son: " + os.linesep)
             k = AGS.secuenciaAdaptacion(AGS.mejor[0])
             for j in range(AGS.numHongos):
-                file.write("Hongo " + str(_ + 1) + os.linesep)
+                file.write("Hongo " + str(j + 1) + os.linesep)
                 file.write("Secuencia: " + str(k[j][0]) + os.linesep)
                 file.write("Compatibilidad: " + str(k[j][1]) + os.linesep)
                 file.write("Inicio: " + str(AGS.mejor[0][j]) + os.linesep)
