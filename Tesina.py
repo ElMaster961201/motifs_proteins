@@ -13,8 +13,8 @@
 """
 
 # <------------- Importaciones Inicio ------------- > 
-from Genetico_Pos import Genetico_P
-from Genetico_Motifs import Genetico_M
+# from Genetico_Pos import Genetico_P
+from Genetico_Motifs import GeneticoMotifs
 from Hongos import Hongos
 from Motifs import Motifs
 # <------------- Importaciones Fin    ------------- > 
@@ -39,7 +39,7 @@ mA = ['A','H','M','K','L','F','S','C','Q','P','E','E','G','I','A','Y','L','F','M
 # <------------- Instancias--- Inicio ------------- > 
 
 # Instancia de algoritmo Genetico AGS.
-AGS = Genetico()
+AGS = GeneticoMotifs()
 # Instancia de la clase Hongos Hns.
 # Hns = Hongos()
 # Instancia de la clase Motifs Mtfs.
@@ -92,7 +92,7 @@ AGS = Genetico()
 # print ()
 # print (AGS.poblacion)
 
-AGS.fits(mA)
+AGS.evaluacionPoblacion(mA)
 # print(AGS.fit)
 # AGS.ruleta()
 # print((AGS.nuevapoblacion))

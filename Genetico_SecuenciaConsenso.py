@@ -1,17 +1,16 @@
-# <------------- Librerias ------------- >
-# Generar numeros o selecciones de manera random.
+from Hongos import Hongos as HG 
 import random
-from Motifs import Motifs as MTFS
 
 ###### Genetico. ######
-class GeneticoMotifs(object):
+class GeneticoSecuenciaConsenso(object):
 
 	"""
 		Inicializamos la clase los parametros que se pueden manupular desde la creacion de la 
 		clase son los sigueintes, donde se les asigno un valor por default:
 		
 		* tamPoblacion = 100
-		* numGenomas = 27
+		* numGenomas = 30
+		* numSecuenciasConsenso = 20
 		* proMutacion = 0.1
 		* canMutacion = 2
 		* numElitismo = 1
@@ -19,8 +18,6 @@ class GeneticoMotifs(object):
 		* tamTorneo = 4
 		* numRestos = 500
 		* proCruce = 0.6
-		* w = [1/3, 1/3, 1/3]
-		* secuenciaConsenso = []
 
 		Metodos que contiene la clase:
 
@@ -38,6 +35,7 @@ class GeneticoMotifs(object):
 		restosSimple
 		elitismoSimple
 		elitismoSimpleNuevaPoblacion
+		validaPoblacion
 
 		##### Metodos de Seleccion. ##############################
 		ruleta
@@ -49,6 +47,7 @@ class GeneticoMotifs(object):
 		cruzamientoPuntoFijo
 		cruzamientoMultiPunto
 		cruzamientoUniforme
+		cruzamientoAritmetico
 
 		##### Metodos de Mutacion. ##############################
 		mutacionUniforme
@@ -66,16 +65,16 @@ class GeneticoMotifs(object):
 	"""
 
 	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
-	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19 }
-	amoniacido = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
-	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
+	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20 }
+	hongos = HG().matrizHongos()
 		
 	###### Funcion que inicializa la poblacion ######
-	def __init__(self, tamPoblacion = 100, numGenomas = 30,
+	def __init__(self, tamPoblacion = 100, numGenomas = 30, numSecuenciasConsenso = 20,
         proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
-		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaConsenso = []):
+		numRestos = 500, proCruce = 0.6):
 		self.tamPoblacion = tamPoblacion
 		self.numGenomas = numGenomas
+		self.numSecuenciasConsenso = numSecuenciasConsenso
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
@@ -83,15 +82,20 @@ class GeneticoMotifs(object):
 		self.tamTorneo = tamTorneo
 		self.numRestos = numRestos
 		self.proCruce = proCruce
-		self.w = w
-		self.secuenciaConsenso = secuenciaConsenso
-		# Inicializacion de la poblacion.
-		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.numGenomas) ] for _ in range(self.tamPoblacion)]
+        # Inicializamos el contador.
+		self.contador = [[0 for _ in range(len(self.index))] for _ in range(len(self.hongos[0]))]
+		for i in range(len(self.hongos[0])):
+			for j in range(len(self.hongos)):
+				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] +1
+				pass
+			pass
+        # Inicializacion de la poblacion.
+		self.poblacion = []
+		self.poblacion = [[self.validaPoblacion(self.poblacion,random.randrange(len(self.hongos[0]) - self.numGenomas)) for _ in range(self.numSecuenciasConsenso)] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
-		self.adaptacionnuevapoblacion = []
-
+		self.adaptacionnuevaploblacion = []
 		pass
 
 	###### Funcion que inicializa la poblacion ######
@@ -218,23 +222,64 @@ class GeneticoMotifs(object):
 
 		return mayorMenorIndex[:numElitismo]
 
+	### Validacion de la poblacion para evitar genomas repetidos.
+	def validaPoblacion(self, individuo, genoma):
+		t = True
+		ind = 0
+		while t:
+			for i in individuo:
+				ind = ind + 1
+				if (genoma > i - self.numGenomas and genoma < i + self.numGenomas):
+					genoma = random.randrange(len(self.hongos[0])-self.numGenomas)
+					ind = 0
+					break
+				pass
+			if (ind == len(individuo)):
+				t = False
+				pass
+			pass
+		return genoma 
+
+	def secuenciaAdaptacion(self,individuo):
+		result = []
+		for ind in individuo:
+			secuencia = []
+			total = 0.0
+			for i in range(self.numGenomas):
+				index = self.contador[i +  ind].index(max(self.contador[i +  ind]))
+				if index == 20:
+					self.contador[i +  ind].pop(index)
+					index = self.contador[i +  ind].index(max(self.contador[i +  ind]))
+					pass
+				total = total + max(self.contador[i +  ind])
+				secuencia.append(list(self.index.keys())[index])
+				pass
+			total = 100 * float(total)/(self.numGenomas  * len(self.hongos))
+			result.append([secuencia,total])
+			pass
+		return result
+
 	###### Funciones Auxiliares. ######
 
 	###### Metodo de evaluacion de la poblacion. ######
 
 	# Funcion para evaluacion de la poblacion.
-	def evaluacionPoblacion(self, motif):
-		self.secuenciaConsenso = motif[:]
+	def evaluacionPoblacion(self):
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in self.poblacion:
 			con = 0.0
-			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con 
-				con = self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
+			for j in i:
+				for k in range(j, j + self.numGenomas):
+					index = self.contador[k].index(max(self.contador[k]))
+					if index == 20:
+						self.contador[k].pop(index)
+						index = self.contador[k].index(max(self.contador[k]))
+						pass
+					con = con + max(self.contador[k])
+					pass
 				pass
-			self.adaptacion.append(con)
+			self.adaptacion.append(100 * float(con)/(self.numGenomas * self.numSecuenciasConsenso * len(self.hongos)))
 			pass
 
 		mejorAdaptacion = self.adaptacion[:]
@@ -261,14 +306,19 @@ class GeneticoMotifs(object):
 
 		self.adaptacionnuevapoblacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in self.nuevapoblacion:
 			con = 0.0
-			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
-				con = self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConsenso[k]]]) + con
+			for j in i:
+				for k in range(j, j + self.numGenomas):
+					index = self.contador[k].index(max(self.contador[k]))
+					if index == 20:
+						self.contador[k].pop(index)
+						index = self.contador[k].index(max(self.contador[k]))
+						pass
+					con = con + max(self.contador[k])
+					pass
 				pass
-			self.adaptacionnuevapoblacion.append(con)
+			self.adaptacionnuevapoblacion.append(100 * float(con)/(self.numGenomas * self.numSecuenciasConsenso * len(self.hongos)))
 			pass
 		pass
 
@@ -331,7 +381,9 @@ class GeneticoMotifs(object):
 	def cruzamientoPuntoFijo(self):
 		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3, self.numGenomas-3)
+				punto = random.randrange(3,self.numSecuenciasConsenso-3)
+				hijo1 = []
+				hijo2 = []
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre 
@@ -340,8 +392,16 @@ class GeneticoMotifs(object):
 				padre es: self.nuevapoblacion[i]
 				madre es: self.nuevapoblacion[i + 1]
 				"""
-				hijo1 = self.nuevapoblacion[i][:punto] + self.nuevapoblacion[i + 1][punto:]
-				hijo2 = self.nuevapoblacion[i + 1][:punto] + self.nuevapoblacion[i][punto:]
+				for j in range(0, punto):
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					pass
+
+				for j in range(punto, self.numSecuenciasConsenso):
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i][j]))
+					pass 
+
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 				pass
@@ -350,11 +410,13 @@ class GeneticoMotifs(object):
 
 	# Por Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0, self.tamPoblacion,2):
+		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = []
-				punto.append(random.randrange(3, int(self.numGenomas/2) - 1))
-				punto.append(random.randrange(int(self.numGenomas/2) + 1, self.numGenomas - 3))
+				hijo1 = []
+				hijo2 = []
+				punto.append(random.randrange(3, int(self.numSecuenciasConsenso/2) - 1))
+				punto.append(random.randrange(int(self.numSecuenciasConsenso/2) + 1, self.numSecuenciasConsenso - 3))
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre + padre
@@ -363,8 +425,21 @@ class GeneticoMotifs(object):
 				padre es: self.nuevapoblacion[i]
 				madre es: self.nuevapoblacion[i + 1]
 				"""
-				hijo1 = self.nuevapoblacion[i][:punto[0]] + self.nuevapoblacion[i + 1][punto[0]:punto[1]] + self.nuevapoblacion[i][punto[1]:]
-				hijo2 = self.nuevapoblacion[i + 1][:punto[0]] + self.nuevapoblacion[i][punto[0]:punto[1]] + self.nuevapoblacion[i + 1][punto[1]:]
+				for j in range(0, punto[0]):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					pass
+
+				for j in range(punto[0],punto[1]):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i][j]))
+					pass
+
+				for j in range(punto[1],self.numSecuenciasConsenso):
+					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i][j]))
+					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i + 1][j]))
+					pass
+
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 				pass
@@ -376,15 +451,15 @@ class GeneticoMotifs(object):
 		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
 			hijo2 = []
-			for x in range(self.numGenomas):
+			for x in range(self.numSecuenciasConsenso):
 				r = random.random()
 				if self.proCruce > r:
-					hijo1.append(self.nuevapoblacion[i + 1][x])
-					hijo2.append(self.nuevapoblacion[i][x])
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][x]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i][x]))
 					pass
 				else:
-					hijo1.append(self.nuevapoblacion[i][x])
-					hijo2.append(self.nuevapoblacion[i + 1][x])
+					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i][x]))
+					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][x]))
 					pass
 				pass
 			self.nuevapoblacion[i] = hijo1
@@ -392,6 +467,22 @@ class GeneticoMotifs(object):
 			pass
 		pass
 	
+	# Por Cruzamiento Aritmetico.
+	def cruzamientoAritmetico(self):
+		for i in range(0,self.tamPoblacion,2):
+			if self.proCruce > random.random():
+				hijo1 =[]
+				hijo2 = []
+				alpha = random.random()
+				for x in range(self.numSecuenciasConsenso):
+					hijo1.append(self.validaPoblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) +((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
+					hijo2.append(self.validaPoblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) +((1 - alpha) * self.nuevapoblacion[i][x]))))
+					pass
+				self.nuevapoblacion[i] = hijo1
+				self.nuevapoblacion[i + 1] = hijo2
+				pass
+			pass
+		pass
 	###### Metodos de reproduccion. Fin ######
 
 	###### Mutación ######
@@ -400,10 +491,10 @@ class GeneticoMotifs(object):
 	def mutacionUniforme(self):
 		pm = (self.proMutacion * 10)/float(self.numGenomas)
 		for i in range(self.tamPoblacion):
-			for x in range(self.numGenomas):
+			for x in range(self.numSecuenciasConsenso):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
+					self.nuevapoblacion[i][x] = self.validaPoblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.numGenomas))
 					pass
 				pass
 			pass
@@ -415,13 +506,13 @@ class GeneticoMotifs(object):
 			if self.proMutacion > random.random():
 				mut = []
 				while len(mut) < self.canMutacion:
-					punto = random.randrange(self.numGenomas)
+					punto = random.randrange(self.numSecuenciasConsenso)
 					if not (punto in mut):
 						mut.append(punto)
 						pass
 					pass
 				for x in mut:
-					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
+					self.nuevapoblacion[i][x] = self.validaPoblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.numGenomas))
 					pass
 				pass
 			pass

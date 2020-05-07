@@ -1,29 +1,31 @@
 import os 
 from time import time
+import sys
+sys.path.append(".")
 
 # Se importa nuestra clase
-from Genetico_Motifs import Genetico
-from Parametros import Parametros 
+from Genetico_Motifs import GeneticoMotifs
+from DisenoExperimentoGM.Parametros_GM import ParametrosGM 
 
 # Se obtrienen los parametros a utilizar de una clase. 
-p,nGeneraciones,nRepeticiones = Parametros().parametros()
-print ("Experimento 01")
+p,nGeneraciones,nRepeticiones = ParametrosGM().parametros()
+
 cont = 1
 t = True
-ruta = "Experimento/Hp"
+ruta = "DisenoExperimentoGM/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
     pass
 
 while t:
-    if (os.path.exists(ruta + "/Experimento01-" + str(cont) + ".txt")):
+    if (os.path.exists(ruta + "/Experimento " + str(cont) + ".txt")):
         cont = cont + 1 
     else:
         startTimeTotal = time ()
 
-        file = open(ruta + "/Experimento01-" + str(cont) + ".txt","w")
-        file.write("Experimento v0.1."+ str(cont) + os.linesep)
+        file = open(ruta + "/Experimento" + str(cont) + ".txt","w")
+        file.write("Experimento v0.0."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
@@ -47,19 +49,23 @@ while t:
         ##### Metodos de Seleccion. ######
         # file.write("Ruleta" + os.linesep)
         # file.write("Estocastico Universal" + os.linesep)
-        file.write("Torneo" + os.linesep)
+        # file.write("Torneo" + os.linesep)
         # file.write("Restos" + os.linesep)
+
         ###### Metodos de Cruzamiento. ######
-        file.write("Punto Fijo" + os.linesep)
+        # file.write("Punto Fijo" + os.linesep)
         # file.write("Multi-Punto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
+
         ###### Metodos de Mutacion. ######
         # file.write("Mutacion Uniforme" + os.linesep)
-        file.write("Mutacion Estandar" + os.linesep)
+        # file.write("Mutacion Estandar" + os.linesep)
+
         ###### Metodo de conservacion. ######
-        file.write("Elitismo" + os.linesep)
+        # file.write("Elitismo" + os.linesep)
+        
         ###### Metodo de Paso de Generacion. ######
-        file.write("Reemplazo de Padres" + os.linesep)
+        # file.write("Reemplazo de Padres" + os.linesep)
         # file.write("Reemplazo Aleatorio" + os.linesep)
         # file.write("Reemplazo de los Peor Adaptados" + os.linesep)
         # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
@@ -71,35 +77,35 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = Genetico(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            AGS.evaluacionPoblacion(p[10])
+            AGS = GeneticoMotifs(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
+            # AGS.evaluacionPoblacion(p[10])
             for i in range(nGeneraciones):
 
                 ##### Metodos de Seleccion. ######
                 # AGS.ruleta()
                 # AGS.estocasticoUniversal()
-                AGS.torneo()
+                # AGS.torneo()
                 # AGS.restos()
 
                 ###### Metodos de Cruzamiento. ######
-                AGS.cruzamientoPuntoFijo()
+                # AGS.cruzamientoPuntoFijo()
                 # AGS.cruzamientoMultiPunto()
                 # AGS.cruzamientoUniforme()
 
                 ###### Metodos de Mutacion. ######
-                AGS.mutacionEstandar()
                 # AGS.mutacionUniforme()
+                # AGS.mutacionEstandar()
 
                 ###### Metodo de conservacion. ######
-                AGS.elitismo()
+                # AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                AGS.reemplazoPadres()
+                # AGS.reemplazoPadres()
                 # AGS.reemplazoAleatorio()
                 # AGS.reemplazoPeorAdaptados()
                 # AGS.reemplazoAdaptacionSimilar()
                 
-                AGS.evaluacionPoblacion(p[10])
+                # AGS.evaluacionPoblacion(p[10])
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 
@@ -121,5 +127,5 @@ while t:
         t = False
         pass
     pass
-file.write("El experimento N° 1-" + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
+file.write("El experimento N° " + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
 file.close()

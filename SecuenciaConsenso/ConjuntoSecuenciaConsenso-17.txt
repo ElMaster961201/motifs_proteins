@@ -1,0 +1,254 @@
+Conjunto de secuencias Consenso-17
+
+Las secuencias consenso tendran un tamano 30
+
+El punto de donde inicia la secuencia consenso es: 1014
+Secuencia 1
+['T', 'K', 'V', 'E', 'E', 'P', 'A', 'D', 'G', 'E', 'G', 'S', 'L', 'E', 'E', 'S', 'D', 'P', 'K', 'E', 'N', 'D', 'G', 'L', 'K', 'E', 'I', 'V', 'L', 'G']
+Con 9.630522088353414 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 951
+Secuencia 2
+['E', 'E', 'K', 'V', 'D', 'V', 'P', 'A', 'L', 'L', 'R', 'E', 'V', 'E', 'D', 'E', 'A', 'Q', 'A', 'K', 'I', 'R', 'N', 'L', 'S', 'Q', 'A', 'L', 'T', 'P']
+Con 23.453815261044177 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 13
+Secuencia 3
+['E', 'T', 'A', 'L', 'G', 'V', 'P', 'A', 'S', 'T', 'L', 'A', 'S', 'A', 'G', 'A', 'E', 'T', 'R', 'R', 'A', 'A', 'L', 'H', 'A', 'L', 'G', 'A', 'H', 'Q']
+Con 0.08032128514056225 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 413
+Secuencia 4
+['I', 'E', 'P', 'A', 'T', 'S', 'A', 'Q', 'S', 'L', 'L', 'K', 'D', 'M', 'K', 'R', 'L', 'L', 'L', 'P', 'R', 'K', 'L', 'L', 'L', 'L', 'L', 'L', 'P', 'L']
+Con 10.36144578313253 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 412
+Secuencia 5
+['P', 'I', 'E', 'P', 'A', 'T', 'S', 'A', 'Q', 'S', 'L', 'L', 'K', 'D', 'M', 'K', 'R', 'L', 'L', 'L', 'P', 'R', 'K', 'L', 'L', 'L', 'L', 'L', 'L', 'P']
+Con 10.190093708165998 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 720
+Secuencia 6
+['F', 'I', 'E', 'L', 'V', 'E', 'E', 'Y', 'L', 'K', 'T', 'G', 'A', 'E', 'Q', 'S', 'R', 'H', 'D', 'S', 'G', 'G', 'K', 'D', 'F', 'L', 'N', 'M', 'D', 'A']
+Con 11.542168674698795 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 13
+Secuencia 7
+['E', 'T', 'A', 'L', 'G', 'V', 'P', 'A', 'S', 'T', 'L', 'A', 'S', 'A', 'G', 'A', 'E', 'T', 'R', 'R', 'A', 'A', 'L', 'H', 'A', 'L', 'G', 'A', 'H', 'Q']
+Con 0.08032128514056225 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 634
+Secuencia 8
+['V', 'L', 'L', 'D', 'S', 'E', 'E', 'E', 'A', 'D', 'D', 'L', 'T', 'E', 'S', 'G', 'L', 'L', 'E', 'G', 'S', 'S', 'N', 'I', 'E', 'W', 'C', 'N', 'R', 'A']
+Con 19.100401606425702 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1785
+Secuencia 9
+['S', 'T', 'R', 'F', 'E', 'D', 'E', 'A', 'G', 'A', 'P', 'A', 'R', 'A', 'I', 'A', 'W', 'V', 'L', 'T', 'I', 'P', 'M', 'C', 'A', 'L', 'L', 'G', 'A', 'I']
+Con 4.382864792503347 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1682
+Secuencia 10
+['S', 'M', 'G', 'I', 'I', 'T', 'M', 'A', 'L', 'V', 'G', 'S', 'G', 'I', 'L', 'N', 'V', 'H', 'I', 'R', 'R', 'L', 'R', 'K', 'K', 'L', 'E', 'P', 'S', 'L']
+Con 27.285140562248998 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 951
+Secuencia 11
+['E', 'E', 'K', 'V', 'D', 'V', 'P', 'A', 'L', 'L', 'R', 'E', 'V', 'E', 'D', 'E', 'A', 'Q', 'A', 'K', 'I', 'R', 'N', 'L', 'S', 'Q', 'A', 'L', 'T', 'P']
+Con 23.453815261044177 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 648
+Secuencia 12
+['S', 'G', 'L', 'L', 'E', 'G', 'S', 'S', 'N', 'I', 'E', 'W', 'C', 'N', 'R', 'A', 'A', 'Q', 'Q', 'L', 'S', 'A', 'L', 'L', 'I', 'A', 'F', 'L', 'L', 'L']
+Con 19.028112449799195 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1501
+Secuencia 13
+['E', 'E', 'L', 'F', 'Q', 'T', 'I', 'F', 'L', 'K', 'M', 'I', 'E', 'E', 'L', 'L', 'T', 'R', 'D', 'I', 'P', 'I', 'I', 'M', 'L', 'T', 'A', 'R', 'G', 'E']
+Con 31.930388219544845 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1468
+Secuencia 14
+['L', 'N', 'T', 'E', 'V', 'P', 'H', 'G', 'G', 'G', 'S', 'G', 'I', 'E', 'V', 'C', 'K', 'R', 'A', 'L', 'L', 'T', 'E', 'R', 'Y', 'F', 'Y', 'E', 'S', 'F']
+Con 25.58768406961178 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1519
+Secuencia 15
+['D', 'I', 'P', 'I', 'I', 'M', 'L', 'T', 'A', 'R', 'G', 'E', 'E', 'E', 'D', 'K', 'V', 'R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K']
+Con 73.21552878179384 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 817
+Secuencia 16
+['R', 'E', 'S', 'L', 'L', 'D', 'G', 'E', 'I', 'E', 'R', 'R', 'E', 'N', 'T', 'S', 'T', 'G', 'E', 'D', 'D', 'G', 'Q', 'V', 'L', 'L', 'V', 'A', 'R', 'D']
+Con 14.342704149933066 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 781
+Secuencia 17
+['Q', 'R', 'P', 'K', 'R', 'R', 'L', 'N', 'E', 'G', 'R', 'Y', 'V', 'Q', 'A', 'V', 'L', 'Q', 'K', 'Q', 'T', 'L', 'E', 'V', 'R', 'V', 'M', 'P', 'Y', 'G']
+Con 15.769745649263722 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1019
+Secuencia 18
+['P', 'A', 'D', 'G', 'E', 'G', 'S', 'L', 'E', 'E', 'S', 'D', 'P', 'K', 'E', 'N', 'D', 'G', 'L', 'K', 'E', 'I', 'V', 'L', 'G', 'D', 'E', 'D', 'E', 'L']
+Con 16.575635876840696 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1475
+Secuencia 19
+['G', 'G', 'G', 'S', 'G', 'I', 'E', 'V', 'C', 'K', 'R', 'A', 'L', 'L', 'T', 'E', 'R', 'Y', 'F', 'Y', 'E', 'S', 'F', 'K', 'R', 'R', 'E', 'E', 'L', 'F']
+Con 23.89825970548862 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1589
+Secuencia 20
+['D', 'D', 'E', 'V', 'I', 'E', 'I', 'G', 'G', 'A', 'L', 'R', 'L', 'D', 'P', 'E', 'S', 'H', 'R', 'V', 'T', 'A', 'Q', 'S', 'S', 'E', 'D', 'V', 'G', 'G']
+Con 31.542168674698797 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 573
+Secuencia 21
+['V', 'I', 'P', 'S', 'G', 'R', 'G', 'E', 'W', 'E', 'E', 'L', 'F', 'Y', 'G', 'L', 'Y', 'R', 'L', 'Q', 'R', 'Q', 'L', 'A', 'Q', 'E', 'Q', 'A', 'R', 'L']
+Con 19.64123159303882 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 229
+Secuencia 22
+['N', 'N', 'I', 'D', 'K', 'V', 'K', 'E', 'I', 'V', 'K', 'Q', 'Q', 'N', 'I', 'R', 'I', 'I', 'T', 'I', 'I', 'E', 'D', 'E', 'K', 'G', 'K', 'V', 'V', 'Y']
+Con 6.211512717536814 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1722
+Secuencia 23
+['N', 'D', 'K', 'K', 'P', 'H', 'P', 'R', 'L', 'I', 'Q', 'T', 'I', 'R', 'I', 'K', 'I', 'I', 'K', 'L', 'A', 'P', 'I', 'N', 'G', 'F', 'A', 'A', 'E', 'T']
+Con 11.1619812583668 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1650
+Secuencia 24
+['V', 'Y', 'S', 'R', 'E', 'Q', 'L', 'L', 'L', 'I', 'A', 'D', 'R', 'V', 'W', 'G', 'Y', 'N', 'D', 'V', 'Y', 'V', 'E', 'T', 'R', 'L', 'S', 'T', 'C', 'T']
+Con 45.14323962516733 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1168
+Secuencia 25
+['S', 'R', 'T', 'G', 'S', 'G', 'T', 'G', 'L', 'G', 'L', 'A', 'I', 'V', 'K', 'H', 'I', 'L', 'E', 'R', 'H', 'G', 'G', 'R', 'L', 'E', 'V', 'E', 'S', 'E']
+Con 58.61311914323962 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1072
+Secuencia 26
+['G', 'K', 'T', 'G', 'K', 'T', 'K', 'G', 'G', 'K', 'R', 'I', 'T', 'V', 'R', 'W', 'A', 'Q', 'R', 'D', 'E', 'R', 'A', 'P', 'A', 'A', 'A', 'A', 'G', 'A']
+Con 12.267737617135207 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 365
+Secuencia 27
+['G', 'R', 'E', 'E', 'K', 'A', 'Y', 'L', 'V', 'Y', 'Y', 'A', 'G', 'A', 'A', 'P', 'V', 'V', 'Q', 'D', 'L', 'D', 'A', 'P', 'Q', 'D', 'N', 'K', 'N', 'M']
+Con 2.7657295850066936 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 455
+Secuencia 28
+['A', 'L', 'L', 'L', 'G', 'L', 'F', 'F', 'G', 'Y', 'L', 'P', 'W', 'K', 'N', 'T', 'L', 'F', 'F', 'A', 'L', 'L', 'I', 'T', 'Q', 'A', 'A', 'F', 'F', 'S']
+Con 9.61178045515395 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 155
+Secuencia 29
+['A', 'S', 'I', 'F', 'E', 'N', 'Y', 'Y', 'Q', 'Q', 'Q', 'L', 'D', 'N', 'L', 'E', 'I', 'E', 'K', 'H', 'E', 'M', 'I', 'V', 'N', 'R', 'L', 'K', 'N', 'N']
+Con 2.819277108433735 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1457
+Secuencia 30
+['M', 'S', 'A', 'T', 'L', 'G', 'F', 'F', 'D', 'W', 'M', 'L', 'N', 'T', 'E', 'V', 'P', 'H', 'G', 'G', 'G', 'S', 'G', 'I', 'E', 'V', 'C', 'K', 'R', 'A']
+Con 31.68942436412316 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 402
+Secuencia 31
+['L', 'E', 'R', 'L', 'S', 'W', 'F', 'A', 'G', 'W', 'P', 'I', 'E', 'P', 'A', 'T', 'S', 'A', 'Q', 'S', 'L', 'L', 'K', 'D', 'M', 'K', 'R', 'L', 'L', 'L']
+Con 8.811244979919678 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1783
+Secuencia 32
+['R', 'F', 'S', 'T', 'R', 'F', 'E', 'D', 'E', 'A', 'G', 'A', 'P', 'A', 'R', 'A', 'I', 'A', 'W', 'V', 'L', 'T', 'I', 'P', 'M', 'C', 'A', 'L', 'L', 'G']
+Con 8.03748326639893 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1066
+Secuencia 33
+['E', 'G', 'D', 'K', 'K', 'S', 'G', 'K', 'T', 'G', 'K', 'T', 'K', 'G', 'G', 'K', 'R', 'I', 'T', 'V', 'R', 'W', 'A', 'Q', 'R', 'D', 'E', 'R', 'A', 'P']
+Con 14.085676037483266 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1364
+Secuencia 34
+['P', 'P', 'S', 'A', 'S', 'R', 'G', 'P', 'A', 'S', 'A', 'A', 'A', 'S', 'M', 'M', 'M', 'K', 'R', 'I', 'L', 'V', 'V', 'E', 'D', 'K', 'E', 'A', 'A', 'I']
+Con 29.876840696117803 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1280
+Secuencia 35
+['P', 'H', 'P', 'K', 'P', 'V', 'S', 'G', 'A', 'L', 'Q', 'F', 'D', 'G', 'L', 'L', 'T', 'S', 'T', 'P', 'P', 'A', 'D', 'G', 'L', 'R', 'I', 'G', 'A', 'D']
+Con 0.4605087014725569 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 337
+Secuencia 36
+['A', 'V', 'F', 'A', 'I', 'E', 'N', 'G', 'A', 'G', 'Q', 'R', 'S', 'D', 'R', 'F', 'I', 'V', 'S', 'I', 'F', 'S', 'K', 'T', 'V', 'N', 'G', 'Q', 'G', 'R']
+Con 3.5582329317269075 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1374
+Secuencia 37
+['A', 'A', 'A', 'S', 'M', 'M', 'M', 'K', 'R', 'I', 'L', 'V', 'V', 'E', 'D', 'K', 'E', 'A', 'A', 'I', 'R', 'E', 'L', 'L', 'A', 'F', 'N', 'L', 'E', 'Q']
+Con 44.840696117804555 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1396
+Secuencia 38
+['L', 'L', 'A', 'F', 'N', 'L', 'E', 'Q', 'E', 'G', 'Q', 'Y', 'E', 'V', 'V', 'E', 'A', 'L', 'V', 'E', 'M', 'A', 'E', 'D', 'G', 'D', 'E', 'A', 'L', 'E']
+Con 37.21285140562249 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 959
+Secuencia 39
+['L', 'L', 'R', 'E', 'V', 'E', 'D', 'E', 'A', 'Q', 'A', 'K', 'I', 'R', 'N', 'L', 'S', 'Q', 'A', 'L', 'T', 'P', 'N', 'Q', 'E', 'E', 'R', 'R', 'H', 'T']
+Con 18.393574297188756 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 581
+Secuencia 40
+['W', 'E', 'E', 'L', 'F', 'Y', 'G', 'L', 'Y', 'R', 'L', 'Q', 'R', 'Q', 'L', 'A', 'Q', 'E', 'Q', 'A', 'R', 'L', 'R', 'K', 'R', 'R', 'R', 'L', 'A', 'E']
+Con 19.269076305220885 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 37
+Secuencia 41
+['A', 'L', 'G', 'A', 'H', 'Q', 'E', 'T', 'D', 'G', 'V', 'A', 'A', 'F', 'T', 'V', 'S', 'G', 'R', 'R', 'Y', 'L', 'A', 'T', 'R', 'Y', 'G', 'R', 'G', 'H']
+Con 0.08032128514056225 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1232
+Secuencia 42
+['F', 'T', 'V', 'V', 'L', 'P', 'A', 'R', 'L', 'I', 'A', 'K', 'N', 'E', 'P', 'A', 'E', 'N', 'A', 'V', 'K', 'A', 'S', 'D', 'S', 'A', 'P', 'P', 'M', 'M']
+Con 15.65194109772423 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 487
+Secuencia 43
+['L', 'L', 'W', 'F', 'L', 'L', 'A', 'A', 'L', 'L', 'G', 'L', 'L', 'I', 'W', 'H', 'L', 'W', 'N', 'L', 'Y', 'F', 'A', 'S', 'R', 'S', 'I', 'T', 'L', 'R']
+Con 19.57697456492637 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1121
+Secuencia 44
+['E', 'D', 'D', 'G', 'A', 'E', 'F', 'S', 'V', 'Q', 'D', 'T', 'G', 'I', 'G', 'I', 'A', 'P', 'E', 'H', 'L', 'P', 'R', 'L', 'T', 'E', 'R', 'F', 'Y', 'R']
+Con 57.475234270414994 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 463
+Secuencia 45
+['G', 'Y', 'L', 'P', 'W', 'K', 'N', 'T', 'L', 'F', 'F', 'A', 'L', 'L', 'I', 'T', 'Q', 'A', 'A', 'F', 'F', 'S', 'Y', 'L', 'L', 'L', 'W', 'F', 'L', 'L']
+Con 9.183400267737618 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 858
+Secuencia 46
+['R', 'D', 'F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P', 'L', 'T', 'V', 'L', 'Q', 'G', 'Y', 'L', 'E', 'T', 'L', 'L', 'D', 'P', 'G', 'A']
+Con 64.85140562248996 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 940
+Secuencia 47
+['A', 'G', 'P', 'T', 'P', 'L', 'A', 'P', 'L', 'D', 'L', 'E', 'E', 'K', 'V', 'D', 'V', 'P', 'A', 'L', 'L', 'R', 'E', 'V', 'E', 'D', 'E', 'A', 'Q', 'A']
+Con 24.0615796519411 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 932
+Secuencia 48
+['L', 'T', 'L', 'S', 'R', 'I', 'E', 'A', 'A', 'G', 'P', 'T', 'P', 'L', 'A', 'P', 'L', 'D', 'L', 'E', 'E', 'K', 'V', 'D', 'V', 'P', 'A', 'L', 'L', 'R']
+Con 32.82730923694779 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 137
+Secuencia 49
+['I', 'I', 'I', 'S', 'F', 'V', 'G', 'I', 'L', 'G', 'T', 'F', 'L', 'G', 'L', 'F', 'I', 'L', 'A', 'S', 'I', 'F', 'E', 'N', 'Y', 'Y', 'Q', 'Q', 'Q', 'L']
+Con 5.076305220883534 de conservacion
+
+El punto de donde inicia la secuencia consenso es: 1284
+Secuencia 50
+['P', 'V', 'S', 'G', 'A', 'L', 'Q', 'F', 'D', 'G', 'L', 'L', 'T', 'S', 'T', 'P', 'P', 'A', 'D', 'G', 'L', 'R', 'I', 'G', 'A', 'D', 'A', 'D', 'A', 'D']
+Con 0.38018741633199465 de conservacion
+
