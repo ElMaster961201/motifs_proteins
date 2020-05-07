@@ -10,7 +10,7 @@ p,nGeneraciones,nRepeticiones = Parametros().parametros()
 print ("Experimento 01")
 cont = 1
 t = True
-ruta = "Experimento"
+ruta = "Experimento/Hp"
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
