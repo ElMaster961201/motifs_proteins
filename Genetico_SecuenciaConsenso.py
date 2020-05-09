@@ -128,7 +128,7 @@ class GeneticoSecuenciaConsenso(object):
 			a = (top + i) / knumeros
 			ii = 0
 			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
+			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
 				ii = ii +1
 				pass

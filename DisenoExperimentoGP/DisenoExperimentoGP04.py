@@ -104,7 +104,7 @@ while t:
                 # AGS.reemplazoPeorAdaptados()
                 # AGS.reemplazoAdaptacionSimilar()
                 
-                # AGS.evaluacionPoblacion(p[10])
+                AGS.evaluacionPoblacion(p[10])
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 
