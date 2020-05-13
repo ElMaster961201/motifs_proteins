@@ -46,10 +46,10 @@ while t:
         
         # Cambiar segun la prueba
         ##### Metodos de Seleccion. ######
+        # file.write("Torneo" + os.linesep)
         # file.write("Ruleta" + os.linesep)
+        file.write("Restos" + os.linesep)
         # file.write("Estocastico Universal" + os.linesep)
-        file.write("Torneo" + os.linesep)
-        # file.write("Restos" + os.linesep)
 
         ###### Metodos de Cruzamiento. ######
         file.write("Punto Fijo" + os.linesep)
@@ -80,10 +80,10 @@ while t:
             for i in range(nGeneraciones):
 
                 ##### Metodos de Seleccion. ######
+                # AGS.torneo()
                 # AGS.ruleta()
+                AGS.restos()
                 # AGS.estocasticoUniversal()
-                AGS.torneo()
-                # AGS.restos()
 
                 ###### Metodos de Cruzamiento. ######
                 AGS.cruzamientoPuntoFijo()
