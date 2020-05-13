@@ -2,7 +2,9 @@ Experimento v0.1.1
 Con los siguientes parametros:
 
 Tamano de la poblacion: 500
-Numero de Genomas: 30Numero de Secuencias Consenso: 20Probabilidad de Mutacion: 0.1
+Numero de Genomas: 30
+Numero de Secuencias Consenso: 20
+Probabilidad de Mutacion: 0.1
 Cantidad de Secuencias a mutar: 2
 Numero de individuos seleccionado por Elitismo: 1
 Tamano de k en estocastico universal: 4
