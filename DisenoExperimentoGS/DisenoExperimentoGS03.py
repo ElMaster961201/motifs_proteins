@@ -4,7 +4,7 @@ import sys
 sys.path.append(".")
 
 # Se importa nuestra clase
-from Genetico_SecuenciaConsenso import GeneticoSecuenciaConsenso
+from Genetico_SecuenciaConservada import GeneticoSecuenciaConservada
 from DisenoExperimentoGS.Parametros_GS import ParametrosGS
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
@@ -74,7 +74,7 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = GeneticoSecuenciaConsenso(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
+            AGS = GeneticoSecuenciaConservada(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             AGS.evaluacionPoblacion()
             for i in range(nGeneraciones):
 

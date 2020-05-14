@@ -2,7 +2,7 @@ from Hongos import Hongos as HG
 import random
 
 ###### Genetico. ######
-class GeneticoSecuenciaConsenso(object):
+class GeneticoSecuenciaConservada(object):
 
 	"""
 		Inicializamos la clase los parametros que se pueden manupular desde la creacion de la 
@@ -10,7 +10,7 @@ class GeneticoSecuenciaConsenso(object):
 		
 		* tamPoblacion = 100
 		* numGenomas = 30
-		* numSecuenciasConsenso = 20
+		* numSecuenciasConservadas = 20
 		* proMutacion = 0.1
 		* canMutacion = 2
 		* numElitismo = 1
@@ -69,12 +69,12 @@ class GeneticoSecuenciaConsenso(object):
 	hongos = HG().matrizHongos()
 		
 	###### Funcion que inicializa la poblacion ######
-	def __init__(self, tamPoblacion = 100, numGenomas = 30, numSecuenciasConsenso = 20,
+	def __init__(self, tamPoblacion = 100, numGenomas = 30, numSecuenciasConservadas = 20,
         proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
 		numRestos = 500, proCruce = 0.6):
 		self.tamPoblacion = tamPoblacion
 		self.numGenomas = numGenomas
-		self.numSecuenciasConsenso = numSecuenciasConsenso
+		self.numSecuenciasConservadas = numSecuenciasConservadas
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
@@ -82,6 +82,7 @@ class GeneticoSecuenciaConsenso(object):
 		self.tamTorneo = tamTorneo
 		self.numRestos = numRestos
 		self.proCruce = proCruce
+		self.ConSec = []
         # Inicializamos el contador.
 		self.contador = [[0 for _ in range(len(self.index))] for _ in range(len(self.hongos[0]))]
 		for i in range(len(self.hongos[0])):
@@ -89,9 +90,25 @@ class GeneticoSecuenciaConsenso(object):
 				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] +1
 				pass
 			pass
+
+		for i in range(len(self.hongos[0])- self.numGenomas):
+			sec = []
+			sumSecCon = 0.0
+			for am in range(self.numGenomas):
+				index = self.contador[i + am].index(max(self.contador[i + am]))
+				if index == 20:
+					self.contador[i + am].pop(index)
+					index = self.contador[i + am].index(max(self.contador[i + am]))
+					pass
+				sumSecCon = sumSecCon + max(self.contador[i + am])
+				sec.append(list(self.index.keys())[index])
+				pass
+			self.ConSec.append([sec,100 * float(sumSecCon)/(self.numGenomas * len(self.hongos) * self.numSecuenciasConservadas)])
+			pass
+
         # Inicializacion de la poblacion.
 		self.poblacion = []
-		self.poblacion = [[self.validaPoblacion(self.poblacion,random.randrange(len(self.hongos[0]) - self.numGenomas)) for _ in range(self.numSecuenciasConsenso)] for _ in range(self.tamPoblacion)]
+		self.poblacion = [[self.validaPoblacion(self.poblacion,random.randrange(len(self.hongos[0]) - self.numGenomas)) for _ in range(self.numSecuenciasConservadas)] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
@@ -267,19 +284,12 @@ class GeneticoSecuenciaConsenso(object):
 	def evaluacionPoblacion(self):
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in self.poblacion:
-			con = 0.0
-			for j in i:
-				for k in range(j, j + self.numGenomas):
-					index = self.contador[k].index(max(self.contador[k]))
-					if index == 20:
-						self.contador[k].pop(index)
-						index = self.contador[k].index(max(self.contador[k]))
-						pass
-					con = con + max(self.contador[k])
-					pass
+		for individuo in self.poblacion:
+			sumTotal = 0.0
+			for genoma in individuo:
+				sumTotal = sumTotal + self.ConSec[genoma][1]
 				pass
-			self.adaptacion.append(100 * float(con)/(self.numGenomas * self.numSecuenciasConsenso * len(self.hongos)))
+			self.adaptacion.append(sumTotal)
 			pass
 
 		mejorAdaptacion = self.adaptacion[:]
@@ -306,19 +316,12 @@ class GeneticoSecuenciaConsenso(object):
 
 		self.adaptacionnuevapoblacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in self.nuevapoblacion:
-			con = 0.0
-			for j in i:
-				for k in range(j, j + self.numGenomas):
-					index = self.contador[k].index(max(self.contador[k]))
-					if index == 20:
-						self.contador[k].pop(index)
-						index = self.contador[k].index(max(self.contador[k]))
-						pass
-					con = con + max(self.contador[k])
-					pass
+		for individuo in self.poblacion:
+			sumTotal = 0.0
+			for genoma in individuo:
+				sumTotal = sumTotal + self.ConSec[genoma][1]
 				pass
-			self.adaptacionnuevapoblacion.append(100 * float(con)/(self.numGenomas * self.numSecuenciasConsenso * len(self.hongos)))
+			self.adaptacionnuevapoblacion.append(sumTotal)
 			pass
 		pass
 
@@ -381,7 +384,7 @@ class GeneticoSecuenciaConsenso(object):
 	def cruzamientoPuntoFijo(self):
 		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3,self.numSecuenciasConsenso-3)
+				punto = random.randrange(3,self.numSecuenciasConservadas-3)
 				hijo1 = []
 				hijo2 = []
 				"""
@@ -397,7 +400,7 @@ class GeneticoSecuenciaConsenso(object):
 					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i + 1][j]))
 					pass
 
-				for j in range(punto, self.numSecuenciasConsenso):
+				for j in range(punto, self.numSecuenciasConservadas):
 					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][j]))
 					hijo2.append(self.validaPoblacion(hijo2, self.nuevapoblacion[i][j]))
 					pass 
@@ -415,8 +418,8 @@ class GeneticoSecuenciaConsenso(object):
 				punto = []
 				hijo1 = []
 				hijo2 = []
-				punto.append(random.randrange(3, int(self.numSecuenciasConsenso/2) - 1))
-				punto.append(random.randrange(int(self.numSecuenciasConsenso/2) + 1, self.numSecuenciasConsenso - 3))
+				punto.append(random.randrange(3, int(self.numSecuenciasConservadas/2) - 1))
+				punto.append(random.randrange(int(self.numSecuenciasConservadas/2) + 1, self.numSecuenciasConservadas - 3))
 				"""
 				Los hijos  estan conformados de la siguiente manera.
 				hijo1 es padre + madre + padre
@@ -435,7 +438,7 @@ class GeneticoSecuenciaConsenso(object):
 					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i][j]))
 					pass
 
-				for j in range(punto[1],self.numSecuenciasConsenso):
+				for j in range(punto[1],self.numSecuenciasConservadas):
 					hijo1.append(self.validaPoblacion(hijo1,self.nuevapoblacion[i][j]))
 					hijo2.append(self.validaPoblacion(hijo2,self.nuevapoblacion[i + 1][j]))
 					pass
@@ -451,7 +454,7 @@ class GeneticoSecuenciaConsenso(object):
 		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
 			hijo2 = []
-			for x in range(self.numSecuenciasConsenso):
+			for x in range(self.numSecuenciasConservadas):
 				r = random.random()
 				if self.proCruce > r:
 					hijo1.append(self.validaPoblacion(hijo1, self.nuevapoblacion[i + 1][x]))
@@ -474,7 +477,7 @@ class GeneticoSecuenciaConsenso(object):
 				hijo1 =[]
 				hijo2 = []
 				alpha = random.random()
-				for x in range(self.numSecuenciasConsenso):
+				for x in range(self.numSecuenciasConservadas):
 					hijo1.append(self.validaPoblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) +((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
 					hijo2.append(self.validaPoblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) +((1 - alpha) * self.nuevapoblacion[i][x]))))
 					pass
@@ -491,7 +494,7 @@ class GeneticoSecuenciaConsenso(object):
 	def mutacionUniforme(self):
 		pm = (self.proMutacion * 10)/float(self.numGenomas)
 		for i in range(self.tamPoblacion):
-			for x in range(self.numSecuenciasConsenso):
+			for x in range(self.numSecuenciasConservadas):
 				r = random.random()
 				if r < pm:
 					self.nuevapoblacion[i][x] = self.validaPoblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.numGenomas))
@@ -506,7 +509,7 @@ class GeneticoSecuenciaConsenso(object):
 			if self.proMutacion > random.random():
 				mut = []
 				while len(mut) < self.canMutacion:
-					punto = random.randrange(self.numSecuenciasConsenso)
+					punto = random.randrange(self.numSecuenciasConservadas)
 					if not (punto in mut):
 						mut.append(punto)
 						pass
