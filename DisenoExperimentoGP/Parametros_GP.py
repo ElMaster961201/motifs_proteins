@@ -11,7 +11,7 @@ class ParametrosGP(object):
     500,                # numRestos -> 7
     .6,                 # proCruce -> 8
     [1/3, 1/3, 1/3],    # w -> 9
-    ['G', 'T', 'G', 'L', 'G', 'L', 'A', 'I', 'V', 'K', 'H', 'I', 'L', 'E', 'R', 'H', 'G', 'G', 'R', 'L', 'E', 'V', 'E', 'S', 'E', 'V', 'E', 'G', 'C', 'G']                  # secuenciaSintetica  -> 10
+    ['R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K', 'A', 'V', 'L', 'R', 'R']                  # secuenciaSintetica  -> 10
     ]
 
     nGeneraciones = 1000
