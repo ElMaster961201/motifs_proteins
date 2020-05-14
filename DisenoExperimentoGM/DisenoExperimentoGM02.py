@@ -19,7 +19,7 @@ if not os.path.exists(ruta):
     pass
 
 while t:
-    if (os.path.exists(ruta + "/Experimento " + str(cont) + ".txt")):
+    if (os.path.exists(ruta + "/Experimento" + str(cont) + ".txt")):
         cont = cont + 1 
     else:
         startTimeTotal = time ()
