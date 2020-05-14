@@ -77,7 +77,7 @@ while t:
             AGS = GeneticoSecuenciaConservada(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             # AGS.evaluacionPoblacion()
             for i in range(nGeneraciones):
-
+                print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
                 # AGS.torneo()
                 # AGS.ruleta()
@@ -115,7 +115,7 @@ while t:
             file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
             file.write("Las secuencias consenso son: " + os.linesep)
             k = AGS.secuenciaAdaptacion(AGS.mejor[0])
-            for j in range(AGS.numSecuenciasConsenso):
+            for j in range(AGS.numSecuenciasConservadas):
                 file.write(str(k[j][0]) + " " + str(k[j][1]) + " " + str(AGS.mejor[0][j]) + os.linesep)
                 pass
             file.write(os.linesep)
