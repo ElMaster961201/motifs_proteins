@@ -89,7 +89,8 @@ if __name__ == "__main__":
         file.write(os.linesep)
         ConSecCon = []
         for ps in range(len(hongos[0])-tamSec):
-            file.write("El punto de donde inicia la secuencia conservada es: " + str(ps + 1) + os.linesep)
+            file.write("Secuencia " + str(ps + 1) + os.linesep)
+            file.write("El punto de donde inicia la secuencia conservada es: " + str(ps) + os.linesep)
             sec = []
             sumSecCon = 0 
 
@@ -112,7 +113,6 @@ if __name__ == "__main__":
                 sec.append(list(ind.keys())[index])
                 pass
             ConSecCon.append([sec, 100 * float(sumSecCon)/(tamSec * len(hongos))])
-            file.write("Secuencia " + str(ps + 1) + os.linesep)
             file.write(str(ConSecCon[ps][0]) + os.linesep)
             file.write("Con " + str(ConSecCon[ps][1]) + " de conservacion" + os.linesep + os.linesep)
             pass

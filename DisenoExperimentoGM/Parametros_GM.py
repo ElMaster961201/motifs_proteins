@@ -11,7 +11,7 @@ class ParametrosGM(object):
     500, # numRestos -> 7
     .6, # proCruce -> 8
     [1/3, 1/3, 1/3], # w -> 9
-    [] # secuencia  -> 10
+    ['R','G','L','E','L','G','A','D','D','Y','I','T','K','P','F','S','P','R','E','L','V','A','R','I','K','A','V','L','R','R'] # secuencia  -> 10
     ]
 
     nGeneraciones = 1000
