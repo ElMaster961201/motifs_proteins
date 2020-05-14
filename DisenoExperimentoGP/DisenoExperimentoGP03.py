@@ -78,7 +78,7 @@ while t:
             AGS = GeneticoPosiciones(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             AGS.evaluacionPoblacion(p[10])
             for i in range(nGeneraciones):
-
+                print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
                 # AGS.torneo()
                 # AGS.ruleta()
