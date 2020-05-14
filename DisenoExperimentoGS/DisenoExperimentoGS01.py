@@ -9,7 +9,6 @@ from DisenoExperimentoGS.Parametros_GS import ParametrosGS
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 
-nRepeticiones = 1
 cont = 1
 t = True
 ruta = "DisenoExperimentoGS/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
