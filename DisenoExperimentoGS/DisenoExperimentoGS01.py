@@ -11,7 +11,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGS/Resultados/Acer" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGS/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
