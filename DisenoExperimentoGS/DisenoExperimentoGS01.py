@@ -11,7 +11,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGS/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGS/Resultados/Acer" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -77,7 +77,7 @@ while t:
             AGS = GeneticoSecuenciaConsenso(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             AGS.evaluacionPoblacion()
             for i in range(nGeneraciones):
-
+                print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
                 AGS.torneo()
                 # AGS.ruleta()
