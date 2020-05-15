@@ -77,7 +77,7 @@ while t:
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
             AGS = GeneticoPosiciones(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            AGS.evaluacionPoblacion(p[10])
+            AGS.evaluacionPoblacion()
             for i in range(nGeneraciones):
                 print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
@@ -105,7 +105,7 @@ while t:
                 # AGS.reemplazoPeorAdaptados()
                 # AGS.reemplazoAdaptacionSimilar()
                 
-                AGS.evaluacionPoblacion(p[10])
+                AGS.evaluacionPoblacion()
                 pass
             finishTimeexperimento = time() - startTimeExperimento
 
