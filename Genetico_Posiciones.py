@@ -87,9 +87,31 @@ class GeneticoPosiciones(object):
 		self.w = w
 		self.secuenciaSintetica = secuenciaSintetica
 		self.numHongos = len(self.hongos)
+		self.longHongo = len(self.hongos[0])
         # Inicializacion de la poblacion.
 		self.poblacion = []
 		self.poblacion = [[random.randrange(self.numHongos - self.numGenomas) for _ in range(self.numHongos)] for _ in range(self.tamPoblacion)]
+		self.w1 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]	
+		self.w2 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]
+		self.w3 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]
+		self.compatibilidadFQ = []
+		for p in range(self.numHongos):
+			for c in range(self.longHongo - self.numGenomas):
+				sumaP1 = 0.0
+				sumaP2 = 0.0
+				sumaP3 = 0.0
+				for i in range(self.numGenomas):
+					if self.hongos[p][c + i] != '-':
+						sumaP1 = sumaP1 + self.w[0] * (self.SCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
+						sumaP2 = sumaP2 + self.w[1] * (self.CCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
+						sumaP3 = sumaP3 + self.w[2] * (self.HCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
+						pass
+					pass
+				self.w1[p][c] = sumaP1
+				self.w2[p][c] = sumaP2
+				self.w3[p][c] = sumaP3
+				pass
+			pass
 		self.nuevapoblacion = []
 		self.mejor = [[],0.0,0]
 		self.adaptacion = []
@@ -225,16 +247,8 @@ class GeneticoPosiciones(object):
 		for h in range(self.numHongos):
 			secuencia = []
 			total = 0.0
-			suma = 0.0
-			for i in range(self.numGenomas):
-				if self.hongos[h][i + individuo[h]] != '-':
-					suma = suma + self.w[0] * (self.SCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
-					suma = suma + self.w[1] * (self.CCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
-					suma = suma + self.w[2] * (self.HCIM[self.index[self.hongos[h][i + individuo[h]]]][self.index[self.secuenciaSintetica[i]]])
-					pass
-				pass
 			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.numGenomas]
-			total = float(suma/self.numGenomas)
+			total = float((self.w1[h][individuo[h]] + self.w2[h][individuo[h]] + self.w3[h][individuo[h]])/self.numGenomas)
 			result.append([secuencia,total])
 			pass
 		return result
@@ -244,20 +258,13 @@ class GeneticoPosiciones(object):
 	###### Metodo de evaluacion de la poblacion. ######
 
 	# Funcion para evaluacion de la poblacion.
-	def evaluacionPoblacion(self, motif):
-		self.secuenciaSintetica = motif[:]
+	def evaluacionPoblacion(self):
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
 		for i in range(self.tamPoblacion):
 			total = 0.0
 			for j in range(self.numHongos):
-				for k in range(30):
-					if (self.hongos[j][self.poblacion[i][j]+k] != '-'):
-						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.poblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						pass
-					pass
+				total = float((self.w1[j][self.poblacion[i][j]] + self.w2[j][self.poblacion[i][j]] + self.w3[j][self.poblacion[i][j]]))
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacion.append(total)
@@ -290,13 +297,7 @@ class GeneticoPosiciones(object):
 		for i in range(self.tamPoblacion):
 			total = 0.0
 			for j in range(self.numHongos):
-				for k in range(30):
-					if (self.hongos[j][self.nuevapoblacion[i][j] + k] != '-'):
-						total = self.w[0] * (self.SCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						total = self.w[1] * (self.CCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						total = self.w[2] * (self.HCIM[self.index[self.hongos[j][self.nuevapoblacion[i][j]+k]]][self.index[self.secuenciaSintetica[k]]]) + total
-						pass
-					pass
+				total = float((self.w1[j][self.nuevapoblacion[i][j]] + self.w2[j][self.nuevapoblacion[i][j]] + self.w3[j][self.nuevapoblacion[i][j]]))
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacionnuevapoblacion.append(total)
