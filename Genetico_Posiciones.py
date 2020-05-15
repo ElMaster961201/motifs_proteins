@@ -248,7 +248,7 @@ class GeneticoPosiciones(object):
 			secuencia = []
 			total = 0.0
 			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.numGenomas]
-			total = float((self.w1[h][individuo[h]] + self.w2[h][individuo[h]] + self.w3[h][individuo[h]])/self.numGenomas)
+			total = float((self.w1[h][individuo[h]] + self.w2[h][individuo[h]] + self.w3[h][individuo[h]]))
 			result.append([secuencia,total])
 			pass
 		return result
