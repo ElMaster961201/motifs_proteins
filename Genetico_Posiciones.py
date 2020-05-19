@@ -249,10 +249,10 @@ class GeneticoPosiciones(object):
 	def evaluacionPoblacion(self):
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in range(self.numHongos):
 			total = 0.0
-			for j in range(self.numHongos):
-				total = float((self.w1[j][self.poblacion[i][j]] + self.w2[j][self.poblacion[i][j]] + self.w3[j][self.poblacion[i][j]])) + total
+			for genoma in self.poblacion[i]:
+				total = float(self.contador[i][genoma]) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacion.append(total)
@@ -282,10 +282,10 @@ class GeneticoPosiciones(object):
 
 		self.adaptacionnuevapoblacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in range(self.numHongos):
 			total = 0.0
-			for j in range(self.numHongos):
-				total = float((self.w1[j][self.nuevapoblacion[i][j]] + self.w2[j][self.nuevapoblacion[i][j]] + self.w3[j][self.nuevapoblacion[i][j]])) + total
+			for genoma in self.nuevapoblacion[i]:
+				total = float(self.contador[i][genoma]) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacionnuevapoblacion.append(total)
