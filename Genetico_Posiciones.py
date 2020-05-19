@@ -264,7 +264,7 @@ class GeneticoPosiciones(object):
 		for i in range(self.tamPoblacion):
 			total = 0.0
 			for j in range(self.numHongos):
-				total = float((self.w1[j][self.poblacion[i][j]] + self.w2[j][self.poblacion[i][j]] + self.w3[j][self.poblacion[i][j]]))
+				total = float((self.w1[j][self.poblacion[i][j]] + self.w2[j][self.poblacion[i][j]] + self.w3[j][self.poblacion[i][j]])) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacion.append(total)
@@ -297,7 +297,7 @@ class GeneticoPosiciones(object):
 		for i in range(self.tamPoblacion):
 			total = 0.0
 			for j in range(self.numHongos):
-				total = float((self.w1[j][self.nuevapoblacion[i][j]] + self.w2[j][self.nuevapoblacion[i][j]] + self.w3[j][self.nuevapoblacion[i][j]]))
+				total = float((self.w1[j][self.nuevapoblacion[i][j]] + self.w2[j][self.nuevapoblacion[i][j]] + self.w3[j][self.nuevapoblacion[i][j]])) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacionnuevapoblacion.append(total)
