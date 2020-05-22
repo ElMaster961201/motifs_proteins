@@ -40,7 +40,7 @@ class Posicion(object):
                         cont = cont + 1
                         pass 
                     pass
-                secuenciaHongo.append([self.hongos[i][j:j + self.tamSec], j, float(cont) * 100/float(self.tamSec)])
+                secuenciaHongo.append([self.hongos[i][j:j + self.tamSec], j, cont])
                 pass
             self.secuenciaDB.append(secuenciaHongo)
             pass
@@ -68,8 +68,9 @@ if __name__ == "__main__":
         file.write("Las secuencia homogenea tiene un tamano " + str(tamSec) + os.linesep)
         file.write("La secuencia referencia es: " + str(secReferencia) + os.linesep)
         file.write(os.linesep)
-        for i in range(10):#numHongos):
+        for i in range(numHongos):
             secuenciaHongo = []
+            print(i)
             for j in range(tamHongo - tamSec):
                 cont = 0
                 for k in range(tamSec):
@@ -77,7 +78,7 @@ if __name__ == "__main__":
                         cont = cont + 1
                         pass 
                     pass
-                secuenciaHongo.append([hongos[i][j : j + tamSec], j, float(cont) * 100/float(tamSec)])
+                secuenciaHongo.append([hongos[i][j : j + tamSec], j, cont])
                 pass
             secuenciaDB.append(secuenciaHongo)
             pass
