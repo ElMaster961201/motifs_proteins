@@ -119,7 +119,7 @@ class GeneticoPosiciones(object):
 		top = random.random()
 		i = 0
 		contador = 0.0
-		while contador < top and i < self.tamPoblacion-1:
+		while contador < top and i < self.tamPoblacion - 1:
 			contador = contador + self.adaptacion[i]/float(total)
 			i = i +1
 			pass
