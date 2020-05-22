@@ -10,8 +10,7 @@ class ParametrosGP(object):
     4,                  # tamTorneo -> 6
     500,                # numRestos -> 7
     .6,                 # proCruce -> 8
-    [1/3, 1/3, 1/3],    # w -> 9
-    ['W', 'W', 'F', 'G', 'R', 'D', 'C', 'A', 'M', 'M', 'Y', 'A', 'F', 'K', 'M', 'Y', 'P', 'L', 'P', 'R', 'W', 'G', 'Y', 'L', 'N', 'I', 'Q', 'A', 'R', 'K']                  # secuenciaSintetica  -> 10
+    ['W', 'W', 'F', 'G', 'R', 'D', 'C', 'A', 'M', 'M', 'Y', 'A', 'F', 'K', 'M', 'Y', 'P', 'L', 'P', 'R', 'W', 'G', 'Y', 'L', 'N', 'I', 'Q', 'A', 'R', 'K']                  # secuenciaSintetica  -> 9
     ]
 
     nGeneraciones = 1000

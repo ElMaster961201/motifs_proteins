@@ -1,6 +1,5 @@
 import random
-from Hongos import Hongos as HG 
-from Motifs import Motifs as MTFS
+from Hongos import Hongos as HG
 
 
 ###### Genetico. ######
@@ -69,12 +68,11 @@ class GeneticoPosiciones(object):
 	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 
 			  'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20 }
 	hongos = HG().matrizHongos()
-	SCIM, CCIM, HCIM = MTFS().SCICCIHCI()
 		
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, tamPoblacion = 100, numGenomas = 30, proMutacion = 0.1, canMutacion = 2, 
 				numElitismo = 1, knumeros = 4, tamTorneo = 4, 
-				numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaSintetica = []):
+				numRestos = 500, proCruce = 0.6, secuenciaSintetica = []):
 		self.tamPoblacion = tamPoblacion
 		self.numGenomas = numGenomas
 		self.proMutacion = proMutacion
@@ -84,32 +82,22 @@ class GeneticoPosiciones(object):
 		self.tamTorneo = tamTorneo
 		self.numRestos = numRestos
 		self.proCruce = proCruce
-		self.w = w
 		self.secuenciaSintetica = secuenciaSintetica
 		self.numHongos = len(self.hongos)
 		self.longHongo = len(self.hongos[0])
         # Inicializacion de la poblacion.
 		self.poblacion = []
 		self.poblacion = [[random.randrange(self.numHongos - self.numGenomas) for _ in range(self.numHongos)] for _ in range(self.tamPoblacion)]
-		self.w1 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]	
-		self.w2 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]
-		self.w3 = [[0.0 for _ in range(self.longHongo)] for _ in range(self.numHongos)]
-		self.compatibilidadFQ = []
+		self.contador = [[0 for _ in range(self.longHongo - self.numGenomas)] for _ in range(self.numHongos)]
 		for p in range(self.numHongos):
 			for c in range(self.longHongo - self.numGenomas):
-				sumaP1 = 0.0
-				sumaP2 = 0.0
-				sumaP3 = 0.0
+				cont = 0
 				for i in range(self.numGenomas):
-					if self.hongos[p][c + i] != '-':
-						sumaP1 = sumaP1 + self.w[0] * (self.SCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
-						sumaP2 = sumaP2 + self.w[1] * (self.CCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
-						sumaP3 = sumaP3 + self.w[2] * (self.HCIM[self.index[self.hongos[p][c + i]]][self.index[self.secuenciaSintetica[i]]])
+					if self.secuenciaSintetica[i] == self.hongos[p][c + i]:
+						cont = cont + 1
 						pass
 					pass
-				self.w1[p][c] = sumaP1
-				self.w2[p][c] = sumaP2
-				self.w3[p][c] = sumaP3
+				self.contador[p][c] = cont
 				pass
 			pass
 		self.nuevapoblacion = []
@@ -131,7 +119,7 @@ class GeneticoPosiciones(object):
 		top = random.random()
 		i = 0
 		contador = 0.0
-		while contador < top and i < self.tamPoblacion-1:
+		while contador < top and i < self.tamPoblacion - 1:
 			contador = contador + self.adaptacion[i]/float(total)
 			i = i +1
 			pass
@@ -248,7 +236,7 @@ class GeneticoPosiciones(object):
 			secuencia = []
 			total = 0.0
 			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.numGenomas]
-			total = float((self.w1[h][individuo[h]] + self.w2[h][individuo[h]] + self.w3[h][individuo[h]]))
+			total = float(self.contador[h][individuo[h]])
 			result.append([secuencia,total])
 			pass
 		return result
@@ -261,10 +249,10 @@ class GeneticoPosiciones(object):
 	def evaluacionPoblacion(self):
 		self.adaptacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in range(self.numHongos):
 			total = 0.0
-			for j in range(self.numHongos):
-				total = float((self.w1[j][self.poblacion[i][j]] + self.w2[j][self.poblacion[i][j]] + self.w3[j][self.poblacion[i][j]])) + total
+			for genoma in self.poblacion[i]:
+				total = float(self.contador[i][genoma]) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacion.append(total)
@@ -294,10 +282,10 @@ class GeneticoPosiciones(object):
 
 		self.adaptacionnuevapoblacion = []
 		# Comenzamos un ciclo para cada individuo.
-		for i in range(self.tamPoblacion):
+		for i in range(self.numHongos):
 			total = 0.0
-			for j in range(self.numHongos):
-				total = float((self.w1[j][self.nuevapoblacion[i][j]] + self.w2[j][self.nuevapoblacion[i][j]] + self.w3[j][self.nuevapoblacion[i][j]])) + total
+			for genoma in self.nuevapoblacion[i]:
+				total = float(self.contador[i][genoma]) + total
 				pass
 			total = float(total/self.numHongos)
 			self.adaptacionnuevapoblacion.append(total)
