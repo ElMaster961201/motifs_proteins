@@ -33,7 +33,7 @@ while t:
         file.write("Probabilidad de Mutacion: " + str(p[2]) + os.linesep)
         file.write("Cantidad de elementos a mutar: " + str(p[3]) + os.linesep)
         file.write("Numero de individuos seleccionado por Elitismo: " + str(p[4]) + os.linesep)
-        file.write("Tamano de k en estocastico universal: " + str(p[5]) + os.linesep)
+        file.write("Eunumero: " + str(p[5]) + os.linesep)
         file.write("Tamano de torneo: " + str(p[6]) + os.linesep)
         file.write("Numero de restos: " + str(p[7]) + os.linesep)
         file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
