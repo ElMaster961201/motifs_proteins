@@ -1,4 +1,4 @@
-class ParametrosGP(object):
+class ParametrosGH(object):
 
     p = [
     300,                # tamPoblacion -> 0
