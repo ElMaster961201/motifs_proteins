@@ -120,11 +120,11 @@ class GeneticoMotifs(object):
 
 		# Toma la seleccion estocastico universal con base a la matriz con indice indMatriz
 		top = random.random()
+		ii = 0
+		contador = 0.0
 		for i in range(knumeros):
 			a = (top + i) / knumeros
-			ii = 0
-			contador = 0.0
-			while contador < a and ii < self.tamPoblacion-1:
+			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
 				ii = ii +1
 				pass
