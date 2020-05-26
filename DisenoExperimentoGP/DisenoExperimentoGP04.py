@@ -30,41 +30,46 @@ while t:
         file.write(os.linesep)
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
         file.write("Numero de Genomas: " + str(p[1]) + os.linesep)
-        file.write("Numero de Secuencias Consenso: " + str(p[2]) + os.linesep)
-        file.write("Probabilidad de Mutacion: " + str(p[3]) + os.linesep)
-        file.write("Cantidad de Secuencias a mutar: " + str(p[4]) + os.linesep)
-        file.write("Numero de individuos seleccionado por Elitismo: " + str(p[5]) + os.linesep)
-        file.write("Tamano de k en estocastico universal: " + str(p[6]) + os.linesep)
-        file.write("Tamano de torneo: " + str(p[7]) + os.linesep)
-        file.write("Numero de restos: " + str(p[8]) + os.linesep)
-        file.write("Probabilidad de Cruce: " + str(p[9]) + os.linesep)
-        file.write("Secuencia sintetica: " + str(p[10]) + os.linesep)
-        file.write("El Experimento se realizo " + str(nRepeticiones) + " veces." + os.linesep)
-        file.write("Con " +str(nGeneraciones)+" Generaciones" + os.linesep)
+        file.write("Probabilidad de Mutacion: " + str(p[2]) + os.linesep)
+        file.write("Cantidad de elementos a mutar: " + str(p[3]) + os.linesep)
+        file.write("Numero de individuos seleccionado por Elitismo: " + str(p[4]) + os.linesep)
+        file.write("Eunumero: " + str(p[5]) + os.linesep)
+        file.write("Tamano de torneo: " + str(p[6]) + os.linesep)
+        file.write("Numero de restos: " + str(p[7]) + os.linesep)
+        file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
+        file.write("Secuencia sintetica: " + str(p[9]) + os.linesep)
+        file.write("Homologia: " + os.linesep)
+        file.write("Numero de repeticiones del experimento " + str(nRepeticiones) + os.linesep)
+        file.write("Numero de generaciones: " +str(nGeneraciones) + os.linesep)
 
         file.write(os.linesep)
         file.write("Con los siguientes metodos: " + os.linesep)
         
         # Cambiar segun la prueba
+        file.write("Metodo de seleccion: ")
         ##### Metodos de Seleccion. ######
         # file.write("Torneo" + os.linesep)
         # file.write("Ruleta" + os.linesep)
         # file.write("Restos" + os.linesep)
         file.write("Estocastico Universal" + os.linesep)
 
+        file.write("Metodo de cruzamiento: ")
         ###### Metodos de Cruzamiento. ######
-        file.write("Punto Fijo" + os.linesep)
-        # file.write("Multi-Punto" + os.linesep)
+        file.write("Monopunto" + os.linesep)
+        # file.write("Multipunto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
         # file.write("Cruzamiento Aritmetico" + os.linesep)
 
+        file.write("Metodo de mutacion: ")
         ###### Metodos de Mutacion. ######
         file.write("Mutacion Uniforme" + os.linesep)
         # file.write("Mutacion Estandar" + os.linesep)
 
+        file.write("Metodo de consevacion: ")
         ###### Metodo de conservacion. ######
         file.write("Elitismo" + os.linesep)
         
+        file.write("Metodo de paso de generacion: ")
         ###### Metodo de Paso de Generacion. ######
         file.write("Reemplazo de Padres" + os.linesep)
         # file.write("Reemplazo Aleatorio" + os.linesep)
@@ -76,7 +81,7 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = GeneticoPosiciones(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9],p[10])
+            AGS = GeneticoPosiciones(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
             AGS.evaluacionPoblacion()
             for i in range(nGeneraciones):
                 print (_ + 1, i + 1)
@@ -87,7 +92,7 @@ while t:
                 AGS.estocasticoUniversal()
 
                 ###### Metodos de Cruzamiento. ######
-                AGS.cruzamientoPuntoFijo()
+                AGS.cruzamientoMonopunto()
                 # AGS.cruzamientoMultiPunto()
                 # AGS.cruzamientoUniforme()
                 # AGS.cruzamientoAritmetico()
