@@ -1,4 +1,4 @@
-class ParametrosGS(object):
+class ParametrosGSC(object):
 
     p = [
     500, # tamPoblacion -> 0

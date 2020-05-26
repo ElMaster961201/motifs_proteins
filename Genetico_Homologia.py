@@ -3,7 +3,7 @@ from Hongos import Hongos as HG
 
 
 ###### Genetico. ######
-class GeneticoPosiciones(object):
+class GeneticoHomologia(object):
 
 	"""
 		Inicializamos la clase los parametros que se pueden manupular desde la creacion de la 
