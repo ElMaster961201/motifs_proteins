@@ -7,7 +7,7 @@ class ParametrosGS(object):
     0.1, # proMutacion -> 3 
     2, # canMutacion -> 4
     1, # numElitismo -> 5
-    4, # knumeros -> 6
+    4, # eunumero -> 6
     4, # tamTorneo -> 7
     500, # numRestos -> 8
     0.6, # proCruce -> 9
