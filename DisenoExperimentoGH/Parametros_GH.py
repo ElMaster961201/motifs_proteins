@@ -1,4 +1,4 @@
-class ParametrosGP(object):
+class ParametrosGH(object):
 
     p = [
     300,                # tamPoblacion -> 0
@@ -6,7 +6,7 @@ class ParametrosGP(object):
     0.1,                # proMutacion -> 2 
     2,                  # canMutacion -> 3
     1,                  # numElitismo -> 4
-    4,                  # knumeros -> 5
+    4,                  # eunumero -> 5
     4,                  # tamTorneo -> 6
     500,                # numRestos -> 7
     .6,                 # proCruce -> 8

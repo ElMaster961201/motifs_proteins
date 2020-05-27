@@ -1,0 +1,4836 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 30
+La secuencia referencia es: ['Q', 'T', 'Y', 'G', 'D', 'I', 'E', 'R', 'D', 'G', 'G', 'W', 'G', 'G', 'T', 'T', 'D', 'E', 'G', 'Y', 'M', 'W', 'Q', 'Q', 'P', 'E', 'T', 'W', 'T', 'H']
+Homologia maxima: 8
+
+Proteina numero 1
+Inicio: 1123
+Secuencia: QHPVIEVIDQGIGIGEKEKYRIFERFYRVD
+Homogenea: 6.0
+
+Proteina numero 1
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 2
+Inicio: 1123
+Secuencia: QHPVIEVIDQGIGIGEKEKYRIFERFYRVD
+Homogenea: 6.0
+
+Proteina numero 2
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 3
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 53
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 54
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 55
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 56
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 57
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 58
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 59
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 60
+Inicio: 1525
+Secuencia: LTAKDDEFDRVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 61
+Inicio: 1115
+Secuencia: -------ADGVAITVADTGIGISQIELDRI
+Homogenea: 6.0
+
+
+Proteina numero 88
+Inicio: 1115
+Secuencia: -------TDGLAVSVTDTGIGMSQLELSRI
+Homogenea: 7.0
+
+
+Proteina numero 89
+Inicio: 1115
+Secuencia: -------TDGLAVSVTDTGIGMSQLELSRI
+Homogenea: 7.0
+
+
+Proteina numero 90
+Inicio: 1115
+Secuencia: -------TDGLAVSVTDTGIGMSQLELSRI
+Homogenea: 7.0
+
+
+Proteina numero 91
+Inicio: 1115
+Secuencia: -------TDGLAVSVTDTGIGMSQLELSRI
+Homogenea: 7.0
+
+
+Proteina numero 92
+Inicio: 1115
+Secuencia: -------TDGLAVSVTDTGIGMSQLELSRI
+Homogenea: 7.0
+
+
+Proteina numero 93
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 94
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 95
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 96
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 98
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 99
+Inicio: 1122
+Secuencia: ETYGIIEIEDQGIGIEKHEIARVFERFYRV
+Homogenea: 6.0
+
+Proteina numero 99
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 100
+Inicio: 1525
+Secuencia: LTARDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 101
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 102
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 103
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 104
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 105
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEVAFQKAT-T-
+Homogenea: 7.0
+
+Proteina numero 105
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 106
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 106
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 107
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 107
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 108
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 108
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 109
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 109
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 110
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 110
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 111
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 111
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 112
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 112
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 113
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 113
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 114
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 114
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 115
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 115
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 116
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 116
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 117
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 117
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 118
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 118
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 119
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 119
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 120
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 120
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 121
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 121
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 122
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 122
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 123
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 123
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 124
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 124
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 125
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 125
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 126
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 126
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 127
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 127
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 128
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 128
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 129
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 129
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 130
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 130
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 131
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 131
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 132
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 132
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 133
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 133
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 134
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 134
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 135
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 135
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 136
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 136
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 137
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 137
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 138
+Inicio: 1402
+Secuencia: QQAG-FEVITA-----MDGEMALQKAT-T-
+Homogenea: 8.0
+
+Proteina numero 138
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 139
+Inicio: 1180
+Secuencia: IVKHLIEAHEGHIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 139
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 140
+Inicio: 1180
+Secuencia: IVKHLIEAHEGHIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 140
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 141
+Inicio: 1180
+Secuencia: IVKHLIEAHEGHIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 141
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 142
+Inicio: 1180
+Secuencia: IVKHLIEAHEGHIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 142
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 143
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 143
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 144
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 144
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 145
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 145
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 146
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 146
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 147
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 147
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 148
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 148
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 149
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 149
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 150
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 150
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 151
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 151
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 152
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 152
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 153
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 153
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 154
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIEVTSEP---G-QGTV--
+Homogenea: 6.0
+
+Proteina numero 154
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 155
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 156
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 157
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 158
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEP---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 158
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 159
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 159
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 160
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEP---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 160
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 161
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 161
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 162
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 162
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 163
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 163
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 164
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 164
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 165
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEP---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 165
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 166
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEL---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 166
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 167
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEP---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 167
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 168
+Inicio: 1180
+Secuencia: IVKHLIEAHEGKIDVTSEP---G-RGTV--
+Homogenea: 6.0
+
+Proteina numero 168
+Inicio: 1525
+Secuencia: LTAKDEEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 185
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAISLLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 186
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPTGAISLLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 187
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAISLLAETVTD
+Homogenea: 6.0
+
+Proteina numero 187
+Inicio: 1309
+Secuencia: -----GAPDGGHGGTP-------------N
+Homogenea: 6.0
+
+
+Proteina numero 188
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAISLLAETVTD
+Homogenea: 6.0
+
+Proteina numero 188
+Inicio: 1309
+Secuencia: -----GAPDGGHGGTP-------------N
+Homogenea: 6.0
+
+
+Proteina numero 189
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAISLLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 190
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 191
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 192
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 193
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 194
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 195
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 196
+Inicio: 855
+Secuencia: AVRRDFVTNVSHELKTPAGAIALLAETVTD
+Homogenea: 6.0
+
+
+Proteina numero 197
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 197
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 198
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 198
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 199
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 199
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 200
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 200
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 201
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 201
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 202
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 202
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 203
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 203
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 204
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 204
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 205
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 205
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 206
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 206
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 207
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 207
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 208
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 208
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 209
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITE
+Homogenea: 6.0
+
+Proteina numero 209
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 210
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 210
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 211
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 211
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 212
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 212
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 213
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 213
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 214
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 214
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 215
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 215
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 216
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 216
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 217
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 217
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 218
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 218
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 219
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 219
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 220
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 220
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 221
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 221
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 222
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 222
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 223
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 223
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 224
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 224
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 225
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 225
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 226
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 226
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 227
+Inicio: 855
+Secuencia: AARRDFVANVSHELKTPVGGMALLAEAITQ
+Homogenea: 6.0
+
+Proteina numero 227
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 228
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 229
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 230
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 231
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 232
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 233
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 234
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 235
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 236
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 237
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 240
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 241
+Inicio: 1115
+Secuencia: ---PDKGRDVVDVRVTDRGIGIAPEDQKRV
+Homogenea: 6.0
+
+Proteina numero 241
+Inicio: 1525
+Secuencia: VTARDTEMDKIVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 242
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYFARE
+Homogenea: 6.0
+
+
+Proteina numero 243
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 244
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 245
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 246
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 247
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 248
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 249
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 250
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEALLE
+Homogenea: 6.0
+
+Proteina numero 250
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 251
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEALLE
+Homogenea: 6.0
+
+Proteina numero 251
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 252
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEALLE
+Homogenea: 6.0
+
+Proteina numero 252
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 253
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 253
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 254
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 254
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 255
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 255
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 256
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 256
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 257
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 257
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 258
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMALLAEALLA
+Homogenea: 6.0
+
+Proteina numero 258
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 259
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLA
+Homogenea: 6.0
+
+Proteina numero 259
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 260
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLA
+Homogenea: 6.0
+
+Proteina numero 260
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 261
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLA
+Homogenea: 6.0
+
+Proteina numero 261
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 262
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEAVLA
+Homogenea: 6.0
+
+Proteina numero 262
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 263
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEAVLA
+Homogenea: 6.0
+
+Proteina numero 263
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 264
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGVLAEALLA
+Homogenea: 6.0
+
+Proteina numero 264
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 265
+Inicio: 855
+Secuencia: ATRRDFVANISHELKTPVGAMALLAEALLE
+Homogenea: 6.0
+
+Proteina numero 265
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 266
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMSLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 266
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 267
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMSLLAEAMLE
+Homogenea: 6.0
+
+Proteina numero 267
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 268
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMSLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 268
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 269
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 269
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 270
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMSLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 270
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 271
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMSLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 271
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 272
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 272
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 273
+Inicio: 855
+Secuencia: ATRRDFVANVSHELKTPVGAMGLLAEALLE
+Homogenea: 6.0
+
+Proteina numero 273
+Inicio: 1235
+Secuencia: QIPAHIETVETNGGDAD-------------
+Homogenea: 6.0
+
+Proteina numero 273
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 274
+Inicio: 855
+Secuencia: ETRRDFVANVSHELKTPVGAVRLLAETIHS
+Homogenea: 6.0
+
+
+Proteina numero 275
+Inicio: 855
+Secuencia: AVRRDFVANVSHELKTPIGAMGILAETIEA
+Homogenea: 6.0
+
+Proteina numero 275
+Inicio: 1115
+Secuencia: ----DEDDDHVEITVTDNGIGISQEDQERI
+Homogenea: 6.0
+
+Proteina numero 275
+Inicio: 1136
+Secuencia: ISQEDQERIFERFYRVDYGRS---RE----
+Homogenea: 6.0
+
+
+Proteina numero 276
+Inicio: 1525
+Secuencia: LTAKDSEVDKVVGLEIGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 277
+Inicio: 1115
+Secuencia: --------DSVLIAVTDEGIGIDPSEQHRI
+Homogenea: 6.0
+
+Proteina numero 277
+Inicio: 1525
+Secuencia: VTARDSEVDKVVGLEIGADDYITKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 278
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 279
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 280
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 281
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 282
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 283
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 284
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 285
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 286
+Inicio: 1525
+Secuencia: VTARDSEIDKVVGLEIGADDYVTKPYSPRE
+Homogenea: 6.0
+
+
+Proteina numero 287
+Inicio: 1525
+Secuencia: LTAKDTEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 288
+Inicio: 1525
+Secuencia: LTAKDTEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 289
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPYSYRE
+Homogenea: 6.0
+
+
+Proteina numero 290
+Inicio: 1525
+Secuencia: LTAKDDEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 291
+Inicio: 1525
+Secuencia: LTAKDGEIDKVVGLELGADDYVTKPYSFRE
+Homogenea: 6.0
+
+
+Proteina numero 292
+Inicio: 1370
+Secuencia: AGAPDKEVDAMTRILVVED-EESYREPLTY
+Homogenea: 6.0
+
+Proteina numero 292
+Inicio: 1525
+Secuencia: LTAKDGEIDKVVGLELGADDYVTKPYSFRE
+Homogenea: 6.0
+
+
+Proteina numero 293
+Inicio: 1347
+Secuencia: ---RDNEDDGPGDG--RD-----RTTTNEE
+Homogenea: 6.0
+
+Proteina numero 293
+Inicio: 1387
+Secuencia: ED-EDSYRDPLTYQLTREG-YEVVEA----
+Homogenea: 6.0
+
+Proteina numero 293
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPYSFRE
+Homogenea: 6.0
+
+
+Proteina numero 294
+Inicio: 1525
+Secuencia: LTAKDTEIDKVVGLELGADDYVTKPYSFRE
+Homogenea: 6.0
+
+Proteina numero 294
+Inicio: 1573
+Secuencia: PSGRARPDDGRHGWEDDDGVLDVGP-VRMD
+Homogenea: 6.0
+
+Proteina numero 294
+Inicio: 1581
+Secuencia: DGRHGWEDDDGVLDVGP-VRMDVDRHTVT-
+Homogenea: 6.0
+
+
+Proteina numero 295
+Inicio: 1305
+Secuencia: EVGE--RADGGPAGADDRDDDLDAPHEAGV
+Homogenea: 6.0
+
+Proteina numero 295
+Inicio: 1525
+Secuencia: LTARDSEIDKVLGLELGADDYVTKPFSARE
+Homogenea: 6.0
+
+
+Proteina numero 296
+Inicio: 388
+Secuencia: PTP----RTGRAGSAARPGP---RPVSA--
+Homogenea: 6.0
+
+Proteina numero 296
+Inicio: 1525
+Secuencia: LTARDSEIDKVVGLELGADDYVTKPFSARE
+Homogenea: 6.0
+
+
+Proteina numero 297
+Inicio: 1306
+Secuencia: AGAGAGAGGGGGGGGT--------------
+Homogenea: 6.0
+
+Proteina numero 297
+Inicio: 1525
+Secuencia: LTARDSEIDKVLGLELGADDYVTKPFSARE
+Homogenea: 6.0
+
+
+Proteina numero 298
+Inicio: 1525
+Secuencia: LTARDSEIDKVLGLELGADDYVTKPFSARE
+Homogenea: 6.0
+
+
+Proteina numero 299
+Inicio: 1525
+Secuencia: LTAKDSEVDIVVGLELGADDYVTKPYSTRE
+Homogenea: 6.0
+
+
+Proteina numero 300
+Inicio: 1525
+Secuencia: LTAKDSEVDIVVGLELGADDYVTKPYSTRE
+Homogenea: 6.0
+
+
+Proteina numero 301
+Inicio: 1525
+Secuencia: LTAKDSEVDIVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 302
+Inicio: 1525
+Secuencia: LTAKDSEVDIVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 303
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLEIGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 304
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 305
+Inicio: 1525
+Secuencia: LTAKDAEIDKVVGLELGADDYVTKPYSSRE
+Homogenea: 6.0
+
+
+Proteina numero 306
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 307
+Inicio: 1525
+Secuencia: LTAKDAEVDKVVGLELGADDYVTKPYSARE
+Homogenea: 6.0
+
+
+Proteina numero 308
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 309
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 310
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 311
+Inicio: 1115
+Secuencia: -------PDHVEISVTDQGIGIPQAEIERI
+Homogenea: 6.0
+
+Proteina numero 311
+Inicio: 1525
+Secuencia: LTAKDSEVDKVVGLELGADDYVTKPFSTRE
+Homogenea: 6.0
+
+
+Proteina numero 312
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 313
+Inicio: 1525
+Secuencia: LTAKDSEIDKIVGLELGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 314
+Inicio: 1525
+Secuencia: LTAKDSEIDKVVGLELGADDYVTKPFSARE
+Homogenea: 6.0
+
+Proteina numero 314
+Inicio: 1581
+Secuencia: ------EPDGGALEAGP-VRMDVDRHKVT-
+Homogenea: 6.0
+
+
+Proteina numero 315
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPYSTRE
+Homogenea: 6.0
+
+
+Proteina numero 316
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 317
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 318
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 319
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 320
+Inicio: 1351
+Secuencia: -------DDKG-PFETDSYDPFPAPEALPM
+Homogenea: 6.0
+
+Proteina numero 320
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 321
+Inicio: 1351
+Secuencia: -------DDEG-PYETDTFDPFPAPEALPM
+Homogenea: 6.0
+
+Proteina numero 321
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 322
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 323
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 324
+Inicio: 754
+Secuencia: QVELDLPRRGG-G-----------------
+Homogenea: 6.0
+
+Proteina numero 324
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 325
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 326
+Inicio: 1525
+Secuencia: VTAKDSEIDKVVGLEIGADDYVTKPFSSRE
+Homogenea: 6.0
+
+
+Proteina numero 327
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 328
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 329
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 330
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 331
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 332
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 333
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 334
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 335
+Inicio: 964
+Secuencia: QTEGDL-------------LAAGLPVTVD-
+Homogenea: 6.0
+
+
+Proteina numero 336
+Inicio: 1525
+Secuencia: LTARSAEQDAIRGLDTGADDYLMKPCSIDT
+Homogenea: 6.0
+
+
+Proteina numero 337
+Inicio: 1525
+Secuencia: LTARSGEQDAIRGLDTGADDYLVKPCSVDT
+Homogenea: 6.0
+
+
+Proteina numero 338
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 339
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 340
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 341
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 342
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 343
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 343
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 344
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 344
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 345
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 345
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 346
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 346
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 347
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 347
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 348
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 348
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 349
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 349
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 350
+Inicio: 1525
+Secuencia: LTAKDNETDKIVGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+Proteina numero 350
+Inicio: 1546
+Secuencia: VTKPFSPREIIARIKAIERRSQSQPQTS--
+Homogenea: 6.0
+
+
+Proteina numero 353
+Inicio: 1525
+Secuencia: LTAREAEDDRVRGLDTGADDYMVKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 354
+Inicio: 1525
+Secuencia: LTARGEENDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 355
+Inicio: 1525
+Secuencia: LTARGEEDDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 356
+Inicio: 1525
+Secuencia: LTARGEEDDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 357
+Inicio: 1525
+Secuencia: LTARGEEDDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 358
+Inicio: 1525
+Secuencia: LTARGEEDDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 359
+Inicio: 1525
+Secuencia: LTARGEEDDRIRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 360
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 361
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 362
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 363
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 364
+Inicio: 874
+Secuencia: TIIGFIETLGE-GGGA--ED----------
+Homogenea: 6.0
+
+Proteina numero 364
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 368
+Inicio: 1121
+Secuencia: ATKYAVLRVRDNGPGMDRKYLPRLSERFYR
+Homogenea: 6.0
+
+Proteina numero 368
+Inicio: 1525
+Secuencia: LTARTEEADRIRGLDTGADDYIVKPFSMTE
+Homogenea: 7.0
+
+
+Proteina numero 369
+Inicio: 1525
+Secuencia: LTARGEETDRVRGLDTGADDYVVKPFSMTE
+Homogenea: 7.0
+
+
+Proteina numero 370
+Inicio: 1525
+Secuencia: LTARSEETDRIRGLDTGADDYVIKPFSMVE
+Homogenea: 6.0
+
+
+Proteina numero 371
+Inicio: 1525
+Secuencia: LTARGEESDRVRGLDTGADDYLTKPFSMTE
+Homogenea: 7.0
+
+
+Proteina numero 372
+Inicio: 1525
+Secuencia: LTARGEETDRIRGLDTGADDYVVKPFAMSE
+Homogenea: 6.0
+
+
+Proteina numero 373
+Inicio: 1525
+Secuencia: LTARGEESDRIRGLDTGADDYVVKPFSMIE
+Homogenea: 6.0
+
+
+Proteina numero 374
+Inicio: 1525
+Secuencia: LTARGEETDRIRGLDTGADDYVVKPFSMVE
+Homogenea: 6.0
+
+
+Proteina numero 375
+Inicio: 1525
+Secuencia: LTARGEETDRIRGLDTGADDYVVKPFSMVE
+Homogenea: 6.0
+
+
+Proteina numero 376
+Inicio: 1525
+Secuencia: LTARGEESDRIRGLDTGADDYVVKPFSMVE
+Homogenea: 6.0
+
+
+Proteina numero 390
+Inicio: 1525
+Secuencia: LTARGEEADKVRGLNSGADDYIAKPFSPTE
+Homogenea: 6.0
+
+
+Proteina numero 391
+Inicio: 1525
+Secuencia: LTARGEEADRVRGLNSGADDYITKPFSPTE
+Homogenea: 6.0
+
+
+Proteina numero 392
+Inicio: 1525
+Secuencia: LTARGEEGDRVRGLNSGADDYITKPFSPTE
+Homogenea: 6.0
+
+
+Proteina numero 393
+Inicio: 1108
+Secuencia: -GAAAKDRRGGRGGTAMVSVAVRDRGDGIA
+Homogenea: 6.0
+
+Proteina numero 393
+Inicio: 1525
+Secuencia: LTARGEEGDRVRGLNSGADDYITKPFSPTE
+Homogenea: 6.0
+
+
+Proteina numero 394
+Inicio: 1525
+Secuencia: LTARGEESDRVRGLTTGADDYVTKPFSVQE
+Homogenea: 7.0
+
+
+Proteina numero 395
+Inicio: 1525
+Secuencia: LTARGEESDRVRGLTTGADDYVTKPFSVQE
+Homogenea: 7.0
+
+
+Proteina numero 396
+Inicio: 1525
+Secuencia: LTARGEEADRVRGLTTGADDYVTKPFSVQE
+Homogenea: 7.0
+
+
+Proteina numero 397
+Inicio: 855
+Secuencia: QMRTDFVANASHELRTPLTSMGGYVETLQG
+Homogenea: 6.0
+
+Proteina numero 397
+Inicio: 1525
+Secuencia: LTARAEEGDRVRGLDTGADDYVVKPFSVSE
+Homogenea: 6.0
+
+
+Proteina numero 398
+Inicio: 1525
+Secuencia: ITARGEETDRIRGLDIGADDYVTKPFSMTE
+Homogenea: 6.0
+
+
+Proteina numero 399
+Inicio: 1525
+Secuencia: LTARGEETDRIRGLTVGADDYVVKPFSVPE
+Homogenea: 6.0
+
+Proteina numero 399
+Inicio: 1653
+Secuencia: RTQLL---DGVWGR-DVYVDER----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 417
+Inicio: 842
+Secuencia: LTYRDISQTRRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 418
+Inicio: 842
+Secuencia: LTYRDISQTRRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 419
+Inicio: 842
+Secuencia: LTYRDISQTRRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 420
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 421
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 422
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 423
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 424
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 425
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 426
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 427
+Inicio: 842
+Secuencia: LTYRDISQARRIDRMRSDFVANASHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 440
+Inicio: 1405
+Secuencia: G-YGVESV-----GRGDEAETRLR-E----
+Homogenea: 6.0
+
+
+Proteina numero 482
+Inicio: 926
+Secuencia: QLVEDIINLSHLDET-D-QV-PM--EE-LD
+Homogenea: 6.0
+
+
+Proteina numero 483
+Inicio: 926
+Secuencia: QLVEDIINLSHLDET-D-QV-PM--EE-LD
+Homogenea: 6.0
+
+
+Proteina numero 484
+Inicio: 926
+Secuencia: QLVEDIINLSHLDET-D-QV-PM--EK-LD
+Homogenea: 6.0
+
+
+Proteina numero 494
+Inicio: 1180
+Secuencia: ITRFIVEKHGGTISLESEY---G-TGTI--
+Homogenea: 6.0
+
+
+Proteina numero 508
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 509
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 510
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 511
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 514
+Inicio: 1525
+Secuencia: LTAADEETDIIMGLDIGGDDYITKPFKLAV
+Homogenea: 6.0
+
+
+Proteina numero 515
+Inicio: 842
+Secuencia: TI-VDITFDKLKDEQYSENLMSLTHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 516
+Inicio: 1115
+Secuencia: ----PSRTGGAVLTVTDHGYGIPQEDLPYI
+Homogenea: 6.0
+
+
+Proteina numero 517
+Inicio: 863
+Secuencia: QLSHDIKTPLTSIQATVEGILD-GVIP---
+Homogenea: 6.0
+
+
+Proteina numero 525
+Inicio: 1180
+Secuencia: ICKMIIEEHGGSIDVKSEL---G-KGTT--
+Homogenea: 6.0
+
+
+Proteina numero 526
+Inicio: 1180
+Secuencia: ICKMIIEEHGGRIDVESEL---G-KGTS--
+Homogenea: 6.0
+
+
+Proteina numero 527
+Inicio: 1180
+Secuencia: ICKMIIEEHGGRIDVESEL---G-KGTS--
+Homogenea: 6.0
+
+
+Proteina numero 536
+Inicio: 1148
+Secuencia: FYRGDPSRV---RYPGLEGYGIGS-GSGLG
+Homogenea: 6.0
+
+Proteina numero 536
+Inicio: 1159
+Secuencia: -RYPGLEGYGIGS-GSGLGLAIVQQIVEAH
+Homogenea: 6.0
+
+
+Proteina numero 537
+Inicio: 916
+Secuencia: QMLKEIERLMKLVQDWLEISQLQEDPSQSL
+Homogenea: 6.0
+
+
+Proteina numero 549
+Inicio: 1525
+Secuencia: LTAKDTEFDKVFGLEMGADDYIPKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 550
+Inicio: 1525
+Secuencia: LTAKDTEFDKVFGLEMGADDYIPKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 551
+Inicio: 232
+Secuencia: QTALDYVKDSDERI-TQL-TKTGEIIFDTF
+Homogenea: 6.0
+
+
+Proteina numero 560
+Inicio: 1525
+Secuencia: LTAKDDEIDRVVGLELGADDYVTKPFAVRE
+Homogenea: 6.0
+
+
+Proteina numero 566
+Inicio: 1114
+Secuencia: --------DGGIMLMIADNGTGIAPEHVPH
+Homogenea: 6.0
+
+
+Proteina numero 567
+Inicio: 1114
+Secuencia: --------DGGIMLMIADNGTGIAPEHVPH
+Homogenea: 6.0
+
+
+Proteina numero 568
+Inicio: 565
+Secuencia: ----DPEVDGGEPTTELGRLSTAVNAMLA-
+Homogenea: 6.0
+
+Proteina numero 568
+Inicio: 1525
+Secuencia: LTARDGTDDKIRGLTLGGDDYVTKPFSLEE
+Homogenea: 6.0
+
+Proteina numero 568
+Inicio: 1528
+Secuencia: RDGTDDKIRGLTLGGDDYVTKPFSLEELTA
+Homogenea: 6.0
+
+
+Proteina numero 569
+Inicio: 1040
+Secuencia: -TVGDPRRLGQILENLLSNARVHTPP-G--
+Homogenea: 6.0
+
+Proteina numero 569
+Inicio: 1092
+Secuencia: ETGPG------TGGTDRPGRTSASPPLPER
+Homogenea: 6.0
+
+Proteina numero 569
+Inicio: 1528
+Secuencia: RTGTDDRIQGLSVGGDDYVSKPFSIEEVLL
+Homogenea: 6.0
+
+
+Proteina numero 570
+Inicio: 1187
+Secuencia: QYHGQIEVDSEL---N-KGTK---------
+Homogenea: 6.0
+
+
+Proteina numero 575
+Inicio: 1040
+Secuencia: -LYGDPFYWTQILFNLVENALKQNTE-P--
+Homogenea: 6.0
+
+
+Proteina numero 576
+Inicio: 842
+Secuencia: -VLHDITRLKSLEMVRREFVANVSHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 577
+Inicio: 842
+Secuencia: -VLRDITRLQQMERTQKEFVANVSHELRTP
+Homogenea: 7.0
+
+
+Proteina numero 578
+Inicio: 842
+Secuencia: -VLRDLTRIEQVERTQREFVANVSHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 581
+Inicio: 1124
+Secuencia: KIYFSIENTGAHIPDSDINKIWTQFYRGDT
+Homogenea: 7.0
+
+
+Proteina numero 582
+Inicio: 1528
+Secuencia: LNDEKSEIDGLNMGADDYIAKPIKPKLLVS
+Homogenea: 6.0
+
+
+Proteina numero 590
+Inicio: 1380
+Secuencia: MTKILVVDD-ETAIATLLQYNLQQNG-YEV
+Homogenea: 6.0
+
+
+Proteina numero 597
+Inicio: 1525
+Secuencia: LTAKDEEVDKVLGLKMGADDYITKPFGAKE
+Homogenea: 6.0
+
+
+Proteina numero 598
+Inicio: 1525
+Secuencia: LTAKDEEVDKVLGLKMGADDYITKPFGAKE
+Homogenea: 6.0
+
+
+Proteina numero 599
+Inicio: 1525
+Secuencia: LTARDEEVDLVLGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 600
+Inicio: 1525
+Secuencia: LTARDEEVDLVLGLELGADDYVTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 601
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYMTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 602
+Inicio: 1525
+Secuencia: LTAKDDEFDKVLGLELGADDYLTKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 616
+Inicio: 1594
+Secuencia: KFEQ-IEIDAGAMQLR------VKGELVTT
+Homogenea: 6.0
+
+
+Proteina numero 617
+Inicio: 1594
+Secuencia: RVGE-IEIDGSAMQLR------VRGELVTT
+Homogenea: 6.0
+
+
+Proteina numero 618
+Inicio: 211
+Secuencia: VVAENLARQAGASLY-VLGTPGQDP-TAEA
+Homogenea: 6.0
+
+
+Proteina numero 622
+Inicio: 1180
+Secuencia: IVKHIIEAHGGQVGVQSEY---G-RGST--
+Homogenea: 6.0
+
+
+Proteina numero 623
+Inicio: 1587
+Secuencia: ---GDEIRFPG-LTINLERRMVT------V
+Homogenea: 6.0
+
+
+Proteina numero 624
+Inicio: 1587
+Secuencia: ---GDEIRFPG-LTINLERRMVT------V
+Homogenea: 6.0
+
+
+Proteina numero 628
+Inicio: 829
+Secuencia: ----TGERMGALL-ILNDVTRMRQLETMRK
+Homogenea: 6.0
+
+
+Proteina numero 630
+Inicio: 867
+Secuencia: ELKTPITSIKGFLETLRE-GAW---ED---
+Homogenea: 6.0
+
+
+Proteina numero 632
+Inicio: 1528
+Secuencia: RTEDPDIVTGLNVGADDYVTKPFSPKVLTA
+Homogenea: 6.0
+
+
+Proteina numero 636
+Inicio: 1653
+Secuencia: RQMLL---DLVWGA-DYEGTDR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 637
+Inicio: 1653
+Secuencia: RATLL---DLVWGD-DYEGTDR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 638
+Inicio: 1653
+Secuencia: RDHLL---DTVWDT-HFEGYSR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 639
+Inicio: 1653
+Secuencia: RDHLL---DTVWDT-HFEGYSR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 640
+Inicio: 229
+Secuencia: QSR--VEAVSGMLGTEV-GYI-SVDGKNAV
+Homogenea: 7.0
+
+Proteina numero 640
+Inicio: 1653
+Secuencia: RDHLL---DTVWDT-HFEGYSR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 646
+Inicio: 1653
+Secuencia: RNYLL---DKIWGY-EYYGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 647
+Inicio: 1653
+Secuencia: RNYLL---DKIWGY-EYYGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 648
+Inicio: 1653
+Secuencia: RNYLL---DKIWGY-EYYGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 649
+Inicio: 1653
+Secuencia: RNYLL---DKIWGY-EYYGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 650
+Inicio: 1653
+Secuencia: RDYLL---DKVWGY-EYAGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 651
+Inicio: 926
+Secuencia: RLINDILTLSEIENV-KEGY-PT--EE-TE
+Homogenea: 7.0
+
+Proteina numero 651
+Inicio: 1653
+Secuencia: RDYLL---DKVWGY-EYAGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 652
+Inicio: 926
+Secuencia: RLINDILTLSEIENV-KEGY-PT--EE-TE
+Homogenea: 7.0
+
+Proteina numero 652
+Inicio: 1653
+Secuencia: RDYLL---DKVWGY-EYAGETR----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 667
+Inicio: 1049
+Secuencia: QTIIDNLLDNALNYTPA-G-------GQ--
+Homogenea: 6.0
+
+Proteina numero 667
+Inicio: 1594
+Secuencia: VTRG-IEIDRINHTAR------LNGEELHL
+Homogenea: 6.0
+
+
+Proteina numero 675
+Inicio: 842
+Secuencia: -VINDITRLRNLERTRRDFVSSVSHELRTP
+Homogenea: 6.0
+
+
+Proteina numero 676
+Inicio: 1594
+Secuencia: RSGG-IELDIGRHEAT------LDGRPLVL
+Homogenea: 6.0
+
+
+Proteina numero 677
+Inicio: 1525
+Secuencia: VTAKSEEFDKITGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 678
+Inicio: 1136
+Secuencia: IPARDLPRIFERFYRVDEGRS---RE----
+Homogenea: 6.0
+
+
+Proteina numero 679
+Inicio: 1136
+Secuencia: IPPRDLPRIFERFYRVDEGRS---RE----
+Homogenea: 6.0
+
+
+Proteina numero 684
+Inicio: 922
+Secuencia: ERLADLIRDLLTLSQLESG-GLQL-EL--T
+Homogenea: 6.0
+
+
+Proteina numero 685
+Inicio: 922
+Secuencia: ERLADLIRDLLTLSQLESG-GLQL-EL--T
+Homogenea: 6.0
+
+
+Proteina numero 688
+Inicio: 570
+Secuencia: -----PAGRGGWEPIFYGIYQLQQ------
+Homogenea: 6.0
+
+Proteina numero 688
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 712
+Inicio: 570
+Secuencia: -----PEGKGSWEGIFNGIYRLQQ------
+Homogenea: 7.0
+
+
+Proteina numero 718
+Inicio: 842
+Secuencia: LIARDITRIRRLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 719
+Inicio: 842
+Secuencia: LIARDITRIHQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 721
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 722
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 723
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 724
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 725
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 726
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 727
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 728
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 729
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 730
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 731
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 732
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 733
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 734
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 735
+Inicio: 842
+Secuencia: LIARDITRIRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 736
+Inicio: 842
+Secuencia: LIARDITRVRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 737
+Inicio: 842
+Secuencia: LIARDITRVRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 738
+Inicio: 842
+Secuencia: LIARDITRVRQLEGMRKEFVANVSHELKTP
+Homogenea: 7.0
+
+
+Proteina numero 739
+Inicio: 1130
+Secuencia: TDTGDGIAPQHIGRLTERFYRVDSART---
+Homogenea: 6.0
+
+
+Proteina numero 740
+Inicio: 842
+Secuencia: LIARDITRVRQLEGMRKDFVANVSHELKTP
+Homogenea: 6.0
+
+Proteina numero 740
+Inicio: 1130
+Secuencia: SDSGDGIAPQHIGRLTERFYRVDSART---
+Homogenea: 6.0
+
+
+Proteina numero 741
+Inicio: 842
+Secuencia: LIARDITRVRQLEGMRKDFVANVSHELKTP
+Homogenea: 6.0
+
+Proteina numero 741
+Inicio: 1130
+Secuencia: TDSGDGIAPQHIGRLTERFYRVDSART---
+Homogenea: 6.0
+
+
+Proteina numero 742
+Inicio: 570
+Secuencia: -----PSASGSWEPIFDETYRLQK------
+Homogenea: 6.0
+
+
+Proteina numero 743
+Inicio: 570
+Secuencia: -----PSASGSWEPIFDETYRLQK------
+Homogenea: 6.0
+
+
+Proteina numero 744
+Inicio: 570
+Secuencia: -----PSASGSWEPIFDETYRLQK------
+Homogenea: 6.0
+
+
+Proteina numero 772
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYMTKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 826
+Inicio: 570
+Secuencia: -----PSGRGGWEPIFYGIYQMQQ------
+Homogenea: 6.0
+
+
+Proteina numero 828
+Inicio: 570
+Secuencia: -----PEGKGGWEPIFYGIRQTQQ------
+Homogenea: 6.0
+
+Proteina numero 828
+Inicio: 1525
+Secuencia: LTAKGEEEDKVKGLETGADDYVIKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 829
+Inicio: 570
+Secuencia: -----PEGKGGWEPIFYGIRQTQQ------
+Homogenea: 6.0
+
+Proteina numero 829
+Inicio: 1525
+Secuencia: LTAKGEEEDKVKGLETGADDYVIKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 830
+Inicio: 1525
+Secuencia: LTARGEEEDRVKGLETGADDYLTKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 831
+Inicio: 570
+Secuencia: -----PDGKGGWEPIFYGIYQLQQ------
+Homogenea: 6.0
+
+
+Proteina numero 832
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 833
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 834
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 835
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 836
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 837
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 838
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 839
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 840
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 841
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 842
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 843
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 844
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 845
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 846
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 847
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 848
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 849
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 850
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 851
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 852
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 853
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 854
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 855
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 856
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 857
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 858
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 859
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 860
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 861
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 862
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 863
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 864
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 865
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 866
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 867
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 868
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 869
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 870
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 871
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 872
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 873
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 874
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 875
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 876
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 877
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 878
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 879
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 880
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 881
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 882
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 883
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 884
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 885
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 886
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 887
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 888
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 889
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 890
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 891
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 892
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 893
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 894
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 895
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 896
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 897
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 898
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 899
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 900
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 901
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 902
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 903
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 904
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 905
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 906
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 907
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 908
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 909
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 910
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 911
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 912
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 913
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 914
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 915
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 916
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 917
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 918
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 919
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 920
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 921
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 922
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 923
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 924
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 925
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 926
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 927
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 928
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 929
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 930
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 931
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 932
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYVTKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 933
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 934
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 935
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 936
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 937
+Inicio: 1525
+Secuencia: LTARGEEEDRVRGLETGADDYITKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 938
+Inicio: 570
+Secuencia: -----PDASGLWGEVFDGLYNIQR------
+Homogenea: 6.0
+
+
+Proteina numero 939
+Inicio: 570
+Secuencia: -----PDASGLWGEVFDGLYNIQR------
+Homogenea: 6.0
+
+
+Proteina numero 940
+Inicio: 570
+Secuencia: -----PDASGLWGEVFDGLYNIQR------
+Homogenea: 6.0
+
+
+Proteina numero 941
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 942
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 943
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 944
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 945
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 946
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 947
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 948
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 949
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 950
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 951
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 952
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 953
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 954
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 955
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 956
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 957
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 958
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 959
+Inicio: 570
+Secuencia: -----PDSYGLWGEVFDNIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 960
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 961
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 962
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 963
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 964
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 965
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 966
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 967
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 968
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 969
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 970
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 971
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 972
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 973
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 974
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 975
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 976
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 977
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 978
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 979
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 980
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 981
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 982
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 983
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 984
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 985
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 986
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 987
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 988
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 989
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 990
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 991
+Inicio: 570
+Secuencia: -----PDGYGLWGEVFDSIYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 992
+Inicio: 570
+Secuencia: -----PDSHGIWGDIFDSLYHLQR------
+Homogenea: 6.0
+
+
+Proteina numero 993
+Inicio: 570
+Secuencia: -----PDSAGIWGDVFDNLYQLQR------
+Homogenea: 6.0
+
+
+Proteina numero 994
+Inicio: 570
+Secuencia: -----PDSAGIWGDVFDNLYQLQR------
+Homogenea: 6.0
+
+
+Proteina numero 995
+Inicio: 570
+Secuencia: -----PDSAGIWGDIFDSLYQLQR------
+Homogenea: 6.0
+
+
+Proteina numero 996
+Inicio: 570
+Secuencia: -----PDSAGIWGDVFDNLYQMQR------
+Homogenea: 6.0
+
+
+Proteina numero 997
+Inicio: 570
+Secuencia: -----PDSAGIWGDVFDNLYQMQR------
+Homogenea: 6.0
+
+
+Proteina numero 1054
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1056
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1059
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1060
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1061
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1062
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1063
+Inicio: 939
+Secuencia: TT-SDKD-F----RTFDMSAMINSLRKDTD
+Homogenea: 6.0
+
+
+Proteina numero 1064
+Inicio: 1525
+Secuencia: LTARSAEEDKVSGLETGADDYVTKPFSVQE
+Homogenea: 6.0
+
+
+Proteina numero 1065
+Inicio: 1525
+Secuencia: LTARSAEEDKVSGLETGADDYVTKPFSVQE
+Homogenea: 6.0
+
+
+Proteina numero 1066
+Inicio: 855
+Secuencia: QMRKDFVANVSHELRTPLTVLKGYLETLTD
+Homogenea: 6.0
+
+
+Proteina numero 1070
+Inicio: 1380
+Secuencia: KTSILIIED-EPAIAELIGFTIKEAG-WTP
+Homogenea: 6.0
+
+
+Proteina numero 1072
+Inicio: 570
+Secuencia: -----PLSAGIWEETFAEGYHWRR------
+Homogenea: 7.0
+
+
+Proteina numero 1073
+Inicio: 570
+Secuencia: -----PLAGGMWEETFAEGYHWRR------
+Homogenea: 7.0
+
+
+Proteina numero 1074
+Inicio: 570
+Secuencia: -----PLAGGMWEETFAEGYHWRR------
+Homogenea: 7.0
+
+
+Proteina numero 1075
+Inicio: 570
+Secuencia: -----PLAGGMWEETFAEGYHWRR------
+Homogenea: 7.0
+
+
+Proteina numero 1084
+Inicio: 1525
+Secuencia: LTARSEEEDCITGLNTGADDYITKPFSPKI
+Homogenea: 6.0
+
+
+Proteina numero 1085
+Inicio: 1525
+Secuencia: LTARSEEEDCITGLNTGADDYITKPFSPKI
+Homogenea: 6.0
+
+
+Proteina numero 1086
+Inicio: 1525
+Secuencia: LTARSEEEDCITGLNTGADDYITKPFSPKI
+Homogenea: 6.0
+
+
+Proteina numero 1087
+Inicio: 1525
+Secuencia: LTARSEEEDCITGLNTGADDYITKPFSPKI
+Homogenea: 6.0
+
+
+Proteina numero 1097
+Inicio: 1115
+Secuencia: ---GD----GAVLSVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1097
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 1098
+Inicio: 1115
+Secuencia: ---GD----GAVLAVRDSGYGIPATHLPRL
+Homogenea: 6.0
+
+
+Proteina numero 1099
+Inicio: 1115
+Secuencia: ---GD----GAVLAVRDSGYGIPATHLPRL
+Homogenea: 6.0
+
+
+Proteina numero 1101
+Inicio: 1115
+Secuencia: ---GD----GAVLAVRDSGYGIPANHLPRL
+Homogenea: 6.0
+
+
+Proteina numero 1102
+Inicio: 1115
+Secuencia: ---GD----GAVLSVRDSGYGIPAHHLPRI
+Homogenea: 6.0
+
+
+Proteina numero 1103
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1103
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1104
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1104
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1105
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1105
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1106
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1106
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1107
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1107
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1108
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1108
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1109
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1109
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1110
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1110
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1111
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1111
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1112
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1112
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1113
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1113
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1114
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1114
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1115
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1115
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1116
+Inicio: 1115
+Secuencia: ---GD----GAALAVRDTGYGIPASHLPRI
+Homogenea: 6.0
+
+Proteina numero 1116
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1123
+Inicio: 1653
+Secuencia: RTQLL---DHVWGG-SVYVEER----TVD-
+Homogenea: 6.0
+
+
+Proteina numero 1133
+Inicio: 897
+Secuencia: --------PE--ERNRYLGLMAQQAERMQH
+Homogenea: 6.0
+
+
+Proteina numero 1134
+Inicio: 897
+Secuencia: --------PE--ERNRYLGLMAQQAERMQH
+Homogenea: 6.0
+
+
+Proteina numero 1135
+Inicio: 905
+Secuencia: QA--DRTRYLGLMGQQGARMQTLVNDLLTL
+Homogenea: 6.0
+
+
+Proteina numero 1148
+Inicio: 1525
+Secuencia: LTARSDEQDKIAGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1149
+Inicio: 1525
+Secuencia: LTARSDEQDKVAGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1150
+Inicio: 1525
+Secuencia: LTARSDEQDKIVGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1152
+Inicio: 958
+Secuencia: PLLADIARDTEL----LSGG--------RH
+Homogenea: 6.0
+
+
+Proteina numero 1154
+Inicio: 1525
+Secuencia: LTARGEEQDKVAGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1156
+Inicio: 1525
+Secuencia: LTARGDERDKVLGLESGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1157
+Inicio: 1525
+Secuencia: LTARIDERDKILGLESGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1163
+Inicio: 1525
+Secuencia: LTARGEERDKVLGLDTGADDYITKPFSPRE
+Homogenea: 7.0
+
+
+Proteina numero 1164
+Inicio: 1525
+Secuencia: LTARGDEQDKITGLETGADDYITKPFSPRE
+Homogenea: 6.0
+
+
+Proteina numero 1174
+Inicio: 1594
+Secuencia: QIGG-LKLDPATHRVT------GGGQTLTV
+Homogenea: 6.0
+
+
+Proteina numero 1197
+Inicio: 1588
+Secuencia: --DGRIEIGG-ILLDTDEHRLS------ID
+Homogenea: 7.0
+
+
+Proteina numero 1201
+Inicio: 569
+Secuencia: ------PGAEGVWGDVFEGLNRQQQ-----
+Homogenea: 6.0
+
+Proteina numero 1201
+Inicio: 859
+Secuencia: DFVGNISHELRTPLTVLRGMSEQMAE-MAL
+Homogenea: 6.0
+
+Proteina numero 1201
+Inicio: 1525
+Secuencia: LTARDAEADRVKGLDIGADDYVAKPFSPKE
+Homogenea: 6.0
+
+
+Proteina numero 1202
+Inicio: 569
+Secuencia: ------PRGNGVWGHIFDGLDRQQL-----
+Homogenea: 6.0
+
+
+Proteina numero 1205
+Inicio: 570
+Secuencia: -----PAAHGLWRHLFDALYQRQQ------
+Homogenea: 6.0
+
+
+Proteina numero 1207
+Inicio: 1525
+Secuencia: LTARDDEEDKVRGLNVGADDYITKPFSPTE
+Homogenea: 7.0
+
+
+Proteina numero 1208
+Inicio: 1117
+Secuencia: -QAG---RPCLEVRDTGEGIAAEHLPRVTE
+Homogenea: 6.0
+
+Proteina numero 1208
+Inicio: 1525
+Secuencia: LTARDEEEDKVRGLNVGADDYITKPFSPTE
+Homogenea: 7.0
+
+
+Proteina numero 1209
+Inicio: 1117
+Secuencia: -QAG---RPCLEVRDTGEGIAAEHLPRVTE
+Homogenea: 6.0
+
+Proteina numero 1209
+Inicio: 1525
+Secuencia: LTARDEEEDKVRGLNVGADDYITKPFSPME
+Homogenea: 6.0
+
+
+Proteina numero 1212
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1213
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1214
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1215
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1216
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1217
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1218
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1219
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1220
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1221
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1222
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1223
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1224
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1225
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1226
+Inicio: 855
+Secuencia: QMRKDFVDNISHELRTPLTVLSGYIETFTD
+Homogenea: 6.0
+
+
+Proteina numero 1227
+Inicio: 1653
+Secuencia: RTQLL---DQVWGG-NVYVEDR----TID-
+Homogenea: 6.0
+
+
+Proteina numero 1231
+Inicio: 570
+Secuencia: -----PESTGLWGELFDSLYQLQR------
+Homogenea: 7.0
+
+
+Proteina numero 1236
+Inicio: 570
+Secuencia: -----PETSGIWGEVFDAVYRLQK------
+Homogenea: 7.0
+
+
+Proteina numero 1237
+Inicio: 570
+Secuencia: -----PESSGIWGEVFDAVYRLQK------
+Homogenea: 7.0
+
+
+Proteina numero 1238
+Inicio: 570
+Secuencia: -----PEASGIWGEVFDAVYRLHK------
+Homogenea: 6.0
+
+
+Proteina numero 1239
+Inicio: 570
+Secuencia: -----PVGAGVWGDLFDRLYKYQK------
+Homogenea: 6.0
+
+
+Proteina numero 1240
+Inicio: 570
+Secuencia: -----PSASGLWGELFDRLYRYQK------
+Homogenea: 6.0
+
+
+Proteina numero 1241
+Inicio: 570
+Secuencia: -----PESIGLWGRIFYETRRLQK------
+Homogenea: 6.0
+
+
+Proteina numero 1242
+Inicio: 570
+Secuencia: -----PESRGLWGDLFDGIHRLQV------
+Homogenea: 6.0
+
+Proteina numero 1242
+Inicio: 1528
+Secuencia: KTEEDNKVQGLEVGADDYITKPFSPRELVA
+Homogenea: 6.0
+
+

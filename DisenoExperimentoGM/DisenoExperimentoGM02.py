@@ -31,39 +31,44 @@ while t:
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
         file.write("Tamano de la secuencia: " + str(p[1]) + os.linesep)
         file.write("Probabilidad de Mutacion: " + str(p[2]) + os.linesep)
-        file.write("Cantidad de Aminiacidos a mutar: " + str(p[3]) + os.linesep)
+        file.write("Cantidad de elementos a mutar: " + str(p[3]) + os.linesep)
         file.write("Numero de individuos seleccionado por Elitismo: " + str(p[4]) + os.linesep)
-        file.write("Tamano de k en estocastico universal: " + str(p[5]) + os.linesep)
+        file.write("Eunumero: " + str(p[5]) + os.linesep)
         file.write("Tamano de torneo: " + str(p[6]) + os.linesep)
         file.write("Numero de restos: " + str(p[7]) + os.linesep)
         file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
         file.write("Pesos de las Matrices: " + str(p[9]) + os.linesep)
         file.write("Secuencia base: " + str(p[10]) + os.linesep)
-        file.write("El Experimento se realizo " + str(nRepeticiones) + " veces." + os.linesep)
-        file.write("Con " +str(nGeneraciones)+" Generaciones" + os.linesep)
+        file.write("Numero de repeticiones del experimento: " + str(nRepeticiones) + os.linesep)
+        file.write("Numero de generaciones: " +str(nGeneraciones) + os.linesep)
 
         file.write(os.linesep)
         file.write("Con los siguientes metodos: " + os.linesep)
         
         # Cambiar segun la prueba
+        file.write("Metodo de seleccion: ")
         ##### Metodos de Seleccion. ######
         # file.write("Torneo" + os.linesep)
         file.write("Ruleta" + os.linesep)
         # file.write("Restos" + os.linesep)
         # file.write("Estocastico Universal" + os.linesep)
 
+        file.write("Metodo de cruzamiento: ")
         ###### Metodos de Cruzamiento. ######
-        file.write("Punto Fijo" + os.linesep)
-        # file.write("Multi-Punto" + os.linesep)
+        file.write("Monopunto" + os.linesep)
+        # file.write("Multipunto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
 
+        file.write("Metodo de mutacion: ")
         ###### Metodos de Mutacion. ######
         file.write("Mutacion Uniforme" + os.linesep)
         # file.write("Mutacion Estandar" + os.linesep)
 
+        file.write("Metodo de consevacion: ")
         ###### Metodo de conservacion. ######
         file.write("Elitismo" + os.linesep)
 
+        file.write("Metodo de paso de generacion: ")
         ###### Metodo de Paso de Generacion. ######
         file.write("Reemplazo de Padres" + os.linesep)
         # file.write("Reemplazo Aleatorio" + os.linesep)
@@ -88,7 +93,7 @@ while t:
                 # AGS.estocasticoUniversal()
 
                 ###### Metodos de Cruzamiento. ######
-                AGS.cruzamientoPuntoFijo()
+                AGS.cruzamientoMonopunto()
                 # AGS.cruzamientoMultiPunto()
                 # AGS.cruzamientoUniforme()
 

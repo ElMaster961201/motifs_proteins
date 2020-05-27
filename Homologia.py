@@ -79,7 +79,6 @@ if __name__ == "__main__":
     ruta = "SecuenciaDB"
     numHongos = len(hongos)
     tamHongo = len(hongos[0])
-    umbral = 5
 
     if not os.path.exists(ruta):
         os.makedirs(ruta)
@@ -96,10 +95,11 @@ if __name__ == "__main__":
         file = open(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt","w")
         file.write("Secuencia homogenea." + os.linesep)
         file.write(os.linesep)
-        file.write("Las secuencia homogenea tiene un tamano " + str(tamSec) + os.linesep)
+        file.write("Las secuencia homogenea tiene un tamano: " + str(tamSec) + os.linesep)
         file.write("La secuencia referencia es: " + str(secRef) + os.linesep)
-        file.write(os.linesep)
+        
         secuenciaDB = []
+        maxhomologo = 0
         for i in range(numHongos):
             secuenciaHongo = []
             print(i)
@@ -111,14 +111,18 @@ if __name__ == "__main__":
                         pass 
                     pass
                 secuenciaHongo.append([hongos[i][j : j + tamSec],j,float(cont)])
+                if maxhomologo < cont:
+                    maxhomologo = cont
                 pass
             secuenciaDB.append(secuenciaHongo)
             pass
+        file.write("Homologia maxima: " + str(maxhomologo) + os.linesep)
+        file.write(os.linesep)
         pro = 1
         for p in secuenciaDB:
             line = False
             for secuencia in p:
-                if secuencia[2] > umbral:
+                if secuencia[2] > maxhomologo - (maxhomologo * 0.30):
                     file.write("Proteina numero " + str(pro) + os.linesep)
                     file.write("Inicio: " + str(secuencia[1]) + os.linesep)
                     file.write("Secuencia: " + str(secuencia[0]) + os.linesep)

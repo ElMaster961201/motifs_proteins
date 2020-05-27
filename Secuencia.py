@@ -74,48 +74,53 @@ if __name__ == "__main__":
     
     ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
     hongos = HG().matrizHongos()
-    tamSec = 30
+    tamSec = 5
     ruta = "SecuenciaConservada"
 
     if not os.path.exists(ruta):
         os.makedirs(ruta)
         pass
 
-    if not (os.path.exists(ruta + "/SecuenciaConservada.txt")):
-        file = open(ruta + "/SecuenciaConservada.txt","w")
-        file.write("Secuencias conservadas." + os.linesep)
-        file.write(os.linesep)
-        file.write("Las secuencias conservadas tendran un tamano " + str(tamSec) + os.linesep)
-        file.write(os.linesep)
-        ConSecCon = []
-        for ps in range(len(hongos[0])-tamSec):
-            file.write("Secuencia " + str(ps + 1) + os.linesep)
-            file.write("El punto de donde inicia la secuencia conservada es: " + str(ps) + os.linesep)
-            sec = []
-            sumSecCon = 0 
+    while tamSec < 31:
+        if not (os.path.exists(ruta + "/SecuenciaConservada" + str(tamSec) + ".txt")):
+            file = open(ruta + "/SecuenciaConservada" + str(tamSec) + ".txt","w")
+            file.write("Secuencias conservadas." + os.linesep)
+            file.write(os.linesep)
+            file.write("Las secuencias conservadas tendran un tamano " + str(tamSec) + os.linesep)
+            file.write(os.linesep)
+            ConSecCon = []
+            for ps in range(len(hongos[0])-tamSec):
+                sec = []
+                sumSecCon = 0 
 
-            # Inicializamos el contador.
-            contador = [[0 for _ in range(len(ind))] for _ in range(tamSec)]
+                # Inicializamos el contador.
+                contador = [[0 for _ in range(len(ind))] for _ in range(tamSec)]
 
-            for i in range(tamSec):
-                for j in range(len(hongos)):
-                    contador[i][ind[hongos[j][i + ps]]] = contador[i][ind[hongos[j][i + ps]]] +1
+                for i in range(tamSec):
+                    for j in range(len(hongos)):
+                        contador[i][ind[hongos[j][i + ps]]] = contador[i][ind[hongos[j][i + ps]]] +1
+                        pass
                     pass
-                pass
 
-            for am in contador:
-                index = am.index(max(am))
-                if index == 20:
-                    am.pop(index)
+                for am in contador:
                     index = am.index(max(am))
+                    if index == 20:
+                        am.pop(index)
+                        index = am.index(max(am))
+                        pass
+                    sumSecCon = sumSecCon + max(am)
+                    sec.append(list(ind.keys())[index])
                     pass
-                sumSecCon = sumSecCon + max(am)
-                sec.append(list(ind.keys())[index])
+                ConSecCon.append([sec, 100 * float(sumSecCon)/(tamSec * len(hongos))])
+                if ConSecCon[ps][1] > 80:
+                    file.write("Secuencia: " + str(ps + 1) + os.linesep)
+                    file.write("El punto de donde inicia la secuencia conservada es: " + str(ps) + os.linesep)
+                    file.write(str(ConSecCon[ps][0]) + os.linesep)
+                    file.write("Conservacion: " + str(ConSecCon[ps][1]) + os.linesep + os.linesep)
+                    pass
                 pass
-            ConSecCon.append([sec, 100 * float(sumSecCon)/(tamSec * len(hongos))])
-            file.write(str(ConSecCon[ps][0]) + os.linesep)
-            file.write("Con " + str(ConSecCon[ps][1]) + " de conservacion" + os.linesep + os.linesep)
+            file.close()
             pass
-        file.close()
+        tamSec = tamSec + 1
         pass
     pass

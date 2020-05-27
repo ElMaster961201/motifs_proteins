@@ -15,7 +15,7 @@ class GeneticoMotifs(object):
 		* proMutacion = 0.1
 		* canMutacion = 2
 		* numElitismo = 1
-		* knumeros = 4
+		* eunumeros = 4
 		* tamTorneo = 4
 		* numRestos = 500
 		* proCruce = 0.6
@@ -46,7 +46,7 @@ class GeneticoMotifs(object):
 		restos
 
 		##### Metodos de Cruzamiento (Reproduccion). ##############################
-		cruzamientoPuntoFijo
+		cruzamientoMonopunto
 		cruzamientoMultiPunto
 		cruzamientoUniforme
 
@@ -72,14 +72,14 @@ class GeneticoMotifs(object):
 		
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, tamPoblacion = 100, numGenomas = 30,
-        proMutacion = 0.1, canMutacion = 2, numElitismo = 1, knumeros = 4, tamTorneo = 4, 
+        proMutacion = 0.1, canMutacion = 2, numElitismo = 1, eunumeros = 4, tamTorneo = 4, 
 		numRestos = 500, proCruce = 0.6, w = [1/3, 1/3, 1/3], secuenciaConservada = []):
 		self.tamPoblacion = tamPoblacion
 		self.numGenomas = numGenomas
 		self.proMutacion = proMutacion
 		self.canMutacion = canMutacion
 		self.numElitismo = numElitismo
-		self.knumeros = knumeros
+		self.eunumeros = eunumeros
 		self.tamTorneo = tamTorneo
 		self.numRestos = numRestos
 		self.proCruce = proCruce
@@ -114,7 +114,7 @@ class GeneticoMotifs(object):
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocasticoUniversalSimple(self,knumeros = 4):
+	def estocasticoUniversalSimple(self,eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -122,8 +122,8 @@ class GeneticoMotifs(object):
 		top = random.random()
 		ii = 0
 		contador = 0.0
-		for i in range(knumeros):
-			a = (top + i) / knumeros
+		for i in range(eunumeros):
+			a = (top + i) / eunumeros
 			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
 				ii = ii +1
@@ -288,16 +288,16 @@ class GeneticoMotifs(object):
 	# Muestreo estocastico universal.
 	def estocasticoUniversal(self):
 
-		# Ciclo para valores enteros del tamPoblacion/knumeros
-		for _ in range(self.tamPoblacion // self.knumeros):
-			ind = self.estocasticoUniversalSimple(self.knumeros)
+		# Ciclo para valores enteros del tamPoblacion/eunumeros
+		for _ in range(self.tamPoblacion // self.eunumeros):
+			ind = self.estocasticoUniversalSimple(self.eunumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 				pass
 			pass
 	
-		# Ciclo para el residuo obtenido de tamPoblacion/knumeros
-		resK = (self.tamPoblacion % self.knumeros)
+		# Ciclo para el residuo obtenido de tamPoblacion/eunumeros
+		resK = (self.tamPoblacion % self.eunumeros)
 		ind = self.estocasticoUniversalSimple(resK)
 		for i in ind:
 			self.nuevapoblacion.append(i)
@@ -325,10 +325,10 @@ class GeneticoMotifs(object):
 
 	###### Metodos de seleccion. Fin ######
 
-	###### Metodos de reproduccion. ######
+	###### Metodos de cruzamiento. ######
 
-	# Por Punto fijo.
-	def cruzamientoPuntoFijo(self):
+	# Cruzamiento monopunto.
+	def cruzamientoMonopunto(self):
 		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
 				punto = random.randrange(3, self.numGenomas-3)
@@ -348,7 +348,7 @@ class GeneticoMotifs(object):
 			pass
 		pass
 
-	# Por Multipunto.
+	# Cruzamiento Multipunto.
 	def cruzamientoMultiPunto(self):
 		for i in range(0, self.tamPoblacion,2):
 			if self.proCruce > random.random():
@@ -371,7 +371,7 @@ class GeneticoMotifs(object):
 			pass
 		pass
 
-	# Por Cruzamiento uniforme.
+	# Cruzamiento uniforme.
 	def cruzamientoUniforme(self):
 		for i in range(0,self.tamPoblacion,2):
 			hijo1 =[]
@@ -392,7 +392,7 @@ class GeneticoMotifs(object):
 			pass
 		pass
 	
-	###### Metodos de reproduccion. Fin ######
+	###### Metodos de cruzamiento. Fin ######
 
 	###### Mutación ######
 

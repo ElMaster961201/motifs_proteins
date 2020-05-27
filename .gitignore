@@ -96,4 +96,4 @@ pruebas.py
 # */DisenoExperimentoGS*.py
 # */DisenoExperimentoGP*.py
 
-.vscode/*
+.vscode/settings.json
