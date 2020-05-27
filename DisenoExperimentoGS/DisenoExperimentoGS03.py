@@ -12,7 +12,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGS().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGS/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGS/Resultados/Acer" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -25,7 +25,7 @@ while t:
         startTimeTotal = time ()
 
         file = open(ruta + "/Experimento" + str(cont) + ".txt","w")
-        file.write("Experimento v0.3."+ str(cont) + os.linesep)
+        file.write("Experimento v1.3."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:" + os.linesep)
         file.write(os.linesep)
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
@@ -52,10 +52,10 @@ while t:
         # file.write("Estocastico Universal" + os.linesep)
         
         ###### Metodos de Cruzamiento. ######
-        file.write("Punto Fijo" + os.linesep)
+        # file.write("Punto Fijo" + os.linesep)
         # file.write("Multi-Punto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
-        # file.write("Cruzamiento Aritmetico" + os.linesep)
+        file.write("Cruzamiento Aritmetico" + os.linesep)
        
         ###### Metodos de Mutacion. ######
         file.write("Mutacion Uniforme" + os.linesep)
@@ -86,10 +86,10 @@ while t:
                 # AGS.estocasticoUniversal()
 
                 ###### Metodos de Cruzamiento. ######
-                AGS.cruzamientoPuntoFijo()
+                # AGS.cruzamientoPuntoFijo()
                 # AGS.cruzamientoMultiPunto()
                 # AGS.cruzamientoUniforme()
-                # AGS.cruzamientoAritmetico()
+                AGS.cruzamientoAritmetico()
 
                 ###### Metodos de Mutacion. ######
                 AGS.mutacionUniforme()

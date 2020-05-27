@@ -10,7 +10,7 @@ class ParametrosGM(object):
     3, # tamTorneo -> 6
     500, # numRestos -> 7
     .6, # proCruce -> 8
-    [1/3, 1/3, 1/3], # w -> 9
+    [2/10, 4/10, 4/10], # w -> 9
     ['R','G','L','E','L','G','A','D','D','Y','I','T','K','P','F','S','P','R','E','L','V','A','R','I','K','A','V','L','R','R'] # secuencia  -> 10
     ]
 
