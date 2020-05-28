@@ -1,0 +1,11 @@
+Secuencias conservadas.
+
+Las secuencias conservadas tendran un tamano 29
+
+Secuencia: 1538
+El punto de donde inicia la secuencia conservada es: 1537
+['G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K', 'A', 'V', 'L', 'R', 'R']
+Conservacion: 82.05788671929096
+
+Top: 82.05788671929096
+

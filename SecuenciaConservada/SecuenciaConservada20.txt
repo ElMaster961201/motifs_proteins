@@ -1,0 +1,56 @@
+Secuencias conservadas.
+
+Las secuencias conservadas tendran un tamano 20
+
+Secuencia: 1534
+El punto de donde inicia la secuencia conservada es: 1533
+['D', 'K', 'V', 'R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P']
+Conservacion: 80.44578313253012
+
+Secuencia: 1536
+El punto de donde inicia la secuencia conservada es: 1535
+['V', 'R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E']
+Conservacion: 80.75502008032129
+
+Secuencia: 1537
+El punto de donde inicia la secuencia conservada es: 1536
+['R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L']
+Conservacion: 80.8995983935743
+
+Secuencia: 1538
+El punto de donde inicia la secuencia conservada es: 1537
+['G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V']
+Conservacion: 81.76706827309236
+
+Secuencia: 1539
+El punto de donde inicia la secuencia conservada es: 1538
+['L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A']
+Conservacion: 81.60240963855422
+
+Secuencia: 1540
+El punto de donde inicia la secuencia conservada es: 1539
+['E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R']
+Conservacion: 81.75502008032129
+
+Secuencia: 1541
+El punto de donde inicia la secuencia conservada es: 1540
+['L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I']
+Conservacion: 80.5140562248996
+
+Secuencia: 1542
+El punto de donde inicia la secuencia conservada es: 1541
+['G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K']
+Conservacion: 82.24096385542168
+
+Secuencia: 1543
+El punto de donde inicia la secuencia conservada es: 1542
+['A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K', 'A']
+Conservacion: 82.0281124497992
+
+Secuencia: 1544
+El punto de donde inicia la secuencia conservada es: 1543
+['D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K', 'A', 'V']
+Conservacion: 80.66265060240964
+
+Top: 82.24096385542168
+

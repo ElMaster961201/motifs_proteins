@@ -74,7 +74,7 @@ if __name__ == "__main__":
     
     ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
     hongos = HG().matrizHongos()
-    tamSec = 5
+    tamSec = 2
     ruta = "SecuenciaConservada"
 
     if not os.path.exists(ruta):
@@ -89,6 +89,7 @@ if __name__ == "__main__":
             file.write("Las secuencias conservadas tendran un tamano " + str(tamSec) + os.linesep)
             file.write(os.linesep)
             ConSecCon = []
+            top = 0.0
             for ps in range(len(hongos[0])-tamSec):
                 sec = []
                 sumSecCon = 0 
@@ -117,8 +118,11 @@ if __name__ == "__main__":
                     file.write("El punto de donde inicia la secuencia conservada es: " + str(ps) + os.linesep)
                     file.write(str(ConSecCon[ps][0]) + os.linesep)
                     file.write("Conservacion: " + str(ConSecCon[ps][1]) + os.linesep + os.linesep)
+                    if top < ConSecCon[ps][1]:
+                        top = ConSecCon[ps][1]
                     pass
                 pass
+            file.write("Top: " + str(top) + os.linesep + os.linesep)
             file.close()
             pass
         tamSec = tamSec + 1

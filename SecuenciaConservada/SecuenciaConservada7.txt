@@ -1,0 +1,206 @@
+Secuencias conservadas.
+
+Las secuencias conservadas tendran un tamano 7
+
+Secuencia: 860
+El punto de donde inicia la secuencia conservada es: 859
+['D', 'F', 'V', 'A', 'N', 'V', 'S']
+Conservacion: 83.54561101549054
+
+Secuencia: 861
+El punto de donde inicia la secuencia conservada es: 860
+['F', 'V', 'A', 'N', 'V', 'S', 'H']
+Conservacion: 88.61732644865175
+
+Secuencia: 862
+El punto de donde inicia la secuencia conservada es: 861
+['V', 'A', 'N', 'V', 'S', 'H', 'E']
+Conservacion: 88.75502008032129
+
+Secuencia: 863
+El punto de donde inicia la secuencia conservada es: 862
+['A', 'N', 'V', 'S', 'H', 'E', 'L']
+Conservacion: 92.87435456110155
+
+Secuencia: 864
+El punto de donde inicia la secuencia conservada es: 863
+['N', 'V', 'S', 'H', 'E', 'L', 'R']
+Conservacion: 89.20252438324728
+
+Secuencia: 865
+El punto de donde inicia la secuencia conservada es: 864
+['V', 'S', 'H', 'E', 'L', 'R', 'T']
+Conservacion: 89.79919678714859
+
+Secuencia: 866
+El punto de donde inicia la secuencia conservada es: 865
+['S', 'H', 'E', 'L', 'R', 'T', 'P']
+Conservacion: 92.62191623637406
+
+Secuencia: 867
+El punto de donde inicia la secuencia conservada es: 866
+['H', 'E', 'L', 'R', 'T', 'P', 'L']
+Conservacion: 88.12392426850258
+
+Secuencia: 868
+El punto de donde inicia la secuencia conservada es: 867
+['E', 'L', 'R', 'T', 'P', 'L', 'T']
+Conservacion: 84.49799196787149
+
+Secuencia: 1144
+El punto de donde inicia la secuencia conservada es: 1143
+['R', 'L', 'T', 'E', 'R', 'F', 'Y']
+Conservacion: 83.56855995410213
+
+Secuencia: 1145
+El punto de donde inicia la secuencia conservada es: 1144
+['L', 'T', 'E', 'R', 'F', 'Y', 'R']
+Conservacion: 84.32587492828456
+
+Secuencia: 1146
+El punto de donde inicia la secuencia conservada es: 1145
+['T', 'E', 'R', 'F', 'Y', 'R', 'V']
+Conservacion: 89.97131382673551
+
+Secuencia: 1147
+El punto de donde inicia la secuencia conservada es: 1146
+['E', 'R', 'F', 'Y', 'R', 'V', 'D']
+Conservacion: 94.81353987378084
+
+Secuencia: 1148
+El punto de donde inicia la secuencia conservada es: 1147
+['R', 'F', 'Y', 'R', 'V', 'D', 'K']
+Conservacion: 88.7205966724039
+
+Secuencia: 1149
+El punto de donde inicia la secuencia conservada es: 1148
+['F', 'Y', 'R', 'V', 'D', 'K', 'A']
+Conservacion: 82.24899598393574
+
+Secuencia: 1150
+El punto de donde inicia la secuencia conservada es: 1149
+['Y', 'R', 'V', 'D', 'K', 'A', 'R']
+Conservacion: 81.06712564543889
+
+Secuencia: 1151
+El punto de donde inicia la secuencia conservada es: 1150
+['R', 'V', 'D', 'K', 'A', 'R', 'S']
+Conservacion: 80.03442340791739
+
+Secuencia: 1172
+El punto de donde inicia la secuencia conservada es: 1171
+['G', 'S', 'G', 'T', 'G', 'L', 'G']
+Conservacion: 80.63109581181871
+
+Secuencia: 1173
+El punto de donde inicia la secuencia conservada es: 1172
+['S', 'G', 'T', 'G', 'L', 'G', 'L']
+Conservacion: 81.83591508892714
+
+Secuencia: 1174
+El punto de donde inicia la secuencia conservada es: 1173
+['G', 'T', 'G', 'L', 'G', 'L', 'A']
+Conservacion: 92.18588640275387
+
+Secuencia: 1175
+El punto de donde inicia la secuencia conservada es: 1174
+['T', 'G', 'L', 'G', 'L', 'A', 'I']
+Conservacion: 92.02524383247275
+
+Secuencia: 1176
+El punto de donde inicia la secuencia conservada es: 1175
+['G', 'L', 'G', 'L', 'A', 'I', 'V']
+Conservacion: 93.89558232931726
+
+Secuencia: 1177
+El punto de donde inicia la secuencia conservada es: 1176
+['L', 'G', 'L', 'A', 'I', 'V', 'K']
+Conservacion: 92.92025243832472
+
+Secuencia: 1178
+El punto de donde inicia la secuencia conservada es: 1177
+['G', 'L', 'A', 'I', 'V', 'K', 'H']
+Conservacion: 91.08433734939759
+
+Secuencia: 1179
+El punto de donde inicia la secuencia conservada es: 1178
+['L', 'A', 'I', 'V', 'K', 'H', 'I']
+Conservacion: 81.35398737808376
+
+Secuencia: 1522
+El punto de donde inicia la secuencia conservada es: 1521
+['P', 'I', 'I', 'M', 'L', 'T', 'A']
+Conservacion: 82.18014916810098
+
+Secuencia: 1538
+El punto de donde inicia la secuencia conservada es: 1537
+['G', 'L', 'E', 'L', 'G', 'A', 'D']
+Conservacion: 85.35857716580608
+
+Secuencia: 1539
+El punto de donde inicia la secuencia conservada es: 1538
+['L', 'E', 'L', 'G', 'A', 'D', 'D']
+Conservacion: 86.02409638554217
+
+Secuencia: 1540
+El punto de donde inicia la secuencia conservada es: 1539
+['E', 'L', 'G', 'A', 'D', 'D', 'Y']
+Conservacion: 86.56339644291451
+
+Secuencia: 1541
+El punto de donde inicia la secuencia conservada es: 1540
+['L', 'G', 'A', 'D', 'D', 'Y', 'I']
+Conservacion: 81.19334480780265
+
+Secuencia: 1542
+El punto de donde inicia la secuencia conservada es: 1541
+['G', 'A', 'D', 'D', 'Y', 'I', 'T']
+Conservacion: 88.16982214572576
+
+Secuencia: 1543
+El punto de donde inicia la secuencia conservada es: 1542
+['A', 'D', 'D', 'Y', 'I', 'T', 'K']
+Conservacion: 88.16982214572576
+
+Secuencia: 1544
+El punto de donde inicia la secuencia conservada es: 1543
+['D', 'D', 'Y', 'I', 'T', 'K', 'P']
+Conservacion: 88.69764773379231
+
+Secuencia: 1545
+El punto de donde inicia la secuencia conservada es: 1544
+['D', 'Y', 'I', 'T', 'K', 'P', 'F']
+Conservacion: 86.85025817555938
+
+Secuencia: 1546
+El punto de donde inicia la secuencia conservada es: 1545
+['Y', 'I', 'T', 'K', 'P', 'F', 'S']
+Conservacion: 86.03557085484796
+
+Secuencia: 1547
+El punto de donde inicia la secuencia conservada es: 1546
+['I', 'T', 'K', 'P', 'F', 'S', 'P']
+Conservacion: 80.98680436029834
+
+Secuencia: 1548
+El punto de donde inicia la secuencia conservada es: 1547
+['T', 'K', 'P', 'F', 'S', 'P', 'R']
+Conservacion: 82.7653471026965
+
+Secuencia: 1549
+El punto de donde inicia la secuencia conservada es: 1548
+['K', 'P', 'F', 'S', 'P', 'R', 'E']
+Conservacion: 84.29145152036719
+
+Secuencia: 1550
+El punto de donde inicia la secuencia conservada es: 1549
+['P', 'F', 'S', 'P', 'R', 'E', 'L']
+Conservacion: 81.4802065404475
+
+Secuencia: 1699
+El punto de donde inicia la secuencia conservada es: 1698
+['V', 'H', 'I', 'R', 'R', 'L', 'R']
+Conservacion: 81.85886402753873
+
+Top: 94.81353987378084
+

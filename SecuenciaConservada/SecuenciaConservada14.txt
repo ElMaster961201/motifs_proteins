@@ -1,0 +1,116 @@
+Secuencias conservadas.
+
+Las secuencias conservadas tendran un tamano 14
+
+Secuencia: 857
+El punto de donde inicia la secuencia conservada es: 856
+['M', 'R', 'R', 'D', 'F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R']
+Conservacion: 80.39013195639701
+
+Secuencia: 858
+El punto de donde inicia la secuencia conservada es: 857
+['R', 'R', 'D', 'F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T']
+Conservacion: 84.40619621342513
+
+Secuencia: 859
+El punto de donde inicia la secuencia conservada es: 858
+['R', 'D', 'F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P']
+Conservacion: 85.22088353413655
+
+Secuencia: 860
+El punto de donde inicia la secuencia conservada es: 859
+['D', 'F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P', 'L']
+Conservacion: 85.83476764199656
+
+Secuencia: 861
+El punto de donde inicia la secuencia conservada es: 860
+['F', 'V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P', 'L', 'T']
+Conservacion: 86.55765920826161
+
+Secuencia: 862
+El punto de donde inicia la secuencia conservada es: 861
+['V', 'A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P', 'L', 'T', 'V']
+Conservacion: 82.83993115318417
+
+Secuencia: 863
+El punto de donde inicia la secuencia conservada es: 862
+['A', 'N', 'V', 'S', 'H', 'E', 'L', 'R', 'T', 'P', 'L', 'T', 'V', 'L']
+Conservacion: 81.18187033849685
+
+Secuencia: 1144
+El punto de donde inicia la secuencia conservada es: 1143
+['R', 'L', 'T', 'E', 'R', 'F', 'Y', 'R', 'V', 'D', 'K', 'A', 'R', 'S']
+Conservacion: 81.80149168100975
+
+Secuencia: 1171
+El punto de donde inicia la secuencia conservada es: 1170
+['T', 'G', 'S', 'G', 'T', 'G', 'L', 'G', 'L', 'A', 'I', 'V', 'K', 'H']
+Conservacion: 82.74239816408492
+
+Secuencia: 1172
+El punto de donde inicia la secuencia conservada es: 1171
+['G', 'S', 'G', 'T', 'G', 'L', 'G', 'L', 'A', 'I', 'V', 'K', 'H', 'I']
+Conservacion: 80.99254159495123
+
+Secuencia: 1536
+El punto de donde inicia la secuencia conservada es: 1535
+['V', 'R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K']
+Conservacion: 80.33275960986805
+
+Secuencia: 1537
+El punto de donde inicia la secuencia conservada es: 1536
+['R', 'G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P']
+Conservacion: 81.93344807802639
+
+Secuencia: 1538
+El punto de donde inicia la secuencia conservada es: 1537
+['G', 'L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F']
+Conservacion: 86.10441767068274
+
+Secuencia: 1539
+El punto de donde inicia la secuencia conservada es: 1538
+['L', 'E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S']
+Conservacion: 86.02983362019506
+
+Secuencia: 1540
+El punto de donde inicia la secuencia conservada es: 1539
+['E', 'L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P']
+Conservacion: 83.77510040160642
+
+Secuencia: 1541
+El punto de donde inicia la secuencia conservada es: 1540
+['L', 'G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R']
+Conservacion: 81.97934595524957
+
+Secuencia: 1542
+El punto de donde inicia la secuencia conservada es: 1541
+['G', 'A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E']
+Conservacion: 86.23063683304647
+
+Secuencia: 1543
+El punto de donde inicia la secuencia conservada es: 1542
+['A', 'D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L']
+Conservacion: 84.82501434308664
+
+Secuencia: 1544
+El punto de donde inicia la secuencia conservada es: 1543
+['D', 'D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V']
+Conservacion: 81.21629374641422
+
+Secuencia: 1545
+El punto de donde inicia la secuencia conservada es: 1544
+['D', 'Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A']
+Conservacion: 80.65978198508319
+
+Secuencia: 1546
+El punto de donde inicia la secuencia conservada es: 1545
+['Y', 'I', 'T', 'K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R']
+Conservacion: 80.58519793459553
+
+Secuencia: 1549
+El punto de donde inicia la secuencia conservada es: 1548
+['K', 'P', 'F', 'S', 'P', 'R', 'E', 'L', 'V', 'A', 'R', 'I', 'K', 'A']
+Conservacion: 80.2122776821572
+
+Top: 86.55765920826161
+
