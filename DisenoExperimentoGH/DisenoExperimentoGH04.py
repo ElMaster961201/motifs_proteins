@@ -12,7 +12,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGH().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGP/Resultados/Acer" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGH/Resultados/Compu" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -39,7 +39,7 @@ while t:
         file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
         file.write("Secuencia sintetica: " + str(p[9]) + os.linesep)
         file.write("Homologia: " + os.linesep)
-        file.write("Numero de repeticiones del experimento " + str(nRepeticiones) + os.linesep)
+        file.write("Numero de repeticiones del experimento: " + str(nRepeticiones) + os.linesep)
         file.write("Numero de generaciones: " +str(nGeneraciones) + os.linesep)
 
         file.write(os.linesep)

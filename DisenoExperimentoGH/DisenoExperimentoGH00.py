@@ -39,7 +39,7 @@ while t:
         file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
         file.write("Secuencia sintetica: " + str(p[9]) + os.linesep)
         file.write("Homologia: " + os.linesep)
-        file.write("Numero de repeticiones del experimento " + str(nRepeticiones) + os.linesep)
+        file.write("Numero de repeticiones del experimento: " + str(nRepeticiones) + os.linesep)
         file.write("Numero de generaciones: " +str(nGeneraciones) + os.linesep)
 
         file.write(os.linesep)
