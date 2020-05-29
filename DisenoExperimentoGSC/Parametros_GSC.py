@@ -2,7 +2,7 @@ class ParametrosGSC(object):
 
     p = [
     500, # tamPoblacion -> 0
-    30, # numGenomas -> 1
+    10, # numGenomas -> 1
     20, # numSecuenciasConservadas -> 2
     0.1, # proMutacion -> 3 
     2, # canMutacion -> 4
