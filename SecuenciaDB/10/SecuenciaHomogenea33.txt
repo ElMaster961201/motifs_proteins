@@ -1,0 +1,312 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['V', 'H', 'V', 'S', 'M', 'E', 'P', 'K', 'N', 'L']
+Homologia maxima: 6
+
+Proteina numero 97
+Inicio: 1083
+Secuencia: VHVSA-YKN-
+Homogenea: 6.0
+
+
+Proteina numero 290
+Inicio: 862
+Secuencia: VNVSHELKTP
+Homogenea: 5.0
+
+
+Proteina numero 291
+Inicio: 862
+Secuencia: VNVSHELKTP
+Homogenea: 5.0
+
+
+Proteina numero 292
+Inicio: 862
+Secuencia: VNVSHELKTP
+Homogenea: 5.0
+
+
+Proteina numero 293
+Inicio: 862
+Secuencia: VNVSHELKTP
+Homogenea: 5.0
+
+
+Proteina numero 294
+Inicio: 862
+Secuencia: VNVSHELKTP
+Homogenea: 5.0
+
+
+Proteina numero 311
+Inicio: 918
+Secuencia: QHESMRLSNL
+Homogenea: 5.0
+
+
+Proteina numero 368
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 369
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 371
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 377
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 378
+Inicio: 1698
+Secuencia: VHVGRLRKVL
+Homogenea: 5.0
+
+
+Proteina numero 379
+Inicio: 1698
+Secuencia: VHVGRLRKVL
+Homogenea: 5.0
+
+
+Proteina numero 398
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 401
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 417
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 418
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 419
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 420
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 421
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 422
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 423
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 424
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 425
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 426
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 427
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 428
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 429
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 430
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 431
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 432
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 433
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 434
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 435
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 436
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 437
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 438
+Inicio: 1698
+Secuencia: VHVGRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 515
+Inicio: 1375
+Secuencia: ---SMFPKIL
+Homogenea: 5.0
+
+
+Proteina numero 532
+Inicio: 1698
+Secuencia: SHVSSLRKKL
+Homogenea: 5.0
+
+
+Proteina numero 534
+Inicio: 1698
+Secuencia: THVSSLRKKL
+Homogenea: 5.0
+
+
+Proteina numero 670
+Inicio: 1132
+Secuencia: TGVGIEPKHL
+Homogenea: 5.0
+
+
+Proteina numero 672
+Inicio: 1132
+Secuencia: TGVGIEPKHL
+Homogenea: 5.0
+
+
+Proteina numero 1070
+Inicio: 1698
+Secuencia: VHVLRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1119
+Inicio: 1698
+Secuencia: VHVLRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1120
+Inicio: 1698
+Secuencia: VHVLRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1121
+Inicio: 1698
+Secuencia: VHVLRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1193
+Inicio: 1698
+Secuencia: VHVRRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1194
+Inicio: 1698
+Secuencia: VHVRRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1195
+Inicio: 1698
+Secuencia: VHVRRLRKAL
+Homogenea: 5.0
+
+
+Proteina numero 1201
+Inicio: 1698
+Secuencia: VHVRRLRKGL
+Homogenea: 5.0
+
+
+Proteina numero 1202
+Inicio: 1698
+Secuencia: VHVRRLRKAL
+Homogenea: 5.0
+
+

@@ -1,0 +1,714 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['T', 'K', 'V', 'D', 'L', 'Y', 'F', 'V', 'M', 'P']
+Homologia maxima: 6
+
+Proteina numero 229
+Inicio: 833
+Secuencia: TLVDDRFVIV
+Homogenea: 5.0
+
+
+Proteina numero 315
+Inicio: 1619
+Secuencia: AKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 316
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 317
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 318
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 319
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 320
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 321
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 322
+Inicio: 1619
+Secuencia: GKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 323
+Inicio: 1619
+Secuencia: TKVDL----P
+Homogenea: 6.0
+
+
+Proteina numero 324
+Inicio: 1619
+Secuencia: SKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 325
+Inicio: 1619
+Secuencia: SKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 326
+Inicio: 1619
+Secuencia: SKVDL----P
+Homogenea: 5.0
+
+
+Proteina numero 327
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 328
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 329
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 330
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 331
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 332
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 333
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 334
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 335
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 337
+Inicio: 1540
+Secuencia: TGADDYLVKP
+Homogenea: 5.0
+
+
+Proteina numero 353
+Inicio: 1540
+Secuencia: TGADDYMVKP
+Homogenea: 5.0
+
+
+Proteina numero 368
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 369
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 372
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 373
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 374
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 375
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 376
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 378
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 379
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 380
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 383
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 384
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 385
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 386
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 387
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 388
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 397
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 400
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 402
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 403
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 404
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 405
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 406
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 407
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 408
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 409
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 410
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 411
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 412
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 413
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 414
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 415
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 416
+Inicio: 1540
+Secuencia: TGADDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 417
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 418
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 419
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 420
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 421
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 422
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 423
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 424
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 425
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 426
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 427
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 428
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 429
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 430
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 431
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 432
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 433
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 434
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 435
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 436
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 437
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 438
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 439
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 440
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 441
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 442
+Inicio: 1540
+Secuencia: TGADDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 599
+Inicio: 952
+Secuencia: A-VDLYEVLV
+Homogenea: 5.0
+
+
+Proteina numero 600
+Inicio: 952
+Secuencia: A-VDLYEVLV
+Homogenea: 5.0
+
+
+Proteina numero 638
+Inicio: 1540
+Secuencia: LGVDDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 639
+Inicio: 1540
+Secuencia: LGVDDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 640
+Inicio: 1540
+Secuencia: LGVDDYIVKP
+Homogenea: 5.0
+
+
+Proteina numero 688
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1092
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1093
+Inicio: 1540
+Secuencia: AGVDDYMVKP
+Homogenea: 5.0
+
+
+Proteina numero 1094
+Inicio: 1540
+Secuencia: AGVDDYMVKP
+Homogenea: 5.0
+
+
+Proteina numero 1095
+Inicio: 1540
+Secuencia: AGVDDYMVKP
+Homogenea: 5.0
+
+
+Proteina numero 1096
+Inicio: 1540
+Secuencia: AGVDDYMVKP
+Homogenea: 5.0
+
+
+Proteina numero 1097
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1098
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1099
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1100
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1101
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1102
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1103
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1104
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1105
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1106
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1107
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1108
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1109
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1110
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1111
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1112
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1113
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1114
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1115
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1116
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1122
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1123
+Inicio: 1540
+Secuencia: AGVDDYVVKP
+Homogenea: 5.0
+
+
+Proteina numero 1244
+Inicio: 456
+Secuencia: TLVGLYFGEP
+Homogenea: 6.0
+
+
+Proteina numero 1245
+Inicio: 456
+Secuencia: TLVGFYFGEP
+Homogenea: 5.0
+
+

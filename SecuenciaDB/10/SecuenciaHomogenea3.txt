@@ -1,0 +1,252 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['C', 'E', 'R', 'V', 'G', 'V', 'A', 'Q', 'Y', 'D']
+Homologia maxima: 6
+
+Proteina numero 63
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 64
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 65
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 66
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 67
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 68
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 69
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 70
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 71
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 72
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 73
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 74
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 75
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 76
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 77
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 78
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 79
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 80
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 81
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 82
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 83
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 84
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 85
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 86
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 87
+Inicio: 837
+Secuencia: VEAVLVLLYD
+Homogenea: 5.0
+
+
+Proteina numero 101
+Inicio: 1563
+Secuencia: LRRVGHAQNN
+Homogenea: 5.0
+
+
+Proteina numero 278
+Inicio: 628
+Secuencia: SLRVGVVVLD
+Homogenea: 5.0
+
+
+Proteina numero 279
+Inicio: 628
+Secuencia: SLRVGVVVLD
+Homogenea: 5.0
+
+
+Proteina numero 280
+Inicio: 628
+Secuencia: SLRVGVVVLD
+Homogenea: 5.0
+
+
+Proteina numero 281
+Inicio: 628
+Secuencia: SLRVGVVVLD
+Homogenea: 5.0
+
+
+Proteina numero 284
+Inicio: 628
+Secuencia: SLRVGVVVLD
+Homogenea: 5.0
+
+
+Proteina numero 374
+Inicio: 1406
+Secuencia: -YRVGVA---
+Homogenea: 5.0
+
+
+Proteina numero 375
+Inicio: 1406
+Secuencia: -YRVGVA---
+Homogenea: 5.0
+
+
+Proteina numero 616
+Inicio: 721
+Secuencia: LECVRVALED
+Homogenea: 5.0
+
+
+Proteina numero 678
+Inicio: 1122
+Secuencia: QERVVVAVSD
+Homogenea: 6.0
+
+
+Proteina numero 680
+Inicio: 949
+Secuencia: --RS-VAVYD
+Homogenea: 5.0
+
+
+Proteina numero 1133
+Inicio: 951
+Secuencia: NEWVPVAQLM
+Homogenea: 5.0
+
+
+Proteina numero 1134
+Inicio: 951
+Secuencia: NEWVPVAQLM
+Homogenea: 5.0
+
+
+Proteina numero 1153
+Inicio: 951
+Secuencia: EERVPVAVLL
+Homogenea: 5.0
+
+
+Proteina numero 1154
+Inicio: 951
+Secuencia: EERVGVATLV
+Homogenea: 6.0
+
+
+Proteina numero 1243
+Inicio: 1394
+Secuencia: CEMVTVALEM
+Homogenea: 5.0
+
+

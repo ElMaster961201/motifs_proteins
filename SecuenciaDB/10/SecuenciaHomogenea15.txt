@@ -1,0 +1,612 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['A', 'L', 'F', 'L', 'L', 'E', 'L', 'Y', 'E', 'D']
+Homologia maxima: 6
+
+Proteina numero 105
+Inicio: 199
+Secuencia: ALLVEELGID
+Homogenea: 5.0
+
+
+Proteina numero 249
+Inicio: 879
+Secuencia: AEALLE--SD
+Homogenea: 5.0
+
+
+Proteina numero 275
+Inicio: 1628
+Secuencia: ALREFELLEL
+Homogenea: 5.0
+
+
+Proteina numero 279
+Inicio: 435
+Secuencia: ALVLLALVV-
+Homogenea: 5.0
+
+
+Proteina numero 293
+Inicio: 837
+Secuencia: -DKLLVLAED
+Homogenea: 5.0
+
+
+Proteina numero 327
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 328
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 329
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 330
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 331
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 332
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 333
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 334
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 335
+Inicio: 1235
+Secuencia: WLPLLPLVAD
+Homogenea: 5.0
+
+
+Proteina numero 336
+Inicio: 1379
+Secuencia: AKGLVLLVED
+Homogenea: 5.0
+
+
+Proteina numero 354
+Inicio: 953
+Secuencia: -LTLLPLIED
+Homogenea: 6.0
+
+Proteina numero 354
+Inicio: 1379
+Secuencia: AGLRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 355
+Inicio: 1379
+Secuencia: AALRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 356
+Inicio: 1379
+Secuencia: AALRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 357
+Inicio: 1379
+Secuencia: AALRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 358
+Inicio: 1379
+Secuencia: AALRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 359
+Inicio: 1379
+Secuencia: AALRLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 363
+Inicio: 1379
+Secuencia: ARARLLLVED
+Homogenea: 5.0
+
+
+Proteina numero 371
+Inicio: 838
+Secuencia: ALALLGLRDE
+Homogenea: 5.0
+
+
+Proteina numero 389
+Inicio: 628
+Secuencia: RLPLLVLTVD
+Homogenea: 5.0
+
+
+Proteina numero 399
+Inicio: 1392
+Secuencia: ALALLLQYNL
+Homogenea: 5.0
+
+
+Proteina numero 437
+Inicio: 838
+Secuencia: ALFLLSFRDI
+Homogenea: 5.0
+
+
+Proteina numero 472
+Inicio: 921
+Secuencia: AGRLLGLIND
+Homogenea: 5.0
+
+
+Proteina numero 489
+Inicio: 921
+Secuencia: ARHLIDLIED
+Homogenea: 5.0
+
+
+Proteina numero 490
+Inicio: 921
+Secuencia: ARHLIDLIED
+Homogenea: 5.0
+
+
+Proteina numero 491
+Inicio: 921
+Secuencia: AKRLLKLIED
+Homogenea: 6.0
+
+
+Proteina numero 492
+Inicio: 921
+Secuencia: AKRLLKLIED
+Homogenea: 6.0
+
+
+Proteina numero 493
+Inicio: 879
+Secuencia: AETLLE-YDL
+Homogenea: 5.0
+
+
+Proteina numero 496
+Inicio: 717
+Secuencia: YH-LLELFER
+Homogenea: 5.0
+
+
+Proteina numero 518
+Inicio: 957
+Secuencia: ANFLQELRYR
+Homogenea: 5.0
+
+
+Proteina numero 519
+Inicio: 957
+Secuencia: ASFLQELHYR
+Homogenea: 5.0
+
+
+Proteina numero 525
+Inicio: 717
+Secuencia: AF-LLRQIED
+Homogenea: 5.0
+
+
+Proteina numero 537
+Inicio: 1423
+Secuencia: ALELLQ-GSD
+Homogenea: 5.0
+
+
+Proteina numero 547
+Inicio: 930
+Secuencia: QLTLLSLAEF
+Homogenea: 5.0
+
+
+Proteina numero 576
+Inicio: 921
+Secuencia: AERLHVLVED
+Homogenea: 5.0
+
+
+Proteina numero 577
+Inicio: 1452
+Secuencia: ALFLL-----
+Homogenea: 5.0
+
+
+Proteina numero 578
+Inicio: 1452
+Secuencia: ALFLL-----
+Homogenea: 5.0
+
+
+Proteina numero 588
+Inicio: 1534
+Secuencia: TVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 589
+Inicio: 1534
+Secuencia: TVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 591
+Inicio: 1534
+Secuencia: RVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 592
+Inicio: 1534
+Secuencia: RIFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 593
+Inicio: 1534
+Secuencia: RVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 594
+Inicio: 1534
+Secuencia: RVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 595
+Inicio: 1534
+Secuencia: RVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 596
+Inicio: 1534
+Secuencia: RVFGLELGAD
+Homogenea: 5.0
+
+
+Proteina numero 604
+Inicio: 1417
+Secuencia: -LDGLEGYEM
+Homogenea: 5.0
+
+
+Proteina numero 605
+Inicio: 1417
+Secuencia: -LDGLEGYEM
+Homogenea: 5.0
+
+
+Proteina numero 622
+Inicio: 837
+Secuencia: LFFLI-LLED
+Homogenea: 5.0
+
+
+Proteina numero 628
+Inicio: 1044
+Secuencia: DPFLLELALV
+Homogenea: 5.0
+
+
+Proteina numero 631
+Inicio: 960
+Secuencia: MKECLELVED
+Homogenea: 5.0
+
+
+Proteina numero 645
+Inicio: 921
+Secuencia: AERLHELIND
+Homogenea: 5.0
+
+
+Proteina numero 659
+Inicio: 921
+Secuencia: TLRLQRLIED
+Homogenea: 5.0
+
+
+Proteina numero 663
+Inicio: 953
+Secuencia: -IDLLALVED
+Homogenea: 5.0
+
+
+Proteina numero 670
+Inicio: 921
+Secuencia: SERLSELVED
+Homogenea: 5.0
+
+
+Proteina numero 671
+Inicio: 921
+Secuencia: SERLSELVED
+Homogenea: 5.0
+
+
+Proteina numero 672
+Inicio: 921
+Secuencia: SERLSELVED
+Homogenea: 5.0
+
+
+Proteina numero 673
+Inicio: 921
+Secuencia: SERLSELVED
+Homogenea: 5.0
+
+
+Proteina numero 677
+Inicio: 921
+Secuencia: ADRLNALVED
+Homogenea: 5.0
+
+
+Proteina numero 687
+Inicio: 963
+Secuencia: ALMLLEQ---
+Homogenea: 5.0
+
+
+Proteina numero 707
+Inicio: 436
+Secuencia: ALFLLP----
+Homogenea: 5.0
+
+Proteina numero 707
+Inicio: 492
+Secuencia: ALALLGLVCW
+Homogenea: 5.0
+
+
+Proteina numero 708
+Inicio: 436
+Secuencia: ALFLLP----
+Homogenea: 5.0
+
+Proteina numero 708
+Inicio: 492
+Secuencia: ALALLGLVCW
+Homogenea: 5.0
+
+
+Proteina numero 713
+Inicio: 959
+Secuencia: MLGLLELEAR
+Homogenea: 5.0
+
+
+Proteina numero 770
+Inicio: 494
+Secuencia: ALCLLLLWHG
+Homogenea: 5.0
+
+
+Proteina numero 771
+Inicio: 494
+Secuencia: ALCLLLLWHG
+Homogenea: 5.0
+
+
+Proteina numero 1007
+Inicio: 494
+Secuencia: ALFLLLGYYL
+Homogenea: 6.0
+
+
+Proteina numero 1009
+Inicio: 494
+Secuencia: ALFSLLCYYL
+Homogenea: 5.0
+
+
+Proteina numero 1054
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1055
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1056
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1057
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1058
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1059
+Inicio: 1398
+Secuencia: ALFLSQKY-Y
+Homogenea: 5.0
+
+
+Proteina numero 1064
+Inicio: 491
+Secuencia: ALFLL-AYIV
+Homogenea: 6.0
+
+
+Proteina numero 1065
+Inicio: 491
+Secuencia: ALFLL-AYIV
+Homogenea: 6.0
+
+
+Proteina numero 1084
+Inicio: 878
+Secuencia: YLELLEA-EK
+Homogenea: 5.0
+
+
+Proteina numero 1085
+Inicio: 878
+Secuencia: YLELLEA-EK
+Homogenea: 5.0
+
+
+Proteina numero 1086
+Inicio: 878
+Secuencia: YLELLEA-EK
+Homogenea: 5.0
+
+
+Proteina numero 1087
+Inicio: 878
+Secuencia: YLELLEA-EK
+Homogenea: 5.0
+
+
+Proteina numero 1088
+Inicio: 1398
+Secuencia: ALFLLQQN-Y
+Homogenea: 5.0
+
+
+Proteina numero 1165
+Inicio: 494
+Secuencia: VLFLLVLRHS
+Homogenea: 5.0
+
+
+Proteina numero 1168
+Inicio: 435
+Secuencia: AL-LLALL--
+Homogenea: 5.0
+
+Proteina numero 1168
+Inicio: 876
+Secuencia: AGFLETLEE-
+Homogenea: 5.0
+
+
+Proteina numero 1176
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1177
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1178
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1179
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1180
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1181
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1182
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1183
+Inicio: 876
+Secuencia: AGFLETLRE-
+Homogenea: 5.0
+
+
+Proteina numero 1184
+Inicio: 455
+Secuencia: ALFMQWLAGD
+Homogenea: 5.0
+
+Proteina numero 1184
+Inicio: 1138
+Secuencia: ALHLPRLTER
+Homogenea: 5.0
+
+
+Proteina numero 1205
+Inicio: 437
+Secuencia: ALFLLAA---
+Homogenea: 5.0
+
+Proteina numero 1205
+Inicio: 957
+Secuencia: PRLLEELVED
+Homogenea: 5.0
+
+
+Proteina numero 1206
+Inicio: 436
+Secuencia: ALALLGLL--
+Homogenea: 5.0
+
+

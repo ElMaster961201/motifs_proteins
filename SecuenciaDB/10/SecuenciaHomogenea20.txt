@@ -1,0 +1,449 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['Q', 'D', 'R', 'A', 'S', 'D', 'V', 'V', 'D', 'D']
+Homologia maxima: 6
+
+Proteina numero 100
+Inicio: 957
+Secuencia: QDILVRVVDL
+Homogenea: 5.0
+
+
+Proteina numero 239
+Inicio: 1235
+Secuencia: RLPASLVVDA
+Homogenea: 5.0
+
+
+Proteina numero 241
+Inicio: 1118
+Secuencia: PDKGRDVVDV
+Homogenea: 5.0
+
+
+Proteina numero 263
+Inicio: 835
+Secuencia: QDRRFAVVYV
+Homogenea: 5.0
+
+
+Proteina numero 264
+Inicio: 835
+Secuencia: QDRRFAVVYV
+Homogenea: 5.0
+
+
+Proteina numero 293
+Inicio: 721
+Secuencia: QDMVRDVRRD
+Homogenea: 5.0
+
+Proteina numero 293
+Inicio: 953
+Secuencia: -IRVRDVVDE
+Homogenea: 5.0
+
+
+Proteina numero 305
+Inicio: 629
+Secuencia: VGRAFVVVD-
+Homogenea: 5.0
+
+
+Proteina numero 311
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 314
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 316
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 317
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 318
+Inicio: 628
+Secuencia: ALRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 322
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 323
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 324
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 325
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 326
+Inicio: 628
+Secuencia: VLRSSAVVLD
+Homogenea: 5.0
+
+
+Proteina numero 336
+Inicio: 836
+Secuencia: QDRRVLVVLT
+Homogenea: 5.0
+
+
+Proteina numero 353
+Inicio: 1123
+Secuencia: GDARLDVVDQ
+Homogenea: 5.0
+
+
+Proteina numero 371
+Inicio: 957
+Secuencia: GRAAADVVDA
+Homogenea: 5.0
+
+
+Proteina numero 401
+Inicio: 713
+Secuencia: --RAPD-VFD
+Homogenea: 5.0
+
+
+Proteina numero 417
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 418
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 419
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 420
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 421
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 422
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 423
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 424
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 425
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 426
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 427
+Inicio: 921
+Secuencia: VTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 428
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 429
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 430
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 431
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 432
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 433
+Inicio: 921
+Secuencia: TTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 434
+Inicio: 921
+Secuencia: ATRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 435
+Inicio: 921
+Secuencia: TTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 436
+Inicio: 921
+Secuencia: TTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 437
+Inicio: 921
+Secuencia: TTRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 440
+Inicio: 830
+Secuencia: GRRAADVPDA
+Homogenea: 5.0
+
+
+Proteina numero 528
+Inicio: 1379
+Secuencia: QSSSILVVDD
+Homogenea: 5.0
+
+
+Proteina numero 532
+Inicio: 940
+Secuencia: QDRNIF-VD-
+Homogenea: 5.0
+
+
+Proteina numero 557
+Inicio: 921
+Secuencia: IDRLMDLVND
+Homogenea: 5.0
+
+
+Proteina numero 558
+Inicio: 921
+Secuencia: IDRLMDLVND
+Homogenea: 5.0
+
+
+Proteina numero 568
+Inicio: 1122
+Secuencia: PDRAVVEVAD
+Homogenea: 5.0
+
+
+Proteina numero 569
+Inicio: 921
+Secuencia: AERMSLLVDD
+Homogenea: 5.0
+
+
+Proteina numero 582
+Inicio: 957
+Secuencia: QDLIKDVFDT
+Homogenea: 5.0
+
+
+Proteina numero 596
+Inicio: 921
+Secuencia: SDRLSSLVID
+Homogenea: 5.0
+
+
+Proteina numero 618
+Inicio: 1122
+Secuencia: QDTARIAVED
+Homogenea: 5.0
+
+
+Proteina numero 619
+Inicio: 721
+Secuencia: DQLASDVLSD
+Homogenea: 5.0
+
+
+Proteina numero 620
+Inicio: 721
+Secuencia: DQLASDVLSD
+Homogenea: 5.0
+
+
+Proteina numero 623
+Inicio: 921
+Secuencia: ANRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 624
+Inicio: 921
+Secuencia: ANRMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 660
+Inicio: 1379
+Secuencia: QNAKILVVDD
+Homogenea: 5.0
+
+
+Proteina numero 662
+Inicio: 1379
+Secuencia: QKQRVLVVDD
+Homogenea: 5.0
+
+
+Proteina numero 663
+Inicio: 1379
+Secuencia: QSHKVLVVDD
+Homogenea: 5.0
+
+
+Proteina numero 681
+Inicio: 921
+Secuencia: ADRLSGLVRD
+Homogenea: 5.0
+
+
+Proteina numero 682
+Inicio: 921
+Secuencia: ADRLSGLVRD
+Homogenea: 5.0
+
+
+Proteina numero 709
+Inicio: 1379
+Secuencia: MSRKVLVVDD
+Homogenea: 5.0
+
+
+Proteina numero 710
+Inicio: 1379
+Secuencia: MSRKVLVVDD
+Homogenea: 5.0
+
+
+Proteina numero 712
+Inicio: 837
+Secuencia: -DQALLVVRD
+Homogenea: 5.0
+
+
+Proteina numero 713
+Inicio: 837
+Secuencia: -DQAMLVVRD
+Homogenea: 5.0
+
+
+Proteina numero 714
+Inicio: 837
+Secuencia: -DQAMLVVRD
+Homogenea: 5.0
+
+
+Proteina numero 715
+Inicio: 837
+Secuencia: -DQAMLVVRD
+Homogenea: 5.0
+
+
+Proteina numero 716
+Inicio: 837
+Secuencia: -DQAMLVVRD
+Homogenea: 5.0
+
+
+Proteina numero 1146
+Inicio: 921
+Secuencia: SDRMRHLVDD
+Homogenea: 5.0
+
+
+Proteina numero 1147
+Inicio: 921
+Secuencia: SDRMRHLVDD
+Homogenea: 5.0
+
+
+Proteina numero 1155
+Inicio: 957
+Secuencia: QALVRDVVRD
+Homogenea: 5.0
+
+
+Proteina numero 1201
+Inicio: 921
+Secuencia: IERMSRLVDD
+Homogenea: 5.0
+
+
+Proteina numero 1241
+Inicio: 1421
+Secuencia: QDAHSMVVD-
+Homogenea: 6.0
+
+

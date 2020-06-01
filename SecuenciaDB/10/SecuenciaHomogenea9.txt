@@ -1,0 +1,600 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['R', 'N', 'S', 'V', 'G', 'V', 'A', 'D', 'V', 'E']
+Homologia maxima: 6
+
+Proteina numero 4
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 5
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 6
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 7
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 8
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 9
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 10
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 11
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 12
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 13
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 14
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 15
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 16
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 17
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 18
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 19
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 20
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 21
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 22
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 23
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 24
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 25
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 26
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 27
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 28
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 29
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 30
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 31
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 32
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 33
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 34
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 35
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 36
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 37
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 38
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 39
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 40
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 41
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 42
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 43
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 44
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 45
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 46
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 47
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 48
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 49
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 50
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 51
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 52
+Inicio: 1564
+Secuencia: RRSQFVKEVE
+Homogenea: 5.0
+
+
+Proteina numero 59
+Inicio: 1564
+Secuencia: RRSQFVNEVE
+Homogenea: 5.0
+
+
+Proteina numero 60
+Inicio: 1564
+Secuencia: RRSQFVNEVE
+Homogenea: 5.0
+
+
+Proteina numero 182
+Inicio: 1029
+Secuencia: ASSGGEADVF
+Homogenea: 5.0
+
+
+Proteina numero 249
+Inicio: 1117
+Secuencia: --IDGVASVE
+Homogenea: 5.0
+
+
+Proteina numero 294
+Inicio: 951
+Secuencia: RS-VDVAAVV
+Homogenea: 5.0
+
+
+Proteina numero 315
+Inicio: 1189
+Secuencia: RGTVSVWSVE
+Homogenea: 5.0
+
+
+Proteina numero 316
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 317
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 318
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 322
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 323
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 324
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 325
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 326
+Inicio: 630
+Secuencia: RSSAVVLD-E
+Homogenea: 5.0
+
+
+Proteina numero 365
+Inicio: 1189
+Secuencia: RGSMDVASVP
+Homogenea: 5.0
+
+
+Proteina numero 371
+Inicio: 923
+Secuencia: RMSRLVADLL
+Homogenea: 5.0
+
+
+Proteina numero 413
+Inicio: 1084
+Secuencia: VVSV-VAAV-
+Homogenea: 5.0
+
+
+Proteina numero 414
+Inicio: 1084
+Secuencia: VVSV-VAAV-
+Homogenea: 5.0
+
+
+Proteina numero 415
+Inicio: 1401
+Secuencia: LESDG-YDVE
+Homogenea: 5.0
+
+
+Proteina numero 416
+Inicio: 1401
+Secuencia: LESDG-YDVE
+Homogenea: 5.0
+
+
+Proteina numero 513
+Inicio: 1417
+Secuencia: ANSVGSAMST
+Homogenea: 5.0
+
+
+Proteina numero 548
+Inicio: 1645
+Secuencia: RNSEKVYTRE
+Homogenea: 5.0
+
+
+Proteina numero 568
+Inicio: 1124
+Secuencia: RAVVEVADTG
+Homogenea: 5.0
+
+
+Proteina numero 579
+Inicio: 1394
+Secuencia: RNLVEYALRE
+Homogenea: 5.0
+
+
+Proteina numero 646
+Inicio: 951
+Secuencia: EN-VVVYDVF
+Homogenea: 5.0
+
+
+Proteina numero 647
+Inicio: 951
+Secuencia: EN-VVVYDVF
+Homogenea: 5.0
+
+
+Proteina numero 648
+Inicio: 951
+Secuencia: EN-VVVYDVF
+Homogenea: 5.0
+
+
+Proteina numero 649
+Inicio: 951
+Secuencia: EN-VVVYDVF
+Homogenea: 5.0
+
+
+Proteina numero 650
+Inicio: 715
+Secuencia: RNSK-FHDVL
+Homogenea: 5.0
+
+
+Proteina numero 677
+Inicio: 1121
+Secuencia: ENSKGVISVE
+Homogenea: 6.0
+
+
+Proteina numero 963
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 964
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 965
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 966
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 967
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 968
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 969
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 970
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 971
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 972
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 973
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 974
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 975
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 976
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 977
+Inicio: 1381
+Secuencia: RNILIVDD-E
+Homogenea: 5.0
+
+
+Proteina numero 1064
+Inicio: 1053
+Secuencia: RNLVGNAINY
+Homogenea: 5.0
+
+
+Proteina numero 1065
+Inicio: 1053
+Secuencia: RNLVGNAINY
+Homogenea: 5.0
+
+
+Proteina numero 1132
+Inicio: 1378
+Secuencia: RQQPGVLIVE
+Homogenea: 5.0
+
+
+Proteina numero 1193
+Inicio: 626
+Secuencia: ANSVPDALVI
+Homogenea: 5.0
+
+
+Proteina numero 1235
+Inicio: 1783
+Secuencia: RFSVRSAQVS
+Homogenea: 5.0
+
+

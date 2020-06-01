@@ -1,0 +1,3188 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['K', 'W', 'V', 'G', 'L', 'D', 'R', 'C', 'K', 'W']
+Homologia maxima: 5
+
+Proteina numero 5
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 6
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 7
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 8
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 9
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 10
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 11
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 12
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 13
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 14
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 15
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 16
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 17
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 18
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 19
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 20
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 21
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 22
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 23
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 24
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 25
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 26
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 27
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 28
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 29
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 30
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 31
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 32
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 33
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 34
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 35
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 36
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 37
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 38
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 39
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 40
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 41
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 42
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 43
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 44
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 45
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 46
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 47
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 48
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 49
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 50
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 51
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 52
+Inicio: 1476
+Secuencia: -KDGIDVCKT
+Homogenea: 4.0
+
+
+Proteina numero 88
+Inicio: 458
+Secuencia: KGVGLF----
+Homogenea: 4.0
+
+
+Proteina numero 89
+Inicio: 458
+Secuencia: KGVGLF----
+Homogenea: 4.0
+
+
+Proteina numero 90
+Inicio: 458
+Secuencia: KGVGLF----
+Homogenea: 4.0
+
+
+Proteina numero 91
+Inicio: 458
+Secuencia: KGVGLF----
+Homogenea: 4.0
+
+
+Proteina numero 92
+Inicio: 458
+Secuencia: KGVGLF----
+Homogenea: 4.0
+
+
+Proteina numero 94
+Inicio: 1476
+Secuencia: -LDGLEVCKR
+Homogenea: 4.0
+
+
+Proteina numero 95
+Inicio: 1476
+Secuencia: -LDGLEVCKR
+Homogenea: 4.0
+
+
+Proteina numero 96
+Inicio: 1476
+Secuencia: -LDGLEVCKR
+Homogenea: 4.0
+
+
+Proteina numero 101
+Inicio: 1476
+Secuencia: -MDGLDVCKQ
+Homogenea: 5.0
+
+
+Proteina numero 102
+Inicio: 1476
+Secuencia: -IDGLDICKQ
+Homogenea: 5.0
+
+
+Proteina numero 103
+Inicio: 1476
+Secuencia: -MDGLEVCKS
+Homogenea: 4.0
+
+
+Proteina numero 104
+Inicio: 1476
+Secuencia: -MDGLEVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 139
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 140
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 141
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 142
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 143
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 144
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 145
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 146
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 147
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 148
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 149
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 150
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 151
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 152
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 153
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 154
+Inicio: 1476
+Secuencia: -VDGIDVCKQ
+Homogenea: 4.0
+
+
+Proteina numero 181
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 182
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 183
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 184
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 185
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 186
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 187
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 188
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 189
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 190
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 191
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 192
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 193
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 194
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 195
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 196
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 197
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 197
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 198
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 198
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 199
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 199
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 200
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 200
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 201
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 201
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 202
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 202
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 203
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 203
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 204
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 204
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 205
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 205
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 206
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 206
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 207
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 207
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 208
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 208
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 209
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 209
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 210
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 210
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 211
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 211
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 212
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 212
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 213
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 213
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 214
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 214
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 215
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 215
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 216
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 216
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 217
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 217
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 218
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 218
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 219
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 219
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 220
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 220
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 221
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 221
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 222
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 222
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 223
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 223
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 224
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 224
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 225
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 225
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 226
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 226
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 227
+Inicio: 1476
+Secuencia: -MSGTDVCKR
+Homogenea: 4.0
+
+Proteina numero 227
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 228
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 228
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 229
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 229
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 230
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 230
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 231
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 231
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 232
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 232
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 233
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 233
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 234
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 234
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 235
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 235
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 236
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 236
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 237
+Inicio: 1476
+Secuencia: -MSGTDVCKE
+Homogenea: 4.0
+
+Proteina numero 237
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 238
+Inicio: 1476
+Secuencia: -LSGLDVCRT
+Homogenea: 4.0
+
+
+Proteina numero 240
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 241
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 242
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 243
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 244
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 245
+Inicio: 1476
+Secuencia: -MGGNDVCKQ
+Homogenea: 4.0
+
+Proteina numero 245
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 246
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 246
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 247
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 247
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 248
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 248
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 249
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 249
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 250
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 250
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 251
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 251
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 252
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 252
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 253
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 253
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 254
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 254
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 255
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 255
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 256
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 256
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 257
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 257
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 258
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 258
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 259
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 259
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 260
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 260
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 261
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 261
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 262
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 262
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 263
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 263
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 264
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 264
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 265
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 265
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 266
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 266
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 267
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 267
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 268
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 268
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 269
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 269
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 270
+Inicio: 1476
+Secuencia: -MSGTDVCKA
+Homogenea: 4.0
+
+Proteina numero 270
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 271
+Inicio: 1476
+Secuencia: -MSGTDVCKA
+Homogenea: 4.0
+
+Proteina numero 271
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 272
+Inicio: 960
+Secuencia: VDEALQRCKI
+Homogenea: 4.0
+
+Proteina numero 272
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 272
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 273
+Inicio: 960
+Secuencia: VDEALQRCKI
+Homogenea: 4.0
+
+Proteina numero 273
+Inicio: 1476
+Secuencia: -MSGTDVCKQ
+Homogenea: 4.0
+
+Proteina numero 273
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 274
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 275
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 276
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 277
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 278
+Inicio: 614
+Secuencia: K--GLGRK--
+Homogenea: 4.0
+
+Proteina numero 278
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 279
+Inicio: 614
+Secuencia: K--GLGRK--
+Homogenea: 4.0
+
+Proteina numero 279
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 280
+Inicio: 614
+Secuencia: K--GLGRK--
+Homogenea: 4.0
+
+Proteina numero 280
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 281
+Inicio: 614
+Secuencia: K--GLGRK--
+Homogenea: 4.0
+
+Proteina numero 281
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 282
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 283
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 284
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 285
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 286
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 287
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 288
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 289
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 290
+Inicio: 987
+Secuencia: KSVRLD-I--
+Homogenea: 4.0
+
+Proteina numero 290
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 291
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 292
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 293
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 294
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 296
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 303
+Inicio: 753
+Secuencia: REVELDLRK-
+Homogenea: 4.0
+
+Proteina numero 303
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 304
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 305
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 306
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 307
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 308
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 309
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 310
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 311
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 312
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 313
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 314
+Inicio: 1534
+Secuencia: KVVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 315
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 316
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 317
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 318
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 319
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 320
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 321
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 322
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 323
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 324
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 325
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 326
+Inicio: 1534
+Secuencia: KVVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 336
+Inicio: 1372
+Secuencia: KGPSLARAKG
+Homogenea: 4.0
+
+Proteina numero 336
+Inicio: 1476
+Secuencia: -LSGLDVCRR
+Homogenea: 4.0
+
+
+Proteina numero 337
+Inicio: 1476
+Secuencia: -LSGLDLCRR
+Homogenea: 4.0
+
+
+Proteina numero 338
+Inicio: 398
+Secuencia: HWVAISRYKS
+Homogenea: 4.0
+
+Proteina numero 338
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 339
+Inicio: 398
+Secuencia: HWVAISRYKS
+Homogenea: 4.0
+
+Proteina numero 339
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 340
+Inicio: 398
+Secuencia: HWVAISRYKS
+Homogenea: 4.0
+
+Proteina numero 340
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 341
+Inicio: 398
+Secuencia: HWVAVSRYKS
+Homogenea: 4.0
+
+Proteina numero 341
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 342
+Inicio: 398
+Secuencia: HWVAVSRYKS
+Homogenea: 4.0
+
+Proteina numero 342
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 343
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 343
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 344
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 344
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 345
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 345
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 346
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 346
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 347
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 347
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 348
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 348
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 349
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 349
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 350
+Inicio: 398
+Secuencia: QWVAVSRFKS
+Homogenea: 4.0
+
+Proteina numero 350
+Inicio: 1534
+Secuencia: KIVGLELGAD
+Homogenea: 4.0
+
+
+Proteina numero 351
+Inicio: 1039
+Secuencia: K-IIGDRDKL
+Homogenea: 4.0
+
+Proteina numero 351
+Inicio: 1534
+Secuencia: KIKGLDSGVD
+Homogenea: 4.0
+
+
+Proteina numero 366
+Inicio: 1476
+Secuencia: -LSGLDVCRR
+Homogenea: 4.0
+
+
+Proteina numero 367
+Inicio: 1476
+Secuencia: -LSGLDVCRR
+Homogenea: 4.0
+
+
+Proteina numero 370
+Inicio: 987
+Secuencia: KGVGLS-L--
+Homogenea: 4.0
+
+
+Proteina numero 378
+Inicio: 1236
+Secuencia: LPVFLDRQ--
+Homogenea: 4.0
+
+
+Proteina numero 382
+Inicio: 987
+Secuencia: TSVVLD-C--
+Homogenea: 4.0
+
+
+Proteina numero 392
+Inicio: 585
+Secuencia: HRVGLRR---
+Homogenea: 4.0
+
+
+Proteina numero 393
+Inicio: 585
+Secuencia: HRVGLRR---
+Homogenea: 4.0
+
+
+Proteina numero 401
+Inicio: 1597
+Secuencia: D-LELDRQNW
+Homogenea: 4.0
+
+
+Proteina numero 402
+Inicio: 1597
+Secuencia: D-IELDREKR
+Homogenea: 4.0
+
+
+Proteina numero 403
+Inicio: 1597
+Secuencia: D-IELDREKR
+Homogenea: 4.0
+
+
+Proteina numero 404
+Inicio: 1597
+Secuencia: D-IELDREKR
+Homogenea: 4.0
+
+
+Proteina numero 405
+Inicio: 1597
+Secuencia: D-IELDRDKH
+Homogenea: 4.0
+
+
+Proteina numero 407
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 408
+Inicio: 1597
+Secuencia: D-IELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 409
+Inicio: 1597
+Secuencia: D-IELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 410
+Inicio: 1597
+Secuencia: D-IELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 411
+Inicio: 1597
+Secuencia: D-IELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 412
+Inicio: 1232
+Secuencia: FTVCLPRGKS
+Homogenea: 4.0
+
+Proteina numero 412
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 413
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 414
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 415
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 416
+Inicio: 1597
+Secuencia: D-LELDRDKR
+Homogenea: 4.0
+
+
+Proteina numero 466
+Inicio: 582
+Secuencia: KWLSLSFTKL
+Homogenea: 4.0
+
+
+Proteina numero 467
+Inicio: 1647
+Secuencia: KGRVLDRDFI
+Homogenea: 4.0
+
+
+Proteina numero 468
+Inicio: 1647
+Secuencia: KGRVLDRDFI
+Homogenea: 4.0
+
+
+Proteina numero 469
+Inicio: 582
+Secuencia: KWLSLSFSKM
+Homogenea: 4.0
+
+Proteina numero 469
+Inicio: 1647
+Secuencia: KGRVLDRDFI
+Homogenea: 4.0
+
+
+Proteina numero 470
+Inicio: 582
+Secuencia: KWLSLSFSKM
+Homogenea: 4.0
+
+Proteina numero 470
+Inicio: 1647
+Secuencia: KGRVLDRDFI
+Homogenea: 4.0
+
+
+Proteina numero 471
+Inicio: 1647
+Secuencia: KGRVLDRDFI
+Homogenea: 4.0
+
+
+Proteina numero 472
+Inicio: 1528
+Secuencia: KTSDLDLVKG
+Homogenea: 4.0
+
+
+Proteina numero 473
+Inicio: 484
+Secuencia: PWVGLLFLIS
+Homogenea: 4.0
+
+Proteina numero 473
+Inicio: 1698
+Secuencia: VHVGTLRQKL
+Homogenea: 4.0
+
+
+Proteina numero 474
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 475
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 476
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 477
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 478
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 479
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 480
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 481
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 482
+Inicio: 1534
+Secuencia: KVKGLDMGSD
+Homogenea: 4.0
+
+
+Proteina numero 483
+Inicio: 1534
+Secuencia: KVKGLDMGSD
+Homogenea: 4.0
+
+
+Proteina numero 484
+Inicio: 1534
+Secuencia: KVKGLDMGSD
+Homogenea: 4.0
+
+
+Proteina numero 485
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 486
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 487
+Inicio: 1534
+Secuencia: KVKGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 488
+Inicio: 1534
+Secuencia: KVIGLDCGAD
+Homogenea: 4.0
+
+
+Proteina numero 489
+Inicio: 1534
+Secuencia: KVLGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 490
+Inicio: 1534
+Secuencia: KVLGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 514
+Inicio: 1476
+Secuencia: -GCGYDLCKK
+Homogenea: 4.0
+
+
+Proteina numero 525
+Inicio: 1174
+Secuencia: TGLGLFICKM
+Homogenea: 4.0
+
+
+Proteina numero 526
+Inicio: 1174
+Secuencia: TGLGLFICKM
+Homogenea: 4.0
+
+
+Proteina numero 527
+Inicio: 1174
+Secuencia: TGLGLFICKM
+Homogenea: 4.0
+
+
+Proteina numero 532
+Inicio: 1558
+Secuencia: KIKILLRKKQ
+Homogenea: 4.0
+
+
+Proteina numero 533
+Inicio: 1174
+Secuencia: TGVGLSIVKH
+Homogenea: 4.0
+
+
+Proteina numero 536
+Inicio: 1476
+Secuencia: -INGLDLCRL
+Homogenea: 4.0
+
+
+Proteina numero 537
+Inicio: 1476
+Secuencia: -VNGLDICRL
+Homogenea: 4.0
+
+
+Proteina numero 538
+Inicio: 1476
+Secuencia: -VNGLDICRL
+Homogenea: 4.0
+
+
+Proteina numero 539
+Inicio: 1476
+Secuencia: -VNGLDICRL
+Homogenea: 4.0
+
+
+Proteina numero 540
+Inicio: 910
+Secuencia: KLKILDRIDR
+Homogenea: 4.0
+
+
+Proteina numero 561
+Inicio: 1476
+Secuencia: -IGGMDLCKR
+Homogenea: 4.0
+
+
+Proteina numero 562
+Inicio: 1476
+Secuencia: -IGGMDLCKR
+Homogenea: 4.0
+
+
+Proteina numero 564
+Inicio: 582
+Secuencia: KWLSLSFSKM
+Homogenea: 4.0
+
+
+Proteina numero 572
+Inicio: 1566
+Secuencia: KDVRLD----
+Homogenea: 4.0
+
+
+Proteina numero 573
+Inicio: 1566
+Secuencia: KDVRLD----
+Homogenea: 4.0
+
+
+Proteina numero 574
+Inicio: 1566
+Secuencia: KDVRLD----
+Homogenea: 4.0
+
+
+Proteina numero 579
+Inicio: 1534
+Secuencia: KVMGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 580
+Inicio: 1534
+Secuencia: KIRGLDLGAD
+Homogenea: 4.0
+
+Proteina numero 580
+Inicio: 1698
+Secuencia: TWVSRLRAKL
+Homogenea: 4.0
+
+
+Proteina numero 583
+Inicio: 1039
+Secuencia: --VRADRGKI
+Homogenea: 4.0
+
+
+Proteina numero 587
+Inicio: 1558
+Secuencia: KVKGLLRRLK
+Homogenea: 4.0
+
+
+Proteina numero 601
+Inicio: 1420
+Secuencia: GQAGFDRAK-
+Homogenea: 4.0
+
+
+Proteina numero 602
+Inicio: 1476
+Secuencia: -MDGLEVCKR
+Homogenea: 4.0
+
+
+Proteina numero 604
+Inicio: 1476
+Secuencia: -MGGMDICKK
+Homogenea: 4.0
+
+
+Proteina numero 605
+Inicio: 1476
+Secuencia: -MGGMDICKK
+Homogenea: 4.0
+
+
+Proteina numero 613
+Inicio: 1476
+Secuencia: -ANGLDLVKK
+Homogenea: 4.0
+
+
+Proteina numero 614
+Inicio: 1534
+Secuencia: KIAGLDLGAD
+Homogenea: 4.0
+
+
+Proteina numero 615
+Inicio: 1476
+Secuencia: -GDGLDVCRR
+Homogenea: 4.0
+
+
+Proteina numero 616
+Inicio: 1476
+Secuencia: -GDGLDLCRR
+Homogenea: 4.0
+
+
+Proteina numero 617
+Inicio: 1476
+Secuencia: -GDGLDLCRR
+Homogenea: 4.0
+
+
+Proteina numero 619
+Inicio: 1420
+Secuencia: GVQGLDRAR-
+Homogenea: 4.0
+
+
+Proteina numero 620
+Inicio: 1420
+Secuencia: GVQGLDRAR-
+Homogenea: 4.0
+
+
+Proteina numero 623
+Inicio: 1476
+Secuencia: -RSGLDVCRA
+Homogenea: 4.0
+
+
+Proteina numero 624
+Inicio: 1476
+Secuencia: -RSGLDVCRA
+Homogenea: 4.0
+
+
+Proteina numero 630
+Inicio: 1476
+Secuencia: -VDGLDVCKE
+Homogenea: 5.0
+
+Proteina numero 630
+Inicio: 1552
+Secuencia: PRVLLARIKA
+Homogenea: 4.0
+
+
+Proteina numero 631
+Inicio: 544
+Secuencia: ----LDR-KL
+Homogenea: 4.0
+
+
+Proteina numero 643
+Inicio: 1039
+Secuencia: K-VLGNRDKF
+Homogenea: 4.0
+
+Proteina numero 643
+Inicio: 1476
+Secuencia: -IDGFDVCKE
+Homogenea: 4.0
+
+
+Proteina numero 650
+Inicio: 1420
+Secuencia: GKDGLEKCK-
+Homogenea: 4.0
+
+Proteina numero 650
+Inicio: 1476
+Secuencia: -IDGIDVCKK
+Homogenea: 4.0
+
+Proteina numero 650
+Inicio: 1559
+Secuencia: IKVVLRRSKN
+Homogenea: 4.0
+
+
+Proteina numero 651
+Inicio: 1476
+Secuencia: -VDGLEICKI
+Homogenea: 4.0
+
+
+Proteina numero 652
+Inicio: 1476
+Secuencia: -VDGLEICKI
+Homogenea: 4.0
+
+
+Proteina numero 653
+Inicio: 1534
+Secuencia: KIVGLEIGAD
+Homogenea: 4.0
+
+
+Proteina numero 656
+Inicio: 1534
+Secuencia: KIVGLEMGAD
+Homogenea: 4.0
+
+
+Proteina numero 669
+Inicio: 1476
+Secuencia: -VDGLEVCKI
+Homogenea: 4.0
+
+
+Proteina numero 674
+Inicio: 1395
+Secuencia: KLVGYNLEKA
+Homogenea: 4.0
+
+
+Proteina numero 677
+Inicio: 1476
+Secuencia: -IQGLEICKI
+Homogenea: 4.0
+
+
+Proteina numero 678
+Inicio: 805
+Secuencia: HWVPLTRD--
+Homogenea: 4.0
+
+
+Proteina numero 680
+Inicio: 1476
+Secuencia: -MLGTDVCKS
+Homogenea: 4.0
+
+
+Proteina numero 689
+Inicio: 952
+Secuencia: KMVNVPRLLW
+Homogenea: 4.0
+
+
+Proteina numero 690
+Inicio: 1534
+Secuencia: KVRGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 691
+Inicio: 1534
+Secuencia: KVRGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 693
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 694
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 695
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 696
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 697
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 698
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 699
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 700
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 701
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 702
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 703
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 704
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 705
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 706
+Inicio: 1534
+Secuencia: KIRGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 712
+Inicio: 1534
+Secuencia: KIKGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 941
+Inicio: 456
+Secuencia: LLVGLISGQW
+Homogenea: 4.0
+
+
+Proteina numero 998
+Inicio: 1534
+Secuencia: KIMGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 999
+Inicio: 1534
+Secuencia: KIMGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 1000
+Inicio: 1534
+Secuencia: KIMGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1001
+Inicio: 1534
+Secuencia: KIMGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1002
+Inicio: 1534
+Secuencia: KIMGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1003
+Inicio: 1534
+Secuencia: KIMGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1004
+Inicio: 1534
+Secuencia: KIMGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1005
+Inicio: 1534
+Secuencia: KIMGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1006
+Inicio: 1534
+Secuencia: KIMGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1064
+Inicio: 612
+Secuencia: K-YQLERFKK
+Homogenea: 4.0
+
+
+Proteina numero 1065
+Inicio: 612
+Secuencia: K-YQLERFKK
+Homogenea: 4.0
+
+
+Proteina numero 1068
+Inicio: 488
+Secuencia: -WLGREHCAW
+Homogenea: 4.0
+
+Proteina numero 1068
+Inicio: 839
+Secuencia: KWLLLSRDVT
+Homogenea: 4.0
+
+Proteina numero 1068
+Inicio: 1534
+Secuencia: KVMGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1069
+Inicio: 1534
+Secuencia: KVYGLDAGVD
+Homogenea: 4.0
+
+
+Proteina numero 1070
+Inicio: 1534
+Secuencia: KISGLDNGAD
+Homogenea: 4.0
+
+
+Proteina numero 1072
+Inicio: 497
+Secuencia: LWVGWHRQQA
+Homogenea: 4.0
+
+
+Proteina numero 1073
+Inicio: 497
+Secuencia: LWVGWHRQQS
+Homogenea: 4.0
+
+
+Proteina numero 1074
+Inicio: 497
+Secuencia: LWVGWHRQQS
+Homogenea: 4.0
+
+
+Proteina numero 1075
+Inicio: 497
+Secuencia: LWVGWHRQQS
+Homogenea: 4.0
+
+
+Proteina numero 1092
+Inicio: 580
+Secuencia: AWGELDRRLR
+Homogenea: 4.0
+
+
+Proteina numero 1097
+Inicio: 580
+Secuencia: VWNELDRLLH
+Homogenea: 4.0
+
+
+Proteina numero 1098
+Inicio: 580
+Secuencia: VWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1099
+Inicio: 580
+Secuencia: VWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1100
+Inicio: 580
+Secuencia: VWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1101
+Inicio: 580
+Secuencia: VWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1102
+Inicio: 580
+Secuencia: VWNELDRLMY
+Homogenea: 4.0
+
+
+Proteina numero 1103
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1104
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1105
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1106
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1107
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1108
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1109
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1110
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1111
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1112
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1113
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1114
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1115
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1116
+Inicio: 580
+Secuencia: AWNELDRLLY
+Homogenea: 4.0
+
+
+Proteina numero 1118
+Inicio: 534
+Secuencia: KWL--WRDK-
+Homogenea: 4.0
+
+Proteina numero 1118
+Inicio: 1534
+Secuencia: KVEGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1119
+Inicio: 683
+Secuencia: ----LDRDK-
+Homogenea: 4.0
+
+Proteina numero 1119
+Inicio: 1534
+Secuencia: KIAGLDNGAD
+Homogenea: 4.0
+
+
+Proteina numero 1120
+Inicio: 1534
+Secuencia: KIAGLDNGAD
+Homogenea: 4.0
+
+
+Proteina numero 1121
+Inicio: 1534
+Secuencia: KIAGLDNGAD
+Homogenea: 4.0
+
+
+Proteina numero 1125
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1126
+Inicio: 1534
+Secuencia: KIAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1127
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1128
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1129
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1130
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1131
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1133
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1134
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1136
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1137
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1138
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1139
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1140
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1141
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1142
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1143
+Inicio: 1534
+Secuencia: KVAGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1144
+Inicio: 1534
+Secuencia: KVLGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 1145
+Inicio: 1534
+Secuencia: KVLGLDSGAD
+Homogenea: 4.0
+
+
+Proteina numero 1146
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1147
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1150
+Inicio: 1534
+Secuencia: KIVGLETGAD
+Homogenea: 4.0
+
+
+Proteina numero 1154
+Inicio: 491
+Secuencia: ALVGLLAAGW
+Homogenea: 4.0
+
+
+Proteina numero 1163
+Inicio: 1534
+Secuencia: KVLGLDTGAD
+Homogenea: 4.0
+
+
+Proteina numero 1169
+Inicio: 846
+Secuencia: DNTALDRMKT
+Homogenea: 4.0
+
+
+Proteina numero 1170
+Inicio: 846
+Secuencia: DNTALDRMKT
+Homogenea: 4.0
+
+
+Proteina numero 1171
+Inicio: 846
+Secuencia: DNTALDRMKT
+Homogenea: 4.0
+
+
+Proteina numero 1194
+Inicio: 841
+Secuencia: LVVGRDITKI
+Homogenea: 4.0
+
+
+Proteina numero 1195
+Inicio: 841
+Secuencia: LVVGRDITKI
+Homogenea: 4.0
+
+
+Proteina numero 1197
+Inicio: 1534
+Secuencia: KIRGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1202
+Inicio: 584
+Secuencia: IFDGLDRQQL
+Homogenea: 4.0
+
+
+Proteina numero 1203
+Inicio: 452
+Secuencia: -GVGLATGWW
+Homogenea: 4.0
+
+
+Proteina numero 1211
+Inicio: 1420
+Secuencia: GETGLDWLKN
+Homogenea: 4.0
+
+
+Proteina numero 1212
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1213
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1214
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1215
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1216
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1217
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1218
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1219
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1220
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1221
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1222
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1223
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1224
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1225
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1226
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1227
+Inicio: 1534
+Secuencia: KVQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1228
+Inicio: 1534
+Secuencia: KVHGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1229
+Inicio: 1534
+Secuencia: KVHGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1230
+Inicio: 1534
+Secuencia: KVHGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1234
+Inicio: 1534
+Secuencia: KIQGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1235
+Inicio: 1534
+Secuencia: KIQGLDVGAD
+Homogenea: 4.0
+
+
+Proteina numero 1240
+Inicio: 1534
+Secuencia: KIQGLDAGAD
+Homogenea: 4.0
+
+
+Proteina numero 1245
+Inicio: 491
+Secuencia: LLVGLVAYLW
+Homogenea: 4.0
+
+

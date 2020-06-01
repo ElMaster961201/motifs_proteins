@@ -1,0 +1,168 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['A', 'V', 'P', 'G', 'G', 'H', 'D', 'V', 'E', 'G']
+Homologia maxima: 6
+
+Proteina numero 244
+Inicio: 1367
+Secuencia: DPISGHDNEG
+Homogenea: 5.0
+
+
+Proteina numero 245
+Inicio: 628
+Secuencia: ASPGGVVVVG
+Homogenea: 6.0
+
+
+Proteina numero 316
+Inicio: 1118
+Secuencia: -APGGNMVEI
+Homogenea: 5.0
+
+
+Proteina numero 317
+Inicio: 1118
+Secuencia: -APGGNMVEI
+Homogenea: 5.0
+
+
+Proteina numero 326
+Inicio: 1118
+Secuencia: -APGGDHVEI
+Homogenea: 5.0
+
+
+Proteina numero 360
+Inicio: 1241
+Secuencia: APPGDHPVRT
+Homogenea: 5.0
+
+
+Proteina numero 369
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 370
+Inicio: 1662
+Secuencia: AVWGN-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 371
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 372
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 373
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 374
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 375
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 376
+Inicio: 1662
+Secuencia: AVWGS-DVYV
+Homogenea: 5.0
+
+
+Proteina numero 397
+Inicio: 1662
+Secuencia: AVWGS-DVFV
+Homogenea: 5.0
+
+
+Proteina numero 549
+Inicio: 1187
+Secuencia: AVGGTIDVKS
+Homogenea: 5.0
+
+
+Proteina numero 550
+Inicio: 1187
+Secuencia: AVGGTIDVKS
+Homogenea: 5.0
+
+
+Proteina numero 569
+Inicio: 999
+Secuencia: ADPGGT-EE-
+Homogenea: 5.0
+
+
+Proteina numero 579
+Inicio: 1662
+Secuencia: KVWGY-DYEG
+Homogenea: 5.0
+
+
+Proteina numero 588
+Inicio: 953
+Secuencia: -VPLGHLVAS
+Homogenea: 5.0
+
+
+Proteina numero 589
+Inicio: 953
+Secuencia: -VPLGHLVAS
+Homogenea: 5.0
+
+
+Proteina numero 613
+Inicio: 674
+Secuencia: ---LG-DVEG
+Homogenea: 5.0
+
+
+Proteina numero 617
+Inicio: 1795
+Secuencia: AVPTEAAVER
+Homogenea: 5.0
+
+
+Proteina numero 636
+Inicio: 1662
+Secuencia: LVWGA-DYEG
+Homogenea: 5.0
+
+
+Proteina numero 637
+Inicio: 1662
+Secuencia: LVWGD-DYEG
+Homogenea: 5.0
+
+
+Proteina numero 1069
+Inicio: 1662
+Secuencia: AVWGG-NVYI
+Homogenea: 5.0
+
+
+Proteina numero 1239
+Inicio: 1126
+Secuencia: AVEVEDDGEG
+Homogenea: 5.0
+
+

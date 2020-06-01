@@ -1,0 +1,1727 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['Q', 'Y', 'P', 'W', 'D', 'A', 'R', 'W', 'L', 'P']
+Homologia maxima: 5
+
+Proteina numero 63
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 64
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 65
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 66
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 67
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 68
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 69
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 70
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 71
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 72
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 73
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 74
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 75
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 76
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 77
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 78
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 79
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 80
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 81
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 82
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 83
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 84
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 85
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 86
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 87
+Inicio: 656
+Secuencia: QMLLSSRSLP
+Homogenea: 4.0
+
+
+Proteina numero 169
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 170
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 171
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 172
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 173
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 174
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 175
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 176
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 177
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 178
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 179
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 180
+Inicio: 951
+Secuencia: RT-VDARELV
+Homogenea: 4.0
+
+
+Proteina numero 183
+Inicio: 1011
+Secuencia: QAPVDADAAA
+Homogenea: 4.0
+
+
+Proteina numero 184
+Inicio: 1011
+Secuencia: QAPVDADAAA
+Homogenea: 4.0
+
+
+Proteina numero 210
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 211
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 212
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 213
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 214
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 215
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 216
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 217
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 218
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 219
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 220
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 221
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 222
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 223
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 224
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 225
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 226
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 227
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 238
+Inicio: 951
+Secuencia: AE-FDARSLV
+Homogenea: 4.0
+
+
+Proteina numero 240
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 241
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 242
+Inicio: 1277
+Secuencia: -VIPDARRLD
+Homogenea: 4.0
+
+Proteina numero 242
+Inicio: 1547
+Secuencia: TKPYFARELI
+Homogenea: 4.0
+
+
+Proteina numero 243
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 244
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 245
+Inicio: 1547
+Secuencia: TKPYSARELT
+Homogenea: 4.0
+
+
+Proteina numero 246
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 247
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 248
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 249
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 250
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 251
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 252
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 253
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 254
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 255
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 256
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 257
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 258
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 259
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 260
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 261
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 262
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 263
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 264
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 265
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 266
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 267
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 268
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 269
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 270
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 271
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 272
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 273
+Inicio: 1547
+Secuencia: TKPYSARELI
+Homogenea: 4.0
+
+
+Proteina numero 275
+Inicio: 909
+Secuencia: QVTHFARRLQ
+Homogenea: 4.0
+
+
+Proteina numero 276
+Inicio: 1547
+Secuencia: TKPYSARELL
+Homogenea: 4.0
+
+
+Proteina numero 295
+Inicio: 1332
+Secuencia: AGVPDERGLP
+Homogenea: 4.0
+
+Proteina numero 295
+Inicio: 1547
+Secuencia: TKPFSARELV
+Homogenea: 4.0
+
+
+Proteina numero 296
+Inicio: 945
+Secuencia: Q-P-DPRP-V
+Homogenea: 4.0
+
+Proteina numero 296
+Inicio: 1547
+Secuencia: TKPFSARELV
+Homogenea: 4.0
+
+
+Proteina numero 297
+Inicio: 1547
+Secuencia: TKPFSARELV
+Homogenea: 4.0
+
+
+Proteina numero 298
+Inicio: 1547
+Secuencia: TKPFSARELV
+Homogenea: 4.0
+
+
+Proteina numero 305
+Inicio: 1242
+Secuencia: QDDGDASAAP
+Homogenea: 4.0
+
+
+Proteina numero 306
+Inicio: 1547
+Secuencia: TKPYSARELV
+Homogenea: 4.0
+
+
+Proteina numero 307
+Inicio: 1547
+Secuencia: TKPYSARELV
+Homogenea: 4.0
+
+
+Proteina numero 314
+Inicio: 1547
+Secuencia: TKPFSARELV
+Homogenea: 4.0
+
+
+Proteina numero 315
+Inicio: 603
+Secuencia: QEP----ALP
+Homogenea: 4.0
+
+
+Proteina numero 327
+Inicio: 1112
+Secuencia: QAEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 328
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 329
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 330
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 331
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 332
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 333
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 334
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 335
+Inicio: 1112
+Secuencia: QVEADQRWPS
+Homogenea: 4.0
+
+
+Proteina numero 366
+Inicio: 1133
+Secuencia: GPGIEARHLP
+Homogenea: 4.0
+
+
+Proteina numero 367
+Inicio: 1133
+Secuencia: GPGIEARHLP
+Homogenea: 4.0
+
+
+Proteina numero 372
+Inicio: 1132
+Secuencia: QGPGIAREHL
+Homogenea: 4.0
+
+
+Proteina numero 373
+Inicio: 1241
+Secuencia: VVPEKIRALP
+Homogenea: 4.0
+
+
+Proteina numero 382
+Inicio: 801
+Secuencia: -YRVTARVL-
+Homogenea: 4.0
+
+
+Proteina numero 383
+Inicio: 1133
+Secuencia: GAGIDAVHLP
+Homogenea: 4.0
+
+
+Proteina numero 384
+Inicio: 750
+Secuencia: --PRTARHLS
+Homogenea: 4.0
+
+
+Proteina numero 385
+Inicio: 750
+Secuencia: --PRTARHLA
+Homogenea: 4.0
+
+
+Proteina numero 390
+Inicio: 659
+Secuencia: QANAAARTL-
+Homogenea: 4.0
+
+Proteina numero 390
+Inicio: 1029
+Secuencia: --PD--R-LP
+Homogenea: 4.0
+
+
+Proteina numero 394
+Inicio: 659
+Secuencia: NYNAAARGL-
+Homogenea: 4.0
+
+
+Proteina numero 401
+Inicio: 1367
+Secuencia: GRPGAARGLS
+Homogenea: 4.0
+
+
+Proteina numero 406
+Inicio: 1512
+Secuencia: ----DTRQLP
+Homogenea: 4.0
+
+
+Proteina numero 440
+Inicio: 364
+Secuencia: PGSPDAASLP
+Homogenea: 4.0
+
+
+Proteina numero 441
+Inicio: 828
+Secuencia: -RPASARPAP
+Homogenea: 4.0
+
+
+Proteina numero 467
+Inicio: 576
+Secuencia: RSTKDFRWLS
+Homogenea: 4.0
+
+
+Proteina numero 468
+Inicio: 576
+Secuencia: RSTKDFRWLS
+Homogenea: 4.0
+
+
+Proteina numero 470
+Inicio: 576
+Secuencia: KSPKDLKWLS
+Homogenea: 4.0
+
+
+Proteina numero 471
+Inicio: 576
+Secuencia: KSPKDLKWLS
+Homogenea: 4.0
+
+
+Proteina numero 529
+Inicio: 1133
+Secuencia: GYGIPAADLP
+Homogenea: 4.0
+
+
+Proteina numero 530
+Inicio: 1133
+Secuencia: GYGIPAADLP
+Homogenea: 4.0
+
+
+Proteina numero 531
+Inicio: 1133
+Secuencia: GYGIPAADLP
+Homogenea: 4.0
+
+
+Proteina numero 536
+Inicio: 1601
+Secuencia: LYPQECRVL-
+Homogenea: 4.0
+
+
+Proteina numero 556
+Inicio: 194
+Secuencia: Q--LLARQLD
+Homogenea: 4.0
+
+
+Proteina numero 564
+Inicio: 576
+Secuencia: KSPKDLKWLS
+Homogenea: 4.0
+
+
+Proteina numero 565
+Inicio: 576
+Secuencia: KSPKDFRWLS
+Homogenea: 5.0
+
+
+Proteina numero 570
+Inicio: 1043
+Secuencia: GNPTDFRSLF
+Homogenea: 4.0
+
+
+Proteina numero 580
+Inicio: 80
+Secuencia: DVPCDAPVLD
+Homogenea: 4.0
+
+
+Proteina numero 618
+Inicio: 951
+Secuencia: QP-VDVRPLI
+Homogenea: 4.0
+
+
+Proteina numero 621
+Inicio: 249
+Secuencia: H-D-DARQLA
+Homogenea: 4.0
+
+
+Proteina numero 626
+Inicio: 1448
+Secuencia: --PIDAMVL-
+Homogenea: 4.0
+
+
+Proteina numero 628
+Inicio: 371
+Secuencia: QMMYVA--LP
+Homogenea: 4.0
+
+
+Proteina numero 653
+Inicio: 845
+Secuencia: QDITDIRKLE
+Homogenea: 4.0
+
+
+Proteina numero 657
+Inicio: 371
+Secuencia: QMMYLA--LP
+Homogenea: 4.0
+
+
+Proteina numero 658
+Inicio: 371
+Secuencia: QMMYLA--LP
+Homogenea: 4.0
+
+
+Proteina numero 661
+Inicio: 951
+Secuencia: QN-FDIRKLT
+Homogenea: 4.0
+
+
+Proteina numero 666
+Inicio: 801
+Secuencia: -LSLTARPLP
+Homogenea: 4.0
+
+
+Proteina numero 678
+Inicio: 1133
+Secuencia: GIGIPARDLP
+Homogenea: 4.0
+
+
+Proteina numero 688
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 718
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 719
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 720
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 721
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 722
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 723
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 724
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 725
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 726
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 727
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 728
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 729
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 730
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 731
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 732
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 733
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 734
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 735
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 736
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 737
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 738
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+Proteina numero 738
+Inicio: 1376
+Secuencia: QQGMTARILI
+Homogenea: 4.0
+
+
+Proteina numero 739
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 740
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 741
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 742
+Inicio: 459
+Secuencia: GYLFDALW--
+Homogenea: 4.0
+
+Proteina numero 742
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 743
+Inicio: 459
+Secuencia: GYLFDALW--
+Homogenea: 4.0
+
+Proteina numero 743
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 744
+Inicio: 459
+Secuencia: GYLFDALW--
+Homogenea: 4.0
+
+Proteina numero 744
+Inicio: 621
+Secuencia: Q---GAEALP
+Homogenea: 4.0
+
+
+Proteina numero 964
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 965
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 966
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 967
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 968
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 969
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 970
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 971
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 972
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 973
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 974
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 975
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 976
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 977
+Inicio: 1133
+Secuencia: GVGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 978
+Inicio: 1133
+Secuencia: GIGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 979
+Inicio: 1133
+Secuencia: GIGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 980
+Inicio: 1133
+Secuencia: GIGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 981
+Inicio: 1133
+Secuencia: GIGIDAKHLP
+Homogenea: 4.0
+
+
+Proteina numero 1071
+Inicio: 528
+Secuencia: -----ARWL-
+Homogenea: 4.0
+
+
+Proteina numero 1072
+Inicio: 627
+Secuencia: QAMPDAVILM
+Homogenea: 4.0
+
+
+Proteina numero 1077
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1078
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1079
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1080
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1081
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1082
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1083
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1084
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1085
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1086
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1087
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1088
+Inicio: 627
+Secuencia: QYLPDAIIIC
+Homogenea: 4.0
+
+
+Proteina numero 1093
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1094
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1095
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1096
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1097
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+
+Proteina numero 1098
+Inicio: 1133
+Secuencia: GYGIPATHLP
+Homogenea: 4.0
+
+Proteina numero 1098
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1099
+Inicio: 1133
+Secuencia: GYGIPATHLP
+Homogenea: 4.0
+
+Proteina numero 1099
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1100
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1100
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1101
+Inicio: 1133
+Secuencia: GYGIPANHLP
+Homogenea: 4.0
+
+Proteina numero 1101
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1102
+Inicio: 1133
+Secuencia: GYGIPAHHLP
+Homogenea: 4.0
+
+Proteina numero 1102
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1103
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1103
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1104
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1104
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1105
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1105
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1106
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1106
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1107
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1107
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1108
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1108
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1109
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1109
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1110
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1110
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1111
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1111
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1112
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1112
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1113
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1113
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1114
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1114
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1115
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1115
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1116
+Inicio: 1133
+Secuencia: GYGIPASHLP
+Homogenea: 4.0
+
+Proteina numero 1116
+Inicio: 1547
+Secuencia: VKPFSARELL
+Homogenea: 4.0
+
+
+Proteina numero 1120
+Inicio: 942
+Secuencia: DYPL--R--P
+Homogenea: 4.0
+
+
+Proteina numero 1121
+Inicio: 942
+Secuencia: DYPL--R--P
+Homogenea: 4.0
+
+
+Proteina numero 1124
+Inicio: 598
+Secuencia: ---HDARTLE
+Homogenea: 4.0
+
+
+Proteina numero 1126
+Inicio: 946
+Secuencia: --P--DRWWP
+Homogenea: 4.0
+
+
+Proteina numero 1152
+Inicio: 1133
+Secuencia: GIGIEARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1176
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1176
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1177
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1177
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1178
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1178
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1179
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1179
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1180
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1180
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1181
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1181
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1182
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1182
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1183
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1183
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1184
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+
+Proteina numero 1185
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+Proteina numero 1185
+Inicio: 1133
+Secuencia: GIGIPARHLP
+Homogenea: 4.0
+
+
+Proteina numero 1186
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+
+Proteina numero 1187
+Inicio: 578
+Secuencia: VGPWDDILAP
+Homogenea: 4.0
+
+
+Proteina numero 1195
+Inicio: 1185
+Secuencia: LNRHDARLLV
+Homogenea: 4.0
+
+Proteina numero 1195
+Inicio: 1418
+Secuencia: GHADDARKLL
+Homogenea: 4.0
+
+
+Proteina numero 1206
+Inicio: 458
+Secuencia: IGWWTAQWL-
+Homogenea: 4.0
+
+
+Proteina numero 1210
+Inicio: 951
+Secuencia: QRPTDVAKLL
+Homogenea: 4.0
+
+
+Proteina numero 1228
+Inicio: 627
+Secuencia: QSLRDAVILL
+Homogenea: 4.0
+
+
+Proteina numero 1244
+Inicio: 962
+Secuencia: QICHDARA--
+Homogenea: 4.0
+
+
+Proteina numero 1245
+Inicio: 962
+Secuencia: QICHDARA--
+Homogenea: 4.0
+
+

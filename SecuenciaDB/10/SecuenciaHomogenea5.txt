@@ -1,0 +1,1279 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['T', 'R', 'H', 'F', 'P', 'M', 'Y', 'G', 'V', 'D']
+Homologia maxima: 5
+
+Proteina numero 101
+Inicio: 1233
+Secuencia: TIQFHRYR-D
+Homogenea: 4.0
+
+
+Proteina numero 181
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 182
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 183
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 184
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 185
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 186
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 187
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 188
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 189
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 190
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 191
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 192
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 193
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 194
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 195
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 196
+Inicio: 1652
+Secuencia: TRHQLI---D
+Homogenea: 4.0
+
+
+Proteina numero 228
+Inicio: 837
+Secuencia: DRFVIVYGTD
+Homogenea: 4.0
+
+
+Proteina numero 229
+Inicio: 837
+Secuencia: DRFVIVYGTD
+Homogenea: 4.0
+
+
+Proteina numero 238
+Inicio: 628
+Secuencia: TMPFGIVLVD
+Homogenea: 4.0
+
+
+Proteina numero 240
+Inicio: 618
+Secuencia: VMHF---AVD
+Homogenea: 4.0
+
+Proteina numero 240
+Inicio: 922
+Secuencia: TRMSTMIGEL
+Homogenea: 4.0
+
+
+Proteina numero 244
+Inicio: 837
+Secuencia: ERYVVAYGLD
+Homogenea: 4.0
+
+
+Proteina numero 250
+Inicio: 837
+Secuencia: TRWVVIYVDD
+Homogenea: 4.0
+
+Proteina numero 250
+Inicio: 1233
+Secuencia: TLSLPVYEDD
+Homogenea: 4.0
+
+
+Proteina numero 251
+Inicio: 837
+Secuencia: TRWVVIYVDD
+Homogenea: 4.0
+
+Proteina numero 251
+Inicio: 1233
+Secuencia: TLSLPVYEDD
+Homogenea: 4.0
+
+
+Proteina numero 252
+Inicio: 837
+Secuencia: TRWVVIYVDD
+Homogenea: 4.0
+
+Proteina numero 252
+Inicio: 1233
+Secuencia: TLSLPVYEDD
+Homogenea: 4.0
+
+
+Proteina numero 259
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+Proteina numero 259
+Inicio: 910
+Secuencia: VRRFAGKMVD
+Homogenea: 4.0
+
+
+Proteina numero 260
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+Proteina numero 260
+Inicio: 910
+Secuencia: VRRFAGKMVD
+Homogenea: 4.0
+
+
+Proteina numero 261
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+Proteina numero 261
+Inicio: 910
+Secuencia: VRRFAGKMVD
+Homogenea: 4.0
+
+
+Proteina numero 262
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+Proteina numero 262
+Inicio: 910
+Secuencia: VRHFAEKMVA
+Homogenea: 4.0
+
+
+Proteina numero 263
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+Proteina numero 263
+Inicio: 910
+Secuencia: VRHFAEKMVT
+Homogenea: 4.0
+
+
+Proteina numero 264
+Inicio: 836
+Secuencia: DRRFAVVYVD
+Homogenea: 4.0
+
+
+Proteina numero 287
+Inicio: 1233
+Secuencia: TVLLPIAHVD
+Homogenea: 4.0
+
+
+Proteina numero 288
+Inicio: 1233
+Secuencia: TVLLPIAHVD
+Homogenea: 4.0
+
+
+Proteina numero 292
+Inicio: 1564
+Secuencia: RRRQPAAAVD
+Homogenea: 4.0
+
+
+Proteina numero 295
+Inicio: 1186
+Secuencia: TNHGGTVGVW
+Homogenea: 4.0
+
+Proteina numero 295
+Inicio: 1233
+Secuencia: TLRLPSYHDD
+Homogenea: 4.0
+
+
+Proteina numero 303
+Inicio: 1375
+Secuencia: TRGQPMSRIL
+Homogenea: 4.0
+
+
+Proteina numero 305
+Inicio: 1234
+Secuencia: IRLPEMEGQD
+Homogenea: 4.0
+
+
+Proteina numero 319
+Inicio: 1233
+Secuencia: TLRLPESGVV
+Homogenea: 4.0
+
+
+Proteina numero 320
+Inicio: 1233
+Secuencia: TLRLPESGVA
+Homogenea: 4.0
+
+
+Proteina numero 366
+Inicio: 1233
+Secuencia: TVWFPLAGM-
+Homogenea: 4.0
+
+
+Proteina numero 367
+Inicio: 1233
+Secuencia: TVWFPLAGMS
+Homogenea: 4.0
+
+
+Proteina numero 370
+Inicio: 1186
+Secuencia: NRHRGALGVE
+Homogenea: 4.0
+
+Proteina numero 370
+Inicio: 1233
+Secuencia: TACFPQPGRY
+Homogenea: 4.0
+
+
+Proteina numero 371
+Inicio: 1233
+Secuencia: TAYFPMTDDR
+Homogenea: 4.0
+
+
+Proteina numero 373
+Inicio: 803
+Secuencia: AAHSAPLGVD
+Homogenea: 4.0
+
+Proteina numero 373
+Inicio: 1233
+Secuencia: GVYFPMAKVV
+Homogenea: 4.0
+
+
+Proteina numero 383
+Inicio: 1186
+Secuencia: TRHRGRMRVE
+Homogenea: 4.0
+
+
+Proteina numero 384
+Inicio: 626
+Secuencia: LAAFPMPAVL
+Homogenea: 4.0
+
+
+Proteina numero 393
+Inicio: 485
+Secuencia: -RHFA----D
+Homogenea: 4.0
+
+
+Proteina numero 396
+Inicio: 1186
+Secuencia: TRHQGELSVD
+Homogenea: 5.0
+
+
+Proteina numero 420
+Inicio: 1186
+Secuencia: TRHRARLLVH
+Homogenea: 4.0
+
+
+Proteina numero 431
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 432
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 433
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 434
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 435
+Inicio: 1186
+Secuencia: TRHRARLIVR
+Homogenea: 4.0
+
+
+Proteina numero 436
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 437
+Inicio: 1186
+Secuencia: TRHRARLIVK
+Homogenea: 4.0
+
+
+Proteina numero 440
+Inicio: 1186
+Secuencia: ARHRGRLGID
+Homogenea: 4.0
+
+
+Proteina numero 441
+Inicio: 1186
+Secuencia: TRHRARLEID
+Homogenea: 4.0
+
+
+Proteina numero 456
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 457
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 458
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 459
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 460
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 461
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 462
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 463
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 464
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 465
+Inicio: 1652
+Secuencia: TRDFLL---D
+Homogenea: 4.0
+
+
+Proteina numero 473
+Inicio: 1233
+Secuencia: TVHFPK----
+Homogenea: 4.0
+
+
+Proteina numero 496
+Inicio: 981
+Secuencia: --HD--YGVE
+Homogenea: 4.0
+
+
+Proteina numero 518
+Inicio: 1060
+Secuencia: FRHTPA-G--
+Homogenea: 4.0
+
+
+Proteina numero 519
+Inicio: 1060
+Secuencia: FRHTPK-G--
+Homogenea: 4.0
+
+
+Proteina numero 520
+Inicio: 1060
+Secuencia: FRHTPE-G--
+Homogenea: 4.0
+
+
+Proteina numero 521
+Inicio: 1060
+Secuencia: FRHTPE-G--
+Homogenea: 4.0
+
+
+Proteina numero 522
+Inicio: 1060
+Secuencia: MRHTPR-G--
+Homogenea: 4.0
+
+
+Proteina numero 529
+Inicio: 483
+Secuencia: KRLFVVVGVC
+Homogenea: 4.0
+
+Proteina numero 529
+Inicio: 1060
+Secuencia: IRHTPA-G--
+Homogenea: 4.0
+
+Proteina numero 529
+Inicio: 1117
+Secuencia: TRHKGDPAVL
+Homogenea: 4.0
+
+
+Proteina numero 530
+Inicio: 483
+Secuencia: KRLFVVVGVC
+Homogenea: 4.0
+
+Proteina numero 530
+Inicio: 1060
+Secuencia: IRHTPA-G--
+Homogenea: 4.0
+
+Proteina numero 530
+Inicio: 1117
+Secuencia: TRHKGDPAVL
+Homogenea: 4.0
+
+
+Proteina numero 531
+Inicio: 483
+Secuencia: KRLFVVVGVC
+Homogenea: 4.0
+
+Proteina numero 531
+Inicio: 1060
+Secuencia: IRHTPA-G--
+Homogenea: 4.0
+
+Proteina numero 531
+Inicio: 1117
+Secuencia: TRHKGDPAVL
+Homogenea: 4.0
+
+
+Proteina numero 563
+Inicio: 1604
+Secuencia: TRHLCM----
+Homogenea: 4.0
+
+
+Proteina numero 589
+Inicio: 1375
+Secuencia: RRGKPMSRVL
+Homogenea: 4.0
+
+
+Proteina numero 602
+Inicio: 132
+Secuencia: TLIFLVTGVL
+Homogenea: 4.0
+
+
+Proteina numero 604
+Inicio: 1035
+Secuencia: T-LF--ITVD
+Homogenea: 4.0
+
+
+Proteina numero 618
+Inicio: 316
+Secuencia: -RSF-MQDVP
+Homogenea: 4.0
+
+
+Proteina numero 626
+Inicio: 1563
+Secuencia: LRRTPEPVVD
+Homogenea: 4.0
+
+
+Proteina numero 628
+Inicio: 532
+Secuencia: -RRFA--GGD
+Homogenea: 4.0
+
+
+Proteina numero 638
+Inicio: 1666
+Secuencia: T-HFEGYSR-
+Homogenea: 4.0
+
+
+Proteina numero 639
+Inicio: 1666
+Secuencia: T-HFEGYSR-
+Homogenea: 4.0
+
+
+Proteina numero 640
+Inicio: 1666
+Secuencia: T-HFEGYSR-
+Homogenea: 4.0
+
+
+Proteina numero 642
+Inicio: 1600
+Secuencia: TIDFSKYEVR
+Homogenea: 4.0
+
+
+Proteina numero 656
+Inicio: 1060
+Secuencia: CRHNP-PG--
+Homogenea: 4.0
+
+
+Proteina numero 664
+Inicio: 913
+Secuencia: YLNRAMKGVD
+Homogenea: 4.0
+
+
+Proteina numero 665
+Inicio: 870
+Secuencia: TPIFNMQGYL
+Homogenea: 4.0
+
+
+Proteina numero 668
+Inicio: 1517
+Secuencia: TREIPIVMVT
+Homogenea: 4.0
+
+Proteina numero 668
+Inicio: 1652
+Secuencia: TRYELM---D
+Homogenea: 4.0
+
+
+Proteina numero 675
+Inicio: 1233
+Secuencia: TVTFPIAGKE
+Homogenea: 4.0
+
+
+Proteina numero 690
+Inicio: 1517
+Secuencia: TRDIPIIMVT
+Homogenea: 4.0
+
+
+Proteina numero 691
+Inicio: 1517
+Secuencia: TRDIPIIMVT
+Homogenea: 4.0
+
+
+Proteina numero 711
+Inicio: 1186
+Secuencia: SHHDSMLNVD
+Homogenea: 4.0
+
+
+Proteina numero 712
+Inicio: 1060
+Secuencia: VRHTPP-G--
+Homogenea: 4.0
+
+
+Proteina numero 735
+Inicio: 1517
+Secuencia: TRHIPVIMLT
+Homogenea: 4.0
+
+
+Proteina numero 736
+Inicio: 1517
+Secuencia: TRHIPIIMLT
+Homogenea: 4.0
+
+
+Proteina numero 737
+Inicio: 1517
+Secuencia: TRHIPIIMLT
+Homogenea: 4.0
+
+
+Proteina numero 738
+Inicio: 1517
+Secuencia: TRHIPIIMLT
+Homogenea: 4.0
+
+
+Proteina numero 938
+Inicio: 1233
+Secuencia: TCHFPATQLM
+Homogenea: 4.0
+
+
+Proteina numero 939
+Inicio: 1233
+Secuencia: TCHFPATQLM
+Homogenea: 4.0
+
+
+Proteina numero 940
+Inicio: 1233
+Secuencia: TCHFPATQLM
+Homogenea: 4.0
+
+
+Proteina numero 941
+Inicio: 1233
+Secuencia: TCHFQPQQVE
+Homogenea: 4.0
+
+
+Proteina numero 942
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 943
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 944
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 945
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 946
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 947
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 948
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 949
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 950
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 951
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 952
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 953
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 954
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 955
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 956
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 957
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 958
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 959
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 974
+Inicio: 1233
+Secuencia: TCHFPPAQLA
+Homogenea: 4.0
+
+
+Proteina numero 978
+Inicio: 1233
+Secuencia: TCHFPPTQVA
+Homogenea: 5.0
+
+
+Proteina numero 979
+Inicio: 1233
+Secuencia: TCHFPPAQVT
+Homogenea: 5.0
+
+
+Proteina numero 980
+Inicio: 1233
+Secuencia: TCHFPPGQMT
+Homogenea: 4.0
+
+
+Proteina numero 981
+Inicio: 1233
+Secuencia: TCHFPPTQVA
+Homogenea: 5.0
+
+
+Proteina numero 982
+Inicio: 1233
+Secuencia: TCHFAPAQVV
+Homogenea: 4.0
+
+
+Proteina numero 983
+Inicio: 1233
+Secuencia: TCHFAPAQVV
+Homogenea: 4.0
+
+
+Proteina numero 984
+Inicio: 1233
+Secuencia: TCHFVPAQVK
+Homogenea: 4.0
+
+
+Proteina numero 985
+Inicio: 1233
+Secuencia: TCHFVPAQVK
+Homogenea: 4.0
+
+
+Proteina numero 986
+Inicio: 1233
+Secuencia: TCHFAPAQVA
+Homogenea: 4.0
+
+
+Proteina numero 987
+Inicio: 1233
+Secuencia: TCHFAPAQVT
+Homogenea: 4.0
+
+
+Proteina numero 989
+Inicio: 1233
+Secuencia: NCHFPATQVV
+Homogenea: 4.0
+
+
+Proteina numero 990
+Inicio: 1233
+Secuencia: TCHFAAAQVV
+Homogenea: 4.0
+
+
+Proteina numero 991
+Inicio: 1233
+Secuencia: TCHFVPAQVV
+Homogenea: 4.0
+
+
+Proteina numero 993
+Inicio: 1233
+Secuencia: SCHFPTAQVP
+Homogenea: 4.0
+
+
+Proteina numero 1013
+Inicio: 1186
+Secuencia: TRHQADLKVT
+Homogenea: 4.0
+
+Proteina numero 1013
+Inicio: 1233
+Secuencia: AIHFPPTRVV
+Homogenea: 4.0
+
+
+Proteina numero 1014
+Inicio: 1186
+Secuencia: TRHQADLKVT
+Homogenea: 4.0
+
+Proteina numero 1014
+Inicio: 1233
+Secuencia: AIHFPPTRVV
+Homogenea: 4.0
+
+
+Proteina numero 1035
+Inicio: 1233
+Secuencia: TARFPASRVI
+Homogenea: 4.0
+
+
+Proteina numero 1036
+Inicio: 1233
+Secuencia: TARFPASRVI
+Homogenea: 4.0
+
+
+Proteina numero 1039
+Inicio: 1233
+Secuencia: TARFPGSRVI
+Homogenea: 4.0
+
+
+Proteina numero 1040
+Inicio: 1233
+Secuencia: TARFPGSRVI
+Homogenea: 4.0
+
+
+Proteina numero 1041
+Inicio: 1233
+Secuencia: TARFPGSRVI
+Homogenea: 4.0
+
+
+Proteina numero 1051
+Inicio: 1233
+Secuencia: TVRFPVYRTA
+Homogenea: 4.0
+
+
+Proteina numero 1052
+Inicio: 1233
+Secuencia: TVRFPVYRTA
+Homogenea: 4.0
+
+
+Proteina numero 1053
+Inicio: 1233
+Secuencia: TVRFPVYRTA
+Homogenea: 4.0
+
+
+Proteina numero 1068
+Inicio: 1186
+Secuencia: HRHGATLGID
+Homogenea: 4.0
+
+
+Proteina numero 1070
+Inicio: 1186
+Secuencia: LRHHGSLGVE
+Homogenea: 4.0
+
+
+Proteina numero 1073
+Inicio: 1233
+Secuencia: TAHFPLHLAR
+Homogenea: 4.0
+
+
+Proteina numero 1074
+Inicio: 1233
+Secuencia: TAHFPLHLAR
+Homogenea: 4.0
+
+
+Proteina numero 1075
+Inicio: 1233
+Secuencia: TAHFPLHLAR
+Homogenea: 4.0
+
+
+Proteina numero 1119
+Inicio: 1233
+Secuencia: TVHFPSTQTI
+Homogenea: 4.0
+
+
+Proteina numero 1124
+Inicio: 1517
+Secuencia: TRHLPIILLT
+Homogenea: 4.0
+
+
+Proteina numero 1125
+Inicio: 1401
+Secuencia: LRHAG-YEVT
+Homogenea: 4.0
+
+
+Proteina numero 1126
+Inicio: 1401
+Secuencia: LRHAG-YEVT
+Homogenea: 4.0
+
+
+Proteina numero 1148
+Inicio: 1186
+Secuencia: ARHSARLEVD
+Homogenea: 4.0
+
+
+Proteina numero 1149
+Inicio: 1517
+Secuencia: TRHIPIIMLT
+Homogenea: 4.0
+
+
+Proteina numero 1151
+Inicio: 1186
+Secuencia: TRHQGRLEVE
+Homogenea: 4.0
+
+
+Proteina numero 1154
+Inicio: 1186
+Secuencia: TRHQAELHVV
+Homogenea: 4.0
+
+
+Proteina numero 1164
+Inicio: 910
+Secuencia: TRHYLNLMFD
+Homogenea: 4.0
+
+
+Proteina numero 1174
+Inicio: 1517
+Secuencia: TRHVPVIMLT
+Homogenea: 4.0
+
+
+Proteina numero 1176
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1177
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1178
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1179
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1180
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1181
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1182
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1183
+Inicio: 1233
+Secuencia: TLRFPAERVT
+Homogenea: 4.0
+
+
+Proteina numero 1184
+Inicio: 1233
+Secuencia: ALHFPAERVV
+Homogenea: 4.0
+
+
+Proteina numero 1186
+Inicio: 611
+Secuencia: TR-DTMQGML
+Homogenea: 4.0
+
+
+Proteina numero 1187
+Inicio: 611
+Secuencia: TR-DTMQGML
+Homogenea: 4.0
+
+
+Proteina numero 1195
+Inicio: 1060
+Secuencia: VRHTPP-G--
+Homogenea: 4.0
+
+
+Proteina numero 1197
+Inicio: 1233
+Secuencia: TCLFPSSRVV
+Homogenea: 4.0
+
+
+Proteina numero 1202
+Inicio: 1233
+Secuencia: TALFPDYQRV
+Homogenea: 4.0
+
+
+Proteina numero 1203
+Inicio: 870
+Secuencia: TPLTVIYGVA
+Homogenea: 4.0
+
+Proteina numero 1203
+Inicio: 1186
+Secuencia: HRHGGWLNVD
+Homogenea: 4.0
+
+
+Proteina numero 1204
+Inicio: 870
+Secuencia: TPLTVLYGVV
+Homogenea: 4.0
+
+
+Proteina numero 1205
+Inicio: 870
+Secuencia: TPLTVIYGVA
+Homogenea: 4.0
+
+
+Proteina numero 1206
+Inicio: 870
+Secuencia: TPLSVVYGVA
+Homogenea: 4.0
+
+
+Proteina numero 1211
+Inicio: 1564
+Secuencia: RRCRPMEDDD
+Homogenea: 4.0
+
+
+Proteina numero 1233
+Inicio: 1233
+Secuencia: SCHFPIKRVI
+Homogenea: 4.0
+
+
+Proteina numero 1234
+Inicio: 1233
+Secuencia: TCHFPAERLV
+Homogenea: 4.0
+
+
+Proteina numero 1236
+Inicio: 1233
+Secuencia: SCHFPANRVK
+Homogenea: 4.0
+
+Proteina numero 1236
+Inicio: 1563
+Secuencia: LRRATPQGVD
+Homogenea: 4.0
+
+
+Proteina numero 1237
+Inicio: 1233
+Secuencia: SCHFPASRVR
+Homogenea: 4.0
+
+
+Proteina numero 1238
+Inicio: 1563
+Secuencia: LRRATPQGVD
+Homogenea: 4.0
+
+
+Proteina numero 1239
+Inicio: 1036
+Secuencia: DRH--LLGAD
+Homogenea: 4.0
+
+
+Proteina numero 1242
+Inicio: 1233
+Secuencia: TCHFPRTRMA
+Homogenea: 4.0
+
+
+Proteina numero 1243
+Inicio: 1563
+Secuencia: LRRSTPAGVD
+Homogenea: 4.0
+
+
+Proteina numero 1244
+Inicio: 1563
+Secuencia: LRRATPPGVD
+Homogenea: 4.0
+
+
+Proteina numero 1245
+Inicio: 1563
+Secuencia: LRRATPPGVD
+Homogenea: 4.0
+
+

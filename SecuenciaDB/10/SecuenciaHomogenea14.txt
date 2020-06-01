@@ -1,0 +1,9093 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['Y', 'Y', 'P', 'I', 'S', 'L', 'K', 'L', 'A', 'I']
+Homologia maxima: 5
+
+Proteina numero 4
+Inicio: 130
+Secuencia: MLLISTILII
+Homogenea: 4.0
+
+
+Proteina numero 5
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 6
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 7
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 8
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 9
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 10
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 11
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 12
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 13
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 14
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 15
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 16
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 17
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 18
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 19
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 20
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 21
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 22
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 23
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 24
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 25
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 26
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 27
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 28
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 29
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 30
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 31
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 32
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 33
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 34
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 35
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 36
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 37
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 38
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 39
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 40
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 41
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 42
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 43
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 44
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 45
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 46
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 47
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 48
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 49
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 50
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 51
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 52
+Inicio: 130
+Secuencia: MLLISSILII
+Homogenea: 4.0
+
+
+Proteina numero 57
+Inicio: 952
+Secuencia: NYMNLSELAI
+Homogenea: 4.0
+
+
+Proteina numero 58
+Inicio: 952
+Secuencia: NYMNLSELAI
+Homogenea: 4.0
+
+
+Proteina numero 61
+Inicio: 917
+Secuencia: IYNESLRLER
+Homogenea: 4.0
+
+Proteina numero 61
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 62
+Inicio: 917
+Secuencia: IYNESLRLER
+Homogenea: 4.0
+
+Proteina numero 62
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 63
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 63
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 64
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 64
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 65
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 65
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 66
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 66
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 67
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 67
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 68
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 68
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 69
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 69
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 70
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 70
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 71
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 71
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 72
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 72
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 73
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 73
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 74
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 74
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 75
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 75
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 76
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 76
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 77
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 77
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 78
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 78
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 79
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 79
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 80
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 80
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 81
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 81
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 82
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 82
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 83
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 83
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 84
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 84
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 85
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 85
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 86
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 86
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 87
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 87
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 88
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 88
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 89
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 89
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 90
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 90
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 91
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 91
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 92
+Inicio: 917
+Secuencia: IYKESLRLEH
+Homogenea: 4.0
+
+Proteina numero 92
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 93
+Inicio: 484
+Secuencia: --YIGLMLLI
+Homogenea: 4.0
+
+Proteina numero 93
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 94
+Inicio: 134
+Secuencia: ISFISLVLVA
+Homogenea: 4.0
+
+Proteina numero 94
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 94
+Inicio: 1419
+Secuencia: DGMSGLKLAE
+Homogenea: 4.0
+
+
+Proteina numero 95
+Inicio: 134
+Secuencia: LSFISLVLIA
+Homogenea: 4.0
+
+Proteina numero 95
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 95
+Inicio: 1419
+Secuencia: DGMTGLKLAE
+Homogenea: 4.0
+
+
+Proteina numero 96
+Inicio: 134
+Secuencia: LSFISLVLIA
+Homogenea: 4.0
+
+Proteina numero 96
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 96
+Inicio: 1419
+Secuencia: DGMTGLKLAE
+Homogenea: 4.0
+
+
+Proteina numero 97
+Inicio: 1135
+Secuencia: GIPESLIGRI
+Homogenea: 4.0
+
+Proteina numero 97
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 98
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 99
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 101
+Inicio: 234
+Secuencia: TEEISQKLDA
+Homogenea: 4.0
+
+Proteina numero 101
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 102
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 103
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 104
+Inicio: 130
+Secuencia: IFPITLIILI
+Homogenea: 4.0
+
+Proteina numero 104
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 105
+Inicio: 240
+Secuencia: QIPISI-LFV
+Homogenea: 4.0
+
+Proteina numero 105
+Inicio: 1592
+Secuencia: SIMISE-LKI
+Homogenea: 4.0
+
+
+Proteina numero 139
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 140
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 141
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 142
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 143
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 144
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 145
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 146
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 147
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 148
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 149
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 150
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 151
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 152
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 153
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 154
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 155
+Inicio: 196
+Secuencia: -YMASLLNAG
+Homogenea: 4.0
+
+Proteina numero 155
+Inicio: 374
+Secuencia: YYG--LPL-T
+Homogenea: 4.0
+
+Proteina numero 155
+Inicio: 577
+Secuencia: YISRSDKLGR
+Homogenea: 4.0
+
+Proteina numero 155
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 156
+Inicio: 196
+Secuencia: -YMASLLDAG
+Homogenea: 4.0
+
+Proteina numero 156
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 156
+Inicio: 577
+Secuencia: YIRRSDKLGR
+Homogenea: 4.0
+
+Proteina numero 156
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 157
+Inicio: 196
+Secuencia: -YMASLLDAG
+Homogenea: 4.0
+
+Proteina numero 157
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 157
+Inicio: 577
+Secuencia: YIRRSDKLGR
+Homogenea: 4.0
+
+Proteina numero 157
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 158
+Inicio: 196
+Secuencia: -YMASLLDAG
+Homogenea: 4.0
+
+Proteina numero 158
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 158
+Inicio: 577
+Secuencia: YIRRSDKLGR
+Homogenea: 4.0
+
+Proteina numero 158
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 159
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 159
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 159
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 159
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 160
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 160
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 160
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 160
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 161
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 161
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 161
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 161
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 162
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 162
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 162
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 162
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 163
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 163
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 163
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 163
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 164
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 164
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 164
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 164
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 165
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 165
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 165
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 165
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 166
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 166
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 166
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 166
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 167
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 167
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 167
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 167
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 168
+Inicio: 196
+Secuencia: -YLASLLDAG
+Homogenea: 4.0
+
+Proteina numero 168
+Inicio: 374
+Secuencia: YYG--LSL-R
+Homogenea: 4.0
+
+Proteina numero 168
+Inicio: 577
+Secuencia: YIRRSDKLGH
+Homogenea: 4.0
+
+Proteina numero 168
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 181
+Inicio: 1118
+Secuencia: ---ESGKVAI
+Homogenea: 4.0
+
+Proteina numero 181
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 182
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 183
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 184
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 185
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 186
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 187
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 188
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 189
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 190
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 191
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 192
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 193
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 194
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 195
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 196
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 197
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 198
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 199
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 200
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 201
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 202
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 203
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 204
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 205
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 206
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 207
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 208
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 209
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 210
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 210
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 211
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 211
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 212
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 212
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 213
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 213
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 214
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 214
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 215
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 215
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 216
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 216
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 217
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 217
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 218
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 218
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 219
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 219
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 220
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 220
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 221
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 221
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 222
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 222
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 223
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 223
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 224
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 224
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 225
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 225
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 226
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 226
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 227
+Inicio: 750
+Secuencia: ---HSLELAI
+Homogenea: 5.0
+
+Proteina numero 227
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 228
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 229
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 230
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 230
+Inicio: 1239
+Secuencia: YHPESEAPAE
+Homogenea: 4.0
+
+
+Proteina numero 231
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 231
+Inicio: 1239
+Secuencia: YQPESKEPAE
+Homogenea: 4.0
+
+
+Proteina numero 232
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 232
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 233
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 233
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 234
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 234
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 235
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 235
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 236
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 236
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 237
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 237
+Inicio: 1239
+Secuencia: YHPESKEPAG
+Homogenea: 4.0
+
+
+Proteina numero 238
+Inicio: 1082
+Secuencia: -VEISL-DAS
+Homogenea: 4.0
+
+
+Proteina numero 241
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 242
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 243
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 244
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 245
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 246
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 247
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 248
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 249
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 250
+Inicio: 1043
+Secuencia: GDPTLLITAI
+Homogenea: 4.0
+
+Proteina numero 250
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 251
+Inicio: 1043
+Secuencia: GDPTLLITAI
+Homogenea: 4.0
+
+Proteina numero 251
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 252
+Inicio: 1043
+Secuencia: GDPTLLITAI
+Homogenea: 4.0
+
+Proteina numero 252
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 253
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 254
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 255
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 256
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 257
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 258
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 259
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 260
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 261
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 262
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 263
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 264
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 265
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 266
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 267
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 268
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 269
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 270
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 271
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 272
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 273
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 274
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 274
+Inicio: 1240
+Secuencia: YTPDMLEEAQ
+Homogenea: 4.0
+
+
+Proteina numero 276
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 277
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 277
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 278
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 278
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 279
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 279
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 280
+Inicio: 434
+Secuencia: VGLILLALAV
+Homogenea: 4.0
+
+Proteina numero 280
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 280
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 281
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 281
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 282
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 282
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 283
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 283
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 284
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 284
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 285
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 285
+Inicio: 1519
+Secuencia: YVPIIMVTAR
+Homogenea: 4.0
+
+Proteina numero 285
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 286
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 286
+Inicio: 1550
+Secuencia: YSPRELVARI
+Homogenea: 4.0
+
+
+Proteina numero 295
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 296
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 297
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 298
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 303
+Inicio: 1231
+Secuencia: -FTISLPAAP
+Homogenea: 4.0
+
+
+Proteina numero 304
+Inicio: 1231
+Secuencia: -FTIRLPLAD
+Homogenea: 4.0
+
+
+Proteina numero 306
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 307
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 308
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 309
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 310
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 311
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 312
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 313
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 313
+Inicio: 1586
+Secuencia: -EPSSSVLAA
+Homogenea: 4.0
+
+
+Proteina numero 318
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 319
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 320
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 321
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 322
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 323
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 324
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 325
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 326
+Inicio: 716
+Secuencia: IEP-MLKMAR
+Homogenea: 4.0
+
+Proteina numero 326
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 327
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 328
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 329
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 330
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 331
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 332
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 333
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 334
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 335
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 338
+Inicio: 492
+Secuencia: -VLIALILA-
+Homogenea: 4.0
+
+Proteina numero 338
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 339
+Inicio: 492
+Secuencia: -VLIALILA-
+Homogenea: 4.0
+
+Proteina numero 339
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 340
+Inicio: 492
+Secuencia: -VLIALILA-
+Homogenea: 4.0
+
+Proteina numero 340
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 341
+Inicio: 492
+Secuencia: -VLIALILA-
+Homogenea: 4.0
+
+Proteina numero 341
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 342
+Inicio: 492
+Secuencia: -VLIALILA-
+Homogenea: 4.0
+
+Proteina numero 342
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 343
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 344
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 345
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 346
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 347
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 348
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 349
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 350
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 351
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 352
+Inicio: 719
+Secuencia: -LLESIDLAI
+Homogenea: 4.0
+
+Proteina numero 352
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 353
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 354
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 355
+Inicio: 1120
+Secuencia: --DHRIKLAI
+Homogenea: 4.0
+
+Proteina numero 355
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 356
+Inicio: 1120
+Secuencia: --DHRIKLAI
+Homogenea: 4.0
+
+Proteina numero 356
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 357
+Inicio: 1120
+Secuencia: --DHRIKLAI
+Homogenea: 4.0
+
+Proteina numero 357
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 358
+Inicio: 1120
+Secuencia: --DHRIKLAI
+Homogenea: 4.0
+
+Proteina numero 358
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 359
+Inicio: 1120
+Secuencia: --DHRIKLAI
+Homogenea: 4.0
+
+Proteina numero 359
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 360
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 361
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 362
+Inicio: 481
+Secuencia: -----LVLAI
+Homogenea: 4.0
+
+Proteina numero 362
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 363
+Inicio: 491
+Secuencia: GEPAALTAAI
+Homogenea: 4.0
+
+Proteina numero 363
+Inicio: 752
+Secuencia: GGPIELIG-I
+Homogenea: 4.0
+
+Proteina numero 363
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 364
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 364
+Inicio: 1618
+Secuencia: GSPISL----
+Homogenea: 4.0
+
+
+Proteina numero 365
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 366
+Inicio: 1171
+Secuencia: T-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 367
+Inicio: 1171
+Secuencia: T-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 368
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 369
+Inicio: 1171
+Secuencia: E-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 370
+Inicio: 1171
+Secuencia: L-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 371
+Inicio: 1171
+Secuencia: A-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 372
+Inicio: 1171
+Secuencia: L-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 373
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 374
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 375
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 376
+Inicio: 804
+Secuencia: AYVRPLKDAP
+Homogenea: 4.0
+
+Proteina numero 376
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 377
+Inicio: 748
+Secuencia: ----SAKLRI
+Homogenea: 4.0
+
+Proteina numero 377
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 378
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 379
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 380
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 381
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 382
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 383
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 384
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 385
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 386
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 387
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 388
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 389
+Inicio: 1171
+Secuencia: G-STGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 390
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 391
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 392
+Inicio: 395
+Secuencia: --AILLMLAP
+Homogenea: 4.0
+
+Proteina numero 392
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 393
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 394
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 394
+Inicio: 1519
+Secuencia: SLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 395
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 395
+Inicio: 1446
+Secuencia: ----SYDLAI
+Homogenea: 4.0
+
+Proteina numero 395
+Inicio: 1519
+Secuencia: NLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 396
+Inicio: 497
+Secuencia: LAGISAALAW
+Homogenea: 4.0
+
+Proteina numero 396
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 396
+Inicio: 1446
+Secuencia: ----SYDLAI
+Homogenea: 4.0
+
+Proteina numero 396
+Inicio: 1519
+Secuencia: NLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 397
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 397
+Inicio: 1235
+Secuencia: FLPSSRKTAV
+Homogenea: 4.0
+
+Proteina numero 397
+Inicio: 1519
+Secuencia: GIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 398
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 398
+Inicio: 1240
+Secuencia: AAPAAAKMAI
+Homogenea: 4.0
+
+
+Proteina numero 399
+Inicio: 913
+Secuencia: FLPIMAKQAE
+Homogenea: 4.0
+
+Proteina numero 399
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 399
+Inicio: 1519
+Secuencia: TIPILLLTAR
+Homogenea: 4.0
+
+
+Proteina numero 400
+Inicio: 439
+Secuencia: AVLIVLALAV
+Homogenea: 4.0
+
+Proteina numero 400
+Inicio: 715
+Secuencia: RDPD-LVEAI
+Homogenea: 4.0
+
+Proteina numero 400
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 401
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 413
+Inicio: 951
+Secuencia: AM-IDLKPLI
+Homogenea: 4.0
+
+
+Proteina numero 414
+Inicio: 951
+Secuencia: AM-IDLKPLI
+Homogenea: 4.0
+
+
+Proteina numero 417
+Inicio: 844
+Secuencia: YRDISQTRRI
+Homogenea: 4.0
+
+Proteina numero 417
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 418
+Inicio: 844
+Secuencia: YRDISQTRRI
+Homogenea: 4.0
+
+Proteina numero 418
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 419
+Inicio: 844
+Secuencia: YRDISQTRRI
+Homogenea: 4.0
+
+Proteina numero 419
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 420
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 420
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 421
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 421
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 421
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 422
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 422
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 422
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 423
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 423
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 423
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 424
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 424
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 424
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 425
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 425
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 425
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 426
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 426
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 426
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 427
+Inicio: 493
+Secuencia: ---IVLVAAI
+Homogenea: 4.0
+
+Proteina numero 427
+Inicio: 844
+Secuencia: YRDISQARRI
+Homogenea: 4.0
+
+Proteina numero 427
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 428
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 429
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 430
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 431
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 432
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 433
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 434
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 435
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 436
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 437
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 438
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 439
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 440
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 441
+Inicio: 934
+Secuencia: LSRIELK-AH
+Homogenea: 4.0
+
+Proteina numero 441
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 441
+Inicio: 1390
+Secuencia: EEPLSLLLRY
+Homogenea: 4.0
+
+
+Proteina numero 442
+Inicio: 1171
+Secuencia: K-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 442
+Inicio: 1390
+Secuencia: EEPLSLLLRY
+Homogenea: 4.0
+
+
+Proteina numero 452
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 453
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 454
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 455
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 456
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 456
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 457
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 457
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 458
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 458
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 459
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 459
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 460
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 460
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 461
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 461
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 462
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 462
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 463
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 463
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 464
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 464
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 465
+Inicio: 468
+Secuencia: -YYISIIL--
+Homogenea: 4.0
+
+Proteina numero 465
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 466
+Inicio: 428
+Secuencia: --VI-LKKAL
+Homogenea: 4.0
+
+
+Proteina numero 467
+Inicio: 466
+Secuencia: ---NTLKFAI
+Homogenea: 4.0
+
+
+Proteina numero 468
+Inicio: 466
+Secuencia: ---NTLKFAI
+Homogenea: 4.0
+
+
+Proteina numero 469
+Inicio: 466
+Secuencia: ---NTLKFAI
+Homogenea: 4.0
+
+
+Proteina numero 472
+Inicio: 374
+Secuencia: YYA--LRLS-
+Homogenea: 4.0
+
+Proteina numero 472
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 473
+Inicio: 489
+Secuencia: LFLISVFAAI
+Homogenea: 4.0
+
+Proteina numero 473
+Inicio: 1396
+Secuencia: LMIYSLKTAG
+Homogenea: 4.0
+
+
+Proteina numero 474
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 475
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 477
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 478
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 479
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 480
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 481
+Inicio: 485
+Secuencia: PLAIIILLAI
+Homogenea: 4.0
+
+
+Proteina numero 482
+Inicio: 578
+Secuencia: YDEISPLLRR
+Homogenea: 4.0
+
+Proteina numero 482
+Inicio: 655
+Secuencia: -RVISLNSAA
+Homogenea: 4.0
+
+
+Proteina numero 483
+Inicio: 578
+Secuencia: YDEISPLLRR
+Homogenea: 4.0
+
+Proteina numero 483
+Inicio: 655
+Secuencia: -RVISLNSAA
+Homogenea: 4.0
+
+
+Proteina numero 484
+Inicio: 578
+Secuencia: YDEISPLLRR
+Homogenea: 4.0
+
+
+Proteina numero 485
+Inicio: 578
+Secuencia: YEEISPLLRR
+Homogenea: 4.0
+
+
+Proteina numero 486
+Inicio: 578
+Secuencia: YEEISPLLRR
+Homogenea: 4.0
+
+
+Proteina numero 487
+Inicio: 578
+Secuencia: YEEISPLLRR
+Homogenea: 4.0
+
+
+Proteina numero 488
+Inicio: 493
+Secuencia: VVLLSLFLAS
+Homogenea: 4.0
+
+
+Proteina numero 489
+Inicio: 125
+Secuencia: IYKSMLVLAL
+Homogenea: 4.0
+
+
+Proteina numero 490
+Inicio: 125
+Secuencia: IYKSMLVLAL
+Homogenea: 4.0
+
+
+Proteina numero 493
+Inicio: 717
+Secuencia: YY-IVDLLED
+Homogenea: 4.0
+
+Proteina numero 493
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 494
+Inicio: 838
+Secuencia: RYLI-LLRDI
+Homogenea: 4.0
+
+Proteina numero 494
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 497
+Inicio: 521
+Secuencia: YKEALNKLA-
+Homogenea: 4.0
+
+
+Proteina numero 499
+Inicio: 583
+Secuencia: YLFERLKKYI
+Homogenea: 4.0
+
+Proteina numero 499
+Inicio: 1419
+Secuencia: DGEEALKLAN
+Homogenea: 4.0
+
+
+Proteina numero 503
+Inicio: 717
+Secuencia: YY-ISEMVEE
+Homogenea: 4.0
+
+
+Proteina numero 506
+Inicio: 583
+Secuencia: YVLESLRKKI
+Homogenea: 4.0
+
+
+Proteina numero 508
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 509
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 510
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 511
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 512
+Inicio: 927
+Secuencia: LVQDMLKLAS
+Homogenea: 4.0
+
+
+Proteina numero 513
+Inicio: 494
+Secuencia: GLVIGLMLAL
+Homogenea: 4.0
+
+Proteina numero 513
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 514
+Inicio: 1545
+Secuencia: YITKPFKLAV
+Homogenea: 4.0
+
+
+Proteina numero 515
+Inicio: 927
+Secuencia: LIDQTLKLAE
+Homogenea: 4.0
+
+Proteina numero 515
+Inicio: 1171
+Secuencia: G-GHGLGLAI
+Homogenea: 4.0
+
+Proteina numero 515
+Inicio: 1394
+Secuencia: SDLISLHLKK
+Homogenea: 4.0
+
+
+Proteina numero 516
+Inicio: 1171
+Secuencia: P-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 518
+Inicio: 122
+Secuencia: ---ISMKLWA
+Homogenea: 4.0
+
+Proteina numero 518
+Inicio: 1135
+Secuencia: GIPISALPHI
+Homogenea: 4.0
+
+Proteina numero 518
+Inicio: 1700
+Secuencia: VKKIREKLAD
+Homogenea: 4.0
+
+
+Proteina numero 519
+Inicio: 122
+Secuencia: ---ISIKLWA
+Homogenea: 4.0
+
+Proteina numero 519
+Inicio: 124
+Secuencia: -ISIKLWAAI
+Homogenea: 4.0
+
+Proteina numero 519
+Inicio: 1700
+Secuencia: VKKIREKLAD
+Homogenea: 4.0
+
+
+Proteina numero 520
+Inicio: 122
+Secuencia: ---ISMKLWA
+Homogenea: 4.0
+
+Proteina numero 520
+Inicio: 1700
+Secuencia: VKKIREKLAD
+Homogenea: 4.0
+
+
+Proteina numero 521
+Inicio: 122
+Secuencia: ---ISMKLWA
+Homogenea: 4.0
+
+Proteina numero 521
+Inicio: 1700
+Secuencia: VKKIREKLAD
+Homogenea: 4.0
+
+
+Proteina numero 522
+Inicio: 122
+Secuencia: ---ISIKLWM
+Homogenea: 4.0
+
+Proteina numero 522
+Inicio: 1171
+Secuencia: G-GMGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 523
+Inicio: 122
+Secuencia: ---ISIKLWF
+Homogenea: 4.0
+
+Proteina numero 523
+Inicio: 232
+Secuencia: NLLESLKLTS
+Homogenea: 4.0
+
+Proteina numero 523
+Inicio: 284
+Secuencia: WYPKSL-LGG
+Homogenea: 5.0
+
+Proteina numero 523
+Inicio: 1171
+Secuencia: G-GMGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 525
+Inicio: 869
+Secuencia: RTPISLLQGY
+Homogenea: 4.0
+
+Proteina numero 525
+Inicio: 907
+Secuencia: --EIKESLAI
+Homogenea: 4.0
+
+
+Proteina numero 526
+Inicio: 124
+Secuencia: -VVIKLWLTI
+Homogenea: 4.0
+
+Proteina numero 526
+Inicio: 482
+Secuencia: ITIIILITAI
+Homogenea: 4.0
+
+Proteina numero 526
+Inicio: 869
+Secuencia: RTPISLLQGY
+Homogenea: 4.0
+
+Proteina numero 526
+Inicio: 907
+Secuencia: --EIRDSLAI
+Homogenea: 4.0
+
+
+Proteina numero 527
+Inicio: 124
+Secuencia: -VVIKLWLTI
+Homogenea: 4.0
+
+Proteina numero 527
+Inicio: 482
+Secuencia: ITIIILITAI
+Homogenea: 4.0
+
+Proteina numero 527
+Inicio: 869
+Secuencia: RTPISLLQGY
+Homogenea: 4.0
+
+Proteina numero 527
+Inicio: 907
+Secuencia: --EIRDSLAI
+Homogenea: 4.0
+
+
+Proteina numero 528
+Inicio: 631
+Secuencia: DAVISLD-A-
+Homogenea: 4.0
+
+Proteina numero 528
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 528
+Inicio: 1419
+Secuencia: DGETALKLAM
+Homogenea: 4.0
+
+
+Proteina numero 529
+Inicio: 122
+Secuencia: ---IVGKLWI
+Homogenea: 4.0
+
+
+Proteina numero 530
+Inicio: 122
+Secuencia: ---IVGKLWI
+Homogenea: 4.0
+
+
+Proteina numero 531
+Inicio: 122
+Secuencia: ---IVGKLWI
+Homogenea: 4.0
+
+
+Proteina numero 532
+Inicio: 138
+Secuencia: FATISSVLII
+Homogenea: 4.0
+
+Proteina numero 532
+Inicio: 1547
+Secuencia: TKPFSMKVLI
+Homogenea: 4.0
+
+
+Proteina numero 533
+Inicio: 136
+Secuencia: --AIPMALAI
+Homogenea: 4.0
+
+
+Proteina numero 534
+Inicio: 138
+Secuencia: YIPIAVMLGI
+Homogenea: 5.0
+
+Proteina numero 534
+Inicio: 154
+Secuencia: -WNITNKLTI
+Homogenea: 4.0
+
+Proteina numero 534
+Inicio: 518
+Secuencia: NSPIKH-LSI
+Homogenea: 4.0
+
+Proteina numero 534
+Inicio: 917
+Secuencia: IYNSSNRLNI
+Homogenea: 4.0
+
+Proteina numero 534
+Inicio: 1547
+Secuencia: TKPFSIKILI
+Homogenea: 4.0
+
+
+Proteina numero 535
+Inicio: 227
+Secuencia: -YLIYSKYAE
+Homogenea: 4.0
+
+Proteina numero 535
+Inicio: 234
+Secuencia: YAEISDKTNL
+Homogenea: 4.0
+
+Proteina numero 535
+Inicio: 374
+Secuencia: YYA--GKLP-
+Homogenea: 4.0
+
+
+Proteina numero 536
+Inicio: 1171
+Secuencia: S-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 537
+Inicio: 1171
+Secuencia: H-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 538
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 538
+Inicio: 1361
+Secuencia: -VMLSLDLAE
+Homogenea: 4.0
+
+
+Proteina numero 539
+Inicio: 1171
+Secuencia: Q-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 539
+Inicio: 1361
+Secuencia: -VMLSLDLAE
+Homogenea: 4.0
+
+
+Proteina numero 547
+Inicio: 1171
+Secuencia: R-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 551
+Inicio: 1171
+Secuencia: G-GNGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 552
+Inicio: 913
+Secuencia: FLEIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 552
+Inicio: 1048
+Secuencia: LYPIIKNLIE
+Homogenea: 4.0
+
+Proteina numero 552
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 553
+Inicio: 913
+Secuencia: FLEIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 553
+Inicio: 1048
+Secuencia: LYPIIKNLIE
+Homogenea: 4.0
+
+Proteina numero 553
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 554
+Inicio: 913
+Secuencia: FLEIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 554
+Inicio: 1048
+Secuencia: LYPIIKNLIE
+Homogenea: 4.0
+
+Proteina numero 554
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 555
+Inicio: 913
+Secuencia: FLEIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 555
+Inicio: 1048
+Secuencia: LYPIIKNLIE
+Homogenea: 4.0
+
+Proteina numero 555
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 556
+Inicio: 913
+Secuencia: FLLIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 556
+Inicio: 1048
+Secuencia: LYPIIKNLFE
+Homogenea: 4.0
+
+
+Proteina numero 557
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 558
+Inicio: 436
+Secuencia: MAFNGLYLAI
+Homogenea: 4.0
+
+Proteina numero 558
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 559
+Inicio: 484
+Secuencia: -----L-LAI
+Homogenea: 4.0
+
+
+Proteina numero 560
+Inicio: 597
+Secuencia: ----SLKSAF
+Homogenea: 4.0
+
+
+Proteina numero 563
+Inicio: 834
+Secuencia: GKIISLVL-T
+Homogenea: 4.0
+
+Proteina numero 563
+Inicio: 1547
+Secuencia: TKPFSMKVMI
+Homogenea: 4.0
+
+
+Proteina numero 564
+Inicio: 1276
+Secuencia: NIPLNLLLII
+Homogenea: 4.0
+
+Proteina numero 564
+Inicio: 1526
+Secuencia: GIPSSSSHAI
+Homogenea: 4.0
+
+
+Proteina numero 565
+Inicio: 1276
+Secuencia: NIPLNLLLII
+Homogenea: 4.0
+
+Proteina numero 565
+Inicio: 1526
+Secuencia: GIPSSSSHAI
+Homogenea: 4.0
+
+
+Proteina numero 566
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 566
+Inicio: 1616
+Secuencia: YNEQPLKL--
+Homogenea: 4.0
+
+
+Proteina numero 567
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 567
+Inicio: 1616
+Secuencia: YNEQPLKL--
+Homogenea: 4.0
+
+
+Proteina numero 568
+Inicio: 1171
+Secuencia: T-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 569
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 570
+Inicio: 1171
+Secuencia: Y-GTGLGLSI
+Homogenea: 4.0
+
+
+Proteina numero 571
+Inicio: 626
+Secuencia: LEYISRGLAI
+Homogenea: 5.0
+
+Proteina numero 571
+Inicio: 863
+Secuencia: YASHELKTPI
+Homogenea: 4.0
+
+Proteina numero 571
+Inicio: 1171
+Secuencia: L-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 578
+Inicio: 1171
+Secuencia: H-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 579
+Inicio: 482
+Secuencia: ---ISIYL-I
+Homogenea: 4.0
+
+
+Proteina numero 581
+Inicio: 1519
+Secuencia: NTPIILLTAK
+Homogenea: 4.0
+
+
+Proteina numero 582
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 582
+Inicio: 1547
+Secuencia: AKPIKPKLLV
+Homogenea: 4.0
+
+
+Proteina numero 584
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 585
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 585
+Inicio: 1547
+Secuencia: AKPIKPKLLV
+Homogenea: 4.0
+
+
+Proteina numero 586
+Inicio: 1547
+Secuencia: TKPIKPKLLV
+Homogenea: 4.0
+
+
+Proteina numero 587
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 587
+Inicio: 1547
+Secuencia: AKPIKPKLLV
+Homogenea: 4.0
+
+
+Proteina numero 588
+Inicio: 1171
+Secuencia: VSGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 589
+Inicio: 1171
+Secuencia: VSGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 590
+Inicio: 1171
+Secuencia: ASGTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 590
+Inicio: 1519
+Secuencia: STPIILVTAK
+Homogenea: 4.0
+
+
+Proteina numero 591
+Inicio: 1171
+Secuencia: ANGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 592
+Inicio: 1171
+Secuencia: ASGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 595
+Inicio: 1171
+Secuencia: ANGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 596
+Inicio: 1171
+Secuencia: ANGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 599
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 599
+Inicio: 1519
+Secuencia: KIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 600
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 600
+Inicio: 1519
+Secuencia: KIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 601
+Inicio: 374
+Secuencia: YYA--LPLE-
+Homogenea: 4.0
+
+Proteina numero 601
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 602
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 603
+Inicio: 488
+Secuencia: SIVFSLILGI
+Homogenea: 4.0
+
+
+Proteina numero 605
+Inicio: 219
+Secuencia: --SIDLESAI
+Homogenea: 4.0
+
+
+Proteina numero 606
+Inicio: 1048
+Secuencia: FYPIVKNLIE
+Homogenea: 4.0
+
+Proteina numero 606
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 607
+Inicio: 1048
+Secuencia: FYPIVKNLIE
+Homogenea: 4.0
+
+Proteina numero 607
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 608
+Inicio: 1048
+Secuencia: FYPIVKNLIE
+Homogenea: 4.0
+
+Proteina numero 608
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 609
+Inicio: 1048
+Secuencia: FYPIVKNLIE
+Homogenea: 4.0
+
+Proteina numero 609
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 610
+Inicio: 1048
+Secuencia: FYPIVKNLIE
+Homogenea: 4.0
+
+Proteina numero 610
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 611
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 612
+Inicio: 913
+Secuencia: FLLIMQKDAI
+Homogenea: 4.0
+
+Proteina numero 612
+Inicio: 1048
+Secuencia: LYPIIKNLIE
+Homogenea: 4.0
+
+Proteina numero 612
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 614
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 615
+Inicio: 913
+Secuencia: FLGIILKNAN
+Homogenea: 4.0
+
+Proteina numero 615
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 616
+Inicio: 1448
+Secuencia: --PPSLFLL-
+Homogenea: 4.0
+
+
+Proteina numero 618
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 619
+Inicio: 870
+Secuencia: TPLASLKLLV
+Homogenea: 4.0
+
+Proteina numero 619
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 620
+Inicio: 870
+Secuencia: TPLASLKLLV
+Homogenea: 4.0
+
+Proteina numero 620
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 621
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 623
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 624
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 625
+Inicio: 354
+Secuencia: ---KSPTLAI
+Homogenea: 4.0
+
+Proteina numero 625
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 626
+Inicio: 398
+Secuencia: ELRGALRLAI
+Homogenea: 4.0
+
+Proteina numero 626
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 627
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 628
+Inicio: 1043
+Secuencia: IDPFLLELAL
+Homogenea: 4.0
+
+Proteina numero 628
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 628
+Inicio: 1547
+Secuencia: TKPFSPKILI
+Homogenea: 4.0
+
+
+Proteina numero 629
+Inicio: 490
+Secuencia: GLVIILVAAI
+Homogenea: 4.0
+
+Proteina numero 629
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 630
+Inicio: 129
+Secuencia: FYPASLLIVL
+Homogenea: 4.0
+
+Proteina numero 630
+Inicio: 510
+Secuencia: ----SRKLAK
+Homogenea: 4.0
+
+Proteina numero 630
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 631
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 631
+Inicio: 1547
+Secuencia: SKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 632
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 633
+Inicio: 518
+Secuencia: RQPISS-LVD
+Homogenea: 4.0
+
+Proteina numero 633
+Inicio: 559
+Secuencia: LVTIPQELAI
+Homogenea: 4.0
+
+Proteina numero 633
+Inicio: 1547
+Secuencia: AKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 636
+Inicio: 1629
+Secuencia: AKEFSLLLAL
+Homogenea: 4.0
+
+
+Proteina numero 637
+Inicio: 397
+Secuencia: GVVISLFLIS
+Homogenea: 4.0
+
+
+Proteina numero 638
+Inicio: 1171
+Secuencia: G-STGLGLAI
+Homogenea: 4.0
+
+Proteina numero 638
+Inicio: 1550
+Secuencia: FSPRELVLRI
+Homogenea: 4.0
+
+
+Proteina numero 639
+Inicio: 1171
+Secuencia: G-STGLGLAI
+Homogenea: 4.0
+
+Proteina numero 639
+Inicio: 1550
+Secuencia: FSPRELVLRI
+Homogenea: 4.0
+
+
+Proteina numero 640
+Inicio: 309
+Secuencia: ---ISLNDAQ
+Homogenea: 4.0
+
+Proteina numero 640
+Inicio: 1171
+Secuencia: G-STGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 641
+Inicio: 127
+Secuencia: -KIISLYLML
+Homogenea: 4.0
+
+Proteina numero 641
+Inicio: 427
+Secuencia: YYGIW-K-VL
+Homogenea: 4.0
+
+
+Proteina numero 642
+Inicio: 374
+Secuencia: YYA--TKLDN
+Homogenea: 4.0
+
+Proteina numero 642
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 643
+Inicio: 374
+Secuencia: YYA--TKLKN
+Homogenea: 4.0
+
+Proteina numero 643
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 644
+Inicio: 720
+Secuencia: VYELQDKLAE
+Homogenea: 4.0
+
+Proteina numero 644
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 646
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 647
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 648
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 649
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 650
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 651
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 652
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 653
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 654
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 655
+Inicio: 470
+Secuencia: EAGISL--AA
+Homogenea: 4.0
+
+Proteina numero 655
+Inicio: 505
+Secuencia: -LYVVLKGAI
+Homogenea: 4.0
+
+Proteina numero 655
+Inicio: 1448
+Secuencia: --PIDLILL-
+Homogenea: 4.0
+
+Proteina numero 655
+Inicio: 1594
+Secuencia: VHQD-LKLDI
+Homogenea: 4.0
+
+
+Proteina numero 657
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 658
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 661
+Inicio: 1039
+Secuencia: Y-IHADKLRI
+Homogenea: 4.0
+
+Proteina numero 661
+Inicio: 1777
+Secuencia: IKGIGYKFAI
+Homogenea: 4.0
+
+
+Proteina numero 662
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 663
+Inicio: 622
+Secuencia: ---ILLALSI
+Homogenea: 4.0
+
+Proteina numero 663
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 665
+Inicio: 652
+Secuencia: IGLIALKLLL
+Homogenea: 4.0
+
+
+Proteina numero 668
+Inicio: 1547
+Secuencia: TKPYSVKILI
+Homogenea: 4.0
+
+
+Proteina numero 669
+Inicio: 491
+Secuencia: -MTIALTLAC
+Homogenea: 4.0
+
+Proteina numero 669
+Inicio: 1550
+Secuencia: YSPRELVLRI
+Homogenea: 5.0
+
+
+Proteina numero 671
+Inicio: 579
+Secuencia: EEVASLEGAI
+Homogenea: 4.0
+
+
+Proteina numero 672
+Inicio: 1231
+Secuencia: -FTIFLPLAA
+Homogenea: 4.0
+
+
+Proteina numero 673
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 673
+Inicio: 1231
+Secuencia: -FTIFLPLAA
+Homogenea: 4.0
+
+
+Proteina numero 674
+Inicio: 1550
+Secuencia: FSPRELTLRI
+Homogenea: 4.0
+
+
+Proteina numero 675
+Inicio: 1235
+Secuencia: TFPIAGKEAA
+Homogenea: 4.0
+
+Proteina numero 675
+Inicio: 1550
+Secuencia: FSPRELNLRI
+Homogenea: 4.0
+
+
+Proteina numero 676
+Inicio: 1550
+Secuencia: FSPRELNLRI
+Homogenea: 4.0
+
+
+Proteina numero 677
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 678
+Inicio: 131
+Secuencia: LSYIALSLLI
+Homogenea: 4.0
+
+Proteina numero 678
+Inicio: 133
+Secuencia: YIALSLLIAG
+Homogenea: 4.0
+
+Proteina numero 678
+Inicio: 493
+Secuencia: -LFSSLLLSI
+Homogenea: 4.0
+
+Proteina numero 678
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 679
+Inicio: 400
+Secuencia: YGFIRLSL--
+Homogenea: 4.0
+
+Proteina numero 679
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 688
+Inicio: 490
+Secuencia: LLVIGLFLAL
+Homogenea: 4.0
+
+Proteina numero 688
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 688
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 690
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+
+Proteina numero 691
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+
+Proteina numero 692
+Inicio: 402
+Secuencia: YYPRSW----
+Homogenea: 4.0
+
+
+Proteina numero 693
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 693
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+Proteina numero 693
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 694
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 694
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 695
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 695
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 696
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 696
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 697
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 697
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 698
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 698
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 699
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 699
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 700
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 701
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 702
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 703
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 703
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 704
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 704
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 705
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 705
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 706
+Inicio: 402
+Secuencia: YYPFSW----
+Homogenea: 4.0
+
+Proteina numero 706
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 707
+Inicio: 656
+Secuencia: ALLWSNKLAQ
+Homogenea: 4.0
+
+
+Proteina numero 708
+Inicio: 656
+Secuencia: ALLWSNKLAQ
+Homogenea: 4.0
+
+
+Proteina numero 709
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 709
+Inicio: 1781
+Secuencia: GYRFSSKL--
+Homogenea: 4.0
+
+
+Proteina numero 710
+Inicio: 955
+Secuencia: KVPQLLKLIE
+Homogenea: 4.0
+
+Proteina numero 710
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 710
+Inicio: 1781
+Secuencia: GYRFSSKL--
+Homogenea: 4.0
+
+
+Proteina numero 711
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 712
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 713
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 714
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 715
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 716
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 717
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 718
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 719
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 720
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 721
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 722
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 723
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 724
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 725
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 726
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 727
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 728
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 729
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 730
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 731
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 732
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 733
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 734
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 735
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 736
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 737
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 737
+Inicio: 1781
+Secuencia: GYRFSTKL--
+Homogenea: 4.0
+
+
+Proteina numero 738
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 739
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 740
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 741
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 742
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 743
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 744
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 745
+Inicio: 959
+Secuencia: MLDILEKEAI
+Homogenea: 4.0
+
+Proteina numero 745
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 746
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 746
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+
+Proteina numero 747
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 747
+Inicio: 1420
+Secuencia: YDTAVNKLAE
+Homogenea: 4.0
+
+
+Proteina numero 748
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 748
+Inicio: 1420
+Secuencia: YDTAVNKLAE
+Homogenea: 4.0
+
+
+Proteina numero 749
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 749
+Inicio: 1420
+Secuencia: YDTAVNKLAE
+Homogenea: 4.0
+
+
+Proteina numero 750
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 751
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 751
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 752
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 752
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 753
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 753
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 754
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 754
+Inicio: 1420
+Secuencia: YDSAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 755
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 755
+Inicio: 1420
+Secuencia: YDSAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 756
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 756
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 757
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 757
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 758
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 758
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 759
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 759
+Inicio: 1420
+Secuencia: YDTAVTKLAE
+Homogenea: 4.0
+
+
+Proteina numero 760
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 760
+Inicio: 1420
+Secuencia: YDTAVSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 761
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 761
+Inicio: 1420
+Secuencia: YDTAVSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 762
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 762
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 763
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 763
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 764
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 764
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 765
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 765
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 766
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 766
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 767
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 767
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 768
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 768
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 769
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 769
+Inicio: 1420
+Secuencia: YDSAMSKLAE
+Homogenea: 4.0
+
+
+Proteina numero 770
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 770
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 771
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 771
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 772
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 772
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+
+Proteina numero 773
+Inicio: 955
+Secuencia: DVPVMLKLLQ
+Homogenea: 4.0
+
+Proteina numero 773
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 774
+Inicio: 955
+Secuencia: DVPVMLKLLQ
+Homogenea: 4.0
+
+Proteina numero 774
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 775
+Inicio: 955
+Secuencia: DVPVMLKLLQ
+Homogenea: 4.0
+
+Proteina numero 775
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 776
+Inicio: 955
+Secuencia: DVPVMLKLLQ
+Homogenea: 4.0
+
+Proteina numero 776
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 777
+Inicio: 955
+Secuencia: DVPVMLKLLQ
+Homogenea: 4.0
+
+Proteina numero 777
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 778
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 779
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 780
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 781
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 782
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 782
+Inicio: 1419
+Secuencia: DYDSALSLLI
+Homogenea: 4.0
+
+
+Proteina numero 783
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 783
+Inicio: 1419
+Secuencia: DYDSALSLLI
+Homogenea: 4.0
+
+
+Proteina numero 784
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 785
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 786
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 787
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 788
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 789
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 790
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 791
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 792
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 793
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 794
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 795
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 796
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 797
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 797
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 798
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 798
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 799
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 799
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 800
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 800
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 801
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 801
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 802
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 802
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 803
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 803
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 804
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 804
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 805
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 805
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 806
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 806
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 807
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 807
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 808
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 808
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 809
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 809
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 810
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 810
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 811
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 811
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 812
+Inicio: 953
+Secuencia: RVDIPLMLKI
+Homogenea: 4.0
+
+Proteina numero 812
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 813
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 814
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 815
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 816
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 817
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 818
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 819
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 820
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 821
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 822
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 823
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 824
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 825
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 825
+Inicio: 955
+Secuencia: DVPTMLKLLR
+Homogenea: 4.0
+
+Proteina numero 825
+Inicio: 1171
+Secuencia: G-GNGLGLAI
+Homogenea: 4.0
+
+Proteina numero 825
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+
+Proteina numero 826
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 826
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 827
+Inicio: 451
+Secuencia: ----ALILAI
+Homogenea: 4.0
+
+Proteina numero 827
+Inicio: 624
+Secuencia: -GAESLPDAI
+Homogenea: 4.0
+
+Proteina numero 827
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 828
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 829
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 830
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 831
+Inicio: 490
+Secuencia: FLVISLTAAL
+Homogenea: 4.0
+
+Proteina numero 831
+Inicio: 1171
+Secuencia: GGGTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 832
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 833
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 834
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 835
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 836
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 837
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 838
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 839
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 840
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 841
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 842
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 843
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 844
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 845
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 846
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 847
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 848
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 849
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 850
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 851
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 852
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 853
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 854
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 855
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 856
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 857
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 858
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 859
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 860
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 861
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 862
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 863
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 864
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 865
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 866
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 867
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 868
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 869
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 870
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 871
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 872
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 873
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 874
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 875
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 876
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 877
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 878
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 879
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 880
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 881
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 882
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 883
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 884
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 885
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 886
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 887
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 888
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 889
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 890
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 891
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 892
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 893
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 894
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 895
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 896
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 897
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 898
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 899
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 900
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 901
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 902
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 903
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 904
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 905
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 906
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 907
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 908
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 909
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 910
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 911
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 912
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 913
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 914
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 915
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 916
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 917
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 918
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 919
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 920
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 921
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 922
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 923
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 924
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 925
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 926
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 927
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 928
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 929
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 930
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 931
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 932
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 933
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 934
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 935
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 936
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 937
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 938
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 939
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 940
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 941
+Inicio: 986
+Secuencia: NHRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 941
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 942
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 942
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 943
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 943
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 944
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 944
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 945
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 945
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 946
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 946
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 947
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 947
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 948
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 948
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 949
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 949
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 950
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 950
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 951
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 951
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 952
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 952
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 953
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 953
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 954
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 954
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 955
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 955
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 956
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 956
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 957
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 957
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 958
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 958
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 959
+Inicio: 986
+Secuencia: NHRISLD-A-
+Homogenea: 4.0
+
+Proteina numero 959
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 960
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 961
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 962
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 963
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 964
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 965
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 965
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 966
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 967
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 968
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 969
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 970
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 971
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 972
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 972
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 973
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 974
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 974
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 975
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 975
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 976
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 976
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 977
+Inicio: 986
+Secuencia: NQRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 977
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 978
+Inicio: 986
+Secuencia: GQQISLE-A-
+Homogenea: 4.0
+
+Proteina numero 978
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 979
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 980
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 981
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 982
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 983
+Inicio: 953
+Secuencia: PVPIDDLLQI
+Homogenea: 4.0
+
+Proteina numero 983
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 984
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 985
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 986
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 987
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 988
+Inicio: 986
+Secuencia: NHRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 988
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 989
+Inicio: 986
+Secuencia: HHRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 989
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 990
+Inicio: 986
+Secuencia: LHRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 990
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 991
+Inicio: 986
+Secuencia: NHRISLE-A-
+Homogenea: 4.0
+
+Proteina numero 991
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 992
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 993
+Inicio: 986
+Secuencia: AHLISLD-A-
+Homogenea: 4.0
+
+Proteina numero 993
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 994
+Inicio: 986
+Secuencia: GHLISLD-A-
+Homogenea: 4.0
+
+Proteina numero 994
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 995
+Inicio: 986
+Secuencia: GHLISLD-A-
+Homogenea: 4.0
+
+Proteina numero 995
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 996
+Inicio: 986
+Secuencia: GHLISLD-A-
+Homogenea: 4.0
+
+Proteina numero 996
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 997
+Inicio: 986
+Secuencia: GHLISLD-A-
+Homogenea: 4.0
+
+Proteina numero 997
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 998
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 998
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 999
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 999
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1000
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1000
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1001
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1001
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1002
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1002
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1003
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1003
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1004
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1004
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1005
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1005
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1006
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1006
+Inicio: 1616
+Secuencia: ENPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1007
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1007
+Inicio: 1616
+Secuencia: GGPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1008
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1008
+Inicio: 1616
+Secuencia: AGPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1009
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1009
+Inicio: 1616
+Secuencia: SGPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1010
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1010
+Inicio: 1616
+Secuencia: SGPIKLDL--
+Homogenea: 4.0
+
+
+Proteina numero 1011
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1012
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1013
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1013
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1014
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1014
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1015
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1016
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1016
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1017
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1017
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1018
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1018
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1019
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1019
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1020
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1020
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1021
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1021
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1022
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1022
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1023
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1023
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1024
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1024
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1025
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1025
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1026
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1026
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1027
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1027
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1028
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1028
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1029
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1029
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1030
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1030
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1031
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1031
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1032
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1032
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1033
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1033
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1033
+Inicio: 1235
+Secuencia: RFPASRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1034
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1034
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1034
+Inicio: 1235
+Secuencia: RFPASRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1035
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1035
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1035
+Inicio: 1235
+Secuencia: RFPASRVIAI
+Homogenea: 4.0
+
+
+Proteina numero 1036
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1036
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1036
+Inicio: 1235
+Secuencia: RFPASRVIAI
+Homogenea: 4.0
+
+
+Proteina numero 1037
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1037
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1037
+Inicio: 1235
+Secuencia: RFPGSRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1038
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1038
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1038
+Inicio: 1235
+Secuencia: RFPGSRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1039
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1039
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1039
+Inicio: 1235
+Secuencia: RFPGSRVIAI
+Homogenea: 4.0
+
+
+Proteina numero 1040
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1040
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1040
+Inicio: 1235
+Secuencia: RFPGSRVIAI
+Homogenea: 4.0
+
+
+Proteina numero 1041
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1041
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1041
+Inicio: 1235
+Secuencia: RFPGSRVIAI
+Homogenea: 4.0
+
+
+Proteina numero 1042
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1042
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1042
+Inicio: 1235
+Secuencia: RFPASRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1043
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1043
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1043
+Inicio: 1235
+Secuencia: RFPASRIIAI
+Homogenea: 4.0
+
+
+Proteina numero 1044
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1044
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1045
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1045
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1046
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1046
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1047
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1047
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1048
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1048
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1049
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1049
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1050
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1050
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1051
+Inicio: 483
+Secuencia: ----GLALAI
+Homogenea: 4.0
+
+Proteina numero 1051
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1051
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1052
+Inicio: 483
+Secuencia: ----GLVLAI
+Homogenea: 4.0
+
+Proteina numero 1052
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1052
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1053
+Inicio: 483
+Secuencia: ----ALVLAI
+Homogenea: 4.0
+
+Proteina numero 1053
+Inicio: 584
+Secuencia: IYYRLHKLAK
+Homogenea: 4.0
+
+Proteina numero 1053
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1054
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1054
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1055
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1055
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1056
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1056
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1057
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1057
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1058
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1058
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1059
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1059
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1060
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1060
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1061
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1061
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1062
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1062
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1063
+Inicio: 489
+Secuencia: WFAIIL-LLI
+Homogenea: 4.0
+
+Proteina numero 1063
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1064
+Inicio: 1171
+Secuencia: T-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1064
+Inicio: 1519
+Secuencia: RIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1065
+Inicio: 1171
+Secuencia: T-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1065
+Inicio: 1519
+Secuencia: RIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1066
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1067
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1068
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1069
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1070
+Inicio: 1171
+Secuencia: Q-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1071
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1071
+Inicio: 1627
+Secuencia: -GPIEFKLLE
+Homogenea: 4.0
+
+
+Proteina numero 1072
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1073
+Inicio: 433
+Secuencia: Y-PVALWALI
+Homogenea: 4.0
+
+Proteina numero 1073
+Inicio: 488
+Secuencia: -VIIALLLAL
+Homogenea: 4.0
+
+Proteina numero 1073
+Inicio: 749
+Secuencia: -GPPSLQLPA
+Homogenea: 4.0
+
+Proteina numero 1073
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1073
+Inicio: 1519
+Secuencia: KLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1074
+Inicio: 433
+Secuencia: Y-PLALWALI
+Homogenea: 4.0
+
+Proteina numero 1074
+Inicio: 749
+Secuencia: -GPPSLQLPA
+Homogenea: 4.0
+
+Proteina numero 1074
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1074
+Inicio: 1519
+Secuencia: KLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1075
+Inicio: 433
+Secuencia: Y-PLALWALI
+Homogenea: 4.0
+
+Proteina numero 1075
+Inicio: 749
+Secuencia: -GPPSLQLPA
+Homogenea: 4.0
+
+Proteina numero 1075
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1075
+Inicio: 1519
+Secuencia: KLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1076
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1077
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1078
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1079
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1080
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1081
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1082
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1083
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1084
+Inicio: 429
+Secuencia: YFF-I-ELAI
+Homogenea: 4.0
+
+Proteina numero 1084
+Inicio: 1171
+Secuencia: G-GHGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1084
+Inicio: 1394
+Secuencia: REMISLFLTQ
+Homogenea: 4.0
+
+
+Proteina numero 1085
+Inicio: 429
+Secuencia: YFF-I-ELAI
+Homogenea: 4.0
+
+Proteina numero 1085
+Inicio: 951
+Secuencia: -EPINLSHLI
+Homogenea: 4.0
+
+Proteina numero 1085
+Inicio: 1171
+Secuencia: G-GHGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1085
+Inicio: 1394
+Secuencia: REMISLFLTQ
+Homogenea: 4.0
+
+
+Proteina numero 1086
+Inicio: 429
+Secuencia: YFF-I-ELAI
+Homogenea: 4.0
+
+Proteina numero 1086
+Inicio: 1171
+Secuencia: G-GHGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1086
+Inicio: 1394
+Secuencia: REMISLFLTQ
+Homogenea: 4.0
+
+
+Proteina numero 1087
+Inicio: 429
+Secuencia: YFF-I-ELAI
+Homogenea: 4.0
+
+Proteina numero 1087
+Inicio: 1171
+Secuencia: G-GHGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1087
+Inicio: 1394
+Secuencia: REMISLFLTQ
+Homogenea: 4.0
+
+
+Proteina numero 1088
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1088
+Inicio: 1547
+Secuencia: TKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 1089
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1089
+Inicio: 1394
+Secuencia: ---ISLFLLQ
+Homogenea: 4.0
+
+Proteina numero 1089
+Inicio: 1547
+Secuencia: TKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 1090
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1090
+Inicio: 1394
+Secuencia: ---ISLFLLQ
+Homogenea: 4.0
+
+Proteina numero 1090
+Inicio: 1547
+Secuencia: TKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 1091
+Inicio: 1171
+Secuencia: G-GSGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1091
+Inicio: 1394
+Secuencia: ---ISLFLLQ
+Homogenea: 4.0
+
+Proteina numero 1091
+Inicio: 1547
+Secuencia: TKPFSPKVLI
+Homogenea: 4.0
+
+
+Proteina numero 1118
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+Proteina numero 1118
+Inicio: 1601
+Secuencia: LDPISYKVD-
+Homogenea: 4.0
+
+
+Proteina numero 1119
+Inicio: 1171
+Secuencia: Q-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1120
+Inicio: 909
+Secuencia: IRMSHLKLMI
+Homogenea: 4.0
+
+Proteina numero 1120
+Inicio: 1171
+Secuencia: Q-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1121
+Inicio: 1171
+Secuencia: Q-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1124
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1124
+Inicio: 1519
+Secuencia: HLPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1127
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1128
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1129
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1130
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1131
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1132
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1133
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1134
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1135
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1136
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1137
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1138
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1139
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1140
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1141
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1142
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1143
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1144
+Inicio: 534
+Secuencia: KYT--LKDA-
+Homogenea: 4.0
+
+Proteina numero 1144
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1144
+Inicio: 1618
+Secuencia: PQPISL----
+Homogenea: 4.0
+
+
+Proteina numero 1145
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1146
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1146
+Inicio: 1612
+Secuencia: K-PGSEPLEI
+Homogenea: 4.0
+
+
+Proteina numero 1147
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1147
+Inicio: 1612
+Secuencia: K-PGSEPLEI
+Homogenea: 4.0
+
+
+Proteina numero 1148
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1149
+Inicio: 799
+Secuencia: ---ISLQLVP
+Homogenea: 4.0
+
+Proteina numero 1149
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1150
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1151
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1152
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1153
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1154
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1155
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1156
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1157
+Inicio: 492
+Secuencia: GAGISLRLFS
+Homogenea: 4.0
+
+Proteina numero 1157
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1158
+Inicio: 752
+Secuencia: SEPIKLKSW-
+Homogenea: 4.0
+
+Proteina numero 1158
+Inicio: 1080
+Secuencia: ---INLKL-F
+Homogenea: 4.0
+
+
+Proteina numero 1159
+Inicio: 752
+Secuencia: TDPIKLKSW-
+Homogenea: 4.0
+
+
+Proteina numero 1160
+Inicio: 752
+Secuencia: TDPIKLKSW-
+Homogenea: 4.0
+
+
+Proteina numero 1161
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1163
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1164
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1165
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1166
+Inicio: 799
+Secuencia: ---ISLQLVP
+Homogenea: 4.0
+
+Proteina numero 1166
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1167
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1168
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1168
+Inicio: 1396
+Secuencia: LVTINLKHAG
+Homogenea: 4.0
+
+
+Proteina numero 1169
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1170
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1171
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1172
+Inicio: 925
+Secuencia: QAIISDLLAL
+Homogenea: 4.0
+
+Proteina numero 1172
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1173
+Inicio: 925
+Secuencia: QAIISDLLAL
+Homogenea: 4.0
+
+Proteina numero 1173
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1174
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1174
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+
+Proteina numero 1175
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1176
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1177
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1178
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1179
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1180
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1181
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1182
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1183
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1184
+Inicio: 752
+Secuencia: PEPILVRLA-
+Homogenea: 4.0
+
+Proteina numero 1184
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1185
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1186
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1187
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1188
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1189
+Inicio: 986
+Secuencia: QHFIQLK-A-
+Homogenea: 4.0
+
+Proteina numero 1189
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1189
+Inicio: 1519
+Secuencia: DIPIVLLTAK
+Homogenea: 4.0
+
+
+Proteina numero 1190
+Inicio: 986
+Secuencia: QHFIQLK-A-
+Homogenea: 4.0
+
+Proteina numero 1190
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1190
+Inicio: 1519
+Secuencia: DIPIVLLTAK
+Homogenea: 4.0
+
+
+Proteina numero 1191
+Inicio: 986
+Secuencia: QHFIQLK-A-
+Homogenea: 4.0
+
+Proteina numero 1191
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1191
+Inicio: 1519
+Secuencia: DIPIVLLTAK
+Homogenea: 4.0
+
+
+Proteina numero 1192
+Inicio: 986
+Secuencia: QHFIQLK-A-
+Homogenea: 4.0
+
+Proteina numero 1192
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1192
+Inicio: 1519
+Secuencia: DIPIVLLTAK
+Homogenea: 4.0
+
+
+Proteina numero 1193
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1193
+Inicio: 1592
+Secuencia: DVEISG-LRI
+Homogenea: 4.0
+
+
+Proteina numero 1194
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1195
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1196
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1197
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1197
+Inicio: 1517
+Secuencia: YGDIPLILVT
+Homogenea: 4.0
+
+
+Proteina numero 1198
+Inicio: 1171
+Secuencia: S-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1198
+Inicio: 1519
+Secuencia: EIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1199
+Inicio: 491
+Secuencia: L-CISVLLLI
+Homogenea: 4.0
+
+Proteina numero 1199
+Inicio: 1171
+Secuencia: V-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1199
+Inicio: 1519
+Secuencia: DLPIILLTAR
+Homogenea: 4.0
+
+Proteina numero 1199
+Inicio: 1547
+Secuencia: TKPFSPKELI
+Homogenea: 4.0
+
+
+Proteina numero 1200
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1201
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1202
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1202
+Inicio: 1519
+Secuencia: DIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1203
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1203
+Inicio: 1519
+Secuencia: QIPIILLTAR
+Homogenea: 4.0
+
+
+Proteina numero 1204
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1205
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1206
+Inicio: 573
+Secuencia: --PRSLGLWG
+Homogenea: 4.0
+
+Proteina numero 1206
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1207
+Inicio: 986
+Secuencia: QHQIRLK-A-
+Homogenea: 4.0
+
+Proteina numero 1207
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1208
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1209
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1210
+Inicio: 925
+Secuencia: HYMIKDLLAL
+Homogenea: 4.0
+
+Proteina numero 1210
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1210
+Inicio: 1396
+Secuencia: MLSFSLKQAG
+Homogenea: 4.0
+
+
+Proteina numero 1211
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1212
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1213
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1214
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1215
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1216
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1217
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1218
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1219
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1220
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1221
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1222
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1223
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1224
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1225
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1226
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1227
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1227
+Inicio: 1185
+Secuencia: LYQHEAKLTI
+Homogenea: 4.0
+
+Proteina numero 1227
+Inicio: 1242
+Secuencia: YHRVSSKSAA
+Homogenea: 4.0
+
+
+Proteina numero 1228
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1229
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1230
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1231
+Inicio: 432
+Secuencia: -R-IGLILCI
+Homogenea: 4.0
+
+Proteina numero 1231
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1232
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1232
+Inicio: 1781
+Secuencia: GYRFSNKVAL
+Homogenea: 4.0
+
+
+Proteina numero 1233
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1234
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1234
+Inicio: 1781
+Secuencia: GYRFSVKSAK
+Homogenea: 4.0
+
+
+Proteina numero 1235
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1236
+Inicio: 494
+Secuencia: YVLISLAWQM
+Homogenea: 4.0
+
+Proteina numero 1236
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1236
+Inicio: 1185
+Secuencia: LLHHSAKLQI
+Homogenea: 4.0
+
+
+Proteina numero 1237
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1238
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1239
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1239
+Inicio: 1519
+Secuencia: ELPIILLTAK
+Homogenea: 4.0
+
+
+Proteina numero 1240
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1241
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1242
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1243
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1244
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+
+Proteina numero 1245
+Inicio: 1171
+Secuencia: G-GTGLGLAI
+Homogenea: 4.0
+
+Proteina numero 1245
+Inicio: 1781
+Secuencia: GYRFSTKVA-
+Homogenea: 4.0
+
+

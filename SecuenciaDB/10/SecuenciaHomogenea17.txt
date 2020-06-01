@@ -1,0 +1,528 @@
+Secuencia homogenea.
+
+Las secuencia homogenea tiene un tamano: 10
+La secuencia referencia es: ['L', 'M', 'S', 'V', 'F', 'L', 'M', 'N', 'I', 'W']
+Homologia maxima: 7
+
+Proteina numero 101
+Inicio: 909
+Secuencia: LRDQFLHIIW
+Homogenea: 5.0
+
+
+Proteina numero 377
+Inicio: 1048
+Secuencia: LMQVFLNLAE
+Homogenea: 5.0
+
+
+Proteina numero 473
+Inicio: 133
+Secuencia: SMSIFLGTII
+Homogenea: 5.0
+
+
+Proteina numero 500
+Inicio: 484
+Secuencia: --SVFLFVIV
+Homogenea: 5.0
+
+
+Proteina numero 501
+Inicio: 484
+Secuencia: --SVFLFVIV
+Homogenea: 5.0
+
+
+Proteina numero 502
+Inicio: 484
+Secuencia: --SVFLFVIV
+Homogenea: 5.0
+
+
+Proteina numero 522
+Inicio: 491
+Secuencia: LIAVFLATIV
+Homogenea: 5.0
+
+
+Proteina numero 574
+Inicio: 138
+Secuencia: -MSSALMFIG
+Homogenea: 5.0
+
+
+Proteina numero 575
+Inicio: 919
+Secuencia: QNSQRLMNII
+Homogenea: 5.0
+
+
+Proteina numero 772
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 826
+Inicio: 492
+Secuencia: FTSVLLVLIW
+Homogenea: 5.0
+
+
+Proteina numero 827
+Inicio: 492
+Secuencia: LVSVFLVLIW
+Homogenea: 7.0
+
+
+Proteina numero 832
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 833
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 834
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 835
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 836
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 837
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 838
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 839
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 840
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 841
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 842
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 843
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 844
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 845
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 846
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 847
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 848
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 849
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 850
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 851
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 852
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 853
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 854
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 855
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 856
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 858
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 859
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 860
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 861
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 862
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 863
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 864
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 865
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 866
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 867
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 868
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 869
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 870
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 871
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 872
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 873
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 874
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 876
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 877
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 878
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 879
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 880
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 881
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 882
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 883
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 884
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 885
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 886
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 887
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 888
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 889
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 890
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 891
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 892
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 893
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 894
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 895
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 896
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 897
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 898
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 899
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 900
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 926
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 927
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 928
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 929
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 930
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 931
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 932
+Inicio: 492
+Secuencia: LASVTGLLIW
+Homogenea: 5.0
+
+
+Proteina numero 1188
+Inicio: 1048
+Secuencia: LKSVFMNLIS
+Homogenea: 5.0
+
+
