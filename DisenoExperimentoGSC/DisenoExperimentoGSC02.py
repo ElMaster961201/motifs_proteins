@@ -1,7 +1,7 @@
 import os 
 from time import time
 import sys
-sys.path.append(".")
+sys.path.append("..")
 
 # Se importa nuestra clase
 from Genetico_SecuenciaConservada import GeneticoSecuenciaConservada
@@ -12,7 +12,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGSC().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGSC/Resultados/Acer/10" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "Resultados/Acer/10" # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -76,7 +76,7 @@ while t:
         # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
 
         for _ in range(nRepeticiones):
-            print ("Repeticion ",_ + 1)
+            # print ("Repeticion ",_ + 1)
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
