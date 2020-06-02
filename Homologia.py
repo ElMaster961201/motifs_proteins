@@ -128,7 +128,6 @@ if __name__ == "__main__":
         maxhomologo = 0
         for i in range(numHongos):
             secuenciaHongo = []
-            print(i)
             for j in range(tamHongo - tamSec):
                 cont = 0
                 for k in range(tamSec):
