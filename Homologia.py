@@ -27,9 +27,9 @@ class Posicion(object):
             for i in range(self.tamHongo - self.tamSec):
                 cont = 0.0 
                 for j in range(self.tamSec):
-                    cont = cont + self.contador[i][self.ind[secRef[j]]]
+                    cont = cont + contador[i + j][ind[secRef[j]]]
                     pass
-                cont = 100 * float(cont)/(self.tamSec * self.tamHongo)
+                cont = 100 * float(cont)/(self.tamSec * self.numHongos)
                 if cont > maxhomologo:
                     maxhomologo = cont
                     c = i
@@ -60,9 +60,9 @@ class Posicion(object):
             for i in range(self.tamHongo - self.tamSec):
                 cont = 0.0 
                 for j in range(self.tamSec):
-                    cont = cont + self.contador[i][self.ind[secRef[j]]]
+                    cont = cont + contador[i + j][ind[secRef[j]]]
                     pass
-                cont = 100 * float(cont)/(self.tamSec * self.tamHongo)
+                cont = 100 * float(cont)/(self.tamSec * self.numHongos)
                 if cont > maxhomologo:
                     maxhomologo = cont
                     c = i
@@ -162,18 +162,18 @@ if __name__ == "__main__":
         for i in range(tamHongo - tamSec):
             cont = 0.0 
             for j in range(tamSec):
-                cont = cont + contador[i][ind[secRef[j]]]
+                cont = cont + contador[i + j][ind[secRef[j]]]
                 pass
-            cont = 100 * float(cont)/(tamSec * tamHongo)
+            cont = 100 * float(cont)/(tamSec * numHongos)
             if cont > maxhomologo:
                 maxhomologo = cont
                 c = i
                 pass
-            pass     
+            pass
 
         file.write("Homologia maxima: " + str(maxhomologo) + os.linesep)
         file.write(os.linesep)
-        file.write("La homologia maxima se encontro entre las columnas " + str(c) + " y " + str(c + tamSec) + os.linesep)
+        file.write("La homologia maxima se encontro entre las columnas " + str(c + 1) + " y " + str(c + tamSec) + os.linesep)
         file.write("Submatriz:" + os.linesep + os.linesep)
         for i in range(numHongos):
             # file.write(str(nombres[i]) + os.linesep)
