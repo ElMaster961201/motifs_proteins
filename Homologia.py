@@ -102,7 +102,7 @@ if __name__ == "__main__":
         ['N','V','H','V','H','N','I','P','F','F']
     ]
     tamSec = len(secsReferencia[0])
-    ruta = "SecuenciaDB"
+    ruta = "SecuenciaDB/10"
     numHongos = len(hongos)
     tamHongo = len(hongos[0])
 
@@ -128,7 +128,6 @@ if __name__ == "__main__":
         maxhomologo = 0
         for i in range(numHongos):
             secuenciaHongo = []
-            print(i)
             for j in range(tamHongo - tamSec):
                 cont = 0
                 for k in range(tamSec):
