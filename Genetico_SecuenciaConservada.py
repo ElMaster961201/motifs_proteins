@@ -87,11 +87,11 @@ class GeneticoSecuenciaConservada(object):
 		self.contador = [[0 for _ in range(len(self.index))] for _ in range(len(self.hongos[0]))]
 		for i in range(len(self.hongos[0])):
 			for j in range(len(self.hongos)):
-				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] +1
+				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] + 1
 				pass
 			pass
 
-		for i in range(len(self.hongos[0])- self.numGenomas):
+		for i in range(len(self.hongos[0]) - self.numGenomas):
 			sec = []
 			sumSecCon = 0.0
 			for am in range(self.numGenomas):
@@ -128,9 +128,9 @@ class GeneticoSecuenciaConservada(object):
 		top = random.random()
 		i = 0
 		contador = 0.0
-		while contador < top and i < self.tamPoblacion-1:
+		while contador < top and i < self.tamPoblacion - 1:
 			contador = contador + self.adaptacion[i]/float(total)
-			i = i +1
+			i = i + 1
 			pass
 		return self.poblacion[i]
 
@@ -144,10 +144,10 @@ class GeneticoSecuenciaConservada(object):
 		ii = 0
 		contador = 0.0
 		for i in range(eunumeros):
-			a = (top + i) / eunumeros
+			a = (top + i)/eunumeros
 			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
-				ii = ii +1
+				ii = ii + 1
 				pass
 			ind.append(self.poblacion[ii])
 			pass
@@ -180,7 +180,7 @@ class GeneticoSecuenciaConservada(object):
 		# Toma la seleccion por restos
 		ind = []
 		for i in range(self.tamPoblacion):
-			pi = int((self.adaptacion[i]/sum(self.adaptacion)*numRestos))
+			pi = int((self.adaptacion[i]/sum(self.adaptacion) * numRestos))
 			for _ in range(pi):
 				ind.append(self.poblacion[i])
 				pass
@@ -247,7 +247,7 @@ class GeneticoSecuenciaConservada(object):
 			for i in individuo:
 				ind = ind + 1
 				if (genoma > i - self.numGenomas and genoma < i + self.numGenomas):
-					genoma = random.randrange(len(self.hongos[0])-self.numGenomas)
+					genoma = random.randrange(len(self.hongos[0]) - self.numGenomas)
 					ind = 0
 					break
 				pass
@@ -384,7 +384,7 @@ class GeneticoSecuenciaConservada(object):
 	def cruzamientoMonopunto(self):
 		for i in range(0,self.tamPoblacion,2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3,self.numSecuenciasConservadas-3)
+				punto = random.randrange(3,self.numSecuenciasConservadas - 3)
 				hijo1 = []
 				hijo2 = []
 				"""
@@ -478,7 +478,7 @@ class GeneticoSecuenciaConservada(object):
 				hijo2 = []
 				alpha = random.random()
 				for x in range(self.numSecuenciasConservadas):
-					hijo1.append(self.validaPoblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) +((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
+					hijo1.append(self.validaPoblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) + ((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
 					hijo2.append(self.validaPoblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) +((1 - alpha) * self.nuevapoblacion[i][x]))))
 					pass
 				self.nuevapoblacion[i] = hijo1
@@ -573,7 +573,7 @@ class GeneticoSecuenciaConservada(object):
     # Reemplazo de los individuos peor adaptados.
 	def reemplazoPeorAdaptados(self):
 		
-		media = sum(self.adaptacion) / float(self.tamPoblacion)
+		media = sum(self.adaptacion)/float(self.tamPoblacion)
 		
 		self.evaluacionNuevaPoblacion()
 		mejorFits = self.adaptacionnuevapoblacion[:]
@@ -581,7 +581,7 @@ class GeneticoSecuenciaConservada(object):
 		mejorFits = list(set(mejorFits))		
 
 		for i in range(self.tamPoblacion):
-			if self.adaptacion[i] < (media - (media*0.1)):
+			if self.adaptacion[i] < (media - (media * 0.1)):
 				# Se obtiene el indice del mejor individuo.
 				mejorIndex = self.adaptacionnuevapoblacion.index(max(mejorFits))
 				mejorFits.remove(max(mejorFits))
