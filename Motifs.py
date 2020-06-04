@@ -76,25 +76,25 @@ class Motifs(object):
 	]	
 
 	# Funcion con la que se general la matriz de HCI
-	def generaHCI(self,A,B):
-		hci = 20 - abs(((self.HM[A]-self.HM[B])*19)/10.6)
+	def generaHCI(self, A, B):
+		hci = 20 - abs(((self.HM[A] - self.HM[B]) * 19)/10.6)
 		return hci
 
 	# Funcion con la que se general la matriz de CCI
-	def generaCCI(self,A,B):
-		cci = 11 - (((self.pl[A]-7)*(self.pl[B]-7)*19)/33.8)
+	def generaCCI(self, A, B):
+		cci = 11 - (((self.pl[A] -7 ) * (self.pl[B] - 7) * 19)/33.8)
 		return cci
 
 	# Funcion con la que se general la matriz de SCI
-	def generaSCI(self,A,B):
-		sci = 20 - abs((((self.MW[A]+self.MW[B])-118.4825)*19)/253.9373)# 253.9373 -> RW )
+	def generaSCI(self, A, B):
+		sci = 20 - abs((((self.MW[A] + self.MW[B]) - 118.4825) * 19)/253.9373)
 		return sci 
 
-	def imprimeMatrix(self,Matrix):
+	def imprimeMatrix(self, Matrix):
 		for y in Matrix:
-			print("[", end="")
+			print("[", end = "")
 			for x in y:
-				print('{0:.3f}'.format(x), end=",")
+				print('{0:.3f}'.format(x), end = ",")
 				pass
 			print("]")
 			pass
@@ -111,9 +111,9 @@ class Motifs(object):
 			aux2 = []
 			aux3 = []
 			for y in range(20):
-				aux1.append(self.generaSCI(x,y))
-				aux2.append(self.generaCCI(x,y))
-				aux3.append(self.generaHCI(x,y))
+				aux1.append(self.generaSCI(x, y))
+				aux2.append(self.generaCCI(x, y))
+				aux3.append(self.generaHCI(x, y))
 				pass
 			self.SCIM.append(aux1)
 			self.CCIM.append(aux2)
@@ -132,15 +132,15 @@ class Motifs(object):
 			aux2 = []
 			aux3 = []
 			for y in range(20):
-				aux1.append(self.generaSCI(x,y))
-				aux2.append(self.generaCCI(x,y))
-				aux3.append(self.generaHCI(x,y))
+				aux1.append(self.generaSCI(x, y))
+				aux2.append(self.generaCCI(x, y))
+				aux3.append(self.generaHCI(x, y))
 				pass
 			self.SCIM.append(aux1)
 			self.CCIM.append(aux2)
 			self.HCIM.append(aux3)
 			pass
-		return self.SCIM,self.CCIM,self.HCIM
+		return self.SCIM, self.CCIM, self.HCIM
 
 # Cuando el programa es el principal.
 if __name__ == "__main__":
@@ -151,11 +151,11 @@ if __name__ == "__main__":
 		os.makedirs("Matriz")
 		pass	
 
-	file = open("Matriz/SCIM-Ordenada.txt","w")
-	file2 = open("Matriz/SCIM.txt","w")
+	file = open("Matriz/SCIM-Ordenada.txt", "w")
+	file2 = open("Matriz/SCIM.txt", "w")
 	val = False
 	for x in motifs.SCIM:
-		file.write("[ ")
+		file.write("[")
 		for y in x:
 			if val:
 				file.write(", ")
@@ -169,11 +169,11 @@ if __name__ == "__main__":
 	file.close()
 	file2.close()
 	
-	file = open("Matriz/CCIM-Ordenada.txt","w")
-	file2 = open("Matriz/CCIM.txt","w")
+	file = open("Matriz/CCIM-Ordenada.txt", "w")
+	file2 = open("Matriz/CCIM.txt", "w")
 	val = False
 	for x in motifs.CCIM:
-		file.write("[ ")
+		file.write("[")
 		for y in x:
 			if val:
 				file.write(", ")
@@ -187,11 +187,11 @@ if __name__ == "__main__":
 	file.close()
 	file2.close()
 	
-	file = open("Matriz/HCIM-Ordenada.txt","w")
-	file2 = open("Matriz/HCIM.txt","w")
+	file = open("Matriz/HCIM-Ordenada.txt", "w")
+	file2 = open("Matriz/HCIM.txt", "w")
 	val = False
 	for x in motifs.HCIM:
-		file.write("[ ")
+		file.write("[")
 		for y in x:
 			if val:
 				file.write(", ")

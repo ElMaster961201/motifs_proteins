@@ -1,5 +1,3 @@
-# <------------- Librerias ------------- >
-# Generar numeros o selecciones de manera random.
 import random
 from Motifs import Motifs as MTFS
 
@@ -88,7 +86,7 @@ class GeneticoMotifs(object):
 		# Inicializacion de la poblacion.
 		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.numGenomas) ] for _ in range(self.tamPoblacion)]
 		self.nuevapoblacion = []
-		self.mejor = [[],0.0,0]
+		self.mejor = [[], 0.0, 0]
 		self.adaptacion = []
 		self.adaptacionnuevapoblacion = []
 
@@ -107,14 +105,14 @@ class GeneticoMotifs(object):
 		top = random.random()
 		i = 0
 		contador = 0.0
-		while contador < top and i < self.tamPoblacion-1:
+		while contador < top and i < self.tamPoblacion - 1:
 			contador = contador + self.adaptacion[i]/float(total)
-			i = i +1
+			i = i + 1
 			pass
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocasticoUniversalSimple(self,eunumeros = 4):
+	def estocasticoUniversalSimple(self, eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -123,10 +121,10 @@ class GeneticoMotifs(object):
 		ii = 0
 		contador = 0.0
 		for i in range(eunumeros):
-			a = (top + i) / eunumeros
+			a = (top + i)/eunumeros
 			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
-				ii = ii +1
+				ii = ii + 1
 				pass
 			ind.append(self.poblacion[ii])
 			pass
@@ -159,7 +157,7 @@ class GeneticoMotifs(object):
 		# Toma la seleccion por restos
 		ind = []
 		for i in range(self.tamPoblacion):
-			pi = int((self.adaptacion[i]/sum(self.adaptacion)*numRestos))
+			pi = int((self.adaptacion[i]/sum(self.adaptacion) * numRestos))
 			for _ in range(pi):
 				ind.append(self.poblacion[i])
 				pass
@@ -173,7 +171,7 @@ class GeneticoMotifs(object):
 					lambda _: self.torneoSimple(self.tamTorneo)
 					]
 
-			for _ in range(len(ind),self.tamPoblacion):
+			for _ in range(len(ind), self.tamPoblacion):
 				tem = random.randrange(3)
 				if tem == 0:
 					ind.append(fun[tem](0)[0]) 
@@ -185,7 +183,7 @@ class GeneticoMotifs(object):
 		return ind[:self.tamPoblacion]
 
 	### Elitismo simple.
-	def elitismoSimple(self,numElitismo = 10):
+	def elitismoSimple(self, numElitismo = 10):
 		
 		mayorMenorFits = self.adaptacion[:]
 		mayorMenorIndex = []
@@ -202,7 +200,7 @@ class GeneticoMotifs(object):
 		return mayorMenorIndex[:numElitismo]
 
 	### Elitismo simple de la nueva poblacion.
-	def elitismoSimpleNuevaPoblacion(self,numElitismo = 10):
+	def elitismoSimpleNuevaPoblacion(self, numElitismo = 10):
 		
 		mayorMenorFits = self.adaptacionnuevapoblacion[:]
 		mayorMenorIndex = []
@@ -230,9 +228,9 @@ class GeneticoMotifs(object):
 		for i in range(self.tamPoblacion):
 			con = 0.0
 			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con 
-				con = self.w[2]*(self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
+				con = self.w[0] * (self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
+				con = self.w[1] * (self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con 
+				con = self.w[2] * (self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
 				pass
 			self.adaptacion.append(con)
 			pass
@@ -264,9 +262,9 @@ class GeneticoMotifs(object):
 		for i in range(self.tamPoblacion):
 			con = 0.0
 			for k in range(self.numGenomas):
-				con = self.w[0]*(self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
-				con = self.w[1]*(self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
-				con = self.w[2]*(self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
+				con = self.w[0] * (self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
+				con = self.w[1] * (self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
+				con = self.w[2] * (self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuenciaConservada[k]]]) + con
 				pass
 			self.adaptacionnuevapoblacion.append(con)
 			pass
@@ -329,11 +327,11 @@ class GeneticoMotifs(object):
 
 	# Cruzamiento monopunto.
 	def cruzamientoMonopunto(self):
-		for i in range(0,self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion, 2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3, self.numGenomas-3)
+				punto = random.randrange(3, self.numGenomas - 3)
 				"""
-				Los hijos  estan conformados de la siguiente manera.
+				Los hijos estan conformados de la siguiente manera.
 				hijo1 es padre + madre 
 				hijo2 es madre + padre
 				Donde: 
@@ -350,13 +348,13 @@ class GeneticoMotifs(object):
 
 	# Cruzamiento Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0, self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion, 2):
 			if self.proCruce > random.random():
 				punto = []
 				punto.append(random.randrange(3, int(self.numGenomas/2) - 1))
 				punto.append(random.randrange(int(self.numGenomas/2) + 1, self.numGenomas - 3))
 				"""
-				Los hijos  estan conformados de la siguiente manera.
+				Los hijos estan conformados de la siguiente manera.
 				hijo1 es padre + madre + padre
 				hijo2 es madre + padre + madre
 				Donde: 
@@ -373,8 +371,8 @@ class GeneticoMotifs(object):
 
 	# Cruzamiento uniforme.
 	def cruzamientoUniforme(self):
-		for i in range(0,self.tamPoblacion,2):
-			hijo1 =[]
+		for i in range(0, self.tamPoblacion, 2):
+			hijo1 = []
 			hijo2 = []
 			for x in range(self.numGenomas):
 				r = random.random()
@@ -469,7 +467,7 @@ class GeneticoMotifs(object):
     # Reemplazo aleatorio.
 	def reemplazoAleatorio(self):
 		for i in range(self.tamPoblacion):
-			if random.choice([True,False]):
+			if random.choice([True, False]):
 				self.poblacion[i] = self.nuevapoblacion[i]
 				pass
 			pass
@@ -479,7 +477,7 @@ class GeneticoMotifs(object):
     # Reemplazo de los individuos peor adaptados.
 	def reemplazoPeorAdaptados(self):
 		
-		media = sum(self.adaptacion) / float(self.tamPoblacion)
+		media = sum(self.adaptacion)/float(self.tamPoblacion)
 		
 		self.evaluacionNuevaPoblacion()
 		mejorFits = self.adaptacionnuevapoblacion[:]
@@ -487,7 +485,7 @@ class GeneticoMotifs(object):
 		mejorFits = list(set(mejorFits))		
 
 		for i in range(self.tamPoblacion):
-			if self.adaptacion[i] < (media - (media*0.1)):
+			if self.adaptacion[i] < (media - (media * 0.1)):
 				# Se obtiene el indice del mejor individuo.
 				mejorIndex = self.adaptacionnuevapoblacion.index(max(mejorFits))
 				mejorFits.remove(max(mejorFits))
@@ -524,9 +522,9 @@ class GeneticoMotifs(object):
 			nuevaPoblacionFits.remove(max(nuevaPoblacionFits))
 			pass
 
-		vecindad = random.randrange(3,6)
+		vecindad = random.randrange(3, 6)
 		ei = [i for i in range(vecindad)]
-		for i in range(0,self.tamPoblacion - vecindad, vecindad):
+		for i in range(0, self.tamPoblacion - vecindad, vecindad):
 			self.poblacion[poblacionIndex[i + random.choice(ei)]] = self.nuevapoblacion[nuevaPoblacionIndex[i]]
 			pass
 

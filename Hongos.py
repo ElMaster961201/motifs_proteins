@@ -1,7 +1,4 @@
-# <------------- Librerias ------------- >
-# Generar numeros o selecciones de manera random.
 import random as rm
-# Permite la lectura y escritura de archivos.
 import os
 
 
@@ -27,6 +24,7 @@ class Hongos(object):
 	def __init__(self,archivo = "/home/eunice/Escritorio/Jesus/motifs_proteins/Mul.fasta"):
 
 		self.hongos = []
+		self.nombres = []
 		self.hongo = ""
 		self.file = open(archivo, "r").readlines()
 		self.file = self.file[1:]
@@ -35,8 +33,9 @@ class Hongos(object):
 			if l[0] == '>':
 				self.hongos.append(self.hongo)
 				self.hongo = ""
+				self.nombres.append(l[:len(l) - 1])
 				continue
-			self.hongo = self.hongo + l[:len(l)-1]
+			self.hongo = self.hongo + l[:len(l) - 1]
 			pass
 		self.hongo = ""
 		
@@ -52,14 +51,26 @@ class Hongos(object):
 				self.hongos.append(self.hongo)
 				self.hongo = ""
 				continue
-			self.hongo = self.hongo + l[:len(l)-1]
+			self.hongo = self.hongo + l[:len(l) - 1]
 			pass
 		self.hongo = ""
 		return self.hongos
+	
+	def listaNombres(self, archivo = "./Mul.fasta"):
+		self.nombres = []
+		self.file = open(archivo, "r").readlines()
+		self.file = self.file[1:]
+
+		for l in self.file:
+			if l[0] == '>':
+				self.nombres.append(l[:len(l) - 1])
+			pass
+		return self.nombres
 
 if __name__ == "__main__":
 	archivo = "Mul.fasta"
 	hongos = []
+	nombres = []
 	hongo = ""
 	file = open(archivo, "r").readlines()
 	file = file[1:]
@@ -67,10 +78,12 @@ if __name__ == "__main__":
 		if l[0] == '>':
 			hongos.append(hongo)
 			hongo = ""
+			nombres.append(l[:len(l) - 1])
 			continue
-		hongo = hongo + l[:len(l)-1]
+		hongo = hongo + l[:len(l) - 1]
 		pass
 	hongo = ""
 	for i in range(len(hongos)):
+		print(nombres[i])
 		print (hongos[i][1212:1219])
 pass
