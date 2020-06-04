@@ -35,7 +35,7 @@ class Posicion(object):
                     c = i
                     pass
                 pass
-            self.secuenciasDB.append([c,maxhomologo])
+            self.secuenciasDB.append([c, maxhomologo])
             pass
 
     def secuenciaHomogenea (self, secsReferencia = [[]]):
@@ -68,7 +68,7 @@ class Posicion(object):
                     c = i
                     pass
                 pass
-            self.secuenciasDB.append([c,maxhomologo])
+            self.secuenciasDB.append([c, maxhomologo])
             pass
         return self.secuenciasDB
 
@@ -151,7 +151,7 @@ if __name__ == "__main__":
             pass
 
         tamSec = len(secRef)
-        file = open(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt","w")
+        file = open(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt", "w")
         file.write("Secuencia homogenea." + os.linesep)
         file.write(os.linesep)
         file.write("Las secuencia homogenea tiene un tamano: " + str(tamSec) + os.linesep)
@@ -181,7 +181,7 @@ if __name__ == "__main__":
             pass
         file.close()
 
-        file = open(ruta + "/Submatriz" + str(conttxt) + ".fasta","w")
+        file = open(ruta + "/Submatriz" + str(conttxt) + ".fasta", "w")
         for i in range(numHongos):
             file.write(str(nombres[i]) + os.linesep)
             file.write(str(hongos[i][c:c + tamSec]) + os.linesep)
