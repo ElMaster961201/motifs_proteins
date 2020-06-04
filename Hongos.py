@@ -1,7 +1,4 @@
-# <------------- Librerias ------------- >
-# Generar numeros o selecciones de manera random.
 import random as rm
-# Permite la lectura y escritura de archivos.
 import os
 
 
@@ -24,7 +21,7 @@ class Hongos(object):
 	"""
 
 	"""Inicializacion"""
-	def __init__(self,archivo = "./Mul.fasta"):
+	def __init__(self, archivo = "./Mul.fasta"):
 
 		self.hongos = []
 		self.nombres = []
@@ -42,7 +39,7 @@ class Hongos(object):
 			pass
 		self.hongo = ""
 		
-	def matrizHongos(self,archivo = "./Mul.fasta"):
+	def matrizHongos(self, archivo = "./Mul.fasta"):
 
 		self.hongos = []
 		self.hongo = ""
@@ -54,12 +51,12 @@ class Hongos(object):
 				self.hongos.append(self.hongo)
 				self.hongo = ""
 				continue
-			self.hongo = self.hongo + l[:len(l)-1]
+			self.hongo = self.hongo + l[:len(l) - 1]
 			pass
 		self.hongo = ""
 		return self.hongos
 	
-	def listaNombres(self,archivo = "./Mul.fasta"):
+	def listaNombres(self, archivo = "./Mul.fasta"):
 		self.nombres = []
 		self.file = open(archivo, "r").readlines()
 		self.file = self.file[1:]
@@ -83,7 +80,7 @@ if __name__ == "__main__":
 			hongo = ""
 			nombres.append(l[:len(l) - 1])
 			continue
-		hongo = hongo + l[:len(l)-1]
+		hongo = hongo + l[:len(l) - 1]
 		pass
 	hongo = ""
 	for i in range(len(hongos)):

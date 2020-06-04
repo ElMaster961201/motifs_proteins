@@ -1,7 +1,6 @@
 import random
 from Hongos import Hongos as HG
 
-
 ###### Genetico. ######
 class GeneticoHomologia(object):
 
@@ -101,7 +100,7 @@ class GeneticoHomologia(object):
 				pass
 			pass
 		self.nuevapoblacion = []
-		self.mejor = [[],0.0,0]
+		self.mejor = [[], 0.0, 0]
 		self.adaptacion = []
 		self.adaptacionnuevaploblacion = []
 		pass
@@ -121,12 +120,12 @@ class GeneticoHomologia(object):
 		contador = 0.0
 		while contador < top and i < self.tamPoblacion - 1:
 			contador = contador + self.adaptacion[i]/float(total)
-			i = i +1
+			i = i + 1
 			pass
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocasticoUniversalSimple(self,eunumeros = 4):
+	def estocasticoUniversalSimple(self, eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -135,10 +134,10 @@ class GeneticoHomologia(object):
 		contador = 0.0
 		ii = 0
 		for i in range(eunumeros):
-			a = (top + i) / eunumeros
+			a = (top + i)/eunumeros
 			while contador < a and ii < self.tamPoblacion - 1:
 				contador = contador + self.adaptacion[ii]/float(total)
-				ii = ii +1
+				ii = ii + 1
 				pass
 			ind.append(self.poblacion[ii])
 			pass
@@ -171,7 +170,7 @@ class GeneticoHomologia(object):
 		# Toma la seleccion por restos
 		ind = []
 		for i in range(self.tamPoblacion):
-			pi = int((self.adaptacion[i]/sum(self.adaptacion)*numRestos))
+			pi = int((self.adaptacion[i]/sum(self.adaptacion) * numRestos))
 			for _ in range(pi):
 				ind.append(self.poblacion[i])
 				pass
@@ -185,7 +184,7 @@ class GeneticoHomologia(object):
 					lambda _: self.torneoSimple(self.tamTorneo)
 					]
 
-			for _ in range(len(ind),self.tamPoblacion):
+			for _ in range(len(ind), self.tamPoblacion):
 				tem = random.randrange(3)
 				if tem == 0:
 					ind.append(fun[tem](0)[0]) 
@@ -197,7 +196,7 @@ class GeneticoHomologia(object):
 		return ind[:self.tamPoblacion]
 
 	### Elitismo simple.
-	def elitismoSimple(self,numElitismo = 10):
+	def elitismoSimple(self, numElitismo = 10):
 		
 		mayorMenorFits = self.adaptacion[:]
 		mayorMenorIndex = []
@@ -214,7 +213,7 @@ class GeneticoHomologia(object):
 		return mayorMenorIndex[:numElitismo]
 
 	### Elitismo simple de la nueva poblacion.
-	def elitismoSimpleNuevaPoblacion(self,numElitismo = 10):
+	def elitismoSimpleNuevaPoblacion(self, numElitismo = 10):
 		
 		mayorMenorFits = self.adaptacionnuevapoblacion[:]
 		mayorMenorIndex = []
@@ -230,14 +229,14 @@ class GeneticoHomologia(object):
 
 		return mayorMenorIndex[:numElitismo]
 
-	def secuenciaAdaptacion(self,individuo):
+	def secuenciaAdaptacion(self, individuo):
 		result = []
 		for h in range(self.numHongos):
 			secuencia = []
 			total = 0.0
 			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.numGenomas]
 			total = float(self.contador[h][individuo[h]])
-			result.append([secuencia,total])
+			result.append([secuencia, total])
 			pass
 		return result
 
@@ -348,13 +347,13 @@ class GeneticoHomologia(object):
 
 	# Cruzamiento monopunto.
 	def cruzamientoMonopunto(self):
-		for i in range(0,self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion, 2):
 			if self.proCruce > random.random():
-				punto = random.randrange(3,self.numHongos-3)
+				punto = random.randrange(3, self.numHongos - 3)
 				hijo1 = []
 				hijo2 = []
 				"""
-				Los hijos  estan conformados de la siguiente manera.
+				Los hijos estan conformados de la siguiente manera.
 				hijo1 es padre + madre 
 				hijo2 es madre + padre
 				Donde: 
@@ -379,7 +378,7 @@ class GeneticoHomologia(object):
 
 	# cruzamiento Multipunto.
 	def cruzamientoMultiPunto(self):
-		for i in range(0,self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion, 2):
 			if self.proCruce > random.random():
 				punto = []
 				hijo1 = []
@@ -387,7 +386,7 @@ class GeneticoHomologia(object):
 				punto.append(random.randrange(3, int(self.numHongos/2) - 1))
 				punto.append(random.randrange(int(self.numHongos/2) + 1, self.numHongos - 3))
 				"""
-				Los hijos  estan conformados de la siguiente manera.
+				Los hijos estan conformados de la siguiente manera.
 				hijo1 es padre + madre + padre
 				hijo2 es madre + padre + madre
 				Donde: 
@@ -399,12 +398,12 @@ class GeneticoHomologia(object):
 					hijo2.append(self.nuevapoblacion[i + 1][j])
 					pass
 
-				for j in range(punto[0],punto[1]):
+				for j in range(punto[0], punto[1]):
 					hijo1.append(self.nuevapoblacion[i + 1][j])
 					hijo2.append(self.nuevapoblacion[i][j])
 					pass
 
-				for j in range(punto[1],self.numHongos):
+				for j in range(punto[1], self.numHongos):
 					hijo1.append(self.nuevapoblacion[i][j])
 					hijo2.append(self.nuevapoblacion[i + 1][j])
 					pass
@@ -417,8 +416,8 @@ class GeneticoHomologia(object):
 
 	# Cruzamiento uniforme.
 	def cruzamientoUniforme(self):
-		for i in range(0,self.tamPoblacion,2):
-			hijo1 =[]
+		for i in range(0, self.tamPoblacion, 2):
+			hijo1 = []
 			hijo2 = []
 			for x in range(self.numHongos):
 				r = random.random()
@@ -438,9 +437,9 @@ class GeneticoHomologia(object):
 	
 	# Cruzamiento Aritmetico.
 	def cruzamientoAritmetico(self):
-		for i in range(0,self.tamPoblacion,2):
+		for i in range(0, self.tamPoblacion, 2):
 			if self.proCruce > random.random():
-				hijo1 =[]
+				hijo1 = []
 				hijo2 = []
 				alpha = random.random()
 				for x in range(self.numHongos):
@@ -529,7 +528,7 @@ class GeneticoHomologia(object):
     # Reemplazo aleatorio.
 	def reemplazoAleatorio(self):
 		for i in range(self.tamPoblacion):
-			if random.choice([True,False]):
+			if random.choice([True, False]):
 				self.poblacion[i] = self.nuevapoblacion[i]
 				pass
 			pass
@@ -539,7 +538,7 @@ class GeneticoHomologia(object):
     # Reemplazo de los individuos peor adaptados.
 	def reemplazoPeorAdaptados(self):
 		
-		media = sum(self.adaptacion) / float(self.tamPoblacion)
+		media = sum(self.adaptacion)/float(self.tamPoblacion)
 		
 		self.evaluacionNuevaPoblacion()
 		mejorFits = self.adaptacionnuevapoblacion[:]
@@ -547,7 +546,7 @@ class GeneticoHomologia(object):
 		mejorFits = list(set(mejorFits))		
 
 		for i in range(self.tamPoblacion):
-			if self.adaptacion[i] < (media - (media*0.1)):
+			if self.adaptacion[i] < (media - (media * 0.1)):
 				# Se obtiene el indice del mejor individuo.
 				mejorIndex = self.adaptacionnuevapoblacion.index(max(mejorFits))
 				mejorFits.remove(max(mejorFits))
@@ -584,9 +583,9 @@ class GeneticoHomologia(object):
 			nuevaPoblacionFits.remove(max(nuevaPoblacionFits))
 			pass
 
-		vecindad = random.randrange(3,6)
+		vecindad = random.randrange(3, 6)
 		ei = [i for i in range(vecindad)]
-		for i in range(0,self.tamPoblacion - vecindad, vecindad):
+		for i in range(0, self.tamPoblacion - vecindad, vecindad):
 			self.poblacion[poblacionIndex[i + random.choice(ei)]] = self.nuevapoblacion[nuevaPoblacionIndex[i]]
 			pass
 

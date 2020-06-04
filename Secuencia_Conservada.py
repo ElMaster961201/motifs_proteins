@@ -27,7 +27,7 @@ class SecuenciaConservada(object):
             pass
 
         for _ in range(self.numSecuenciasConservadas):
-            ps = random.randrange(len(self.hongos[0])-self.tamSec)
+            ps = random.randrange(len(self.hongos[0]) - self.tamSec)
             sec = []
             sumSecCon = 0 
 
@@ -45,7 +45,7 @@ class SecuenciaConservada(object):
         pass
     
 
-    def ConjuntoSecuenciaConservada(self,numSecuenciasConservadas = 50, tamSec = 30):
+    def ConjuntoSecuenciaConservada(self, numSecuenciasConservadas = 50, tamSec = 30):
         self.numSecuenciasConservadas = numSecuenciasConservadas 
         self.tamSec = tamSec
         self.ConSecCon = []
@@ -64,7 +64,7 @@ class SecuenciaConservada(object):
             pass
 
         for _ in range(self.numSecuenciasConservadas):
-            ps = random.randrange(len(self.hongos[0])-self.tamSec)
+            ps = random.randrange(len(self.hongos[0]) - self.tamSec)
             sec = []
             sumSecCon = 0 
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
     while tamSec < 31:
         if not (os.path.exists(ruta + "/SecuenciaConservada" + str(tamSec) + ".txt")):
-            file = open(ruta + "/SecuenciaConservada" + str(tamSec) + ".txt","w")
+            file = open(ruta + "/SecuenciaConservada" + str(tamSec) + ".txt", "w")
             file.write("Secuencias conservadas." + os.linesep)
             file.write(os.linesep)
             file.write("Las secuencias conservadas tendran un tamano " + str(tamSec) + os.linesep)
