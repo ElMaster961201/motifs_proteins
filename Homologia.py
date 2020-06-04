@@ -3,6 +3,7 @@ import os
 
 class Posicion(object):
     hongos = HG().matrizHongos()
+    ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
     
     def __init__(self, secsReferencia = [[]]):
         self.secsReferencia = secsReferencia
@@ -10,24 +11,32 @@ class Posicion(object):
         self.numHongos = len(self.hongos)
         self.tamHongo = len(self.hongos[0])
         self.secuenciasDB = []
-        for secRef in secsReferencia:
-            self.secuenciaDB = []
-            for i in range(self.numHongos):
-                secuenciaHongo = []
-                for j in range(self.tamHongo - self.tamSec):
-                    cont = 0
-                    for k in range(self.tamSec):
-                        if secRef[k] == self.hongos[i][j + k]:
-                            cont = cont + 1
-                            pass 
-                        pass
-                    secuenciaHongo.append([self.hongos[i][j:j + self.tamSec],j,float(cont)])
-                    pass
-                self.secuenciaDB.append(secuenciaHongo)
+
+        # Inicializamos el contador.
+        self.contador = [[0 for _ in range(len(self.ind))] for _ in range(self.tamHongo)]   
+
+        for i in range(self.tamHongo):
+            for j in range(self.numHongos):
+                self.contador[i][self.ind[self.hongos[j][i]]] = self.contador[i][self.ind[self.hongos[j][i]]] + 1
                 pass
-            self.secuenciasDB.append(self.secuenciaDB)
             pass
-        pass
+        
+        for secRef in self.secsReferencia:
+            maxhomologo = 0.0
+            c = 0
+            for i in range(self.tamHongo - self.tamSec):
+                cont = 0.0 
+                for j in range(self.tamSec):
+                    cont = cont + self.contador[i][self.ind[secRef[j]]]
+                    pass
+                cont = 100 * float(cont)/(self.tamSec * self.tamHongo)
+                if cont > maxhomologo:
+                    maxhomologo = cont
+                    c = i
+                    pass
+                pass
+            self.secuenciasDB.append([c,maxhomologo])
+            pass
 
     def secuenciaHomogenea (self, secsReferencia = [[]]):
         self.secaReferencia = secsReferencia
@@ -35,22 +44,31 @@ class Posicion(object):
         self.numHongos = len(self.hongos)
         self.tamHongo = len(self.hongos[0])
         self.secuenciasDB = []
-        for secRef in secsReferencia:
-            self.secuenciaDB = []
-            for i in range(self.numHongos):
-                secuenciaHongo = []
-                for j in range(self.tamHongo - self.tamSec):
-                    cont = 0
-                    for k in range(self.tamSec):
-                        if secRef[k] == self.hongos[i][j +k ]:
-                            cont = cont + 1
-                            pass 
-                        pass
-                    secuenciaHongo.append([self.hongos[i][j:j + self.tamSec],j,float(cont)])
-                    pass
-                self.secuenciaDB.append(secuenciaHongo)
+        
+        # Inicializamos el contador.
+        self.contador = [[0 for _ in range(len(self.ind))] for _ in range(self.tamHongo)]   
+
+        for i in range(self.tamHongo):
+            for j in range(self.numHongos):
+                self.contador[i][self.ind[self.hongos[j][i]]] = self.contador[i][self.ind[self.hongos[j][i]]] + 1
                 pass
-            self.secuenciasDB.append(self.secuenciaDB)
+            pass
+
+        for secRef in self.secsReferencia:
+            maxhomologo = 0.0
+            c = 0
+            for i in range(self.tamHongo - self.tamSec):
+                cont = 0.0 
+                for j in range(self.tamSec):
+                    cont = cont + self.contador[i][self.ind[secRef[j]]]
+                    pass
+                cont = 100 * float(cont)/(self.tamSec * self.tamHongo)
+                if cont > maxhomologo:
+                    maxhomologo = cont
+                    c = i
+                    pass
+                pass
+            self.secuenciasDB.append([c,maxhomologo])
             pass
         return self.secuenciasDB
 
@@ -58,6 +76,7 @@ class Posicion(object):
 if __name__ == "__main__":
     
     hongos = HG().matrizHongos()
+    nombres = HG().listaNombres()
     secsReferencia = [
         ['G','S','G','N','F','S','A','I','D','Q'],
         ['L','T','G','M','K','V','A','H','C','D'],
@@ -101,7 +120,8 @@ if __name__ == "__main__":
         ['N','I','M','V','H','R','L','V','G','F'],
         ['N','V','H','V','H','N','I','P','F','F']
     ]
-    tamSec = len(secsReferencia[0])
+
+    ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
     ruta = "SecuenciaDB"
     numHongos = len(hongos)
     tamHongo = len(hongos[0])
@@ -111,6 +131,18 @@ if __name__ == "__main__":
         pass
 
     conttxt = 1
+    # Inicializamos el contador.
+    contador = [[0 for _ in range(len(ind))] for _ in range(tamHongo)]   
+
+    for i in range(tamHongo):
+        for j in range(numHongos):
+            contador[i][ind[hongos[j][i]]] = contador[i][ind[hongos[j][i]]] + 1
+            pass
+        pass
+
+    # contador [i][j] 
+    # i -> representa la columna de la secuencia
+    # j -> representa la columna de los aminoacidos
 
     for secRef in secsReferencia:
         
@@ -118,49 +150,43 @@ if __name__ == "__main__":
             conttxt = conttxt + 1
             pass
 
+        tamSec = len(secRef)
         file = open(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt","w")
         file.write("Secuencia homogenea." + os.linesep)
         file.write(os.linesep)
         file.write("Las secuencia homogenea tiene un tamano: " + str(tamSec) + os.linesep)
-        file.write("La secuencia referencia es: " + str(secRef) + os.linesep)
+        file.write("La secuencia sintetica es: " + str(secRef) + os.linesep)
         
-        secuenciaDB = []
-        maxhomologo = 0
-        for i in range(numHongos):
-            secuenciaHongo = []
-            for j in range(tamHongo - tamSec):
-                cont = 0
-                for k in range(tamSec):
-                    if secRef[k] == hongos[i][j + k]:
-                        cont = cont + 1
-                        pass 
-                    pass
-                secuenciaHongo.append([hongos[i][j : j + tamSec],j,float(cont)])
-                if maxhomologo < cont:
-                    maxhomologo = cont
+        maxhomologo = 0.0
+        c = 0
+        for i in range(tamHongo - tamSec):
+            cont = 0.0 
+            for j in range(tamSec):
+                cont = cont + contador[i][ind[secRef[j]]]
                 pass
-            secuenciaDB.append(secuenciaHongo)
-            pass
+            cont = 100 * float(cont)/(tamSec * tamHongo)
+            if cont > maxhomologo:
+                maxhomologo = cont
+                c = i
+                pass
+            pass     
+
         file.write("Homologia maxima: " + str(maxhomologo) + os.linesep)
         file.write(os.linesep)
-        pro = 1
-        for p in secuenciaDB:
-            line = False
-            for secuencia in p:
-                if secuencia[2] > maxhomologo - (maxhomologo * 0.30):
-                    file.write("Proteina numero " + str(pro) + os.linesep)
-                    file.write("Inicio: " + str(secuencia[1]) + os.linesep)
-                    file.write("Secuencia: " + str(secuencia[0]) + os.linesep)
-                    file.write("Homogenea: " + str(secuencia[2]) + os.linesep)
-                    file.write(os.linesep)
-                    line = True
-                    pass
-                pass
-            pro = pro + 1
-            if line:
-                file.write(os.linesep)
-                pass
+        file.write("La homologia maxima se encontro entre las columnas " + str(c) + " y " + str(c + tamSec) + os.linesep)
+        file.write("Submatriz:" + os.linesep + os.linesep)
+        for i in range(numHongos):
+            # file.write(str(nombres[i]) + os.linesep)
+            file.write(str(hongos[i][c:c + tamSec]) + os.linesep)
             pass
         file.close()
+
+        file = open(ruta + "/Submatriz" + str(conttxt) + ".fasta","w")
+        for i in range(numHongos):
+            file.write(str(nombres[i]) + os.linesep)
+            file.write(str(hongos[i][c:c + tamSec]) + os.linesep)
+            pass
+        file.close()
+
         pass
     pass
