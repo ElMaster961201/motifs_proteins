@@ -17,7 +17,6 @@ Numero de generaciones: 1000
 Con los siguientes metodos: 
 Metodo de seleccion: Torneo
 Metodo de cruzamiento: Monopunto
-Cruzamiento Aritmetico
 Metodo de mutacion: Mutacion Uniforme
 Metodo de consevacion: Elitismo
 Metodo de paso de generacion: Reemplazo de Padres
