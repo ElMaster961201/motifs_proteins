@@ -21,7 +21,7 @@ class Hongos(object):
 	"""
 
 	"""Inicializacion"""
-	def __init__(self,archivo = "/Mul.fasta"):
+	def __init__(self,archivo = "Mul.fasta"):
 
 		self.hongos = []
 		self.nombres = []
@@ -39,7 +39,7 @@ class Hongos(object):
 			pass
 		self.hongo = ""
 		
-	def matrizHongos(self,archivo = "/Mul.fasta"):
+	def matrizHongos(self,archivo = "Mul.fasta"):
 
 		self.hongos = []
 		self.hongo = ""
