@@ -57,7 +57,7 @@ while t:
         file.write("Monopunto" + os.linesep)
         # file.write("Multipunto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
-        file.write("Cruzamiento Aritmetico" + os.linesep)
+        # file.write("Cruzamiento Aritmetico" + os.linesep)
         
         file.write("Metodo de mutacion: ")
         ###### Metodos de Mutacion. ######
