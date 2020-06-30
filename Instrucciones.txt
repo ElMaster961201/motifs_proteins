@@ -1,0 +1,82 @@
+Autor: Jesus Alberto Correa Morales.
+17/09/2019 - 05/06/2020
+
+En el siguiente proyecto contiene el trabajo de Tesina para la busqueda y localizacion de 
+secuencias de aminoacidos altamente conservada en un alineamineto multiple de 
+secuencias.
+
+El proyecto se compone de de la siguiente manera:
+
+/DisenoExperimentoGM -> En esta carpeta se contiene el diseño de experimentacion que hace uso del algoritmo genetico 
+                        que busca una secuencia sintetica apartir de una secuencia altamente conservada.
+
+/DisenoExperimentoGM/Resultados/*/** -> Almacena los resultados obtenidos al ejecutar el script "DisenoExperimentoGM***.py"
+
+/DisenoExperimentoGS/DisenoExperimentoGM.py -> Contiene el script para ejecutar el algoritmo genetico de similitud,
+                                                 Se debe de descomentar las lineas que hacen llamada a los metodos del 
+                                                 algoritmo genetico.
+
+                                                 Se debe de modificar la ruta agregando el nombre de la computadora y 
+                                                 el tamaño del Genoma.
+
+/DisenoExperimentoGM/Parametros_GM -> Contiene los parametyros que utiliza el script "DisenoExperimentoGM***.py"
+
+Nota: El archivo DisenoExperimentoGM.py es una plantilla, de aqui generas nuevos archivos .py 
+
+
+/DisenoExperimentoGS -> En esta carpeta se contiene el diseño de experimentacion que hace uso del algoritmo genetico 
+                        que busca en cada hongo del alineamiento multiple la secuencia que tenga la mejor similutud 
+                        con la secuencia sintetica.
+
+/DisenoExperimentoGS/Resultados/*/** -> Almacena los resultados obtenidos al ejecutar el script "DisenoExperimentoGS.py"
+
+/DisenoExperimentoGS/DisenoExperimentoGS.py -> Contiene el script para ejecutar el algoritmo genetico de similitud,
+                                                 Se debe de descomentar las lineas que hacen llamada a los metodos del 
+                                                 algoritmo genetico.
+
+                                                 Se debe de modificar la ruta agregando el nombre de la computadora y 
+                                                 el tamaño del Genoma.
+
+/DisenoExperimentoGS/Parametros_GS -> Contiene los parametyros que utiliza el script "DisenoExperimentoGS.py"
+
+Nota: El archivo DisenoExperimentoGS.py es una plantilla, de aqui generas nuevos archivos .py 
+
+
+/DisenoExperimentoGSC -> En esta carpeta se contiene el diseño de experimentacion que hace uso del algoritmo genetico 
+                        que busca en el alineamiento multiple de secuencias la secuencia altamente conservada.
+
+/DisenoExperimentoGSC/Resultados/*/** -> Almacena los resultados obtenidos al ejecutar el script "DisenoExperimentoGSC.py"
+
+/DisenoExperimentoGSC/DisenoExperimentoGSC***.py -> Contiene el script para ejecutar el algoritmo genetico que busca secuencias 
+                                                    altamente conservadas en el alineamiento multiple.
+                                                    Se debe de descomentar las lineas que hacen llamada a los metodos del 
+                                                    algoritmo genetico.
+
+                                                    Se debe de modificar la ruta agregando el nombre de la computadora y 
+                                                    el tamaño del Genoma.
+
+/DisenoExperimentoGS/Parametros_GSC -> Contiene los parametyros que utiliza el script "DisenoExperimentoGSC***.py"
+
+Nota: El archivo DisenoExperimentoGSC.py es una plantilla, de aqui generas nuevos archivos .py 
+
+
+/Matriz -> Almacena los valores de las matrices de evaluacion de biro, los valores estan acomodados alfabeticamente en la nomenclatura de 
+           una sola letra, la diferencia entre el archivo que dice las siglas de la matriz y la que tiene añadido el "-Ordenada" es el 
+           numero de decimales que utiliza.
+
+
+/SecuenciasConservada -> Aqui contiene las secuencias conservadas del alineamiento multiple de secuencias encontradas de manera exacta.
+                         Al final del nombre del archivo tiene un numero, ese numero indica el tamaño de la secuencia.
+
+
+/SimilitudSSAenAMS -> En la carpeta contiene archivos .txt los cuales contienen informacion de la secuencia sintetica en el alineamiento 
+                      multiple de secuencias, ademas de archivos .fasta que contiene la submatriz extraida del alineamiento multiple.
+
+
+
+Simbologia:
+* = Nombre de la copmputadora
+** = Numero de Genomas
+*** = Nuremo del archivo
+
+

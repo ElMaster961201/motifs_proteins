@@ -121,7 +121,7 @@ if __name__ == "__main__":
     ]
 
     ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
-    ruta = "HomologiaSSAenAMS"
+    ruta = "SimilitudSSAenAMS"
     numHongos = len(hongos)
     tamHongo = len(hongos[0])
 
@@ -145,15 +145,15 @@ if __name__ == "__main__":
 
     for secRef in secsReferencia:
         
-        while os.path.exists(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt"):
+        while os.path.exists(ruta + "/Similitud" + str(conttxt) + ".txt"):
             conttxt = conttxt + 1
             pass
 
         tamSec = len(secRef)
-        file = open(ruta + "/SecuenciaHomogenea" + str(conttxt) + ".txt", "w")
-        file.write("Secuencia homogenea." + os.linesep)
+        file = open(ruta + "/Similitud" + str(conttxt) + ".txt", "w")
+        file.write("Similitud de la secuencia en el alineamiento multiple." + os.linesep)
         file.write(os.linesep)
-        file.write("Las secuencia homogenea tiene un tamano: " + str(tamSec) + os.linesep)
+        file.write("Las secuencia tiene un tamano: " + str(tamSec) + os.linesep)
         file.write("La secuencia sintetica es: " + str(secRef) + os.linesep)
         
         maxhomologo = 0.0
@@ -170,9 +170,9 @@ if __name__ == "__main__":
                 pass
             pass
 
-        file.write("Homologia maxima: " + str(maxhomologo) + os.linesep)
+        file.write("Similitud maxima: " + str(maxhomologo) + os.linesep)
         file.write(os.linesep)
-        file.write("La homologia maxima se encontro entre las columnas " + str(c + 1) + " y " + str(c + tamSec) + os.linesep)
+        file.write("La similitud maxima se encontro entre las columnas " + str(c + 1) + " y " + str(c + tamSec) + os.linesep)
         file.write("Submatriz:" + os.linesep + os.linesep)
         for i in range(numHongos):
             # file.write(str(nombres[i]) + os.linesep)
