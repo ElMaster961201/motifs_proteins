@@ -4,7 +4,7 @@ import sys
 sys.path.append(".")
 
 # Se importa nuestra clase
-from DisenoExperimentoGS.Parametros_GS import ParametrosGS
+from Parametros_GS import ParametrosGS
 from Genetico_Similitud import GeneticoSimilitud
 
 # Se obtrienen los parametros a utilizar de una clase. 
@@ -16,7 +16,6 @@ ruta = "DisenoExperimentoGS/Resultados/Compu/" + str(p[1]) # Ingresa el nombre d
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
-    pass
 
 while t:
     if (os.path.exists(ruta + "/Experimento" + str(cont) + ".txt")):
@@ -81,63 +80,57 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = GeneticoSimilitud(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            # AGS.evaluacionPoblacion()
+            AGS = GeneticoSimilitud(p)
+            AGS.evaluacion_poblacion()
             for i in range(nGeneraciones):
-                print (_ + 1, i + 1)
+                # print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
                 # AGS.torneo()
                 # AGS.ruleta()
                 # AGS.restos()
-                # AGS.estocasticoUniversal()
+                # AGS.estocastico_universal()
 
                 ###### Metodos de Cruzamiento. ######
-                # AGS.cruzamientoMonopunto()
-                # AGS.cruzamientoMultiPunto()
-                # AGS.cruzamientoUniforme()
-                # AGS.cruzamientoAritmetico()
+                # AGS.cruzamiento_monopunto()
+                # AGS.cruzamiento_multipunto()
+                # AGS.cruzamiento_uniforme()
+                # AGS.cruzamiento_aritmetico()
 
                 ###### Metodos de Mutacion. ######
-                # AGS.mutacionUniforme()
-                # AGS.mutacionEstandar()
+                # AGS.mutacion_uniforme()
+                # AGS.mutacion_estandar()
 
                 ###### Metodo de conservacion. ######
                 # AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                # AGS.reemplazoPadres()
-                # AGS.reemplazoAleatorio()
-                # AGS.reemplazoPeorAdaptados()
-                # AGS.reemplazoAdaptacionSimilar()
+                # AGS.reemplazo_padres()
+                # AGS.reemplazo_aleatorio()
+                # AGS.reemplazo_peor_adaptados()
+                # AGS.reemplazo_adaptacion_similar()
                 
-                # AGS.evaluacionPoblacion()
-                pass
+                # AGS.evaluacion_poblacion()
             finishTimeexperimento = time() - startTimeExperimento
 
-            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tamPoblacion) + os.linesep)
+            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tam_poblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)
             mejor = AGS.mejor
             file.write("Individuo " + str(mejor[0]) + os.linesep)
             file.write("Fits " + str(mejor[1]) + os.linesep)
             file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
             file.write("Las secuencias encontradas son: " + os.linesep)
-            k = AGS.secuenciaAdaptacion(AGS.mejor[0])
-            for j in range(AGS.numHongos):
+            k = AGS.secuencia_adaptacion(AGS.mejor[0])
+            for j in range(AGS.num_hongos):
                 if k[j][1] > 5:
                     file.write("Hongo " + str(j + 1) + os.linesep)
                     file.write("Secuencia: " + str(k[j][0]) + os.linesep)
                     file.write("Compatibilidad: " + str(k[j][1]) + os.linesep)
                     file.write("Inicio: " + str(AGS.mejor[0][j]) + os.linesep)
-                    pass
-                pass
             file.write(os.linesep)
             file.write("La repeticion " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
-            pass
         file.write(os.linesep)
         file.write(os.linesep)
         finishTimeTotal = time() - startTimeTotal
         t = False
-        pass
-    pass
 file.write("El experimento N° " + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
 file.close()

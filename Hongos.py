@@ -20,10 +20,12 @@ class Hongos(object):
 	file 
 	"""
 
-	"""Inicializacion"""
-	def __init__(self,archivo = "Mul.fasta"):
+	nombre_archivo = "Mul.fasta"
 
-		self.hongos = []
+	"""Inicializacion"""
+	def __init__(self,archivo = nombre_archivo):
+
+		self.lista_hongos = []
 		self.nombres = []
 		self.hongo = ""
 		self.file = open(archivo, "r").readlines()
@@ -31,32 +33,30 @@ class Hongos(object):
 
 		for l in self.file:
 			if l[0] == '>':
-				self.hongos.append(self.hongo)
+				self.lista_hongos.append(self.hongo)
 				self.hongo = ""
 				self.nombres.append(l[:len(l) - 1])
 				continue
 			self.hongo = self.hongo + l[:len(l) - 1]
-			pass
 		self.hongo = ""
 		
-	def matrizHongos(self,archivo = "Mul.fasta"):
+	def matriz_hongos(self,archivo = nombre_archivo):
 
-		self.hongos = []
+		self.lista_hongos = []
 		self.hongo = ""
 		self.file = open(archivo, "r").readlines()
 		self.file = self.file[1:]
 
 		for l in self.file:
 			if l[0] == '>':
-				self.hongos.append(self.hongo)
+				self.lista_hongos.append(self.hongo)
 				self.hongo = ""
 				continue
 			self.hongo = self.hongo + l[:len(l) - 1]
-			pass
 		self.hongo = ""
-		return self.hongos
+		return self.lista_hongos
 	
-	def listaNombres(self, archivo = "./Mul.fasta"):
+	def lista_nombres(self, archivo = nombre_archivo):
 		self.nombres = []
 		self.file = open(archivo, "r").readlines()
 		self.file = self.file[1:]
@@ -64,26 +64,23 @@ class Hongos(object):
 		for l in self.file:
 			if l[0] == '>':
 				self.nombres.append(l[:len(l) - 1])
-			pass
 		return self.nombres
 
 if __name__ == "__main__":
 	archivo = "Mul.fasta"
-	hongos = []
+	lista_hongos = []
 	nombres = []
 	hongo = ""
 	file = open(archivo, "r").readlines()
 	file = file[1:]
 	for l in file:
 		if l[0] == '>':
-			hongos.append(hongo)
+			lista_hongos.append(hongo)
 			hongo = ""
 			nombres.append(l[:len(l) - 1])
 			continue
 		hongo = hongo + l[:len(l) - 1]
-		pass
 	hongo = ""
-	for i in range(len(hongos)):
+	for i in range(len(lista_hongos)):
 		print(nombres[i])
-		print (hongos[i][1212:1219])
-pass
+		print (lista_hongos[i][1212:1219])

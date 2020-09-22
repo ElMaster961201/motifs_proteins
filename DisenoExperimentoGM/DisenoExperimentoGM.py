@@ -5,7 +5,7 @@ sys.path.append(".")
 
 # Se importa nuestra clase
 from Genetico_Motifs import GeneticoMotifs
-from DisenoExperimentoGM.Parametros_GM import ParametrosGM 
+from Parametros_GM import ParametrosGM 
 
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGM().parametros()
@@ -16,7 +16,6 @@ ruta = "DisenoExperimentoGM/Resultados/Compu/" + str(p[1]) # Ingresa el nombre d
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
-    pass
 
 while t:
     if (os.path.exists(ruta + "/Experimento" + str(cont) + ".txt")):
@@ -25,7 +24,7 @@ while t:
         startTimeTotal = time ()
 
         file = open(ruta + "/Experimento" + str(cont) + ".txt","w")
-        file.write("Experimento v0.0."+ str(cont) + os.linesep)
+        file.write("Experimento v0.1."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
         file.write("Tamano de la poblacion: " + str(p[0]) + os.linesep)
@@ -58,7 +57,7 @@ while t:
         # file.write("Monopunto" + os.linesep)
         # file.write("Multipunto" + os.linesep)
         # file.write("Cruzamiento Uniforme" + os.linesep)
-
+        
         file.write("Metodo de mutacion: ")
         ###### Metodos de Mutacion. ######
         # file.write("Mutacion Uniforme" + os.linesep)
@@ -67,7 +66,7 @@ while t:
         file.write("Metodo de consevacion: ")
         ###### Metodo de conservacion. ######
         # file.write("Elitismo" + os.linesep)
-        
+
         file.write("Metodo de paso de generacion: ")
         ###### Metodo de Paso de Generacion. ######
         # file.write("Reemplazo de Padres" + os.linesep)
@@ -82,39 +81,38 @@ while t:
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGS = GeneticoMotifs(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            # AGS.evaluacionPoblacion(p[10])
+            AGS = GeneticoMotifs(p)
+            AGS.evaluacion_poblacion()
             for i in range(nGeneraciones):
-                print (_ + 1, i + 1)
+                print(_ + 1, i)
                 ##### Metodos de Seleccion. ######
                 # AGS.torneo()
                 # AGS.ruleta()
                 # AGS.restos()
-                # AGS.estocasticoUniversal()
+                # AGS.estocastico_universal()
 
                 ###### Metodos de Cruzamiento. ######
-                # AGS.cruzamientoMonopunto()
-                # AGS.cruzamientoMultiPunto()
-                # AGS.cruzamientoUniforme()
+                # AGS.cruzamiento_monopunto()
+                # AGS.cruzamiento_multipunto()
+                # AGS.cruzamiento_uniforme()
 
                 ###### Metodos de Mutacion. ######
-                # AGS.mutacionUniforme()
-                # AGS.mutacionEstandar()
+                # AGS.mutacion_uniforme()
+                # AGS.mutacion_estandar()
 
                 ###### Metodo de conservacion. ######
                 # AGS.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                # AGS.reemplazoPadres()
-                # AGS.reemplazoAleatorio()
-                # AGS.reemplazoPeorAdaptados()
-                # AGS.reemplazoAdaptacionSimilar()
+                # AGS.reemplazo_padres()
+                # AGS.reemplazo_aleatorio()
+                # AGS.reemplazo_peor_adaptados()
+                # AGS.reemplazo_adaptacion_similar()
                 
-                # AGS.evaluacionPoblacion(p[10])
-                pass
+                # AGS.evaluacion_poblacion()
             finishTimeexperimento = time() - startTimeExperimento
 
-            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tamPoblacion) + os.linesep)
+            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tam_poblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)
             mejor = AGS.mejor
             file.write("Individuo " + str(mejor[0]) + os.linesep)
@@ -123,14 +121,12 @@ while t:
             totalGen = totalGen + mejor[2]
             file.write("La repeticion " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
             totalfits = mejor[1] + totalfits
-            pass
+            
         file.write(os.linesep)
         file.write(os.linesep)
         file.write("El Fit promedio del mejor individuo obtenido es: " + str(float(totalfits)/nRepeticiones) + os.linesep)
         file.write("El promedio de generaciones que se mantiene el mejor individuo es: " + str(float(totalGen)/nRepeticiones) + os.linesep)
         finishTimeTotal = time() - startTimeTotal
         t = False
-        pass
-    pass
 file.write("El experimento N° " + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
 file.close()

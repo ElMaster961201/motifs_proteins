@@ -13,11 +13,9 @@ class ParametrosGS(object):
     ['W', 'W', 'F', 'G', 'R', 'D', 'C', 'A', 'M', 'M', 'Y', 'A', 'F', 'K', 'M', 'Y', 'P', 'L', 'P', 'R', 'W', 'G', 'Y', 'L', 'N', 'I', 'Q', 'A', 'R', 'K']                  # secuenciaSintetica  -> 9
     ]
 
-    nGeneraciones = 1000
-    nRepeticiones = 30 
-    
+    n_generaciones = 1000
+    n_repeticiones = 30 
 
     def parametros(self):
-        return self.p,self.nGeneraciones,self.nRepeticiones
+        return self.p,self.n_generaciones,self.n_repeticiones
         
-    pass

@@ -76,29 +76,26 @@ class Motifs(object):
 	]	
 
 	# Funcion con la que se general la matriz de HCI
-	def generaHCI(self, A, B):
-		hci = 20 - abs(((self.HM[A] - self.HM[B]) * 19)/10.6)
+	def genera_hci(self, a, b):
+		hci = 20 - abs(((self.HM[a] - self.HM[b]) * 19)/10.6)
 		return hci
 
 	# Funcion con la que se general la matriz de CCI
-	def generaCCI(self, A, B):
-		cci = 11 - (((self.pl[A] -7 ) * (self.pl[B] - 7) * 19)/33.8)
+	def genera_cci(self, a, b):
+		cci = 11 - (((self.pl[a] -7 ) * (self.pl[b] - 7) * 19)/33.8)
 		return cci
 
 	# Funcion con la que se general la matriz de SCI
-	def generaSCI(self, A, B):
-		sci = 20 - abs((((self.MW[A] + self.MW[B]) - 118.4825) * 19)/253.9373)
+	def genera_sci(self, a, b):
+		sci = 20 - abs((((self.MW[a] + self.MW[b]) - 118.4825) * 19)/253.9373)
 		return sci 
 
-	def imprimeMatrix(self, Matrix):
-		for y in Matrix:
+	def imprime_matrix(self, matrix):
+		for y in matrix:
 			print("[", end = "")
 			for x in y:
 				print('{0:.3f}'.format(x), end = ",")
-				pass
 			print("]")
-			pass
-		pass
 
 	def __init__(self):
 
@@ -111,17 +108,15 @@ class Motifs(object):
 			aux2 = []
 			aux3 = []
 			for y in range(20):
-				aux1.append(self.generaSCI(x, y))
-				aux2.append(self.generaCCI(x, y))
-				aux3.append(self.generaHCI(x, y))
-				pass
+				aux1.append(self.genera_sci(x, y))
+				aux2.append(self.genera_cci(x, y))
+				aux3.append(self.genera_hci(x, y))
 			self.SCIM.append(aux1)
 			self.CCIM.append(aux2)
 			self.HCIM.append(aux3)
-			pass
 
 	# Funcion que devuelve las matrices guia. 
-	def SCICCIHCI(self):
+	def sciccihci(self):
 
 		self.HCIM = []
 		self.CCIM = []
@@ -132,14 +127,12 @@ class Motifs(object):
 			aux2 = []
 			aux3 = []
 			for y in range(20):
-				aux1.append(self.generaSCI(x, y))
-				aux2.append(self.generaCCI(x, y))
-				aux3.append(self.generaHCI(x, y))
-				pass
+				aux1.append(self.genera_sci(x, y))
+				aux2.append(self.genera_cci(x, y))
+				aux3.append(self.genera_hci(x, y))
 			self.SCIM.append(aux1)
 			self.CCIM.append(aux2)
 			self.HCIM.append(aux3)
-			pass
 		return self.SCIM, self.CCIM, self.HCIM
 
 # Cuando el programa es el principal.
@@ -149,7 +142,6 @@ if __name__ == "__main__":
 
 	if not os.path.exists("Matriz"):
 		os.makedirs("Matriz")
-		pass	
 
 	file = open("Matriz/SCIM-Ordenada.txt", "w")
 	file2 = open("Matriz/SCIM.txt", "w")
@@ -161,7 +153,6 @@ if __name__ == "__main__":
 				file.write(", ")
 			file.write(str("{:07.4f}".format(y)))
 			val = True
-			pass
 		file.write("]" + os.linesep)
 		val = False
 		file2.write(str(x) + os.linesep)
@@ -179,7 +170,6 @@ if __name__ == "__main__":
 				file.write(", ")
 			file.write(str("{:07.4f}".format(y)))
 			val = True
-			pass
 		file.write("]" + os.linesep)
 		val = False
 		file2.write(str(x) + os.linesep)
@@ -197,12 +187,9 @@ if __name__ == "__main__":
 				file.write(", ")
 			file.write(str("{:07.4f}".format(y)))
 			val = True
-			pass
 		file.write("]" + os.linesep)
 		val = False
 		file2.write(str(x) + os.linesep)
 
 	file.close()
 	file2.close()
-
-	pass

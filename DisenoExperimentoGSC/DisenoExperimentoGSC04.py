@@ -1,22 +1,21 @@
 import os 
 from time import time
 import sys
-sys.path.append("..")
+sys.path.append(".")
 
 # Se importa nuestra clase
 from Genetico_SecuenciaConservada import GeneticoSecuenciaConservada
-from DisenoExperimentoGSC.Parametros_GSC import ParametrosGSC
+from Parametros_GSC import ParametrosGSC
 
 # Se obtrienen los parametros a utilizar de una clase. 
 p,nGeneraciones,nRepeticiones = ParametrosGSC().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGSC/Resultados/Compu" + str(p[1]) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGSC/Resultados/Compu/" + str(p[1]) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
-    pass
 
 while t:
     if (os.path.exists(ruta + "/Experimento" + str(cont) + ".txt")):
@@ -47,22 +46,15 @@ while t:
         # Cambiar segun la prueba
         file.write("Metodo de seleccion: ")
         ##### Metodos de Seleccion. ######
-        # file.write("Torneo" + os.linesep)
-        # file.write("Ruleta" + os.linesep)
-        # file.write("Restos" + os.linesep)
         file.write("Estocastico Universal" + os.linesep)
         
         file.write("Metodo de cruzamiento: ")
         ###### Metodos de Cruzamiento. ######
         file.write("Monopunto" + os.linesep)
-        # file.write("Multipunto" + os.linesep)
-        # file.write("Cruzamiento Uniforme" + os.linesep)
-        # file.write("Cruzamiento Aritmetico" + os.linesep)
         
         file.write("Metodo de mutacion: ")
         ###### Metodos de Mutacion. ######
         file.write("Mutacion Uniforme" + os.linesep)
-        # file.write("Mutacion Estandar" + os.linesep)
         
         file.write("Metodo de consevacion: ")
         ###### Metodo de conservacion. ######
@@ -71,67 +63,49 @@ while t:
         file.write("Metodo de paso de generacion: ")
         ###### Metodo de Paso de Generacion. ######
         file.write("Reemplazo de Padres" + os.linesep)
-        # file.write("Reemplazo Aleatorio" + os.linesep)
-        # file.write("Reemplazo de los Peor Adaptados" + os.linesep)
-        # file.write("Reemplazo de Adaptacion Similar" + os.linesep)
 
         for _ in range(nRepeticiones):
             print ("Repeticion ",_ + 1)
             startTimeExperimento = time ()
             file.write(os.linesep)
             file.write("Los resultados obtenidos en la repeticion " + str(_ + 1 ) + os.linesep)
-            AGSC = GeneticoSecuenciaConservada(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8],p[9])
-            AGSC.evaluacionPoblacion()
+            AGSC = GeneticoSecuenciaConservada(p)
+            AGSC.evaluacion_poblacion()
             for i in range(nGeneraciones):
                 # print (_ + 1, i + 1)
                 ##### Metodos de Seleccion. ######
-                # AGSC.torneo()
-                # AGSC.ruleta()
-                # AGSC.restos()
-                AGSC.estocasticoUniversal()
+                AGSC.estocastico_universal()
 
                 ###### Metodos de Cruzamiento. ######
-                AGSC.cruzamientoMonopunto()
-                # AGSC.cruzamientoMultiPunto()
-                # AGSC.cruzamientoUniforme()
-                # AGSC.cruzamientoAritmetico()
+                AGSC.cruzamiento_monopunto()
 
                 ###### Metodos de Mutacion. ######
-                AGSC.mutacionUniforme()
-                # AGSC.mutacionEstandar()
+                AGSC.mutacion_uniforme()
 
                 ###### Metodo de conservacion. ######
                 AGSC.elitismo()
 
                 ###### Metodo de Paso de Generacion. ######
-                AGSC.reemplazoPadres()
-                # AGSC.reemplazoAleatorio()
-                # AGSC.reemplazoPeorAdaptados()
-                # AGSC.reemplazoAdaptacionSimilar()
+                AGSC.reemplazo_padres()
                 
-                AGSC.evaluacionPoblacion()
-                pass
+                AGSC.evaluacion_poblacion()
             finishTimeexperimento = time() - startTimeExperimento
 
-            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGSC.adaptacion))/AGSC.tamPoblacion) + os.linesep)
+            file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGSC.adaptacion))/AGSC.tam_poblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)
             mejor = AGSC.mejor
             file.write("Individuo " + str(mejor[0]) + os.linesep)
             file.write("Fits " + str(mejor[1]) + os.linesep)
             file.write("El mejor individuo se mantuvo " + str(mejor[2]) + " Generaciones" + os.linesep)
             file.write("Las secuencias consenso son: " + os.linesep)
-            k = AGSC.secuenciaAdaptacion(AGSC.mejor[0])
-            for j in range(AGSC.numSecuenciasConservadas):
+            k = AGSC.secuencia_adaptacion(AGSC.mejor[0])
+            for j in range(AGSC.num_secuencias_conservadas):
                 file.write(str(k[j][0]) + " " + str(k[j][1]) + " " + str(AGSC.mejor[0][j]) + os.linesep)
-                pass
             file.write(os.linesep)
             file.write("La repeticion " + str(_ + 1) + " hizo un tiempo de %.10f Segundos" %finishTimeexperimento + os.linesep)
-            pass
         file.write(os.linesep)
         file.write(os.linesep)
         finishTimeTotal = time() - startTimeTotal
         t = False
-        pass
-    pass
 file.write("El experimento N° " + str(cont) + " hizo un tiempo total de %.10f Segundos" %finishTimeTotal + os.linesep)
 file.close()
