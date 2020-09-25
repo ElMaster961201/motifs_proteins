@@ -183,6 +183,13 @@ e_e = [pmm, fsim, fsdm]
 
 g_g = [pmfm, fsifm, fsdfm]
 
+#pmfm [mutacion puntual de subtitución] aquí solo se subtituye directo 
+#fsifm [mutación puntual de inserción] una vez que se haya realizado la mutación en x, generar la mutación para cada 
+# a la derecha de esta 
+#fsdfm [mutación puntual de deleción] una vez que se haya realizado la mutación en x, generar la mutación para cada 
+# a la derecha de esta 
+
+
 
 for i in range(0, 3):
     uu = m_m[i]
@@ -303,8 +310,8 @@ def random_mutation(mut_prob):
     x = random.random()
 
     for i in range (0, (len(mut_prob))):
-        print(mut_prob[i][0])
-        print('random', x)
+        # print(mut_prob[i][0])
+        # print('random', x)
 
         if (x < mut_prob[i][0]):
             # aa_mut.append(mut_prob[i][1])
@@ -324,3 +331,5 @@ for i in range (0,3):
 
 prob_tuple(i,j,pmfm)
 random_mutation(mut_prob)
+
+print(g_g)
