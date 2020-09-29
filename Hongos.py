@@ -1,7 +1,6 @@
 import random as rm
 import os
 
-
 class Hongos(object):
 
 	"""
@@ -23,7 +22,7 @@ class Hongos(object):
 	nombre_archivo = "Mul.fasta"
 
 	"""Inicializacion"""
-	def __init__(self,archivo = nombre_archivo):
+	def __init__(self, archivo = nombre_archivo):
 
 		self.lista_hongos = []
 		self.nombres = []
@@ -40,7 +39,7 @@ class Hongos(object):
 			self.hongo = self.hongo + l[:len(l) - 1]
 		self.hongo = ""
 		
-	def matriz_hongos(self,archivo = nombre_archivo):
+	def matriz_hongos(self, archivo = nombre_archivo):
 
 		self.lista_hongos = []
 		self.hongo = ""

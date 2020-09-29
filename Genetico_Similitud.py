@@ -400,7 +400,7 @@ class GeneticoSimilitud(object):
 
 	# Mutacion uniforme.
 	def mutacion_uniforme(self):
-		pm = (self.pro_mutacion * 10)/float(self.num_genomas)
+		pm = float(self.pro_mutacion/float(self.num_genomas)) 
 		for i in range(self.tam_poblacion):
 			for x in range(self.num_hongos):
 				r = random.random()
