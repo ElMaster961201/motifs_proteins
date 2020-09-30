@@ -3,8 +3,8 @@ class ParametrosGM(object):
     p = [
     300, # tamPoblacion -> 0
     10, # numGenomas -> 1
-    0.1, # proMutacion -> 2 
-    2, # canMutacion -> 3
+    100, # proMutacion -> 2 
+    15, # canMutacion -> 3
     1, # numElitismo -> 4
     4, # eunumero -> 5
     3, # tamTorneo -> 6
