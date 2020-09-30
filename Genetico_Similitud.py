@@ -34,7 +34,6 @@ class GeneticoSimilitud(object):
 		torneo_simple
 		restos_simple
 		elitismo_simple
-		elitismo_simple_nueva_poblacion
 
 		##### Metodos de Seleccion. ##############################
 		ruleta
@@ -64,9 +63,7 @@ class GeneticoSimilitud(object):
 	"""
 
 	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
-	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 
-			  'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20 }
-	hongos = HG().matriz_hongos()
+	_hongos = HG().matriz_hongos()
 		
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, parametros = [100,30,0.1,2,1,4,4,500,0.6,None]):
@@ -83,8 +80,8 @@ class GeneticoSimilitud(object):
 			self.secuencia_sintetica = list()
 		else:
 			self.secuencia_sintetica = parametros[9]
-		self.num_hongos = len(self.hongos)
-		self.long_hongo = len(self.hongos[0])
+		self.num_hongos = len(self._hongos)
+		self.long_hongo = len(self._hongos[0])
         # Inicializacion de la poblacion.
 		self.poblacion = [[random.randrange(self.num_hongos - self.num_genomas) for _ in range(self.num_hongos)] for _ in range(self.tam_poblacion)]
 		self.contador = [[0 for _ in range(self.long_hongo - self.num_genomas)] for _ in range(self.num_hongos)]
@@ -92,7 +89,7 @@ class GeneticoSimilitud(object):
 			for c in range(self.long_hongo - self.num_genomas):
 				cont = 0
 				for i in range(self.num_genomas):
-					if self.secuencia_sintetica[i] == self.hongos[p][c + i]:
+					if self.secuencia_sintetica[i] == self._hongos[p][c + i]:
 						cont = cont + 1
 				self.contador[p][c] = cont
 		self.nuevapoblacion = []
@@ -102,10 +99,10 @@ class GeneticoSimilitud(object):
 
 	###### Funcion que inicializa la poblacion ######
 
-	###### Funciones Auxiliares. ###### 
+	###### Funciones Privadas. ###### 
 
 	#### Ruleta simple.
-	def ruleta_simple(self):
+	def _ruleta_simple(self):
 		
 		total = sum(self.adaptacion)
 
@@ -119,7 +116,7 @@ class GeneticoSimilitud(object):
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocastico_universal_simple(self, eunumeros = 4):
+	def _estocastico_universal_simple(self, eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -136,7 +133,7 @@ class GeneticoSimilitud(object):
 		return ind
 
 	### Torneo simple
-	def torneo_simple(self, tam_torneo = 4):
+	def _torneo_simple(self, tam_torneo = 4):
 		
 		num = []
 
@@ -153,7 +150,7 @@ class GeneticoSimilitud(object):
 		return self.poblacion[ind]
 
 	### Muestreo por Restos simple.
-	def restos_simple(self, num_restos = 500):
+	def _restos_simple(self, num_restos = 500):
 
 		# Toma la seleccion por restos
 		ind = []
@@ -165,9 +162,9 @@ class GeneticoSimilitud(object):
 		if len(ind) < self.tam_poblacion:
 
 			fun = [
-					lambda _: self.estocastico_universal_simple(1),
-					lambda _: self.ruleta_simple(),
-					lambda _: self.torneo_simple(self.tam_torneo)
+					lambda _: self._estocastico_universal_simple(1),
+					lambda _: self._ruleta_simple(),
+					lambda _: self._torneo_simple(self.tam_torneo)
 					]
 
 			for _ in range(len(ind), self.tam_poblacion):
@@ -179,7 +176,7 @@ class GeneticoSimilitud(object):
 		return ind[:self.tam_poblacion]
 
 	### Elitismo simple.
-	def elitismo_simple(self, num_elitismo = 10):
+	def _elitismo_simple(self, num_elitismo = 10):
 		
 		mayor_menor_fits = self.adaptacion[:]
 		mayor_menor_index = []
@@ -194,33 +191,22 @@ class GeneticoSimilitud(object):
 
 		return mayor_menor_index[:num_elitismo]
 
-	### Elitismo simple de la nueva poblacion.
-	def elitismo_simple_nueva_poblacion(self, num_elitismo = 10):
-		
-		mayor_menor_fits = self.adaptacionnuevapoblacion[:]
-		mayor_menor_index = []
-
-		# Se evita valores repetidos.
-		mayor_menor_fits = list(set(mayor_menor_fits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayor_menor_fits)):
-			mayor_menor_index.append(self.adaptacionnuevapoblacion.index(max(mayor_menor_fits)))
-			mayor_menor_fits.remove(max(mayor_menor_fits))
-
-		return mayor_menor_index[:num_elitismo]
-
+	###### Funciones Privadas. Fin ###### 
+	
+	###### Funciones Auxiliares. ###### 
+	
+	### Secuencia de Adaptacion.
 	def secuencia_adaptacion(self, individuo):
 		result = []
 		for h in range(self.num_hongos):
 			secuencia = []
 			total = 0.0
-			secuencia = self.hongos[h][individuo[h]: individuo[h] + self.num_genomas]
+			secuencia = self._hongos[h][individuo[h]: individuo[h] + self.num_genomas]
 			total = float(self.contador[h][individuo[h]])
 			result.append([secuencia, total])
 		return result
 
-	###### Funciones Auxiliares. ######
+	###### Funciones Auxiliares. Fin ######
 
 	###### Metodo de evaluacion de la poblacion. ######
 
@@ -272,20 +258,20 @@ class GeneticoSimilitud(object):
 
 		# Toma la seleccion por ruleta.
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.ruleta_simple())
+			self.nuevapoblacion.append(self._ruleta_simple())
 
 	# Muestreo estocastico universal.
 	def estocastico_universal(self):
 
 		# Ciclo para valores enteros del tam_poblacion/eunumeros
 		for _ in range(self.tam_poblacion // self.eunumeros):
-			ind = self.estocastico_universal_simple(self.eunumeros)
+			ind = self._estocastico_universal_simple(self.eunumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 	
 		# Ciclo para el residuo obtenido de tam_poblacion/eunumeros
 		res_k = (self.tam_poblacion % self.eunumeros)
-		ind = self.estocastico_universal_simple(res_k)
+		ind = self._estocastico_universal_simple(res_k)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -294,13 +280,13 @@ class GeneticoSimilitud(object):
 
 		# Toma la seleccion por toneo
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.torneo_simple(self.tam_torneo))
+			self.nuevapoblacion.append(self._torneo_simple(self.tam_torneo))
 
 	# Muestreo por restos. 
 	def restos(self):
 
 		# Toma la seleccion por restos
-		ind = self.restos_simple(self.num_restos)
+		ind = self._restos_simple(self.num_restos)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -405,7 +391,7 @@ class GeneticoSimilitud(object):
 			for x in range(self.num_hongos):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.num_genomas)
+					self.nuevapoblacion[i][x] = random.randrange(len(self._hongos[0]) - self.num_genomas)
 
 	# Mutacion estandar.
 	def mutacion_estandar(self):
@@ -417,7 +403,7 @@ class GeneticoSimilitud(object):
 					if not (punto in mut):
 						mut.append(punto)
 				for x in mut:
-					self.nuevapoblacion[i][x] = random.randrange(len(self.hongos[0]) - self.num_genomas)
+					self.nuevapoblacion[i][x] = random.randrange(len(self._hongos[0]) - self.num_genomas)
 	
 	###### Mutación Fin ######
 
@@ -426,7 +412,7 @@ class GeneticoSimilitud(object):
 	# Elitismo.
 	def elitismo(self):
 		# Obtiene de mayor a menor los indices de los individuos. 
-		index = self.elitismo_simple(self.num_elitismo)
+		index = self._elitismo_simple(self.num_elitismo)
 		self.evaluacion_nueva_poblacion()
 
 		aux = self.adaptacionnuevapoblacion[:]

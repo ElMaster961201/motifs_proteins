@@ -167,22 +167,6 @@ class GeneticoMotifs(object):
 
 		return mayor_menor_index[:num_elitismo]
 
-	### Elitismo simple de la nueva poblacion.
-	def elitismo_simple_nueva_poblacion(self, num_elitismo = 10):
-		
-		mayor_menor_fits = self.adaptacionnuevapoblacion[:]
-		mayor_menor_index = []
-
-		# Se evita valores repetidos.
-		mayor_menor_fits = list(set(mayor_menor_fits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayor_menor_fits)):
-			mayor_menor_index.append(self.adaptacionnuevapoblacion.index(max(mayor_menor_fits)))
-			mayor_menor_fits.remove(max(mayor_menor_fits))
-
-		return mayor_menor_index[:num_elitismo]
-
 	### Mutacion estandar biologica Sustitucion
 	def _mutacion_estandar_biologica_sustitucion(self, x, genoma ):
 		"""

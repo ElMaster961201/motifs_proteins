@@ -65,8 +65,8 @@ class GeneticoSecuenciaConservada(object):
 	"""
 
 	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
-	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20 }
-	hongos = HG().matriz_hongos()
+	_index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20 }
+	_hongos = HG().matriz_hongos()
 		
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, parametros = [100,30,20,0.1,2,1,4,4,500,0.6]):
@@ -82,12 +82,12 @@ class GeneticoSecuenciaConservada(object):
 		self.pro_cruce = parametros[9]
 		self.con_sec = []
         # Inicializamos el contador.
-		self.contador = [[0 for _ in range(len(self.index))] for _ in range(len(self.hongos[0]))]
-		for i in range(len(self.hongos[0])):
-			for j in range(len(self.hongos)):
-				self.contador[i][self.index[self.hongos[j][i]]] = self.contador[i][self.index[self.hongos[j][i]]] + 1
+		self.contador = [[0 for _ in range(len(self._index))] for _ in range(len(self._hongos[0]))]
+		for i in range(len(self._hongos[0])):
+			for j in range(len(self._hongos)):
+				self.contador[i][self._index[self._hongos[j][i]]] = self.contador[i][self._index[self._hongos[j][i]]] + 1
 
-		for i in range(len(self.hongos[0]) - self.num_genomas):
+		for i in range(len(self._hongos[0]) - self.num_genomas):
 			sec = []
 			sum_sec_con = 0.0
 			for am in range(self.num_genomas):
@@ -96,23 +96,23 @@ class GeneticoSecuenciaConservada(object):
 					self.contador[i + am].pop(index)
 					index = self.contador[i + am].index(max(self.contador[i + am]))
 				sum_sec_con = sum_sec_con + max(self.contador[i + am])
-				sec.append(list(self.index.keys())[index])
-			self.con_sec.append([sec, 100 * float(sum_sec_con)/(self.num_genomas * len(self.hongos) * self.num_secuencias_conservadas)])
+				sec.append(list(self._index.keys())[index])
+			self.con_sec.append([sec, 100 * float(sum_sec_con)/(self.num_genomas * len(self._hongos) * self.num_secuencias_conservadas)])
 
         # Inicializacion de la poblacion.
 		self.poblacion = []
-		self.poblacion = [[self.valida_poblacion(self.poblacion, random.randrange(len(self.hongos[0]) - self.num_genomas)) for _ in range(self.num_secuencias_conservadas)] for _ in range(self.tam_poblacion)]
+		self.poblacion = [[self._valida_poblacion(self.poblacion, random.randrange(len(self._hongos[0]) - self.num_genomas)) for _ in range(self.num_secuencias_conservadas)] for _ in range(self.tam_poblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[], 0.0, 0]
 		self.adaptacion = []
 		self.adaptacionnuevaploblacion = []
 
-	###### Funcion que inicializa la poblacion ######
+	###### Funcion que inicializa la poblacion. Fin ######
 
-	###### Funciones Auxiliares. ###### 
+	###### Funciones Privadas. ###### 
 
 	#### Ruleta simple.
-	def ruleta_simple(self):
+	def _ruleta_simple(self):
 		
 		total = sum(self.adaptacion)
 
@@ -126,7 +126,7 @@ class GeneticoSecuenciaConservada(object):
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocastico_universal_simple(self, eunumeros = 4):
+	def _estocastico_universal_simple(self, eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -143,7 +143,7 @@ class GeneticoSecuenciaConservada(object):
 		return ind
 
 	### Torneo simple
-	def torneo_simple(self, tam_torneo = 4):
+	def _torneo_simple(self, tam_torneo = 4):
 		
 		num = []
 
@@ -160,7 +160,7 @@ class GeneticoSecuenciaConservada(object):
 		return self.poblacion[ind]
 
 	### Muestreo por Restos simple.
-	def restos_simple(self, num_restos = 500):
+	def _restos_simple(self, num_restos = 500):
 
 		# Toma la seleccion por restos
 		ind = []
@@ -172,9 +172,9 @@ class GeneticoSecuenciaConservada(object):
 		if len(ind) < self.tam_poblacion:
 
 			fun = [
-					lambda _: self.estocastico_universal_simple(1),
-					lambda _: self.ruleta_simple(),
-					lambda _: self.torneo_simple(self.tam_torneo)
+					lambda _: self._estocastico_universal_simple(1),
+					lambda _: self._ruleta_simple(),
+					lambda _: self._torneo_simple(self.tam_torneo)
 					]
 
 			for _ in range(len(ind), self.tam_poblacion):
@@ -186,7 +186,7 @@ class GeneticoSecuenciaConservada(object):
 		return ind[:self.tam_poblacion]
 
 	### Elitismo simple.
-	def elitismo_simple(self, num_elitismo = 10):
+	def _elitismo_simple(self, num_elitismo = 10):
 		
 		mayor_menor_fits = self.adaptacion[:]
 		mayor_menor_index = []
@@ -201,37 +201,26 @@ class GeneticoSecuenciaConservada(object):
 
 		return mayor_menor_index[:num_elitismo]
 
-	### Elitismo simple de la nueva poblacion.
-	def elitismo_simple_nueva_poblacion(self, num_elitismo = 10):
-		
-		mayor_menor_fits = self.adaptacionnuevapoblacion[:]
-		mayor_menor_index = []
-
-		# Se evita valores repetidos.
-		mayor_menor_fits = list(set(mayor_menor_fits))
-		
-		# Se ordena los valores de mayor a menor.
-		for _ in range(len(mayor_menor_fits)):
-			mayor_menor_index.append(self.adaptacionnuevapoblacion.index(max(mayor_menor_fits)))
-			mayor_menor_fits.remove(max(mayor_menor_fits))
-
-		return mayor_menor_index[:num_elitismo]
-
 	### Validacion de la poblacion para evitar genomas repetidos.
-	def valida_poblacion(self, individuo, genoma):
+	def _valida_poblacion(self, individuo, genoma):
 		t = True
 		ind = 0
 		while t:
 			for i in individuo:
 				ind = ind + 1
 				if (genoma > i - self.num_genomas and genoma < i + self.num_genomas):
-					genoma = random.randrange(len(self.hongos[0]) - self.num_genomas)
+					genoma = random.randrange(len(self._hongos[0]) - self.num_genomas)
 					ind = 0
 					break
 			if (ind == len(individuo)):
 				t = False
 		return genoma 
 
+	###### Funciones Privadas. Fin ###### 
+
+	###### Funciones Auxiliares. ###### 
+	
+	### Secuencia de Adaptacion.
 	def secuencia_adaptacion(self, individuo):
 		result = []
 		for ind in individuo:
@@ -243,12 +232,12 @@ class GeneticoSecuenciaConservada(object):
 					self.contador[i + ind].pop(index)
 					index = self.contador[i + ind].index(max(self.contador[i + ind]))
 				total = total + max(self.contador[i + ind])
-				secuencia.append(list(self.index.keys())[index])
-			total = 100 * float(total)/(self.num_genomas * len(self.hongos))
+				secuencia.append(list(self._index.keys())[index])
+			total = 100 * float(total)/(self.num_genomas * len(self._hongos))
 			result.append([secuencia, total])
 		return result
 
-	###### Funciones Auxiliares. ######
+	###### Funciones Auxiliares. Fin ######
 
 	###### Metodo de evaluacion de la poblacion. ######
 
@@ -298,20 +287,20 @@ class GeneticoSecuenciaConservada(object):
 
 		# Toma la seleccion por ruleta.
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.ruleta_simple())
+			self.nuevapoblacion.append(self._ruleta_simple())
 
 	# Muestreo estocastico universal.
 	def estocastico_universal(self):
 
 		# Ciclo para valores enteros del tam_poblacion/eunumeros
 		for _ in range(self.tam_poblacion // self.eunumeros):
-			ind = self.estocastico_universal_simple(self.eunumeros)
+			ind = self._estocastico_universal_simple(self.eunumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 	
 		# Ciclo para el residuo obtenido de tam_poblacion/eunumeros
 		res_k = (self.tam_poblacion % self.eunumeros)
-		ind = self.estocastico_universal_simple(res_k)
+		ind = self._estocastico_universal_simple(res_k)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -320,13 +309,13 @@ class GeneticoSecuenciaConservada(object):
 
 		# Toma la seleccion por toneo
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.torneo_simple(self.tam_torneo))
+			self.nuevapoblacion.append(self._torneo_simple(self.tam_torneo))
 
 	# Muestreo por restos. 
 	def restos(self):
 
 		# Toma la seleccion por restos
-		ind = self.restos_simple(self.num_restos)
+		ind = self._restos_simple(self.num_restos)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -350,12 +339,12 @@ class GeneticoSecuenciaConservada(object):
 				madre es: self.nuevapoblacion[i + 1]
 				"""
 				for j in range(0, punto):
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
 
 				for j in range(punto, self.num_secuencias_conservadas):
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i + 1][j]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i][j]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i][j]))
 
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
@@ -378,16 +367,16 @@ class GeneticoSecuenciaConservada(object):
 				madre es: self.nuevapoblacion[i + 1]
 				"""
 				for j in range(0, punto[0]):
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
 
 				for j in range(punto[0], punto[1]):
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i + 1][j]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i][j]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i + 1][j]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i][j]))
 
 				for j in range(punto[1], self.num_secuencias_conservadas):
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i][j]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i + 1][j]))
 
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
@@ -400,11 +389,11 @@ class GeneticoSecuenciaConservada(object):
 			for x in range(self.num_secuencias_conservadas):
 				r = random.random()
 				if self.pro_cruce > r:
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i + 1][x]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i][x]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i + 1][x]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i][x]))
 				else:
-					hijo1.append(self.valida_poblacion(hijo1, self.nuevapoblacion[i][x]))
-					hijo2.append(self.valida_poblacion(hijo2, self.nuevapoblacion[i + 1][x]))
+					hijo1.append(self._valida_poblacion(hijo1, self.nuevapoblacion[i][x]))
+					hijo2.append(self._valida_poblacion(hijo2, self.nuevapoblacion[i + 1][x]))
 			self.nuevapoblacion[i] = hijo1
 			self.nuevapoblacion[i + 1] = hijo2
 	
@@ -416,8 +405,8 @@ class GeneticoSecuenciaConservada(object):
 				hijo2 = []
 				alpha = random.random()
 				for x in range(self.num_secuencias_conservadas):
-					hijo1.append(self.valida_poblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) + ((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
-					hijo2.append(self.valida_poblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) + ((1 - alpha) * self.nuevapoblacion[i][x]))))
+					hijo1.append(self._valida_poblacion(hijo1, int ((alpha * self.nuevapoblacion[i][x]) + ((1 - alpha) * self.nuevapoblacion[i + 1][x]))))
+					hijo2.append(self._valida_poblacion(hijo2, int ((alpha * self.nuevapoblacion[i + 1][x]) + ((1 - alpha) * self.nuevapoblacion[i][x]))))
 				self.nuevapoblacion[i] = hijo1
 				self.nuevapoblacion[i + 1] = hijo2
 	###### Metodos de cruzamiento. Fin ######
@@ -431,7 +420,7 @@ class GeneticoSecuenciaConservada(object):
 			for x in range(self.num_secuencias_conservadas):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = self.valida_poblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.num_genomas))
+					self.nuevapoblacion[i][x] = self._valida_poblacion(self.nuevapoblacion[i], random.randrange(len(self._hongos[0]) - self.num_genomas))
 
 	# Mutacion estandar.
 	def mutacion_estandar(self):
@@ -443,7 +432,7 @@ class GeneticoSecuenciaConservada(object):
 					if not (punto in mut):
 						mut.append(punto)
 				for x in mut:
-					self.nuevapoblacion[i][x] = self.valida_poblacion(self.nuevapoblacion[i], random.randrange(len(self.hongos[0]) - self.num_genomas))
+					self.nuevapoblacion[i][x] = self._valida_poblacion(self.nuevapoblacion[i], random.randrange(len(self._hongos[0]) - self.num_genomas))
 	
 	###### Mutación Fin ######
 
@@ -452,7 +441,7 @@ class GeneticoSecuenciaConservada(object):
 	# Elitismo.
 	def elitismo(self):
 		# Obtiene de mayor a menor los indices de los individuos. 
-		index = self.elitismo_simple(self.num_elitismo)
+		index = self._elitismo_simple(self.num_elitismo)
 		self.evaluacion_nueva_poblacion()
 
 		aux = self.adaptacionnuevapoblacion[:]
