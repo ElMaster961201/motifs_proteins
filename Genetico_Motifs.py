@@ -1,72 +1,53 @@
 import random
 from Motifs import Motifs as MTFS
+from Subtitutional_matrix import SubtitutionalMatrix as subtituma
 
 ###### Genetico. ######
 class GeneticoMotifs(object):
-
 	"""
-		Inicializamos la clase los parametros que se pueden manupular desde la creacion de la 
-		clase son los sigueintes, donde se les asigno un valor por default:
+	Clase Genetico Motifs
+	=====================
+	
+		Clase basada en el algoritmo genetico.
+			
+		Tiene como objetivo la busqueda de una secuencia sintetica de aminoacidos de tamaño n,
+		con una alto indice de compatibilidad con base a las matices de Hidropacidad, 
+		compatibilidad de carga y tamaño del aminoacido.
+			
+		B{Atributos}
 		
-		* tam_poblacion = 100
-		* num_genomas = 27
-		* pro_mutacion = 0.1
-		* can_mutacion = 2
-		* num_elitismo = 1
-		* eunumeros = 4
-		* tam_torneo = 4
-		* num_restos = 500
-		* pro_cruce = 0.6
-		* w = [1/3, 1/3, 1/3]
-		* secuencia_conservada = []
+		Atributos que contiene la clase.
+		- Privados:
+			- index
+			- aminoacido
+			- scim
+			- ccim
+			- hcim
 
-		Metodos que contiene la clase:
-
-
-		__init__
-
-		##### Metodos de Evaluacion de la poblacion. ##############################
-		evaluacion_poblacion
-		evaluacion_nueva_poblacion
-
-		##### Funciones Auxiliares. ##############################
-		ruleta_simple
-		estocastico_universal_simple
-		torneo_simple
-		restos_simple
-		elitismo_simple
-		elitismo_simple_nueva_poblacion
-
-		##### Metodos de Seleccion. ##############################
-		ruleta
-		estocastico_universal
-		torneo
-		restos
-
-		##### Metodos de Cruzamiento (Reproduccion). ##############################
-		cruzamiento_monopunto
-		cruzamiento_multipunto
-		cruzamiento_uniforme
-
-		##### Metodos de Mutacion. ##############################
-		mutacion_uniforme
-		mutacion_estandar
-
-		##### Metodo de Conservacion. ##############################
-		elitismo
-		conservar_mejor
-
-		##### Metodos de Paso de Generacion. ##############################
-		remplazoPadres
-		remplazoAleatorio
-		remplazoPeorAdaptados
-		remplazoAdaptacionSimilar
+		- Publicos
+			- tam\_poblacion
+			- num\_genomas
+			- pro\_mutacion
+			- can\_mutacion
+			- num\_elitismo
+			- eunumeros
+			- tam\_torneo
+			- num\_restos
+			- pro\_cruce 
+			- w
+			- secuencia\_conservada
+			- poblacion
+			- nuevapoblacion
+			- mejor
+			- adaptacion
+			- adaptacionnuevapoblacion
 	"""
 
-	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """	
-	index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19 }
-	amoniacido = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
-	SCIM, CCIM, HCIM = MTFS().sciccihci()
+	""" Es utilizado para ubicar la posicion del aminoacido en las matrices de evaluacion. """
+	_index = { 'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19 }
+	_aminoacido = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+	_scim, _ccim, _hcim = MTFS().sciccihci()
+	_mpb, _mppb = subtituma().gg_ggprom()
 		
 	###### Funcion que inicializa la poblacion ######
 	def __init__(self, parametros = [100,30,0.1,2,1,4,4,500,0.6,[1/3,1/3,1/3],None]):
@@ -86,18 +67,18 @@ class GeneticoMotifs(object):
 			self.secuencia_conservada = parametros[10]
 		
 		# Inicializacion de la poblacion.
-		self.poblacion = [[random.choice(self.amoniacido) for _ in range(self.num_genomas) ] for _ in range(self.tam_poblacion)]
+		self.poblacion = [[random.choice(self._aminoacido) for _ in range(self.num_genomas) ] for _ in range(self.tam_poblacion)]
 		self.nuevapoblacion = []
 		self.mejor = [[], 0.0, 0]
 		self.adaptacion = []
 		self.adaptacionnuevapoblacion = []
 
-	###### Funcion que inicializa la poblacion ######
+	###### Funcion que inicializa la poblacion. Fin ######
 
-	###### Funciones Auxiliares. ###### 
+	###### Funciones Privadas. ###### 
 
 	#### Ruleta simple.
-	def ruleta_simple(self):
+	def _ruleta_simple(self):
 		
 		total = sum(self.adaptacion)
 
@@ -111,7 +92,7 @@ class GeneticoMotifs(object):
 		return self.poblacion[i]
 
 	### Muestreo Estocastico universal simple.
-	def estocastico_universal_simple(self, eunumeros = 4):
+	def _estocastico_universal_simple(self, eunumeros = 4):
 		total = sum(self.adaptacion)
 		ind = []
 
@@ -128,7 +109,7 @@ class GeneticoMotifs(object):
 		return ind
 
 	### Torneo simple
-	def torneo_simple(self, tam_torneo = 4):
+	def _torneo_simple(self, tam_torneo = 4):
 		
 		num = []
 
@@ -145,7 +126,7 @@ class GeneticoMotifs(object):
 		return self.poblacion[ind]
 
 	### Muestreo por Restos simple.
-	def restos_simple(self, num_restos = 500):
+	def _restos_simple(self, num_restos = 500):
 
 		# Toma la seleccion por restos
 		ind = []
@@ -157,9 +138,9 @@ class GeneticoMotifs(object):
 		if len(ind) < self.tam_poblacion:
 
 			fun = [
-					lambda _: self.estocastico_universal_simple(1),
-					lambda _: self.ruleta_simple(),
-					lambda _: self.torneo_simple(self.tam_torneo)
+					lambda _: self._estocastico_universal_simple(1),
+					lambda _: self._ruleta_simple(),
+					lambda _: self._torneo_simple(self.tam_torneo)
 					]
 
 			for _ in range(len(ind), self.tam_poblacion):
@@ -202,7 +183,66 @@ class GeneticoMotifs(object):
 
 		return mayor_menor_index[:num_elitismo]
 
-	###### Funciones Auxiliares. ######
+	### Mutacion estandar biologica Sustitucion
+	def _mutacion_estandar_biologica_sustitucion(self, x, genoma ):
+		"""
+		docstring
+		"""
+		aminoacido = self.nuevapoblacion[x][genoma]
+		probabilidad = self._mppb[0][self._index[aminoacido]]
+		biologica_probabilidad = random.random()
+		index_bilogico = 0
+		top = probabilidad[index_bilogico]
+		while top < biologica_probabilidad:
+			index_bilogico = index_bilogico + 1
+			top = probabilidad[index_bilogico]
+			if index_bilogico == 20:
+				index_bilogico = 0
+				top = probabilidad[index_bilogico]
+				biologica_probabilidad = random.random()
+		self.nuevapoblacion[x][genoma] = self._aminoacido[index_bilogico]
+
+	### Mutacion estandar biologica Insercion 
+	def _mutacion_estandar_biologica_insercion(self, x, genoma):
+		"""
+		docstring
+		"""
+		for y in range(genoma,self.num_genomas):
+			aminoacido = self.nuevapoblacion[x][y]
+			probabilidad = self._mppb[1][self._index[aminoacido]]
+			biologica_probabilidad = random.random()
+			index_bilogico = 0
+			top = probabilidad[index_bilogico]
+			while top < biologica_probabilidad:
+				index_bilogico = index_bilogico + 1
+				top = probabilidad[index_bilogico]
+				if index_bilogico == 20:
+					index_bilogico = 0
+					top = probabilidad[index_bilogico]
+					biologica_probabilidad = random.random()
+			self.nuevapoblacion[x][y] = self._aminoacido[index_bilogico]
+		
+	### Mutacion estandar biologica Delecion
+	def _mutacion_estandar_biologica_delecion(self, x, genoma):
+		"""
+		docstring
+		"""
+		for y in range(genoma,self.num_genomas):
+			aminoacido = self.nuevapoblacion[x][y]
+			probabilidad = self._mppb[2][self._index[aminoacido]]
+			biologica_probabilidad = random.random()
+			index_bilogico = 0
+			top = probabilidad[index_bilogico]
+			while top < biologica_probabilidad:
+				index_bilogico = index_bilogico + 1
+				top = probabilidad[index_bilogico]
+				if index_bilogico == 20:
+					index_bilogico = 0
+					top = probabilidad[index_bilogico]
+					biologica_probabilidad = random.random()
+			self.nuevapoblacion[x][y] = self._aminoacido[index_bilogico]
+
+	###### Funciones Privadas. Fin ######
 
 	###### Metodo de evaluacion de la poblacion. ######
 
@@ -213,9 +253,9 @@ class GeneticoMotifs(object):
 		for i in range(self.tam_poblacion):
 			con = 0.0
 			for k in range(self.num_genomas):
-				con = self.w[0] * (self.SCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con
-				con = self.w[1] * (self.CCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con 
-				con = self.w[2] * (self.HCIM[self.index[self.poblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con
+				con = self.w[0] * (self._scim[self._index[self.poblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con
+				con = self.w[1] * (self._ccim[self._index[self.poblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con 
+				con = self.w[2] * (self._hcim[self._index[self.poblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con
 			self.adaptacion.append(con)
 
 		mejor_adaptacion = self.adaptacion[:]
@@ -242,9 +282,9 @@ class GeneticoMotifs(object):
 		for i in range(self.tam_poblacion):
 			con = 0.0
 			for k in range(self.num_genomas):
-				con = self.w[0] * (self.SCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con
-				con = self.w[1] * (self.CCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con
-				con = self.w[2] * (self.HCIM[self.index[self.nuevapoblacion[i][k]]][self.index[self.secuencia_conservada[k]]]) + con
+				con = self.w[0] * (self._scim[self._index[self.nuevapoblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con
+				con = self.w[1] * (self._ccim[self._index[self.nuevapoblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con
+				con = self.w[2] * (self._hcim[self._index[self.nuevapoblacion[i][k]]][self._index[self.secuencia_conservada[k]]]) + con
 			self.adaptacionnuevapoblacion.append(con)
 
 	###### Metodo de evaluacion de la poblacion. Fin ######
@@ -256,20 +296,20 @@ class GeneticoMotifs(object):
 
 		# Toma la seleccion por ruleta.
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.ruleta_simple())
+			self.nuevapoblacion.append(self._ruleta_simple())
 
 	# Muestreo estocastico universal.
 	def estocastico_universal(self):
 
 		# Ciclo para valores enteros del tam_poblacion/eunumeros
 		for _ in range(self.tam_poblacion // self.eunumeros):
-			ind = self.estocastico_universal_simple(self.eunumeros)
+			ind = self._estocastico_universal_simple(self.eunumeros)
 			for i in ind:
 				self.nuevapoblacion.append(i)
 	
 		# Ciclo para el residuo obtenido de tam_poblacion/eunumeros
 		res_k = (self.tam_poblacion % self.eunumeros)
-		ind = self.estocastico_universal_simple(res_k)
+		ind = self._estocastico_universal_simple(res_k)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -278,13 +318,13 @@ class GeneticoMotifs(object):
 
 		# Toma la seleccion por toneo
 		for _ in range(self.tam_poblacion):
-			self.nuevapoblacion.append(self.torneo_simple(self.tam_torneo))
+			self.nuevapoblacion.append(self._torneo_simple(self.tam_torneo))
 
 	# Muestreo por restos. 
 	def restos(self):
 
 		# Toma la seleccion por restos
-		ind = self.restos_simple(self.num_restos)
+		ind = self._restos_simple(self.num_restos)
 		for i in ind:
 			self.nuevapoblacion.append(i)
 
@@ -352,12 +392,12 @@ class GeneticoMotifs(object):
 
 	# Mutacion uniforme.
 	def mutacion_uniforme(self):
-		pm = (self.pro_mutacion * 10)/float(self.num_genomas)
+		pm = float(self.pro_mutacion/float(self.num_genomas)) 
 		for i in range(self.tam_poblacion):
 			for x in range(self.num_genomas):
 				r = random.random()
 				if r < pm:
-					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
+					self.nuevapoblacion[i][x] = random.choice(self._aminoacido)
 
 	# Mutacion estandar.
 	def mutacion_estandar(self):
@@ -369,8 +409,30 @@ class GeneticoMotifs(object):
 					if not (punto in mut):
 						mut.append(punto)
 				for x in mut:
-					self.nuevapoblacion[i][x] = random.choice(self.amoniacido)
-	
+					self.nuevapoblacion[i][x] = random.choice(self._aminoacido)
+
+	# Mutacion estandar biologica.
+	def mutacion_estandar_biologica(self,tipo_mutacion = [.6,.2,.2]):
+		mut = []
+		while len(mut) < self.can_mutacion:
+			individuo = random.randrange(self.tam_poblacion)
+			if not (individuo in mut):
+				mut.append(individuo)
+		
+		for x in mut:
+			genoma = random.randrange(self.num_genomas)
+			tipo = random.random()
+
+			if tipo < tipo_mutacion[0]:
+				self._mutacion_estandar_biologica_sustitucion(x,genoma)
+
+			elif tipo < tipo_mutacion[0] + tipo_mutacion[1]:
+					
+				self._mutacion_estandar_biologica_insercion(x, genoma)
+
+			elif tipo <= tipo_mutacion[0] + tipo_mutacion[1] + tipo_mutacion[2]:
+				self._mutacion_estandar_biologica_delecion(x, genoma)
+
 	###### Mutación Fin ######
 
 	###### Metodos de Conservacion. ######
@@ -378,16 +440,16 @@ class GeneticoMotifs(object):
 	# Elitismo.
 	def elitismo(self):
 		# Obtiene de mayor a menor los indices de los individuos. 
-		index = self.elitismo_simple(self.num_elitismo)
+		induviduos_elite = self.elitismo_simple(self.num_elitismo)
 		self.evaluacion_nueva_poblacion()
 
 		aux = self.adaptacionnuevapoblacion[:]
 
-		for x in range(len(index)):
+		for x in range(len(induviduos_elite)):
 			aux_min = min(aux)
 			i = self.adaptacionnuevapoblacion.index(aux_min)
 			aux.remove(aux_min)
-			self.nuevapoblacion[i] = self.poblacion[index[x]]
+			self.nuevapoblacion[i] = self.poblacion[induviduos_elite[x]]
 
 	# Conservar el mejor.
 	def conservar_mejor(self, i):
