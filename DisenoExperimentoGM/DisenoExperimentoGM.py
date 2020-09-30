@@ -62,6 +62,7 @@ while t:
         ###### Metodos de Mutacion. ######
         # file.write("Mutacion Uniforme" + os.linesep)
         # file.write("Mutacion Estandar" + os.linesep)
+        # file.write("Mutacion Estandar Biologica" + os.linesep)
 
         file.write("Metodo de consevacion: ")
         ###### Metodo de conservacion. ######
@@ -99,6 +100,7 @@ while t:
                 ###### Metodos de Mutacion. ######
                 # AGS.mutacion_uniforme()
                 # AGS.mutacion_estandar()
+                # AGS.mutacion_estandar_biologica()
 
                 ###### Metodo de conservacion. ######
                 # AGS.elitismo()
