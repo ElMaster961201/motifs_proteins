@@ -100,7 +100,7 @@ while t:
             file.write(";" + str(mejor[1]))
             file.write(";" + str(mejor[2]))
             totalGen = totalGen + mejor[2]
-            file.write(";%.10f" %finishTimeexperimento + os.linesep)
+            file.write(";%.10f" %finishTimeexperimento)
             totalfits = mejor[1] + totalfits
 
         file.write(os.linesep)
