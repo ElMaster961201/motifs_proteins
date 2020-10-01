@@ -133,6 +133,8 @@ if __name__ == "__main__":
     # contador [i][j] 
     # i -> representa la columna de la secuencia
     # j -> representa la columna de los aminoacidos
+    
+    file2 = open(ruta + "/SimilitudConcentrada.txt", "w")
 
     for sec_ref in secs_referencia:
         
@@ -161,6 +163,9 @@ if __name__ == "__main__":
         file.write(os.linesep)
         file.write("La similitud maxima se encontro entre las columnas " + str(c + 1) + " y " + str(c + tam_sec) + os.linesep)
         file.write("Submatriz:" + os.linesep + os.linesep)
+
+        file2.write(str(conttxt) + ";" + str(sec_ref) + "; ;" + str(maxhomologo) + ";" + str(c + 2) + os.linesep)
+
         for i in range(num_hongos):
             # file.write(str(nombres[i]) + os.linesep)
             file.write(str(hongos[i][c:c + tam_sec]) + os.linesep)
