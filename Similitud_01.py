@@ -137,6 +137,7 @@ if __name__ == "__main__":
     file2 = open(ruta + "/SimilitudConcentrada.txt", "w")
 
     for sec_ref in secs_referencia:
+        print(conttxt)
         
         while os.path.exists(ruta + "/Similitud" + str(conttxt) + ".txt"):
             conttxt = conttxt + 1
