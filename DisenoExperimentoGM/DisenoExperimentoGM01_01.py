@@ -44,9 +44,9 @@ while t:
         file.write("Metodos" + os.linesep)
         
         # Cambiar segun la prueba
-        # file.write("Seleccion:;")
+        file.write("Seleccion:;")
         ##### Metodos de Seleccion. ######
-        # file.write("Torneo" + os.linesep)
+        file.write("Torneo" + os.linesep)
 
         file.write("Cruzamiento:;")
         ###### Metodos de Cruzamiento. ######
