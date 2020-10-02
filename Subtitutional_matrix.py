@@ -2,6 +2,11 @@ import random
 import copy
 
 class SubtitutionalMatrix(object):
+    """
+    Subtitutional Matrix
+    ====================
+        Clase que contiene las matrices de probabilidad biologica de los metodos de B{insertion}, B{deletion} y B{subtitution}
+    """
 
     _aa_codon = [["A", 'GCA', 'GCC', 'GCG', 'GCU'], ["C", 'UGC', 'UGU'], ["D", 'GAC', 'GAU'], ["E", 'GAA', 'GAG'],
                 ["F", 'UUC', 'UUU'], ["G", 'GGA', 'GGC', 'GGG', 'GGU'], ['H', 'CAC', 'CAU'], ["I", 'AUA', 'AUC', 'AUU'],
@@ -26,6 +31,17 @@ class SubtitutionalMatrix(object):
             ["Y", 19], ["-", 20]]
 
     def _insertion(self, i, j):
+        """
+        Metodo privado insertion.
+
+        Parametros
+
+        @param i: Fila del codon del aminoacido.
+        @type i: Entero.
+
+        @param j: Columna del codon del aminoacido.
+        @type j: Entero.
+        """
 
         for k in range(0, 4):
             x = self._nucleotide[k][0] + (self._aa_codon[i][j])[0:2]
@@ -36,7 +52,17 @@ class SubtitutionalMatrix(object):
             self._aa_point_mut[i].append(z)
 
     def _deletion(self, i, j):
+        """
+        Metodo privado deletion.
 
+        Parametros
+
+        @param i: Fila del codon del aminoacido.
+        @type i: Entero.
+
+        @param j: Columna del codon del aminoacido.
+        @type j: Entero.
+        """
         for k in range(0, 4):
             x = (self._aa_codon[i][j])[1:3] + self._nucleotide[k][0]
             y = (self._aa_codon[i][j])[0] + (self._aa_codon[i][j])[2] + self._nucleotide[k][0]
@@ -46,7 +72,17 @@ class SubtitutionalMatrix(object):
             self._aa_point_mut[i].append(z)
 
     def _subtitution(self, i, j):
+        """
+        Metodo privado subtitution.
 
+        Parametros
+
+        @param i: Fila del codon del aminoacido.
+        @type i: Entero.
+
+        @param j: Columna del codon del aminoacido.
+        @type j: Entero.
+        """
         for k in range(0, 4):
             if self._nucleotide[k][0] != (self._aa_codon[i][j])[0]:
                 x = self._nucleotide[k][0] + (self._aa_codon[i][j])[1:3]

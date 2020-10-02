@@ -12,7 +12,7 @@ class GeneticoMotifs(object):
 			
 		Tiene como objetivo la busqueda de una secuencia sintetica de aminoacidos de tamaño n,
 		con una alto indice de compatibilidad con base a las matices de Hidropacidad, 
-		compatibilidad de carga y tamaño del aminoacido.
+		compatibilidad de carga y tamano de aminoacido.
 			
 		B{Atributos}
 		
