@@ -114,13 +114,13 @@ if __name__ == "__main__":
         ['G','S','V','N','D','S','T','N','T','A']
     ]
 
-    secs_referencia2 = [ #### M15-MP-10
+    secs_referencia2 = [ #### M15-UN-10
         ['G','S','G','V','G','V','A','I','V','D']
     ]
 
 
     ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
-    ruta = "SimilitudBiologicaSSAenAMS"
+    ruta = "SimilitudBiologicaSSAenAMS/M15/MP/10/"
     num_hongos = len(hongos)
     tam_hongo = len(hongos[0])
 
