@@ -1,4 +1,5 @@
 import random
+import copy
 from Hongos import Hongos as HG 
 
 ###### Genetico. ######
@@ -263,8 +264,8 @@ class GeneticoSecuenciaConservada(object):
 			self.mejor[2] = self.mejor[2] + 1
 		else:
 			if(self.mejor[1] < self.adaptacion[mejor_index]):
-				self.mejor[0] = self.poblacion[mejor_index][:]
-				self.mejor[1] = self.adaptacion[mejor_index]
+				self.mejor[0] = copy.deepcopy(self.poblacion[mejor_index][:])
+				self.mejor[1] = copy.deepcopy(self.adaptacion[mejor_index])
 				self.mejor[2] = 0
 
 	# Funcion para evaluacion de la nueva poblacion.

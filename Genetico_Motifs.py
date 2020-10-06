@@ -1,4 +1,5 @@
 import random
+import copy
 from Motifs import Motifs as MTFS
 from Subtitutional_matrix import SubtitutionalMatrix as subtituma
 
@@ -152,7 +153,7 @@ class GeneticoMotifs(object):
 		return ind[:self.tam_poblacion]
 
 	### Elitismo simple.
-	def elitismo_simple(self, num_elitismo = 10):
+	def _elitismo_simple(self, num_elitismo = 10):
 		
 		mayor_menor_fits = self.adaptacion[:]
 		mayor_menor_index = []
@@ -254,8 +255,8 @@ class GeneticoMotifs(object):
 			self.mejor[2] = self.mejor[2] + 1
 		else:
 			if(self.mejor[1] < self.adaptacion[mejor_index]):
-				self.mejor[0] = self.poblacion[mejor_index][:]
-				self.mejor[1] = self.adaptacion[mejor_index]
+				self.mejor[0] = copy.deepcopy(self.poblacion[mejor_index][:])
+				self.mejor[1] = copy.deepcopy(self.adaptacion[mejor_index])
 				self.mejor[2] = 0
 
 	# Funcion para evaluacion de la nueva poblacion.
@@ -424,7 +425,7 @@ class GeneticoMotifs(object):
 	# Elitismo.
 	def elitismo(self):
 		# Obtiene de mayor a menor los indices de los individuos. 
-		induviduos_elite = self.elitismo_simple(self.num_elitismo)
+		induviduos_elite = self._elitismo_simple(self.num_elitismo)
 		self.evaluacion_nueva_poblacion()
 
 		aux = self.adaptacionnuevapoblacion[:]
