@@ -1,7 +1,7 @@
 import os 
 from time import time
 import sys
-sys.path.append("..")
+sys.path.append(".")
 
 # Se importa nuestra clase
 from Genetico_Motifs import GeneticoMotifs
@@ -97,7 +97,7 @@ while t:
 
         totalfits = 0.0
         totalGen = 0
-        for _ in range(nRepeticiones):
+        for _ in range(1):
             print ("Repeticion ",_ + 1)
             startTimeExperimento = time ()
             file.write(os.linesep)
@@ -126,6 +126,7 @@ while t:
                 AGS.evaluacion_poblacion()
 
             finishTimeexperimento = time() - startTimeExperimento
+            AGS.recuperar_mejor()
 
             file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tam_poblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)

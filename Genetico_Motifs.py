@@ -512,4 +512,9 @@ class GeneticoMotifs(object):
 
 	###### Metodos de Paso de generacion. Fin ######
 
+	# Recuperar mejor
+	def recuperar_mejor(self):
+		self.evaluacion_poblacion()
+		self.mejor[0] = self.poblacion[self._elitismo_simple(1)[0]]
+
 ###### Genetico. Fin ######

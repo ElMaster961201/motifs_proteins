@@ -126,6 +126,7 @@ while t:
                 AGS.evaluacion_poblacion()
 
             finishTimeexperimento = time() - startTimeExperimento
+            AGS.recuperar_mejor()
 
             file.write("Fits promedio de la ultima generacion es: " + str(float(sum(AGS.adaptacion))/AGS.tam_poblacion) + os.linesep)
             file.write("El Mejor individuo: " + os.linesep)
