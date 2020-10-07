@@ -1,7 +1,7 @@
 import os 
 from time import time
 import sys
-sys.path.append(".")
+sys.path.append("..")
 
 # Se importa nuestra clase
 from Genetico_Motifs import GeneticoMotifs
