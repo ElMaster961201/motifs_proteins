@@ -97,7 +97,7 @@ while t:
 
         totalfits = 0.0
         totalGen = 0
-        for _ in range(1):
+        for _ in range(nGeneraciones):
             print ("Repeticion ",_ + 1)
             startTimeExperimento = time ()
             file.write(os.linesep)
