@@ -231,6 +231,17 @@ class GeneticoMotifs(object):
 
 	###### Metodo de evaluacion de la poblacion. ######
 
+	def evaluacion_individuo(self,individuo):
+		"""
+		docstring
+		"""
+		con = 0.0			
+		for k in range(self.num_genomas):
+			con = self.w[0] * (self._scim[self._index[individuo[k]]][self._index[self.secuencia_conservada[k]]]) + con
+			con = self.w[1] * (self._ccim[self._index[individuo[k]]][self._index[self.secuencia_conservada[k]]]) + con 
+			con = self.w[2] * (self._hcim[self._index[individuo[k]]][self._index[self.secuencia_conservada[k]]]) + con
+		return con
+
 	# Funcion para evaluacion de la poblacion.
 	def evaluacion_poblacion(self):
 		self.adaptacion = []
@@ -516,5 +527,6 @@ class GeneticoMotifs(object):
 	def recuperar_mejor(self):
 		self.evaluacion_poblacion()
 		self.mejor[0] = self.poblacion[self._elitismo_simple(1)[0]]
+		self.mejor[1] = self.evaluacion_individuo(self.mejor[0])
 
 ###### Genetico. Fin ######
