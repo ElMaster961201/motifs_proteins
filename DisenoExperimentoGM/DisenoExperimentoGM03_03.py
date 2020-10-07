@@ -27,7 +27,7 @@ while t:
         file.write("Experimento v1.3."+ str(cont) + os.linesep)
         file.write("Con los siguientes parametros:"+ os.linesep)
         file.write(os.linesep)
-                file.write("Tamano de la poblacion:;" + str(p[0]) + os.linesep)
+        file.write("Tamano de la poblacion:;" + str(p[0]) + os.linesep)
         file.write("Tamano de la secuencia:;" + str(p[1]) + os.linesep)
         file.write("Probabilidad de Mutacion:;" + str(p[2]) + os.linesep)
         file.write("Cantidad de individuos a mutar:;" + str(p[3]) + os.linesep)
