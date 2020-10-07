@@ -1,7 +1,7 @@
 import os 
 from time import time
 import sys
-sys.path.append(".")
+sys.path.append("..")
 
 # Se importa nuestra clase
 from Genetico_Motifs import GeneticoMotifs
@@ -12,7 +12,7 @@ p,nGeneraciones,nRepeticiones = ParametrosGM().parametros()
 
 cont = 1
 t = True
-ruta = "DisenoExperimentoGM/Resultados/Compu/" + str(p[1]) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "Resultados/Compu/" + str(p[1]) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -38,7 +38,6 @@ while t:
         file.write("Probabilidad de Cruce: " + str(p[8]) + os.linesep)
         file.write("Pesos de las Matrices: " + str(p[9]) + os.linesep)
         file.write("Secuencia base: " + str(p[10]) + os.linesep)
-        file.write("Numero de repeticiones del experimento: " + str(nRepeticiones) + os.linesep)
         file.write("Numero de generaciones: " +str(nGeneraciones) + os.linesep)
 
         file.write(os.linesep)
@@ -116,7 +115,7 @@ while t:
                 AGS.cruzamiento_monopunto()
 
                 ###### Metodos de Mutacion. ######
-                AGS.mutacion_estandar_biologica()
+                AGS.mutacion_estandar()
 
                 ###### Metodo de conservacion. ######
                 AGS.elitismo()
