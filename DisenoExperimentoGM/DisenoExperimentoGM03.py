@@ -66,7 +66,7 @@ while t:
         
         # Cambiar segun la prueba
         file.write("Metodo de seleccion: ")
-        file2.write("Seleccion:;"
+        file2.write("Seleccion:;")
         ##### Metodos de Seleccion. ######
         file.write("Restos" + os.linesep)
         file2.write("Restos" + os.linesep)
