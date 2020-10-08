@@ -9,7 +9,7 @@ secuencias_sinteticas = [
 
 ]
 
-ruta = "Resultados/Compu/" + str(len(secuencia_conservada)) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
+ruta = "DisenoExperimentoGM/Validacion/Compu/" + str(len(secuencia_conservada)) # Ingresa el nombre de la carpeta donde se guardara el archico generado.
 
 if not os.path.exists(ruta):
     os.makedirs(ruta)
@@ -30,7 +30,7 @@ for sintetica in secuencias_sinteticas:
     file.write(str(sintetica) + ";" + str(((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))) + ";")
     file.write(str(sum_scim * 0.2 ) + ";" )
     file.write(str(sum_ccim * 0.4 ) + ";" )
-    file.write(str(sum_hcim * 0.4 ) + ";" + os.linesep)
+    file.write(str(sum_hcim * 0.4 ) + os.linesep)
     # print((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))
 
 
