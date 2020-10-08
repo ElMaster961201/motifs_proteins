@@ -22,246 +22,246 @@ Metodo de consevacion: Elitismo
 Metodo de paso de generacion: Reemplazo de Padres
 
 Los resultados obtenidos en la repeticion 1
-Fits promedio de la ultima generacion es: 134.52222193263734
+Fits promedio de la ultima generacion es: 134.81241298170585
 El Mejor individuo: 
-Individuo ['G', 'G', 'G', 'V', 'G', 'L', 'G', 'I', 'V', 'D']
-Fits 153.45522491096395
-El mejor individuo se mantuvo 580 Generaciones
-La repeticion 1 hizo un tiempo de 13.3265190125 Segundos
+Individuo ['G', 'T', 'A', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.42519500074246
+El mejor individuo se mantuvo 415 Generaciones
+La repeticion 1 hizo un tiempo de 13.3877182007 Segundos
 
 Los resultados obtenidos en la repeticion 2
-Fits promedio de la ultima generacion es: 135.2806344805281
+Fits promedio de la ultima generacion es: 135.28378490672233
 El Mejor individuo: 
-Individuo ['G', 'S', 'T', 'L', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 288 Generaciones
-La repeticion 2 hizo un tiempo de 13.3671960831 Segundos
+Individuo ['G', 'T', 'G', 'V', 'G', 'A', 'G', 'I', 'L', 'D']
+Fits 153.06358780649902
+El mejor individuo se mantuvo 530 Generaciones
+La repeticion 2 hizo un tiempo de 13.1460368633 Segundos
 
 Los resultados obtenidos en la repeticion 3
-Fits promedio de la ultima generacion es: 134.05897369515918
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 362 Generaciones
-La repeticion 3 hizo un tiempo de 13.2502379417 Segundos
-
-Los resultados obtenidos en la repeticion 4
-Fits promedio de la ultima generacion es: 134.97781868252238
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 541 Generaciones
-La repeticion 4 hizo un tiempo de 13.4144368172 Segundos
-
-Los resultados obtenidos en la repeticion 5
-Fits promedio de la ultima generacion es: 134.85398138440732
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
-Fits 153.72020187331324
-El mejor individuo se mantuvo 409 Generaciones
-La repeticion 5 hizo un tiempo de 13.2885177135 Segundos
-
-Los resultados obtenidos en la repeticion 6
-Fits promedio de la ultima generacion es: 134.50470914337737
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
-Fits 153.72020187331324
-El mejor individuo se mantuvo 623 Generaciones
-La repeticion 6 hizo un tiempo de 13.3805649281 Segundos
-
-Los resultados obtenidos en la repeticion 7
-Fits promedio de la ultima generacion es: 136.40127279759972
-El Mejor individuo: 
-Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'G', 'I', 'L', 'D']
-Fits 153.70021419578129
-El mejor individuo se mantuvo 189 Generaciones
-La repeticion 7 hizo un tiempo de 13.2705585957 Segundos
-
-Los resultados obtenidos en la repeticion 8
-Fits promedio de la ultima generacion es: 135.9826032613985
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 284 Generaciones
-La repeticion 8 hizo un tiempo de 13.4049789906 Segundos
-
-Los resultados obtenidos en la repeticion 9
-Fits promedio de la ultima generacion es: 135.13695526985796
-El Mejor individuo: 
-Individuo ['G', 'G', 'G', 'L', 'A', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 409 Generaciones
-La repeticion 9 hizo un tiempo de 13.2787661552 Segundos
-
-Los resultados obtenidos en la repeticion 10
-Fits promedio de la ultima generacion es: 134.5233262347257
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'L', 'G', 'V', 'A', 'I', 'L', 'D']
-Fits 153.45522491096395
-El mejor individuo se mantuvo 268 Generaciones
-La repeticion 10 hizo un tiempo de 13.3677177429 Segundos
-
-Los resultados obtenidos en la repeticion 11
-Fits promedio de la ultima generacion es: 134.83679639925117
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 438 Generaciones
-La repeticion 11 hizo un tiempo de 13.2466301918 Segundos
-
-Los resultados obtenidos en la repeticion 12
-Fits promedio de la ultima generacion es: 133.88296996102866
-El Mejor individuo: 
-Individuo ['G', 'P', 'G', 'V', 'A', 'V', 'A', 'I', 'V', 'D']
-Fits 153.71215551233217
-El mejor individuo se mantuvo 799 Generaciones
-La repeticion 12 hizo un tiempo de 13.4048283100 Segundos
-
-Los resultados obtenidos en la repeticion 13
-Fits promedio de la ultima generacion es: 135.08311860591905
-El Mejor individuo: 
-Individuo ['A', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'L', 'D']
-Fits 153.45522491096395
-El mejor individuo se mantuvo 143 Generaciones
-La repeticion 13 hizo un tiempo de 13.2741582394 Segundos
-
-Los resultados obtenidos en la repeticion 14
-Fits promedio de la ultima generacion es: 135.06520003002342
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 202 Generaciones
-La repeticion 14 hizo un tiempo de 13.4805023670 Segundos
-
-Los resultados obtenidos en la repeticion 15
-Fits promedio de la ultima generacion es: 135.12943899954
-El Mejor individuo: 
-Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.71215551233217
-El mejor individuo se mantuvo 470 Generaciones
-La repeticion 15 hizo un tiempo de 13.2506368160 Segundos
-
-Los resultados obtenidos en la repeticion 16
-Fits promedio de la ultima generacion es: 135.55762724529524
-El Mejor individuo: 
-Individuo ['G', 'T', 'A', 'T', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.71215551233217
-El mejor individuo se mantuvo 304 Generaciones
-La repeticion 16 hizo un tiempo de 13.3512799740 Segundos
-
-Los resultados obtenidos en la repeticion 17
-Fits promedio de la ultima generacion es: 135.53620128819142
-El Mejor individuo: 
-Individuo ['A', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.44518267827442
-El mejor individuo se mantuvo 224 Generaciones
-La repeticion 17 hizo un tiempo de 13.2661099434 Segundos
-
-Los resultados obtenidos en la repeticion 18
-Fits promedio de la ultima generacion es: 134.08340952439764
-El Mejor individuo: 
-Individuo ['G', 'S', 'A', 'V', 'G', 'V', 'A', 'I', 'G', 'D']
-Fits 153.72020187331324
-El mejor individuo se mantuvo 670 Generaciones
-La repeticion 18 hizo un tiempo de 13.3981208801 Segundos
-
-Los resultados obtenidos en la repeticion 19
-Fits promedio de la ultima generacion es: 135.9071687101325
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
-Fits 153.72020187331324
-El mejor individuo se mantuvo 372 Generaciones
-La repeticion 19 hizo un tiempo de 13.2526009083 Segundos
-
-Los resultados obtenidos en la repeticion 20
-Fits promedio de la ultima generacion es: 134.12047394982315
-El Mejor individuo: 
-Individuo ['G', 'G', 'G', 'V', 'G', 'V', 'A', 'V', 'V', 'D']
-Fits 153.6337081745025
-El mejor individuo se mantuvo 224 Generaciones
-La repeticion 20 hizo un tiempo de 13.3851323128 Segundos
-
-Los resultados obtenidos en la repeticion 21
-Fits promedio de la ultima generacion es: 135.73005340198588
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'A', 'G', 'I', 'A', 'L', 'V', 'D']
-Fits 153.07804596981276
-El mejor individuo se mantuvo 339 Generaciones
-La repeticion 21 hizo un tiempo de 13.2715480328 Segundos
-
-Los resultados obtenidos en la repeticion 22
-Fits promedio de la ultima generacion es: 134.63843644163975
-El Mejor individuo: 
-Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'A', 'D']
-Fits 153.34674766291278
-El mejor individuo se mantuvo 720 Generaciones
-La repeticion 22 hizo un tiempo de 13.4058346748 Segundos
-
-Los resultados obtenidos en la repeticion 23
-Fits promedio de la ultima generacion es: 135.7526805926982
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 127 Generaciones
-La repeticion 23 hizo un tiempo de 13.2745294571 Segundos
-
-Los resultados obtenidos en la repeticion 24
-Fits promedio de la ultima generacion es: 135.09829920667778
-El Mejor individuo: 
-Individuo ['G', 'S', 'A', 'I', 'G', 'V', 'V', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 840 Generaciones
-La repeticion 24 hizo un tiempo de 13.3836181164 Segundos
-
-Los resultados obtenidos en la repeticion 25
-Fits promedio de la ultima generacion es: 134.04232071025837
-El Mejor individuo: 
-Individuo ['A', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'G', 'D']
-Fits 153.44328359441306
-El mejor individuo se mantuvo 516 Generaciones
-La repeticion 25 hizo un tiempo de 13.2955288887 Segundos
-
-Los resultados obtenidos en la repeticion 26
-Fits promedio de la ultima generacion es: 135.06752073002363
-El Mejor individuo: 
-Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.71215551233217
-El mejor individuo se mantuvo 300 Generaciones
-La repeticion 26 hizo un tiempo de 13.3795704842 Segundos
-
-Los resultados obtenidos en la repeticion 27
-Fits promedio de la ultima generacion es: 136.83626260136188
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 185 Generaciones
-La repeticion 27 hizo un tiempo de 13.3186450005 Segundos
-
-Los resultados obtenidos en la repeticion 28
-Fits promedio de la ultima generacion es: 134.6890868052221
-El Mejor individuo: 
-Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
-Fits 153.73214318986413
-El mejor individuo se mantuvo 146 Generaciones
-La repeticion 28 hizo un tiempo de 13.3961303234 Segundos
-
-Los resultados obtenidos en la repeticion 29
-Fits promedio de la ultima generacion es: 135.80227196412804
+Fits promedio de la ultima generacion es: 135.16671416754124
 El Mejor individuo: 
 Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'L', 'D']
 Fits 153.45522491096395
-El mejor individuo se mantuvo 447 Generaciones
-La repeticion 29 hizo un tiempo de 13.2457084656 Segundos
+El mejor individuo se mantuvo 131 Generaciones
+La repeticion 3 hizo un tiempo de 13.1428523064 Segundos
 
-Los resultados obtenidos en la repeticion 30
-Fits promedio de la ultima generacion es: 135.30622362399046
+Los resultados obtenidos en la repeticion 4
+Fits promedio de la ultima generacion es: 134.99311018322805
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'L', 'V', 'D']
+Fits 153.07804596981276
+El mejor individuo se mantuvo 276 Generaciones
+La repeticion 4 hizo un tiempo de 13.1597383022 Segundos
+
+Los resultados obtenidos en la repeticion 5
+Fits promedio de la ultima generacion es: 134.0171530948619
+El Mejor individuo: 
+Individuo ['G', 'S', 'A', 'A', 'G', 'V', 'A', 'L', 'V', 'D']
+Fits 152.43137734784096
+El mejor individuo se mantuvo 512 Generaciones
+La repeticion 5 hizo un tiempo de 13.1548364162 Segundos
+
+Los resultados obtenidos en la repeticion 6
+Fits promedio de la ultima generacion es: 135.67849151443409
+El Mejor individuo: 
+Individuo ['G', 'G', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.41237456073756
+El mejor individuo se mantuvo 765 Generaciones
+La repeticion 6 hizo un tiempo de 13.1511948109 Segundos
+
+Los resultados obtenidos en la repeticion 7
+Fits promedio de la ultima generacion es: 134.7439155727821
 El Mejor individuo: 
 Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
 Fits 153.73214318986413
-El mejor individuo se mantuvo 57 Generaciones
-La repeticion 30 hizo un tiempo de 13.4059116840 Segundos
+El mejor individuo se mantuvo 457 Generaciones
+La repeticion 7 hizo un tiempo de 13.9128599167 Segundos
+
+Los resultados obtenidos en la repeticion 8
+Fits promedio de la ultima generacion es: 135.3017423530308
+El Mejor individuo: 
+Individuo ['G', 'T', 'A', 'V', 'G', 'V', 'G', 'I', 'V', 'E']
+Fits 152.6393200426092
+El mejor individuo se mantuvo 131 Generaciones
+La repeticion 8 hizo un tiempo de 13.1377561092 Segundos
+
+Los resultados obtenidos en la repeticion 9
+Fits promedio de la ultima generacion es: 135.68053532495728
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'A', 'G', 'V', 'A', 'I', 'A', 'D']
+Fits 152.86951062434164
+El mejor individuo se mantuvo 106 Generaciones
+La repeticion 9 hizo un tiempo de 13.1068367958 Segundos
+
+Los resultados obtenidos en la repeticion 10
+Fits promedio de la ultima generacion es: 134.9326513158457
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'I', 'A', 'I', 'V', 'D']
+Fits 152.96242214217975
+El mejor individuo se mantuvo 369 Generaciones
+La repeticion 10 hizo un tiempo de 13.6238410473 Segundos
+
+Los resultados obtenidos en la repeticion 11
+Fits promedio de la ultima generacion es: 136.51982077178573
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'G', 'I', 'L', 'E']
+Fits 152.6493622752987
+El mejor individuo se mantuvo 95 Generaciones
+La repeticion 11 hizo un tiempo de 13.1127729416 Segundos
+
+Los resultados obtenidos en la repeticion 12
+Fits promedio de la ultima generacion es: 135.25663542835653
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.71215551233217
+El mejor individuo se mantuvo 691 Generaciones
+La repeticion 12 hizo un tiempo de 13.1579885483 Segundos
+
+Los resultados obtenidos en la repeticion 13
+Fits promedio de la ultima generacion es: 134.68816268481797
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.73214318986413
+El mejor individuo se mantuvo 716 Generaciones
+La repeticion 13 hizo un tiempo de 13.1185240746 Segundos
+
+Los resultados obtenidos en la repeticion 14
+Fits promedio de la ultima generacion es: 134.98430977509656
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
+Fits 153.72020187331324
+El mejor individuo se mantuvo 176 Generaciones
+La repeticion 14 hizo un tiempo de 13.1633636951 Segundos
+
+Los resultados obtenidos en la repeticion 15
+Fits promedio de la ultima generacion es: 134.82961716775924
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.71215551233217
+El mejor individuo se mantuvo 180 Generaciones
+La repeticion 15 hizo un tiempo de 13.1129662991 Segundos
+
+Los resultados obtenidos en la repeticion 16
+Fits promedio de la ultima generacion es: 135.87602875083206
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.73214318986413
+El mejor individuo se mantuvo 263 Generaciones
+La repeticion 16 hizo un tiempo de 13.1329710484 Segundos
+
+Los resultados obtenidos en la repeticion 17
+Fits promedio de la ultima generacion es: 135.18392942392228
+El Mejor individuo: 
+Individuo ['G', 'P', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
+Fits 153.6217668579516
+El mejor individuo se mantuvo 232 Generaciones
+La repeticion 17 hizo un tiempo de 13.1006374359 Segundos
+
+Los resultados obtenidos en la repeticion 18
+Fits promedio de la ultima generacion es: 134.53567498087853
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.71215551233217
+El mejor individuo se mantuvo 519 Generaciones
+La repeticion 18 hizo un tiempo de 13.1452770233 Segundos
+
+Los resultados obtenidos en la repeticion 19
+Fits promedio de la ultima generacion es: 135.11719498226427
+El Mejor individuo: 
+Individuo ['G', 'P', 'G', 'V', 'G', 'V', 'A', 'L', 'V', 'D']
+Fits 152.97961095445112
+El mejor individuo se mantuvo 769 Generaciones
+La repeticion 19 hizo un tiempo de 13.1308159828 Segundos
+
+Los resultados obtenidos en la repeticion 20
+Fits promedio de la ultima generacion es: 135.06066839872037
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
+Fits 153.70021419578129
+El mejor individuo se mantuvo 158 Generaciones
+La repeticion 20 hizo un tiempo de 13.1389758587 Segundos
+
+Los resultados obtenidos en la repeticion 21
+Fits promedio de la ultima generacion es: 134.90725314214762
+El Mejor individuo: 
+Individuo ['A', 'T', 'G', 'V', 'G', 'V', 'A', 'V', 'V', 'D']
+Fits 153.0482858820765
+El mejor individuo se mantuvo 430 Generaciones
+La repeticion 21 hizo un tiempo de 13.1441271305 Segundos
+
+Los resultados obtenidos en la repeticion 22
+Fits promedio de la ultima generacion es: 134.35553060435478
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.71215551233217
+El mejor individuo se mantuvo 248 Generaciones
+La repeticion 22 hizo un tiempo de 13.1447649002 Segundos
+
+Los resultados obtenidos en la repeticion 23
+Fits promedio de la ultima generacion es: 134.4052742265135
+El Mejor individuo: 
+Individuo ['G', 'T', 'G', 'V', 'G', 'V', 'A', 'V', 'V', 'D']
+Fits 153.33524639366618
+El mejor individuo se mantuvo 218 Generaciones
+La repeticion 23 hizo un tiempo de 13.2214803696 Segundos
+
+Los resultados obtenidos en la repeticion 24
+Fits promedio de la ultima generacion es: 135.19995337079072
+El Mejor individuo: 
+Individuo ['A', 'S', 'G', 'L', 'G', 'C', 'G', 'I', 'V', 'D']
+Fits 151.67321063290385
+El mejor individuo se mantuvo 446 Generaciones
+La repeticion 24 hizo un tiempo de 13.1272578239 Segundos
+
+Los resultados obtenidos en la repeticion 25
+Fits promedio de la ultima generacion es: 135.12898244363507
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D']
+Fits 153.73214318986413
+El mejor individuo se mantuvo 13 Generaciones
+La repeticion 25 hizo un tiempo de 13.1386573315 Segundos
+
+Los resultados obtenidos en la repeticion 26
+Fits promedio de la ultima generacion es: 134.68227520718978
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'L', 'D']
+Fits 153.44328359441306
+El mejor individuo se mantuvo 254 Generaciones
+La repeticion 26 hizo un tiempo de 13.1137466431 Segundos
+
+Los resultados obtenidos en la repeticion 27
+Fits promedio de la ultima generacion es: 136.20359880350986
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'L', 'A', 'I', 'A', 'D']
+Fits 153.09560674141025
+El mejor individuo se mantuvo 391 Generaciones
+La repeticion 27 hizo un tiempo de 13.1468803883 Segundos
+
+Los resultados obtenidos en la repeticion 28
+Fits promedio de la ultima generacion es: 135.4126660070569
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
+Fits 153.72020187331324
+El mejor individuo se mantuvo 114 Generaciones
+La repeticion 28 hizo un tiempo de 13.6387617588 Segundos
+
+Los resultados obtenidos en la repeticion 29
+Fits promedio de la ultima generacion es: 135.96124475252714
+El Mejor individuo: 
+Individuo ['G', 'S', 'G', 'L', 'A', 'I', 'G', 'I', 'V', 'D']
+Fits 152.5299083207257
+El mejor individuo se mantuvo 457 Generaciones
+La repeticion 29 hizo un tiempo de 13.1048824787 Segundos
+
+Los resultados obtenidos en la repeticion 30
+Fits promedio de la ultima generacion es: 135.3784921562256
+El Mejor individuo: 
+Individuo ['G', 'P', 'A', 'V', 'G', 'V', 'G', 'I', 'V', 'D']
+Fits 153.33480634636192
+El mejor individuo se mantuvo 432 Generaciones
+La repeticion 30 hizo un tiempo de 13.1258192062 Segundos
 
 
-El Fit promedio del mejor individuo obtenido es: 153.63277432468345
-El promedio de generaciones que se mantiene el mejor individuo es: 382.53333333333336
-El experimento N° 3 hizo un tiempo total de 400.2032678127 Segundos
+El Fit promedio del mejor individuo obtenido es: 153.2655319718726
+El promedio de generaciones que se mantiene el mejor individuo es: 349.8
+El experimento N° 3 hizo un tiempo total de 396.3075041771 Segundos
