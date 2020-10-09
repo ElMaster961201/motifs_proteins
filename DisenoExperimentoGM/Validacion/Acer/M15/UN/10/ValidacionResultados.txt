@@ -1,0 +1,2 @@
+Validacion de resultados de DisenoExperimentoGM/Validacion/Acer/M15/UN/10
+1;['G', 'S', 'G', 'V', 'G', 'V', 'A', 'I', 'V', 'D'];153.73214318986413;30.92393256130548;44.313871005917164;78.4943396226415
