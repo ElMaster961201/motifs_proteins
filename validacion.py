@@ -17,9 +17,13 @@ if not os.path.exists(ruta):
 file = open(ruta + "/ValidacionResultados.txt","w")
 file.write("Validacion de resultados de " + str(ruta) + os.linesep)
 
-
-
+con = 0
 for sintetica in secuencias_sinteticas:
+    if con == 10:
+        con = 0
+        file.write("Secuencia;Secuencia sintética;Adaptacion;Tamaño (Max 40);Carga (Max 80);Hidropacidad (Max 80)" + os.linesep)
+    
+    con = con + 1
     sum_scim = 0.0
     sum_ccim = 0.0
     sum_hcim = 0.0
@@ -27,11 +31,11 @@ for sintetica in secuencias_sinteticas:
         sum_scim = sum_scim + scim[index[sintetica[i]]][index[secuencia_conservada[i]]]
         sum_ccim = sum_ccim + ccim[index[sintetica[i]]][index[secuencia_conservada[i]]]
         sum_hcim = sum_hcim + hcim[index[sintetica[i]]][index[secuencia_conservada[i]]]
-    file.write(str(sintetica) + ";" + str(((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))) + ";")
+    file.write(str(con) + ";" + str(sintetica) + ";" + str(((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))) + ";")
     file.write(str(sum_scim * 0.2 ) + ";" )
     file.write(str(sum_ccim * 0.4 ) + ";" )
     file.write(str(sum_hcim * 0.4 ) + os.linesep)
-    # print((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))
+    # print((((sum_scim * 0.2) + (sum_ccim * 0.4) + (sum_hcim * 0.4))/(20*10))*100)
 
 
 

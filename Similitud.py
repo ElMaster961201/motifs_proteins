@@ -72,6 +72,7 @@ if __name__ == "__main__":
     hongos = HG().matriz_hongos()
     nombres = HG().lista_nombres()
     secs_referencia = [
+
     ]
 
     ind = {'A':0, 'C':1, 'D':2, 'E':3, 'F':4, 'G':5, 'H':6, 'I':7, 'K':8, 'L':9, 'M':10, 'N':11, 'P':12, 'Q':13, 'R':14, 'S':15, 'T':16, 'V':17, 'W':18, 'Y':19, '-':20}
@@ -82,7 +83,8 @@ if __name__ == "__main__":
     if not os.path.exists(ruta):
         os.makedirs(ruta)
 
-    conttxt = 1
+    conttxt = 0
+    con = 0
     # Inicializamos el contador.
     contador = [[0 for _ in range(len(ind))] for _ in range(tam_hongo)]   
 
@@ -97,9 +99,11 @@ if __name__ == "__main__":
     file2 = open(ruta + "/SimilitudConcentrada.txt", "w")
 
     for sec_ref in secs_referencia:
-        
-        while os.path.exists(ruta + "/Similitud" + str(conttxt) + ".txt"):
-            conttxt = conttxt + 1
+        conttxt = conttxt + 1 
+        if con == 10:
+            con = 0
+            file2.write(os.linesep)
+        con = con + 1           
 
         tam_sec = len(sec_ref)
         file = open(ruta + "/Similitud" + str(conttxt) + ".txt", "w")
@@ -123,7 +127,7 @@ if __name__ == "__main__":
         file.write(os.linesep)
         file.write("La similitud maxima se encontro entre las columnas " + str(c + 1) + " y " + str(c + tam_sec) + os.linesep)
         file.write("Submatriz:" + os.linesep + os.linesep)
-        file2.write(str(conttxt) + ";" + str(sec_ref) + ";     " + str(maxhomologo) + ";" + str(c + 1) + os.linesep)
+        file2.write(str(con) + ";" + str(sec_ref) + ";     " + str(maxhomologo) + ";" + str(c + 1) + os.linesep)
         for i in range(num_hongos):
             # file.write(str(nombres[i]) + os.linesep)
             file.write(str(hongos[i][c:c + tam_sec]) + os.linesep)

@@ -1,8 +1,8 @@
 Similitud de la secuencia en el alineamiento multiple.
 
 Las secuencia tiene un tamano: 10
-La secuencia sintetica es: ['G', 'S', 'G', 'V', 'G', 'R', 'N', 'I', 'V', 'R']
-Similitud maxima: 51.13253012048193
+La secuencia sintetica es: ['G', 'S', 'V', 'D', 'G', 'G', 'A', 'I', 'N', 'C']
+Similitud maxima: 39.58232931726908
 
 La similitud maxima se encontro entre las columnas 1174 y 1183
 Submatriz:
