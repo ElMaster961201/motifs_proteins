@@ -115,7 +115,7 @@ if __name__ == "__main__":
                 con_sec_con.append([sec, 100 * float(sum_sec_con)/(tam_sec * len(hongos))])
                 if con_sec_con[ps][1] > 80:
                     file.write("Secuencia: " + str(ps + 1) + os.linesep)
-                    file.write("El punto de donde inicia la secuencia conservada es: " + str(ps) + os.linesep)
+                    file.write("El punto de donde inicia la secuencia conservada es: " + str(ps + 1) + os.linesep)
                     file.write(str(con_sec_con[ps][0]) + os.linesep)
                     file.write("Conservacion: " + str(con_sec_con[ps][1]) + os.linesep + os.linesep)
                     if top < con_sec_con[ps][1]:
