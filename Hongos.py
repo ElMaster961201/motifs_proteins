@@ -1,16 +1,13 @@
-import random as rm
-import os
-
 class Hongos(object):
 
 	"""
-	# Matriz donde se almacenaran todas las succesiones 
-	de proteinas de los hongos.
+	# Matriz donde se almacenaran todas las sucesiones 
+	de proteínas de los hongos.
 	
 	hongos
 
-	# String auxiliar que permite la unin de la 
-	succesion de proteinas de los hongos del documnto 
+	# String auxiliar que permite la union de la 
+	succession de proteínas de los hongos del documento 
 
 	hongo
 
@@ -28,6 +25,7 @@ class Hongos(object):
 		self.nombres = []
 		self.hongo = ""
 		self.file = open(archivo, "r").readlines()
+		self.nombres.append(self.file[0][: len(self.file[0]) - 1])
 		self.file = self.file[1:]
 
 		for l in self.file:
@@ -37,6 +35,7 @@ class Hongos(object):
 				self.nombres.append(l[:len(l) - 1])
 				continue
 			self.hongo = self.hongo + l[:len(l) - 1]
+		self.lista_hongos.append(self.hongo)
 		self.hongo = ""
 		
 	def matriz_hongos(self, archivo = nombre_archivo):
@@ -52,14 +51,13 @@ class Hongos(object):
 				self.hongo = ""
 				continue
 			self.hongo = self.hongo + l[:len(l) - 1]
+		self.lista_hongos.append(self.hongo)
 		self.hongo = ""
 		return self.lista_hongos
 	
 	def lista_nombres(self, archivo = nombre_archivo):
 		self.nombres = []
 		self.file = open(archivo, "r").readlines()
-		self.file = self.file[1:]
-
 		for l in self.file:
 			if l[0] == '>':
 				self.nombres.append(l[:len(l) - 1])
@@ -71,6 +69,7 @@ if __name__ == "__main__":
 	nombres = []
 	hongo = ""
 	file = open(archivo, "r").readlines()
+	nombres.append(file[0][:len(file[0]) -1])
 	file = file[1:]
 	for l in file:
 		if l[0] == '>':
@@ -79,6 +78,7 @@ if __name__ == "__main__":
 			nombres.append(l[:len(l) - 1])
 			continue
 		hongo = hongo + l[:len(l) - 1]
+	lista_hongos.append(hongo)
 	hongo = ""
 	for i in range(len(lista_hongos)):
 		print(nombres[i])
