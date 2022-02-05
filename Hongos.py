@@ -34,7 +34,7 @@ class Hongos(object):
 				self.hongo = ""
 				self.nombres.append(l[:len(l) - 1])
 				continue
-			self.hongo = self.hongo + l[:len(l) - 1]
+			self.hongo = self.hongo + "".join(list(map(lambda aux: aux.rstrip('\n'), l)))
 		self.lista_hongos.append(self.hongo)
 		self.hongo = ""
 		
@@ -50,7 +50,7 @@ class Hongos(object):
 				self.lista_hongos.append(self.hongo)
 				self.hongo = ""
 				continue
-			self.hongo = self.hongo + l[:len(l) - 1]
+			self.hongo = self.hongo + "".join(list(map(lambda aux: aux.rstrip('\n'), l)))
 		self.lista_hongos.append(self.hongo)
 		self.hongo = ""
 		return self.lista_hongos
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 			hongo = ""
 			nombres.append(l[:len(l) - 1])
 			continue
-		hongo = hongo + l[:len(l) - 1]
+		hongo = hongo + "".join(list(map(lambda aux: aux.rstrip('\n'), l)))
 	lista_hongos.append(hongo)
 	hongo = ""
 	for i in range(len(lista_hongos)):
